@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen_2"
+    android:background="@drawable/border_of_button"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/space2dp"
+        android:background="@color/colorLightHighlight"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/evaluation_ShgNametv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_5"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.6"
+                android:padding="@dimen/dimen_2"
+                android:text="SGh Name"
+                android:textSize="@dimen/textSize18"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/evaluation_TypeTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_5"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1.4"
+                android:background="@drawable/border_of_button"
+                android:padding="@dimen/dimen_2"
+                android:text="SGh Name" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.4"
+                android:orientation="vertical"
+                android:padding="@dimen/space5dp"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/dimen_5"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:padding="@dimen/dimen_2"
+                        android:text="@string/evaluation_date_msg" />
+
+                    <TextView
+                        android:id="@+id/evealuation_StartDateTv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/dimen_5"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dimen_2"
+                        android:text="20-01-2020" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/dimen_5"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:padding="@dimen/dimen_2"
+                        android:text="@string/evaluation_training_date_msg" />
+
+                    <TextView
+                        android:id="@+id/trainingDate_Tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/dimen_5"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dimen_2"
+                        android:text="20-01-2020" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:orientation="vertical"
+                android:padding="@dimen/space5dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="@string/evaluation_no_days_left" />
+
+                <View
+                    android:id="@+id/view_seperator1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/colorViewLine" />
+
+                <TextView
+                    android:id="@+id/evaluation_NoOfDaysLeftTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dimen_2"
+                    android:text="10"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--  <RelativeLayout
+          android:id="@+id/topMostLayout"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="@dimen/dimen_5">
+
+          <RelativeLayout
+              android:id="@+id/topRLLayout"
+              android:layout_width="350dp"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="3dp"
+              android:layout_marginBottom="3dp">
+
+              <LinearLayout
+                  android:id="@+id/date_linearLayout"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:weightSum="2">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:text="Training Date" />
+
+                  <TextView
+                      android:id="@+id/evaluation_TrainingdateTv"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:text="12/12/2019" />
+
+              </LinearLayout>
+
+              <View
+                  android:id="@+id/view_seperator1"
+                  android:layout_width="250dp"
+                  android:layout_height="0.5dp"
+                  android:layout_below="@+id/date_linearLayout"
+                  android:layout_marginTop="@dimen/dimen_5"
+                  android:background="@color/colorTitle" />
+
+              <LinearLayout
+                  android:id="@+id/evaluationdateLinearLayout"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/view_seperator1"
+                  android:orientation="horizontal"
+                  android:weightSum="2">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:text="Evaluation Date" />
+
+                  <TextView
+                      android:id="@+id/evealuation_StartDateTv"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:text="12/10/2019" />
+              </LinearLayout>
+
+              <View
+                  android:id="@+id/view_seperator2"
+                  android:layout_width="250dp"
+                  android:layout_height="0.5dp"
+                  android:layout_below="@+id/evaluationdateLinearLayout"
+                  android:layout_marginTop="@dimen/dimen_5"
+                  android:background="@color/colorTitle" />
+
+
+
+              <LinearLayout
+                  android:id="@+id/shgDetailLinearLayout"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/view_seperator2"
+                  android:orientation="horizontal"
+                  android:weightSum="2">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:text="Toatl Shg Participating" />
+
+                  <TextView
+                      android:id="@+id/evealuation_TotalShgTv"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:text="28" />
+              </LinearLayout>
+
+              <View
+                  android:id="@+id/view_seperator3"
+                  android:layout_width="250dp"
+                  android:layout_height="0.5dp"
+                  android:layout_below="@+id/shgDetailLinearLayout"
+                  android:layout_marginTop="@dimen/dimen_5"
+                  android:background="@color/colorTitle" />
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/view_seperator3"
+                  android:orientation="horizontal"
+                  android:weightSum="2">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:text="Members Participant" />
+
+                  <TextView
+                      android:id="@+id/evaluationTrainingModulesTv"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:layout_weight="1"
+                      android:text="10" />
+              </LinearLayout>
+          </RelativeLayout>
+      </RelativeLayout>-->
+</RelativeLayout>

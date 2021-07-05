@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorScreenBackGround">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+       <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/colorTitle"
+            android:textSize="@dimen/text_size_big" />
+-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/space10dp"
+            android:layout_height="wrap_content"
+            android:text="@string/list_of_shg_for_evaluation"
+            android:textSize="@dimen/textSize22"
+            android:gravity="center_horizontal"
+            android:background="@color/colorTitleBackground"
+            android:textColor="@color/colorTitleText"
+            android:textStyle="bold"
+            android:layout_marginRight="@dimen/space20dp"
+            android:layout_marginLeft="@dimen/space20dp"/>
+       <!-- android:textColor="@color/colorScreenBackGroundDark"-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dimen_20">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+                <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                    android:id="@+id/evaluation_selectBlockSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/select_block"
+                    android:longClickable="false"
+                    android:textColor="@color/colorTextBlack"
+                    android:textColorHint="@color/colorHintDark"
+                    app:met_floatingLabel="normal"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal">
+                <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                    android:id="@+id/evaluation_selectGpSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:longClickable="false"
+                    android:hint="@string/select_gp"
+                    android:textColor="@color/colorTextBlack"
+                    android:textColorHint="@color/colorHintDark"
+                    app:met_floatingLabel="normal"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+                <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                    android:id="@+id/evaluation_SelectVillageSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/select_village"
+                    android:longClickable="false"
+                    android:textColor="@color/colorTextBlack"
+                    android:textColorHint="@color/colorHintDark"
+                    app:met_floatingLabel="normal"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date_of_evaluation"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/textSize16"/>
+                <TextView
+                    android:id="@+id/evaluation_dateSelectedTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Select Block"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/textSize16"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/evaluationTrainingRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_50"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/selectedLocationTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selected location"
+                android:textSize="@dimen/textSize22"
+                android:gravity="center_horizontal"
+                android:background="@color/colorBlackdark"
+                android:textColor="@color/colorTextwhite"
+                android:textStyle="bold"
+                android:layout_marginRight="@dimen/space20dp"
+                android:layout_marginLeft="@dimen/space20dp"/>
+
+            <LinearLayout
+                android:layout_below="@+id/selectedLocationTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10"
+                android:background="@color/colorWhite"
+                android:orientation="vertical"
+                android:padding="@dimen/dimen_2">
+
+                <TextView
+                    android:layout_marginTop="@dimen/dimen_10"
+                    android:id="@+id/shgEvLocationTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="Block>>GramPanchyt>>Village"
+                    android:textSize="@dimen/textSize18"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="@dimen/dimen_300"
+                    android:layout_height="1.5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/colorViewLine" />
+
+                <TextView
+                    android:visibility="visible"
+                    android:id="@+id/baslineShgErrorTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_10"
+                    android:layout_marginBottom="@dimen/dimen_20"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dimen_2"
+                    android:background="@drawable/border_of_button"
+                    android:text="@string/evaluation_shg_not_found_msg"
+                    android:textColor="@color/color_red"
+                    android:textSize="@dimen/textSize22" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/evaluation_trainingListLL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/listTrainingTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/list_of_shg"
+                android:textSize="@dimen/space15dp"
+                android:gravity="center_horizontal"
+                android:background="@color/colorBlackdark"
+                android:textColor="@color/colorTextwhite"
+                android:textStyle="bold"
+                android:layout_marginRight="@dimen/space20dp"
+                android:layout_marginLeft="@dimen/space20dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/evealuation_shgSelectRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="@dimen/dimen_5"
+                android:layout_marginRight="@dimen/space10dp"
+                android:layout_marginLeft="@dimen/space10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+        <Button
+            android:id="@+id/shgEvaluation_nextBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+            android:background="@drawable/round_shape_dashboard"
+            android:elevation="@dimen/dimen_10"
+            android:translationZ="@dimen/dimen_10"
+            android:layout_marginLeft="@dimen/dimen_5"
+            android:layout_marginRight="@dimen/dimen_5"
+            android:text="@string/next"
+
+            android:textColor="@color/colorTextButton"
+            android:layout_marginBottom="@dimen/dimen_15"
+            android:textSize="@dimen/textSize18" />
+</RelativeLayout>

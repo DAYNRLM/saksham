@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.captain_miao.optroundcardview.OptRoundCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen_1"
+    android:orientation="vertical"
+    app:optRoundCardBackgroundColor="@color/colorTextBlack">
+
+    <RelativeLayout
+        android:id="@+id/ev_topMostLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@color/colorLightHighlight">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_10"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.2"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:id="@+id/ev_shg_linearlayOut"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.4"
+                        android:text="@string/basline_shg_name" />
+
+                    <TextView
+                        android:id="@+id/ev_selectShgTv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:gravity="right"
+                        android:text="Sumitra selh help group" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="@dimen/space3dp"
+                    android:layout_marginBottom="@dimen/space3dp"
+                    android:background="@color/colorViewLine" />
+
+                <LinearLayout
+                    android:id="@+id/ev_shg_memberLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:text="@string/basline_totalMember" />
+
+                    <TextView
+                        android:id="@+id/ev_shgMemberLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_5"
+                        android:layout_weight="1.6"
+                        android:gravity="left"
+                        android:text="20" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="@dimen/space3dp"
+                    android:layout_marginBottom="@dimen/space3dp"
+                    android:background="@color/colorViewLine" />
+
+                <LinearLayout
+                    android:id="@+id/ev_shgTotal_linearlayOut"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view_seperator"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:text="@string/evaluation_number_of_training" />
+
+                    <TextView
+                        android:id="@+id/ev_totalMemberTv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_5"
+                        android:layout_weight="1.6"
+                        android:gravity="left"
+                        android:text="10" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="@dimen/space3dp"
+                    android:layout_marginBottom="@dimen/space3dp"
+                    android:background="@color/colorViewLine" />
+
+
+                <LinearLayout
+                    android:id="@+id/ev_shgModuleDoneLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view_seperator2"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.4"
+                        android:text="@string/list_of_shg_modules" />
+
+                    <TextView
+                        android:id="@+id/ev_ModuleTv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:gravity="right"
+                        android:text="finance, credit, others" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1.8"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.2"
+                    android:src="@drawable/ic_chevron_right_black_24dp"
+                    android:tint="@color/colorTitleText" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</com.github.captain_miao.optroundcardview.OptRoundCardView>

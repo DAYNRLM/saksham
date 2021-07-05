@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorScreenBackGround"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/colorAppName"
+        android:textSize="@dimen/dimen_20"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTitleBackground"
+        android:gravity="center_horizontal"
+        android:text="@string/photo_gps"
+        android:textColor="@color/colorTitleText"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <!-- android:textColor="@color/colorScreenBackGroundDark"-->
+    <ImageView
+        android:id="@+id/image_on_take_photo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/button_take_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:background="@drawable/round_shape_dashboard"
+        android:elevation="@dimen/dimen_10"
+        android:translationZ="@dimen/dimen_10"
+        android:layout_marginRight="@dimen/dimen_5"
+        android:layout_marginLeft="@dimen/dimen_5"
+        android:padding="@dimen/dimen_5"
+        android:text="@string/take_photo"
+        android:textColor="@color/colorTextButton" />
+
+    <Button
+        android:id="@+id/button_capture_gps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:background="@drawable/round_shape_dashboard"
+        android:elevation="@dimen/dimen_10"
+        android:translationZ="@dimen/dimen_10"
+        android:layout_marginLeft="@dimen/dimen_5"
+        android:layout_marginRight="@dimen/dimen_5"
+        android:padding="@dimen/dimen_5"
+        android:text="@string/capture_gps"
+        android:textColor="@color/colorTextButton" />
+
+    <Button
+        android:id="@+id/button_upload_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:background="@drawable/round_shape_dashboard"
+        android:elevation="@dimen/dimen_10"
+        android:translationZ="@dimen/dimen_10"
+        android:layout_marginRight="@dimen/dimen_5"
+        android:layout_marginLeft="@dimen/dimen_5"
+        android:padding="@dimen/dimen_5"
+        android:text="@string/upload_data"
+        android:textColor="@color/colorTextButton" />
+
+
+</LinearLayout>

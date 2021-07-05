@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorScreenBackGround"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/colorAppName"
+        android:textSize="@dimen/dimen_20"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/titleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appName"
+        android:background="@color/colorTitleBackground"
+        android:gravity="center_horizontal"
+        android:text="@string/add_location"
+        android:textColor="@color/colorTitleText"
+        android:textSize="@dimen/textSize22"
+        android:textStyle="bold" />
+
+   <!-- android:textColor="@color/colorScreenBackGroundDark"-->
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/shg_detailRV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/space10dp"
+            android:layout_marginTop="@dimen/dimen_10"
+            android:layout_marginRight="@dimen/space10dp"
+            android:layout_above="@+id/bottomLayout"
+            android:layout_below="@+id/titleLayout"
+            android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/middleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_5"
+        android:gravity="center"
+        android:padding="@dimen/dimen_2"
+        android:layout_above="@+id/bottomLayout"
+        android:layout_below="@+id/titleLayout"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_200"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="SHG not found for Evaluation!!"
+            android:textColor="@color/color_red"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <include layout="@layout/layout_bottom_button" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

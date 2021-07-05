@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">সক্ষম</string>
+        <string name="back">ঘুৰি যোৱা</string>
+        <string name="next">আগলৈ</string>
+        <string name="select_date">তাৰিখ বাচনি কৰক</string>
+        <string name="select_content">বিষয় বাছনি কৰক</string>
+        <string name="select_module">মডুল বাচনি কৰক</string>
+        <string name="status">স্থিতি</string>
+        <string name="sub_total_shg_member">মূঠ</string>
+        <string name="other_particepant">অন্য অংশগ্রহণকাৰী</string>
+        <string name="total_participants">মূঠ অংশগ্রহণকাৰী</string>
+        <string name="value_from_backend">XXXXXX</string>
+        <string name="select_block">উন্নয়ন খণ্ড বাচনি কৰক</string>
+        <string name="select_gp">গাঁও পঞ্চায়ত বাচনি কৰক</string>
+        <string name="select_village">গাঁও বাচনি কৰক</string>
+        <string name="date_of_training">প্রশিক্ষণৰ তাৰিখ</string>
+        <string name="date_of_evaluation">মূল্যায়নৰ তাৰিখ</string>
+        <string name="block">উন্নয়ন খণ্ড</string>
+        <string name="gp">গাঁও পঞ্চায়ত</string>
+        <string name="village">গাঁও</string>
+        <string name="unsync_details">অসংযোগিত তথ্য:</string>
+        <string name="unsync_baseline">প্ৰাৰম্ভিক তথ্য</string>
+        <string name="unsync_training">প্ৰশিক্ষণৰ তথ্য</string>
+        <string name="unsync_evaluation">মূল্যায়নৰ তথ্য</string>
+        <string name="data_info">বৰ্তমানলৈকে অগ্ৰগতি:</string>      //changed
+        <string name="data_infoB">প্ৰাৰম্ভিক তথ্য সম্পূৰ্ণ</string>
+        <string name="data_infoT">প্ৰশিক্ষণ সম্পূৰ্ণ</string>
+        <string name="data_infoE">মূল্যায়ন</string>
+        <string name="nodataFound">এই গাঁৱত আত্ম সহায়ক গোটৰ প্ৰাৰম্ভিক তথ্য সংগ্ৰহ কৰা হোৱা নাই!!!</string> //changed
+        <string name="location">স্থান</string>
+        <string name="GPSAlertDialogTitle">জিপিএছ জাননী!</string>
+        <string name="GPSAlertDialogMessage">অনুগ্ৰহ কৰি আপোনাৰ জিপিএছ খুলি লওক </string>
+        <string name="number_of_shg_participating">অংশগ্ৰহণকাৰী গোট</string>
+        <string name="nubmber_of_shg_member_participating">SHG member Participating</string>//not changed
+        <string name="other_member_participating">অন্য সদস্যৰ অংশগ্ৰহণ</string>
+        <string name="content_module">মডুল</string>
+        <string name="Toast_toast_take_gps">জিপিএছ খালি থাকিব নোৱাৰে.</string>
+        <string name="save">সংৰক্ষণ কৰা</string>
+        <string name="photo_gps">ফটো আৰু জিপিএছ </string>
+        <string name="take_photo">ফটো তোলক</string>
+        <string name="capture_gps">জিপিএছ সংগ্ৰহ কৰক</string>
+        <string name="upload_data">তথ্য আপলোড কৰক</string>
+        <string name="title_activity_home">গৃহ কাৰ্য্য</string>
+        <string name="navigation_drawer_open">নেভিগেচন দৰ্জা খোলক</string>
+        <string name="navigation_drawer_close">নেভিগেচন দৰ্জা বন্ধ কৰক</string>
+        <string name="nav_header_title">এণ্ড্ৰইড ষ্টুডিঅ</string>
+        <string name="nav_header_subtitle">android.studio@android.com</string>
+        <string name="nav_header_desc">নেভিগেচন হেডাৰ</string>
+        <string name="action_settings">চেটিংচ</string>
+        <string name="add_participants">অংশগ্ৰহণকাৰী যোগ কৰক</string>
+
+        <string name="forgot_mpin">এম পিন পাহৰিলে নেকি??</string>
+
+
+        <string name="menu_home">গৃহ</string>
+        <string name="menu_gallery">গেলেৰী</string>
+        <string name="menu_slideshow">স্লাইড দৰ্শন</string>
+        <string name="menu_tools">ব্যৱস্থা</string>
+        <string name="menu_share">বিনিময় কৰক</string>
+        <string name="menu_send">পথাওক</string>
+        <string name="are_sure_exit">পথাওক</string>
+        <string name="str_yes">হয়</string>
+        <string name="str_no">নহয়</string>
+        <string name="Proceed">আগবাঢ়ক</string>
+        <!--<string name="str_ok">Ok</string>-->
+
+
+        <string name="menu_logout">লগ-আউট কৰক</string>
+        <string name="menu_change_Language">ভাষা পৰিৱৰ্তন কৰক</string>
+
+        <string name="login">লগ-ইন কৰক</string>
+        <string name="no_internet_dialog">ইণ্টাৰনেট নাই!</string>
+        <string name="server_error_dialog">চাৰ্ভাৰ বিষংগতি!</string>
+
+
+        <string name="module_add_Training">২| প্ৰশিক্ষণ</string>
+        <string name="module_Report">৪ ৷ প্ৰতিবেদন</string>
+        <string name="module_Evaluation">মূল্যায়ন</string>
+        <string name="module_Evaluation3">৩ ৷ মূল্যায়ন</string>
+        <string name="list_of_shg">গোটৰ তালিকা</string>
+        <string name="list_of_shg_for_evaluation">মূল্যায়নৰ বাবে গোটৰ তালিকা</string>
+        <string name="list_of_shg_name">গোটৰ নাম</string>
+        <string name="list_of_shg_modules">মডুল সমূহ</string>
+        <string name="list_of_shg_training_date">প্ৰশিক্ষণৰ তাৰিখ</string>
+        <string name="list_of_shg_selection_evaluation">মূল্যায়নৰ বাবে বাচনি কৰক</string>
+        <string name="number_of_shg_member">মূল্যায়নত থকা সদস্য সংখ্যা</string>
+        <string name="languge_change">আপোনাৰ ভাষা সলনি কৰক</string>
+        <string name="number_of_selected_shg_for_evaluation">মূল্যায়নৰ বাবে গোটৰ বাচনি কৰক</string>
+        <string name="number_of_shg_present_in_meeting">সভাত উপস্থিত সদস্য সংখ্যা</string>
+
+
+        <string name="selectShg">গোট বাচনি কৰক</string>
+
+
+        <string name="openDrawer">দৰ্জা খোলক</string>
+        <string name="closeDrawer">দৰ্জা বন্ধ কৰক</string>
+        <string name="select_language">ভাষা বাচনি কৰক</string>
+
+        <string name="suggestion">Suggestion: Select 2 language. E.g. English and Local</string>
+        <string name="viewReportLabel">প্ৰতিবেদন চাওক</string>
+        <string name="selectMonth">মাহ বাচনি কৰক</string>
+        <string name="date">তাৰিখ</string>
+        <string name="locationOfTraining">স্থান</string>
+        <string name="shgParticipated">অংশগ্ৰহণকাৰী গোটৰ সংখ্যা</string>
+        <string name="shgMemberParticipated">অংশগ্ৰহণকাৰী গোটৰ সদস্য সংখ্যা</string>
+        <string name="otherMemberParticipated">অন্যান্য অংশগ্ৰহণকাৰী সদস্য সংখ্যা</string>
+        <string name="modules">Modules</string>//not changed
+        <string name="enter_otp">অটিপি দিয়ক</string>
+        <string name="submit">জমা দিয়ক</string>
+        <string name="cancel">ৰদ কৰক</string>
+        <string name="confirm_pass">নতুন পাছৱৰ্ড নিশ্চিত কৰক</string>
+        <string name="enter_pass">নতুন পাছৱৰ্ড</string>
+        <string name="reset_pass_TV">পাছৱৰ্ড সলনি কৰক</string>
+        <string name="send_otp">অটিপি পথাওক</string>
+        <string name="enter_mobile">আপোনাৰ মোবাইল নম্বৰ দিয়ক</string>
+        <string name="otp_creation">অটিপি সৃষ্টি</string>
+        <string name="total">মূঠ</string>
+        <string name="gotoHome">গৃহলৈ যাওক</string>
+        <string name="noofDays">মাহটোত প্ৰশিক্ষণ প্ৰদান কৰা দিনৰ সংখ্যা</string>
+        <string name="noofShgs">এই মাহত নতুনকৈ প্ৰশিক্ষণ প্ৰদান কৰা গোটৰ সংখ্যা:</string>
+        <string name="noofshgsbaselinedone">প্ৰাৰম্ভিক তথ্য সংগ্ৰহ কৰা গোটৰ সংখ্যা:</string>
+        <string name="noofshgsassesmentdone">মূল্যায়ন সম্পন্ন কৰা গোটৰ সংখ্যা: </string>
+        <string name="app_exit_dialog">আপুনি ওলাই যাব বিচাৰিছে নেকি?</string>
+        <string name="user_id">আপোনাৰ ইউজাৰ আইডি দিয়ক</string>
+        <string name="user_password">আপোনাৰ পাছৱৰ্ড দিয়ক</string>
+        <string name="forgot_password">পাছৱৰ্ড পাহৰিছে</string>
+        <string name="login_massege">অনুগ্ৰহ কৰি ইউজাৰ আইডিটোৰে লগ- ইন কৰক.</string>
+        <string name="hello_blank_fragment">Hello blank fragment</string>//not changed
+        <string name="pending_shgs">মূল্যায়নৰ বাকী থকা গোটসমূহ</string>
+
+        <string name="evaluation_Question_Title1">সঞ্চয় আৰু ঋণ</string>
+        <string name="evaluation_Question1">1.যোৱা দুমাহত ব্যক্তিগত একাউন্টত লেনদেন কৰা গোটৰ সদস্য সংখ্যা</string>
+        <string name="evaluation_Question2">2.  গোটৰ পৰা এতিয়ালৈকে এবাৰো ঋণ নোলোৱা সদস্য সংখ্যা</string>
+        <string name="evaluation_Question_Title2">বীমা আৰু পেঞ্চন</string>
+        <string name="evaluation_Question3">3. স্বাস্থ্য বীমা থকা গোটৰ সদস্য সংখ্যা (PMJJBY)</string>
+        <string name="evaluation_Question4">4. দূৰ্ঘটনা বীমা থকা গোটৰ সদস্য সংখ্যা (PMSBY)</string>
+        <string name="evaluation_Question5">5. স্বাস্থ্য বীমা কৰা গোটৰ সদস্য সংখ্যা (PM-JAY/বা ৰাজ্যৰ বিশেষ আচনি)</string>
+        <string name="evaluation_Question6">6. পেঞ্চন আঁচনিত অন্তৰ্ভুক্ত গোটৰ সদস্য সংখ্যা (অটল পেঞ্চন/প্ৰধান মন্ত্ৰী শ্ৰমযোগী মানধন)</string>
+
+        <string name="evaluation_Question_Title3">ডিজিটেল বিত্তীয় ব্যৱস্থা</string>
+        <string name="evaluation_Question7">7. যোৱা দুমাহত বিচিত লেনদেন কৰা গোটৰ সংখ্যা</string>
+        <string name="evaluation_Question8">8. যোৱা দুমাহত বিচিত লেনদেন কৰা গোটৰ সদস্য সংখ্যা</string>
+
+        <string name="evaluation_Question_Title4">ব্যক্তিগত বিত্তীয় ব্যৱস্থা</string>
+        <string name="evaluation_Question9">9.   ব্যক্তিগত অভাৰ ড্ৰাফ্ট সুবিধা (OD) থকা গোটৰ সদস্য সংখ্যা</string>
+        <string name="evaluation_Question10">10.  মুদ্ৰা ঋণ পোৱা সদস্য সংখ্যা</string>
+
+        <!--   Toast Messages-->
+        <string name="toast_language_max_selection">দুটা ভাষা বাচনি কৰক.</string>
+        <!--   Toast Messages-->
+        <string name="faild_code">"অসফল কোড, আকৌ চেষ্টা কৰক!"</string>
+        <string name="not_eligible_for_evolution">"মূল্যায়ন ৰ বাবে অযোগ্য"</string>
+        <string name="please_select_atlest_one_mod">"অনুগ্ৰহ কৰি কমেও এটা মডুল বাচনি কৰক"</string>
+        <string name="cant_select_more_than3">"৩টাত কৈ বেছি মডুল বাচনি কৰিব নোৱাৰিব"</string>
+        <string name="please_select_atleast_one_member">"অনুগ্ৰহ কৰি কমেও এগৰাকী সদস্য বাচনি কৰক."</string>
+        <string name="please_select_atleast_one_shg">"অনুগ্ৰহ কৰি কমেও এটা গোট বাচনি কৰক."</string>
+        <string name="please_select_atleast_one_module">"Please select atleast one module."</string>//not changed
+        <string name="toast_language_min_selection">Please select atleast 1 language</string>
+        <string name="toast_otp_wrong">অন্তৰ্ভুক্ত কৰা অটিপি ভুল.</string>
+        <string name="toast_registered_mobile">অনুগ্ৰহ কৰি পঞ্জীকৃত মোবাইল নুম্বৰ অন্তৰ্ভুক্ত কৰক</string>
+        <string name="toast_language_chang">ভাষা সলনি সফল.</string>
+        <string name="toast_evaluation_morethen_zero">অন্তৰ্ভুক্ত কৰা সংখ্যাটো শূন্যতকৈ বেছি হব লাগিব.</string>
+        <string name="toast_evaluation_shgMember">অন্তৰ্ভুক্ত কৰা সংখ্যা গোটৰ মুঠ সদস্য সংখ্যাতকৈ বেছি</string>
+        <string name="toast_nonot_matched_fromlocal">অন্তৰ্ভুক্ত কৰা নম্বৰটো মিলা নাই নাই বা আগত লগ-ইন কৰা.</string>
+        <string name="toast_basline_shg_not_found">এই স্থানত গোট পোৱা নাই</string>
+        <string name="toast_basline_entervalid_number">অনুগ্ৰহ কৰি সঠিক সদস্য অন্তৰ্ভুক্ত কৰক</string>
+        <string name="toast_evaluation_form_fill_msg">অনুগ্ৰহ কৰি মূল্যায়ন ফৰ্ম সম্পূৰ্ণ কৰক !</string>
+        <string name="toast_nodata_found">তথ্য পোৱা নাই.</string>
+        <string name="toast_FAIL">বিফল</string>
+        <string name="otp_greeting">নমস্কাৰ!</string>
+        <string name="otp_massage">টো সক্ষম এপ্লিকেচনৰ বাবে দিয়া এবাৰ ব্যৱহাৰ্য পাছৱৰ্ড (OTP) । কাকো নিদিব.</string>
+        <string name="toast_fill_details">অনুগ্ৰহ কৰি সঠিক তথ্য পুৰাওক.</string>
+        <string name="toast_take_picture">অনুগ্ৰহ কৰি ফটো তোলক.</string>
+        <string name="toast_nologinid">you have to login first.</string>
+        <string name="toast_error">মূঠ সংখ্যাতকৈ সদস্য বেছি হব নোৱাৰে.</string>
+
+
+        <!--     Error Messages-->
+        <string name="error_mobileno">অনুগ্ৰহ কৰি সঠিক মোবাইল নম্বৰ অন্তৰ্ভুক্ত কৰক.</string>
+        <string name="error_mobileno_notregistered">মোবাইল নম্বৰটো পঞ্জীয়ন কৰা নাই</string>
+        <string name="error_mobileno_notmatched">অন্তৰ্ভুক্ত কৰা নম্বৰটো মিলা নাই নাই বা আগত লগ-ইন কৰা</string>
+        <string name="error_password">পাছৱৰ্ডৰ দৈৰ্ঘ্য কম.</string>
+        <string name="error_confirm_password">পাছৱৰ্ডৰ দৈৰ্ঘ্য ৬ টাত কৈ কম হব নোৱাৰিব.</string>
+        <string name="error_confirm_password_not_matched">পাছৱৰ্ড মিলা নাই.</string>
+        <string name="error_userId">অচল ইউজাৰ আইডি.</string>
+        <string name="error_invalid_password">অচল পাছৱৰ্ড.</string>
+        <string name="error_otp">অন্তৰ্ভুক্ত কৰা অটিপি ভুল.</string>
+
+        <!--    server error masseges , don't change these strings used in programing conditions-->
+        <string name="data_save_succesfully">তথ্য সংৰক্ষণ সফল.</string>
+        <string name="server_error_invalid_userId">অচল ইউজাৰ আইডি!!!</string>
+        <string name="server_error_invalid_userId_massege">অন্তৰ্ভুক্ত কৰা ইউজাৰ আইডিটো অচল.</string>
+        <string name="server_error_invalid_password">অচল পাছৱৰ্ড!!!</string>
+        <string name="server_error_invalid_password_massege">অন্তৰ্ভুক্ত কৰা পাছৱৰ্ডটো অচল.</string>
+        <string name="server_error_invalid_version">অচল এপ ভাৰ্চন!!!</string>
+        <string name="server_error_invalid_version_massege">এপ্লিকেচনৰ ভাৰ্চনটো পূৰণা, অনুগ্ৰহ কৰি এপ্লিকেছনটো আপডেট কৰক.</string>
+        <string name="server_error_invalid_date">অচল তাৰিখ !!!</string>
+        <string name="server_error_invalid_date_massege">অনুগ্ৰহ কৰি আপোনাৰ মোবাইল ফোনৰ তাৰিখ স্থিৰ কৰক.</string>
+        <string name="server_error_device_info">ডিভাইচৰ তথ্য!!!</string>
+        <string name="server_error_device_info_massege">অনুগ্ৰহ কৰি পঞ্জীকৃত আইডিৰ পৰা লগ-ইন কৰক </string>
+        <string name="device">ডিভাইচ Or reset account from web application.</string> partially changed
+
+
+        <!--   Dialog Messages-->
+        <string name="please_fill_proper_details">অনুগ্ৰহ কৰি সঠিক তথ্য পুৰাওক.</string>
+        <string name="do_you_want_to_save_detail">আপুনি এই সমূহ সংৰক্ষণ কৰিব বিচাৰিছে নেকি?</string>
+        <string name="info_confirmation">তথ্য নিশ্চিতকৰণ</string>
+        <string name="msg_logout">আপুনি লগ আউট কৰিব বিচাৰিছে নেকি?</string>
+        <string name="NOT_AVAILABLE">প্ৰযোজ্য নহয়</string>
+        <string name="NO_INTERNET_TITLE">Nইণ্টাৰনেট নাই!</string>
+        <string name="SERVER_ERROR_TITLE">চাৰ্ভাৰ বিষংগতি!</string>
+        <string name="INTERNET_MESSAGE">অনুগ্ৰহ কৰি আপোনাৰ ইন্টাৰনেটত খোলক.</string>
+        <string name="INTERNET_BAD">ইন্টাৰনেটত কানেকচন ধীৰ!!!</string>
+        <string name="SERVER_ERROR_MESSAGE">আভ্যন্তৰীণ চাৰ্ভাৰ বিসংগতি.</string>
+        <string name="dialog_evaluation_chang_answer">অনুগ্ৰহ কৰি আপোনাৰ উত্তৰটো সলনি কৰক.</string>
+        <string name="dialog_save_data">আপুনি তথ্য সমূহ সংৰক্ষণ কৰিব বিচাৰিছে নেকি?</string>
+        <string name="dialog_save_data_for_evaluation">আপুনি তথ্য সমূহ সংৰক্ষণ কৰিব বিচাৰিছে নেকি?\n\nYour location is</string> //partially given
+
+        <!--    //...............................................................-->
+        <string name="please_enter_valid_pin_details">"অনুগ্ৰহ কৰি সঠিক তথ্য অন্তৰ্ভুক্ত কৰক"</string>
+        <string name="please_enter_your_password">"অনুগ্ৰহ কৰি পাচৱৰ্ড অন্তৰ্ভুক্ত কৰক"</string>
+        <string name="enter_your_password">"আপোনাৰ পাছৱৰ্ড দিয়ক"</string>
+        <string name="enter_id">"আপোনাৰ আইডি দিয়ক"</string>
+        <string name="please_enter_your_id">"আপোনাৰ আইডি দিয়ক"</string>
+        <string name="baseline_completed">"প্ৰাৰম্ভিক তথ্য সম্পূৰ্ণ"</string>
+        <string name="baseline_pending">"প্ৰাৰম্ভিক তথ্য অসম্পূৰ্ণ "</string>
+        <string name="total_number_shg">"মূঠ গোটৰ সংখ্যা"</string>   //changed
+        <string name="shg_not_found">"এই স্থানত গোটটো পোৱা নগল!!"</string>
+        <string name="select_location">"স্থান বাচনি কৰক"</string>
+        <string name="select_location_de">গোটৰ বিতং তথ্য</string>
+        <string name="block_grampanchayt_village">উন্নয়ন খণ্ড>>গাওঁ পঞ্চায়ত >> গাওঁ</string>
+        <string name="confirm_details">তথ্য নিশ্চিত কৰক</string>
+        <string name="add_shg">গোট যোগ কৰক</string>
+        <string name="enter_participant">অংশগ্ৰহণকাৰী অন্তৰ্ভুক্ত কৰক</string>
+        <string name="unlock_first">অনুগ্ৰহ কৰি আগতে আনলক কৰক</string>
+        <string name="baseline_done">গোটৰ প্ৰাৰম্ভিক তথ্য লোৱা হল</string>
+
+        <string name="enter_mpin">আপোনাৰ এমপিণ দিয়ক</string>
+        <string name="confirm_mpin">এমপিণ নিশ্চিত কৰক</string>
+        <string name="add_location">স্থান যোগ কৰক</string>
+        <string name="sync_data">সংযোগিত তথ্য</string>
+        <string name="baseline">১| প্ৰাৰম্ভিক</string>
+        <string name="baseline_form_title">গোটৰ প্ৰাৰম্ভিক তথ্য সংগ্ৰহ প্ৰপত্ৰ</string>
+        <string name="forgotpin">এম পিন পাহৰিলে নেকি</string>
+
+        <string name="unsynced_Bshgs">অসংযোগিত গোট</string>
+        <string name="unsynced_training">অসংযোগিত প্ৰশিক্ষণ</string>
+        <string name="unsynced_Eshgs">অসংযোগিত গোট</string>
+        <string name="select_month">অনুগ্ৰহ কৰি মাহটো বাচনি কৰক</string>
+
+        <!--  toolbar titles-->
+        <string name="title_viewreport">প্ৰতিবেদন চাওক</string>
+        <string name="title_addtraining">প্ৰশিক্ষণ</string>
+        <string name="title_dashbord">তথ্য ৰখা স্থান</string>
+        <string name="title_baseline">প্ৰাৰম্ভিক</string> //changed
+
+
+        <!--created by lincon-->
+
+        <string name="baslineDate">প্ৰাৰম্ভিক তথ্য সংগ্ৰহৰ তাৰিখ</string>  //changed
+        <string name="baslineDate_selected_location_msg">স্থান বাচনি কৰক</string>
+        <string name="baslineDate_total_shg">মূঠ গোটৰ সংখ্যা</string>
+        <string name="baslineDate_completed">প্ৰাৰম্ভিক তথ্য সম্পূৰ্ণ</string>
+        <string name="baslineDate_pending">Baseline Panding </string> //pending
+        <string name="basline_shg_name">গোটৰ নাম </string>
+        <string name="basline_totalMember">মূঠ সদস্যৰ সংখ্যা</string>
+        <string name="basline_entred_member">কিমান সদস্যই স্বাক্ষৰ কৰিব পাৰে</string>
+        <string name="evaluation_shg_list">মূল্যায়নৰ বাবে গোটৰ তালিকা</string>
+        <string name="evaluation_days_left">বাকী থকা দিন</string>
+        <string name="evaluation_days_msg"> দিনবোৰ</string>
+        <string name="evaluation_day_msg"> দিন</string>
+        <string name="evaluation_start_msg">মূল্যায়ন আৰম্ভ</string>
+        <string name="evaluation_done_msg">মূল্যায়ন সম্পূৰ্ণ</string>
+        <string name="evaluation_ro_evaluation_msg">আপোনাৰ মূল্যায়ন কৰক</string>
+        <string name="evaluation_ro_evaluation_msg_first">প্ৰথমে আপোনাৰ মূল্যায়ন কৰক</string>
+        <string name="evaluation_number_of_training">অংশ গ্ৰহণ কৰা প্ৰশিক্ষণৰ সংখ্যা.</string>
+        <string name="evaluation_date_msg">মূল্যায়নৰ তাৰিখ</string>
+        <string name="evaluation_training_date_msg">প্ৰশিক্ষণৰ তাৰিখ</string>
+        <string name="evaluation_no_days_left">বাকী থকা দিনৰ সংখ্যা</string>
+        <string name="pending_evaluation">মূল্যায়নৰ বাবে বাকী থকা তথ্য:</string>
+        <string name="pending_evaluation1">মূল্যায়নৰ বাবে বাকী থকা তথ্য:</string>
+
+        <string name="dashboard_shg_left">মূল্যায়নৰ বাবে ৰৈ যোৱা গোটৰ সংখ্যা</string>
+        <string name="dashboard_show_detail">বিতংকৈ দেখাওক</string>
+        <string name="dashboard_shg_msg">প্ৰথম এইটো গোটৰ মূল্যায়ন সম্পূৰ্ণ কৰক</string>
+        <string name="evaluation_shg_not_found_msg">নিৰ্বাচিত স্থানত মূল্যায়নৰ বাবে পোৱা গোটৰ সংখ্যা!!!</string>
+
+        <!--tost-->
+
+        <string name="toast_location_msg">আপোনাৰ পূৰ্ব বাচনিৰ স্থান</string>
+        <string name="toast_select_village_msg"> অনুগ্ৰহ কৰি প্ৰথমে গাওঁ বাচনি কৰক!!</string>
+        <string name="toast_erros_shg_not_found"> এই স্থানত গোটটো পোৱা নগল!!</string>
+        <string name="toast_enter_question">প্ৰাৰম্ভিক প্ৰশ্ন অন্তৰ্ভুক্ত কৰক</string>
+        <string name="toast_data_saved"> তথ্য সংৰক্ষণ সফল</string>
+        <string name="toast_shg_not_found_evaluation">মূল্যায়নৰ বাবে গোটটো পোৱা নগল!!</string>
+        <string name="toast_enter_member_msg"> অন্তৰ্ভুক্ত কৰা সংখ্যা মুঠ সংখ্যাতকৈ বেছি নহয়</string>
+        <string name="toast_not_elegible">মূল্যায়ন ৰ বাবে অযোগ্য</string>
+        <string name="title_activity_village_modified">গাৱৰ উৎকৰ্ষক কাম</string>
+        <string name="dialog_web_request_failes">তথ্য সংযোজন বিফল, পূণৰ চেষ্টা কৰক!</string>
+
+        <string name="gps_not_enabled">জিপিএছ খুলি ৰখা নাই । আপুনি চেটিংচ মেনুত যাব বিচাৰিছে নেকি?</string>
+        <string name="auto_time_not_enabled">স্বয়ংক্ৰিয় সময় ক্ষেত্ৰ নিৰ্বাচন খুলি ৰখা নাই । চেটিংচত যাওক?</string>
+        <string name="please_enter_other_participant">অনুগ্ৰহ কৰি আন অংশগ্ৰহণকাৰী সকলক অন্তৰ্ভুক্ত কৰক!!</string>
+
+        <string name="please_select_atleast_half_member">"কমেও ৫০% সদস্য প্ৰয়োজন."</string>   //new added
+        <string name="minimum_half_members_required_for_baseline">কমেও ৫০% সদস্য প্ৰয়োজন আৰু অন্তৰ্ভুক্ত কৰা মূঠ সংখ্যা গোটৰ সদস্য সংখ্যাতকৈ বেছি হব নোৱাৰে</string> //new added
+        <string name="enter_number_of_participants">এবাৰত ৬টাতকৈ বেছি গোট প্ৰশিক্ষণৰ বাবে বাচনি কৰিব নালাগে</string>     //new added
+        <string name="shg_for_baseline">গোটৰ প্ৰাৰম্ভিক তথ্য</string>            //new added
+        <string name="enter_number_of_participants_baseline">অংশগ্ৰহণকাৰীৰ সংখ্যা অন্তৰ্ভুক্ত কৰক</string>     //new added
+        <string name="atlest_one_shg_should_selected">কমেও এটা গোট বাচনি কৰিব লাগে</string>     //new added
+        <string name="shg_list_baseline">প্ৰাৰম্ভিক তথ্য সংগ্ৰহৰ বাবে গোটৰ তালিকা</string>     //new added
+        <string name="no_pending_shgB">প্ৰাৰম্ভিক তথ্য সংগ্ৰহ কৰিবলৈ কোনো গোট বাকী নাই.</string>     //new added
+        <string name="bottom_text">এনআঈসী ৰ দ্বাৰা মোআৰডী ৰ দ্বাৰা ৰচদ যোগেয়েছিলেন হুআ অন্তর্বস্তু , আয়োজন আৰু ব্যৱস্থা কৰা ঔৰ অব্যাহত ৰখা ৷</string>
+
+        //new string add
+        <string name="login_attempts_msgS">আপোনাৰ মাত্ৰ</string>
+        <string name="login_attempts_msgE"> লগ ইন প্ৰচেষ্টা বাকী আছে</string>
+        <string name="data_not_found_tost"> তথ্য পোৱা নাই.</string>
+        <string name="info">লগ ইন বিবৰণ</string>
+        <string name="app_version">এপ ভাৰ্চন:</string>
+        <string name="login_attempt_failed">বিষংগতি: এইটো একাউণ্ট কেইবাটাও বিফল প্ৰয়াসৰ বাবে সাময়িক ভাৱে বন্ধ কৰি দিয়া হৈছে . আপুনি ১৫ মিনিটৰ বন্ধ সময় পাৰ হোৱাৰ পাছত পূণৰ  লগ ইন কৰিব পাৰিব
+</string>
+
+</resources>

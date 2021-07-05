@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+      android:layout_height="@dimen/dimen_400">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_320"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:layout_marginRight="@dimen/dimen_2"
+        android:layout_marginLeft="@dimen/dimen_2"
+        android:id="@+id/select_languageRV">
+    </androidx.recyclerview.widget.RecyclerView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/view"
+        android:layout_marginTop="@dimen/dimen_2"
+        android:layout_below="@+id/select_languageRV"
+        android:background="@color/colorViewLine"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_20"
+        android:layout_alignParentBottom="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginRight="@dimen/dimen_5"
+                android:layout_height="wrap_content"
+                android:id="@+id/cancleTV"
+                android:text="@string/cancel"
+                android:gravity="center"
+                android:textSize="@dimen/dimen_25"
+                android:textColor="@color/white"
+                android:background="@drawable/round_shape_dashboard"
+                android:layout_margin="@dimen/dimen_2"
+                android:layout_marginBottom="@dimen/dimen_5"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/selected_languageTV"
+                android:text="@string/submit"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/dimen_5"
+                android:textSize="@dimen/dimen_25"
+                android:textColor="@color/white"
+                android:background="@drawable/round_shape_dashboard"
+                android:layout_margin="@dimen/dimen_2"
+                android:layout_marginBottom="@dimen/dimen_5"
+                />
+
+        </LinearLayout>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</RelativeLayout>

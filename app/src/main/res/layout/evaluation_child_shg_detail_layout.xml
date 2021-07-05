@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorLightHighlight"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/riple"
+        android:clickable="true"
+        android:padding="2dp"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/childShgTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:layout_marginLeft="@dimen/space2dp"
+            android:text="SHGs NAME "
+            android:gravity="left"/>
+
+
+        <TextView
+            android:id="@+id/childevaluationTypeTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E"
+            android:layout_weight="1.4"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/childNoofDaysLeft"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="days Left "
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/dimen_2"
+            android:gravity="right"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_1"
+        android:layout_marginTop="@dimen/dimen_2"
+        android:background="@color/colorViewLine"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/evaluationStatusLayout"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/firstEvaluationLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:weightSum="2">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space10dp"
+                android:text="First Evaluation Date "/>
+            <TextView
+                android:id="@+id/firstDate_Tv"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_marginRight="@dimen/space10dp"
+                android:text="01-02-2020"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/secodEvaluationLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:weightSum="2">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space10dp"
+                android:text="Second Evaluation Date "/>
+            <TextView
+                android:id="@+id/secondDate_Tv"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_marginRight="@dimen/space10dp"
+                android:text="01-02-2020"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/thirdEvaluationLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:weightSum="2">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space10dp"
+                android:text="Third Evaluation Date "/>
+            <TextView
+                android:id="@+id/thirdDate_Tv"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_marginRight="@dimen/space10dp"
+                android:text="01-02-2020"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/fourthEvaluationLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:weightSum="2">
+            <TextView
+
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space10dp"
+                android:text="Fourth Evaluation Date "/>
+            <TextView
+                android:id="@+id/fourthDate_Tv"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_marginRight="@dimen/space10dp"
+                android:text="01-02-2020"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <!-- android:layout_weight="0.5"-->
+
+    <!-- android:layout_weight="1.5"-->

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--***************************************Pink Theam Colour*******************************-->
+    <!-- <color name="colorScreenBackGroundLight">#F4AEEF</color>
+     <color name="colorScreenBackGroundDark">#D342C1</color>
+     <color name="colorAccent">#243F60</color>
+     <color name="colorTitle">#7030A0</color>
+     <color name="colorBoxLight">#558ED5</color>
+     <color name="colorBoxMedium">#4F81BD</color>
+     <color name="colorBoxDark">#17375E</color>
+     <color name="colorBoxOutLine">#021030</color>
+     <color name="colorTitleBackground">#9AE05B</color>
+     <color name="colorYellow">#FFFF00</color>
+     <color name="colorWhite">#FFFFFF</color>
+     <color name="colorScreenBackGroundPink">#FADEF5</color>
+     <color name="colorBlack">#000000</color>
+     <color name="colorBlackdark">#021A47</color>
+     <color name="Samad">#000000</color>
+     <color name="color_848484">#848484</color>
+     <color name="color_red">#ff0000</color>
+     <color name="color_green">#68C21C</color>
+     <color name="color_report">#C9DDF1</color>-->
+    <!--********************************************************************************-->
+    <!-- <color name="colorAccent">#243F60</color>
+     <color name="colorBoxMedium">#4F81BD</color>
+     <color name="colorBoxOutLine">#021030</color>
+     <color name="colorYellow">#FFFF00</color>
+     <color name="colorScreenBackGroundPink">#FADEF5</color>
+     <color name="colorBlackdark">#021A47</color>
+     <color name="Samad">#000000</color>
+     <color name="color_848484">#848484</color>
+     <color name="color_report">#C9DDF1</color>
+     &lt;!&ndash;//toll bar colour&ndash;&gt;
+     <color name="colourToolBarScreenLight">#F4AEEF</color>
+     <color name="toolBarTextcolorWhite">#FFFFFF</color>
+     <color name="colorScreenBackGroundDark">#D342C1</color>
+     &lt;!&ndash;notification bar & drawer colour&ndash;&gt;
+     <color name="notificationBackgroungDark">#D342C1</color>
+     &lt;!&ndash;text colour and &ndash;&gt;
+     <color name="colorTextBlack">#000000</color>
+     <color name="colorTextwhite">#FFFFFF</color>
+     <color name="colorHintDark">#021A47</color>
+     &lt;!&ndash;title bar on each screen colour on screen&ndash;&gt;
+     <color name="colorTitleText">#7030A0</color>
+     <color name="colorTitleBackground">#9AE05B</color>
+     &lt;!&ndash;button background and button text&ndash;&gt;
+     <color name="colorBoxDark">#17375E</color>
+     <color name="colorBoxLight">#558ED5</color>
+     <color name="colorTextButton">#FFFFFF</color>
+     &lt;!&ndash;common colour&ndash;&gt;
+     <color name="color_red">#ff0000</color>
+     <color name="color_green">#68C21C</color>
+     <color name="colorWhite">#FFFFFF</color>
+     <color name="colorScreenBackGround">#FADEF5</color>
+     <color name="colorViewLine">#7030A0</color>
+     <color name="colorLightHighlight">#FFFFFF</color>
+     <color name="colorBlackHader">#021A47</color>
+     <color name="colorAppName">#7030A0</color>
+  -->
+
+
+    <!--*************************************************Blue Theam Colour******************************************-->
+
+    <!-- <color name="colorScreenBackGroundLight">#00B9F5</color>
+     <color name="colorScreenBackGroundDark">#243F60</color>
+     <color name="colorAccent">#243F60</color>
+     <color name="colorTitle">#243F60</color>
+     <color name="colorBoxLight">#00B9F5</color>
+     <color name="colorBoxMedium">#4F81BD</color>
+     <color name="colorBoxDark">#17375E</color>
+     <color name="colorBoxOutLine">#021030</color>
+     <color name="colorTitleBackground">#243F60</color>
+     <color name="colorYellow">#FFFF00</color>
+     <color name="colorWhite1">#FFFFFF</color>
+     <color name="colorWhite">#E2F8FB</color>
+     <color name="colorScreenBackGroundPink">#FFFFFF</color>
+     <color name="colorBlack">#000000</color>
+     <color name="colorBlackdark">#021A47</color>
+     <color name="Samad">#000000</color>
+     <color name="color_848484">#848484</color>
+     <color name="color_red">#ff0000</color>
+     <color name="color_green">#68C21C</color>
+     <color name="color_report">#C9DDF1</color>-->
+
+    <!--*****************************************************************************************-->
+
+    <color name="colorAccent">#243F60</color>
+    <!--<color name="colorAccent">#41aafd </color>-->
+    <color name="colorBoxMedium">#4F81BD</color>
+    <color name="colorBoxOutLine">#021030</color>
+    <color name="colorYellow">#FFFF00</color>
+    <color name="colorScreenBackGroundPink">#FADEF5</color>
+    <color name="colorBlackdark">#021A47</color>
+    <color name="Samad">#000000</color>
+    <color name="color_848484">#848484</color>
+    <color name="color_report">#C9DDF1</color>
+    <!--//toll bar colour-->
+    <color name="colourToolBarScreenLight">#00B9F5</color>
+    <color name="toolBarTextcolorWhite">#FFFFFF</color>
+    <color name="colorScreenBackGroundDark">#27466B</color>
+    <!--notification bar & drawer colour-->
+    <color name="notificationBackgroungDark">#243F60</color>
+    <!--text colour and -->
+    <color name="colorTextBlack">#000000</color>
+    <color name="colorTextwhite">#FFFFFF</color>
+    <color name="colorHintDark">#00B9F5</color>
+    <!--title bar on each screen colour on screen-->
+    <color name="colorTitleText">#E2F8FB</color>
+    <color name="colorTitleBackground">#243F60</color>
+    <!--button background and button text-->
+    <color name="colorBoxDark">#17375E</color>
+    <color name="colorBoxLight">#00B9F5</color>
+    <color name="colorTextButton">#FFFFFF</color>
+    <!--common colour-->
+    <color name="color_red">#ff0000</color>
+    <color name="color_green">#68C21C</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorScreenBackGround">#FFFFFF</color>
+    <color name="colorViewLine">#243F60</color>
+    <color name="colorLightHighlight">#E2F8FB</color>
+    <color name="colorBlackHader">#021A47</color>
+    <color name="colorAppName">#151FCF</color>
+//new added by manish
+    <color name="footerColor">#41aafd </color>
+    <color name="MainColor">#41aafd </color>
+<color name="textColor">#266cd3</color>
+    <color name="lightBackground">#f0f7ff</color>
+<color name="colorButtonBackground">#2196f3</color>
+    <color name="light_black">#202020 </color>
+
+</resources>

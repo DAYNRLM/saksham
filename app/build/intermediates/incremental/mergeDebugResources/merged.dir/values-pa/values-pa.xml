@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="GPSAlertDialogMessage">ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀ ਜੀ.ਪੀ.ਐਸ ਖੋਲ੍ਹੋ.. </string>
+    <string name="GPSAlertDialogTitle">ਜੀ.ਪੀ.ਐਸ ਚੇਤਾਵਨੀ!</string>
+    <string name="INTERNET_BAD">ਹੌਲੀ ਇੰਟਰਨੈਟ ਕਨੈਕਸ਼ਨ!!!</string>
+    <string name="INTERNET_MESSAGE">ਕਿਰਪਾ ਕਰਕੇ, ਆਪਣਾ ਇੰਟਰਨੈਟ ਕਨੈਕਸ਼ਨ ਖੋਲ੍ਹੋ.</string>
+    <string name="NOT_AVAILABLE">ਸਾਡੇ ਲਈ ਨਹੀਂ  </string>
+    <string name="NO_INTERNET_TITLE">ਇੰਟਰਨੈਟ ਨਹੀਂ ਹੈ। !</string>
+    <string name="Proceed">ਅੱਗੇ ਵਧੋ</string>
+    <string name="SERVER_ERROR_MESSAGE">ਅੰਦਰੂਨੀ ਸਰਵਰ ਗਲਤੀ .</string>
+    <string name="SERVER_ERROR_TITLE">ਸਰਵਰ ਗਲਤੀ!</string>
+    <string name="Toast_toast_take_gps">ਗ੍ਰਾਮ ਪੰਚਾਇਤਾਂ ਖਾਲੀ ਨਹੀਂ ਹੋ ਸਕਦੀ.</string>
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"ਹੋਮ \'ਤੇ ਜਾਓ"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"ਉੱਪਰ ਜਾਓ"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"ਹੋਰ ਵਿਕਲਪ"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"ਹੋ ਗਿਆ"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"ਸਭ ਦੇਖੋ"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"ਇੱਕ ਐਪ ਚੁਣੋ"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"ਬੰਦ"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"ਚਾਲੂ"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"ਮਿਟਾਓ"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"ਖੋਜ…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"ਪੁੱਛਗਿੱਛ ਕਲੀਅਰ ਕਰੋ"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"ਖੋਜ ਪੁੱਛਗਿੱਛ"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"ਖੋਜ"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"ਪੁੱਛਗਿੱਛ ਸਪੁਰਦ ਕਰੋ"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"ਅਵਾਜ਼ੀ ਖੋਜ"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"ਇਸ ਨਾਲ ਸਾਂਝਾ ਕਰੋ"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> ਨਾਲ ਸਾਂਝਾ ਕਰੋ"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"ਸਮੇਟੋ"</string>
+    <string name="action_settings">ਸੈਟਿੰਗਜ਼</string>
+    <string name="add_location">ਟਿਕਾਣਾ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="add_participants">ਭਾਗੀਦਾਰ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="add_shg">ਐਸ.ਐਚ.ਜੀ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="app_exit_dialog">ਕੀ ਤੁਸੀਂ ਬਾਹਰ ਜਾਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+    <string name="app_name">ਸਕਸ਼ਮ</string>
+    <string name="app_version">App Version:</string>
+    <string name="are_sure_exit">ਭੇਜੋ</string>
+    <string name="atlest_one_shg_should_selected">ਘੱਟੋ ਘੱਟ ਇਕ ਐਸ.ਐਚ.ਜੀ ਚੁਣਿਆ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ। </string>
+    <string name="auto_time_not_enabled">ਆਟੋ ਟਾਈਮ ਜ਼ੋਨ ਆਨ ਨਹੀਂ ਹੈ. ਸੈਟਿੰਗਜ਼ ਮੀਨੂ ਤੇ ਜਾਓ?</string>
+    <string name="back">ਵਾਪਸ</string>
+    <string name="baseline">1. ਬੇਸਲਾਈਨ</string>
+    <string name="baseline_completed">"ਬੇਸਲਾਈਨ ਪੂਰੀ"</string>
+    <string name="baseline_done">ਸਵੈ-ਸਹਾਇਤਾ ਸਮੂਹ ਜਿੰਨਾਂ ਦਾ ਬੇਸਲਾਈਨ ਪੂਰਾ ਹੋ ਗਿਆ ਹੈ। </string>
+    <string name="baseline_form_title">ਐਸ.ਐਚ.ਜੀਜ਼ ਦਾ ਬੇਸਲਾਈਨ ਫਾਰਮ</string>
+    <string name="baseline_pending">"ਬੇਸਲਾਈਨ ਬਕਾਇਆ"</string>
+    <string name="baslineDate">ਬੇਸਲਾਈਨ ਦੀ ਮਿਤੀ</string>
+    <string name="baslineDate_completed">ਬੇਸਲਾਈਨ ਪੂਰੀ</string>
+    <string name="baslineDate_pending">Baseline Panding </string>
+    <string name="baslineDate_selected_location_msg">ਚੁਣੀ ਜਗ੍ਹਾ</string>
+    <string name="baslineDate_total_shg">ਸਵੈ-ਸਹਾਇਤਾ ਸਮੂਹਾਂ ਦੀ ਕੁੱਲ ਸੰਖਿਆ</string>
+    <string name="basline_entred_member">ਕਿੰਨੇ ਮੈਂਬਰ ਦਸਤਖਤ ਕਰਨ ਦੇ ਯੋਗ ਹਨ</string>
+    <string name="basline_shg_name">SHG ਨਾਮ </string>
+    <string name="basline_totalMember">ਕੁਲ ਮੈਂਬਰ</string>
+    <string name="block">ਬਲਾਕ</string>
+    <string name="block_grampanchayt_village">ਬਲਾਕ >> ਗ੍ਰਾਮ.ਪੰਚਾਇਤ >> ਪਿੰਡ</string>
+    <string name="bottom_text">Design, hosted and maintained by NIC,Content provided by MORD.</string>
+    <string name="cancel">ਰੱਦ ਕਰੋ</string>
+    <string name="cant_select_more_than3">"3 ਤੋਂ ਵੱਧ ਭਾਗ ਨਹੀਂ ਚੁਣ ਸਕਦੇ"</string>
+    <string name="capture_gps">ਜੀ.ਪੀ.ਐਸ ਪਕੜੋ</string>
+    <string name="closeDrawer">ਦਰਾਜ਼ ਬੰਦ</string>
+    <string name="confirm_details">ਵੇਰਵਿਆਂ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ</string>
+    <string name="confirm_mpin">ਆਪਣੇ  Mpin ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ</string>
+    <string name="confirm_pass">ਨਵੇਂ ਪਾਸਵਰਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ</string>
+    <string name="content_module">ਭਾਗ</string>
+    <string name="dashboard_shg_left">ਮੁਲਾਂਕਣ ਲਈ ਬਚੇ ਸਮੂਹਾਂ ਦੀ ਸੰਖਿਆ</string>
+    <string name="dashboard_shg_msg">ਇਹਨਾਂ ਸਮੂਹਾਂ ਲਈ ਪਹਿਲਾਂ ਮੁਲਾਂਕਣ ਨੂੰ ਪੂਰਾ ਕਰੋ</string>
+    <string name="dashboard_show_detail">ਵੇਰਵਾ ਦਿਖਾਓ</string>
+    <string name="data_info">ਹੁਣ ਤੱਕ ਦੀ ਪ੍ਰਗਤੀ:</string>
+    <string name="data_infoB">ਅਧਾਰ ਰੇਖਾ ਪੂਰੀ </string>
+    <string name="data_infoE">ਮੁਲਾਂਕਣ </string>
+    <string name="data_infoT">ਸਿਖਲਾਈ ਪੂਰੀ</string>
+    <string name="data_not_found_tost">ਡਾਟਾ ਨਹੀਂ ਮਿਲਿਆ!.</string>
+    <string name="data_save_succesfully">ਡਾਟਾ ਸਫਲਤਾਪੂਰਵਕ ਸੁਰੱਖਿਅਤ ਕੀਤਾ ਗਿਆ</string>
+    <string name="date">ਤਾਰੀਖ਼</string>
+    <string name="date_of_evaluation">ਮੁਲਾਂਕਣ ਦੀ ਮਿਤੀ</string>
+    <string name="date_of_training">ਟ੍ਰੇਨਿੰਗ ਦੀ ਮਿਤੀ </string>
+    <string name="device">device Or reset account from web application.</string>
+    <string name="dialog_evaluation_chang_answer">ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਜਵਾਬ ਬਦਲੋ.</string>
+    <string name="dialog_save_data">ਕੀ ਤੁਸੀਂ ਡੇਟਾ ਬਚਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+    <string name="dialog_save_data_for_evaluation">Do you want to save the data?\n\nYour location is</string>
+    <string name="dialog_web_request_failes">ਡਾਟਾ ਸਿੰਕ ਅਸਫਲ, ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ!</string>
+    <string name="do_you_want_to_save_detail">ਕੀ ਤੁਸੀਂ ਇਨ੍ਹਾਂ ਵੇਰਵਿਆਂ ਨੂੰ ਬਚਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+    <string name="enter_id">"ਆਪਣੀ ਆਈ ਡੀ ਦਰਜ ਕਰੋ"</string>
+    <string name="enter_mobile">ਆਪਣਾ ਮੋਬਾਈਲ ਨੰਬਰ ਦਰਜ ਕਰੋ</string>
+    <string name="enter_mpin">ਤੁਹਾਡਾ  Mpin ਦਰਜ ਕਰੋ</string>
+    <string name="enter_number_of_participants">ਇਕੋ ਸਮੇਂ ਸਿਖਲਾਈ ਲਈ 6 ਤੋਂ ਵੱਧ ਐਸ.ਐਚ.ਜੀਜ਼ ਦੀ ਚੋਣ ਨਹੀਂ ਕੀਤੀ ਜਾਣੀ ਚਾਹੀਦੀ</string>
+    <string name="enter_number_of_participants_baseline">ਭਾਗੀਦਾਰਾਂ ਦੀ ਗਿਣਤੀ ਦਰਜ ਕਰੋ</string>
+    <string name="enter_otp">ਓਟੀਪੀ ਦਰਜ ਕਰੋ</string>
+    <string name="enter_participant">ਭਾਗੀਦਾਰ ਨੂੰ ਦਾਖਲ ਕਰੋ</string>
+    <string name="enter_pass">ਨਵਾਂ ਪਾਸਵਰਡ</string>
+    <string name="enter_your_password">"ਆਪਣਾ ਪਾਸਵਰਡ ਦਰਜ ਕਰੋ"</string>
+    <string name="error_confirm_password">ਪਾਸਵਰਡ ਦੀ ਲੰਬਾਈ 6 ਤੋਂ ਘੱਟ ਨਹੀਂ ਹੋ ਸਕਦੀ</string>
+    <string name="error_confirm_password_not_matched"> ਪਾਸਵਰਡ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ</string>
+    <string name="error_invalid_password">ਗਲਤ ਪਾਸਵਰਡ</string>
+    <string name="error_mobileno">ਕਿਰਪਾ ਕਰਕੇ ਸਹੀ ਮੋਬਾਈਲ ਨੰਬਰ ਦਾਖਲ ਕਰੋ</string>
+    <string name="error_mobileno_notmatched">ਐਂਟਰ ਕੀਤਾ ਨੰਬਰ ਨਹੀ ਰਲ ਰਿਹਾ, ਜਾਂ ਪਹਿਲਾ ਲਾਗ ਇਨ ਕੀਤਾ ਹੋਇਆ ਹੈ। </string>
+    <string name="error_mobileno_notregistered">ਮੋਬਾਈਲ ਨੰਬਰ ਰਜਿਸਟਰਡ ਨਹੀਂ ਹੈ</string>
+    <string name="error_otp">ਦਰਜ ਕੀਤਾ ਯੂਜ਼ਰ ਆਈ. ਡੀ  ਗਲਤ ਹੈ</string>
+    <string name="error_password">ਪਾਸਵਰਡ ਦੀ ਲੰਬਾਈ ਛੋਟੀ ਹੈ</string>
+    <string name="error_userId">ਗਲਤ ਯੂਜ਼ਰ ਆਈ. ਡੀ </string>
+    <string name="evaluation_Question1">1.ਪਿਛਲੇ 2 ਮਹੀਨਿਆਂ ਵਿੱਚ ਕਿੰਨੇ ਐਸ.ਐਚ.ਜੀ ਦੇ ਮੈਂਬਰਾਂ ਨੇ ਵਿਅਕਤੀਗਤ ਬੈਂਕ ਖਾਤੇ ਵਿੱਚ ਲੈਣ-ਦੇਣ ਕੀਤਾ</string>
+    <string name="evaluation_Question10">10. ਪਿਛਲੇ 2 ਮਹੀਨਿਆਂ ਵਿੱਚ ਬੀ ਸੀ ਦੁਆਰਾ ਲੈਣ ਦੇਣ ਕਰਨ ਵਾਲੇ ਐਸ.ਐਚ.ਜੀ ਦੇ ਮੈਂਬਰਾਂ ਦੀ ਗਿਣਤੀ </string>
+    <string name="evaluation_Question2">2. ਮੈਂਬਰਾਂ ਦੀ ਸੰਖਿਆ ਜਿਨ੍ਹਾਂ ਨੇ ਐਸ.ਐਚ.ਜੀ ਤੋਂ ਕੋਈ ਕਰਜ਼ਾ ਨਹੀਂ ਲਿਆ ਹੈ</string>
+    <string name="evaluation_Question3">3. ਐਸ.ਐਚ.ਜੀ ਦੇ ਕਿੰਨੇ ਮੈਂਬਰਾਂ ਦਾ ਜੀਵਨ ਬੀਮਾ ਹੈ (ਪੀ.ਐਮ.ਜੇ.ਜੇ.ਬੀ.ਵਾਈ)</string>
+    <string name="evaluation_Question4">4. ਐਸ.ਐਚ.ਜੀ ਦੇ ਕਿੰਨੇ ਮੈਂਬਰਾਂ ਦਾ ਦੁਰਘਟਨਾ ਬੀਮਾ (ਪੀ.ਐਮ.ਐਸ.ਬੀ.ਵਾਈ) ਹੈ</string>
+    <string name="evaluation_Question5">5.ਸਿਹਤ ਬੀਮਾ ਯੋਜਨਾ ਅਧੀਨ ਦਾਖਲ ਹੋਏ ਐਸ.ਐਚ.ਜੀ ਮੈਂਬਰਾਂ ਦੀ ਗਿਣਤੀ (ਪ੍ਰਧਾਨ ਮੰਤਰੀ-ਜਨ ਅਰੋਗਿਆ ਯੋਜਨਾ / ਰਾਜ ਦੀਆਂ ਵਿਸ਼ੇਸ਼ ਯੋਜਨਾਵਾਂ)</string>
+    <string name="evaluation_Question6">6. ਪੈਨਸ਼ਨ ਸਕੀਮ ਅਧੀਨ ਦਾਖਲ ਹੋਏ ਐਸ.ਐਚ.ਜੀ ਮੈਂਬਰਾਂ ਦੀ ਗਿਣਤੀ(ਅਟਲ ਪੈਨਸ਼ਨ ਯੋਜਨਾ / ਪ੍ਰਧਾਨ ਮੰਤਰੀ ਸ਼੍ਰਮ ਯੋਗੀ ਮੰਥਨ) </string>
+    <string name="evaluation_Question7">7. No. of SHGs done transaction through BC In last 2 months</string>
+    <string name="evaluation_Question8">8. No. of SHG members done transaction through BC In last 2 month</string>
+    <string name="evaluation_Question9">9.   ਪਿਛਲੇ 2 ਮਹੀਨਿਆਂ ਵਿੱਚ ਬੀ.ਸੀ. ਦੁਆਰਾ ਲੈਣ ਦੇਣ ਕਰਨ ਵਾਲੇ ਐਸ.ਐਚ.ਜੀਜ਼ ਦੀ ਗਿਣਤੀ</string>
+    <string name="evaluation_Question_Title1">ਬਚਤ ਅਤੇ ਕ੍ਰੈਡਿਟ</string>
+    <string name="evaluation_Question_Title2">ਬੀਮਾ ਅਤੇ ਪੈਨਸ਼ਨ</string>
+    <string name="evaluation_Question_Title3">ਡਿਜੀਟਲ ਵਿੱਤ</string>
+    <string name="evaluation_Question_Title4">ਵਿਅਕਤੀਗਤ ਵਿੱਤ</string>
+    <string name="evaluation_date_msg">ਮੁਲਾਂਕਣ ਦੀ ਮਿਤੀ</string>
+    <string name="evaluation_day_msg"> ਦਿਨ</string>
+    <string name="evaluation_days_left">ਬਚੇ ਹੋਏ ਦਿਨ </string>
+    <string name="evaluation_days_msg"> ਦਿਨ</string>
+    <string name="evaluation_done_msg">ਮੁਲਾਂਕਣ ਹੋ ਗਿਆ ਹੈ। </string>
+    <string name="evaluation_no_days_left">ਕਿੰਨੇ ਦਿਨ ਬਚੇ</string>
+    <string name="evaluation_number_of_training">ਕਿੰਨੀਆ ਟ੍ਰੇਨਿੰਗਾਂ ਵਿੱਚ ਭਾਗ ਲਿਆ</string>
+    <string name="evaluation_ro_evaluation_msg">ਆਪਣਾ ਮੁਲਾਂਕਣ ਕਰੋ</string>
+    <string name="evaluation_ro_evaluation_msg_first">ਪਹਿਲਾਂ ਆਪਣਾ ਮੁਲਾਂਕਣ  ਕਰੋ</string>
+    <string name="evaluation_shg_list">ਮੁਲਾਂਕਣ ਲਈ ਐਸ.ਐਚ.ਜੀਜ਼ ਦੀ ਸੂਚੀ</string>
+    <string name="evaluation_shg_not_found_msg">ਮੁਲਾਂਕਣ ਲਈ ਚੁਣੀ ਗਈ ਥਾਂ ਤੇ ਕੋਈ ਐਸ.ਐਚ.ਜੀ ਨਹੀਂ ਮਿਲਿਆ!!!</string>
+    <string name="evaluation_start_msg">ਮੁਲਾਂਕਣ ਅਰੰਭ</string>
+    <string name="evaluation_training_date_msg">ਸਿਖਲਾਈ ਦੀ ਮਿਤੀ</string>
+    <string name="faild_code">"ਅਸਫਲ ਕੋਡ, ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ!"</string>
+    <string name="forgot_mpin">ਭੁੱਲ ਗਏ ਐਮ.ਪਿਨ??</string>
+    <string name="forgot_password">ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ? </string>
+    <string name="forgotpin"> Mpin ਭੁੱਲ ਗਏ</string>
+    <string name="gotoHome">ਘਰ ਵਿੱਚ ਜਾਓ</string>
+    <string name="gp">ਗ੍ਰਾਮ ਪੰਚਾਇਤ</string>
+    <string name="gps_not_enabled">GPS ਆਨ ਨਹੀਂ ਹੈ। ਕੀ ਤੁਸੀਂ ਸੈਟਿੰਗਾਂ ਮੀਨੂੰ ਤੇ ਜਾਣਾ ਚਾਹੁੰਦੇ ਹੋ??</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="info">ਲਾਗਇਨ ਜਾਣਕਾਰੀ</string>
+    <string name="info_confirmation">ਜਾਣਕਾਰੀ ਦੀ ਪੁਸ਼ਟੀ</string>
+    <string name="languge_change">ਆਪਣੀ ਭਾਸ਼ਾ ਬਦਲੋ</string>
+    <string name="list_of_shg">ਸਵੈ-ਸਹਾਇਤਾ ਸਮੂਹਾਂ ਦੀ ਸੂਚੀ</string>
+    <string name="list_of_shg_for_evaluation">ਮੁਲਾਂਕਣ ਲਈ ਐਸ.ਐਚ.ਜੀਜ਼ ਦੀ ਸੂਚੀ</string>
+    <string name="list_of_shg_modules">ਭਾਗ</string>
+    <string name="list_of_shg_name">ਸਵੈ-ਸਹਾਇਤਾ ਸਮੂਹਾਂ ਦਾ ਨਾਮ</string>
+    <string name="list_of_shg_selection_evaluation">ਮੁਲਾਂਕਣ ਲਈ ਚੁਣੋ</string>
+    <string name="list_of_shg_training_date">ਸਿਖਲਾਈ ਦੀ ਮਿਤੀ</string>
+    <string name="location">ਟਿਕਾਣਾ</string>
+    <string name="locationOfTraining">ਟਿਕਾਣਾ</string>
+    <string name="login">ਲਾਗ ਇਨ</string>
+    <string name="login_attempt_failed">ਗਲਤੀ: ਇਹ ਉਪਭੋਗਤਾ ਖਾਤਾ ਬਹੁਤ ਸਾਰੀਆਂ ਅਸਫਲ ਕੋਸ਼ਿਸ਼ਾਂ ਕਰਕੇ ਲੌਕ ਕੀਤਾ ਗਿਆ ਹੈ. ਲੌਕਆਉਟ ਟਾਈਮ ਦੀ ਮਿਆਦ ਪੂਰੀ ਹੋਣ ਤੋਂ ਬਾਅਦ ਤੁਸੀਂ 15 ਮਿੰਟ ਬਾਅਦ ਦੁਬਾਰਾ ਲੌਗਇਨ ਕਰ ਸਕਦੇ ਹੋ</string>
+    <string name="login_attempts_msgE">ਲਾਗਇਨ ਕੋਸ਼ਿਸ਼ਾਂ ਬਚੀਆਂ ਹਨ.</string>
+    <string name="login_attempts_msgS">ਤੁਹਾਡੇ ਕੋਲ ਸਿਰਫ ਹੈ</string>
+    <string name="login_massege">ਕਿਰਪਾ ਕਰਕੇ ਸਿਰਫ ਯੂਜ਼ਰ ਆਈ ਡੀ ਨਾਲ ਲਾਗ ਇਨ ਕਰੋ.</string>
+    <string name="menu_change_Language">ਭਾਸ਼ਾ ਬਦਲੋ</string>
+    <string name="menu_gallery">ਗੈਲਰੀ</string>
+    <string name="menu_home">ਘਰ</string>
+    <string name="menu_logout">ਲਾੱਗ ਆਊਟ, ਬਾਹਰ ਆਉਣਾ</string>
+    <string name="menu_send">ਭੇਜੋ</string>
+    <string name="menu_share">ਸਾਂਝਾ ਕਰੋ</string>
+    <string name="menu_slideshow">ਸਲਾਈਡ ਸ਼ੋ</string>
+    <string name="menu_tools">ਸੰਦ</string>
+    <string name="minimum_half_members_required_for_baseline">ਘੱਟੋ ਘੱਟ 50% ਮੈਂਬਰਾਂ ਦੀ ਲੋੜ ਹੈ ਅਤੇ ਦਰਜ ਕੀਤੀ ਗਿਣਤੀ ਕੁੱਲ ਐਸ.ਐਚ.ਜੀ ਮੈਂਬਰਾਂ ਤੋਂ ਵੱਧ ਨਹੀਂ ਹੋ ਸਕਦੀ</string>
+    <string name="module_Evaluation">ਮੁਲਾਂਕਣ</string>
+    <string name="module_Evaluation3">3. ਮੁਲਾਂਕਣ</string>
+    <string name="module_Report">4. ਰਿਪੋਰਟ</string>
+    <string name="module_add_Training">2. ਸਿਖਲਾਈ</string>
+    <string name="modules">Modules</string>
+    <string name="msg_logout">ਕੀ ਤੁਸੀਂ ਲਾਗ ਆਊਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"ਉੱਪਰ ਵੱਲ ਨੈਵੀਗੇਟ ਕਰੋ"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"ਨੈਵੀਗੇਸ਼ਨ ਡ੍ਰਾਅਰ ਖੋਲ੍ਹੋ"</string>
+    <string name="nav_header_desc">ਨੇਵੀਗੇਸ਼ਨ ਸਿਰਲੇਖ</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">ਐਂਡਰਾਇਡ ਸਟੂਡੀਓ</string>
+    <string name="navigation_drawer_close">ਨੇਵੀਗੇਸ਼ਨ  ਨੂੰ ਬੰਦ ਕਰੋ</string>
+    <string name="navigation_drawer_open">ਨੈਵੀਗੇਸ਼ਨ ਖੋਲ੍ਹੋ</string>
+    <string name="next">ਅਗਲਾ</string>
+    <string name="no_internet_dialog">ਕੋਈ ਇੰਟਰਨੈਟ ਨਹੀਂ!</string>
+    <string name="no_pending_shgB">ਬੇਸਲਾਈਨ ਲਈ ਕੋਈ ਬਕਾਇਆ ਐਸ.ਐਚ.ਜੀ. ਨਹੀਂ ਹੈ। .</string>
+    <string name="nodataFound">ਐਸ.ਐਚ.ਜੀਜ਼ ਬੇਸਲਾਈਨ ਇਸ ਪਿੰਡ ਅਧੀਨ ਨਹੀਂ ਕੀਤੀ ਗਈ!!!</string>
+    <string name="noofDays">ਮਹੀਨੇ ਵਿੱਚ ਦਿੱਤੀ ਗਈ ਸਿਖਲਾਈ ਦੀ ਗਿਣਤੀ:</string>
+    <string name="noofShgs">ਮਹੀਨੇ ਵਿੱਚ ਵਿਲੱਖਣ ਢੰਗ ਨਾਲ ਸਿਖਲਾਈ ਪ੍ਰਾਪਤ ਐਸ.ਐਚ.ਜੀਜ਼ ਦੀ ਗਿਣਤੀ:</string>
+    <string name="noofshgsassesmentdone">ਐਸ.ਐਚ.ਜੀਜ਼ ਦੀ ਗਿਣਤੀ ਜਿਨ੍ਹਾਂ ਦਾ ਮੁਲਾਂਕਣ ਕੀਤਾ ਗਿਆ ਹੈ: </string>
+    <string name="noofshgsbaselinedone">ਐਸ.ਐਚ.ਜੀਜ਼ ਦੀ ਗਿਣਤੀ ਜਿਨ੍ਹਾਂ ਦੀ ਬੇਸਲਾਈਨ ਕੀਤੀ ਗਈ ਹੈ:</string>
+    <string name="not_eligible_for_evolution">ੁਲਾਂਕਣ ਲਈ ਯੋਗ ਨਹੀਂ</string>
+    <string name="nubmber_of_shg_member_participating"> ਹਿੱਸਾ ਲੈ ਰਹੇ ਹੋਰ ਮੈਂਬਰ</string>
+    <string name="number_of_selected_shg_for_evaluation">ਮੁਲਾਂਕਣ ਲਈ ਚੁਣੇ ਗਏ ਐਸ.ਐਚ.ਜੀ</string>
+    <string name="number_of_shg_member">ਮੁਲਾਂਕਣ ਵਿੱਚ ਮੈਂਬਰਾਂ ਦੀ ਗਿਣਤੀ</string>
+    <string name="number_of_shg_participating">ਭਾਗ ਲੈ ਰਹੇ ਐਸ.ਐਚ.ਜੀ.</string>
+    <string name="number_of_shg_present_in_meeting">ਮੀਟਿੰਗ ਵਿਚ ਹਾਜ਼ਰ ਮੈਂਬਰਾਂ ਦੀ ਗਿਣਤੀ</string>
+    <string name="openDrawer">ਦਰਾਜ਼ ਖੁੱਲਾ</string>
+    <string name="otherMemberParticipated">ਹੋਰ ਮੈਂਬਰ ਸ਼ਾਮਲ ਹੋਏ</string>
+    <string name="other_member_participating"> ਹਿੱਸਾ ਲੈ ਰਹੇ ਹੋਰ ਮੈਂਬਰ</string>
+    <string name="other_particepant">ਹੋਰ ਭਾਗੀਦਾਰ</string>
+    <string name="otp_creation">OTP ਬਣਾਉਣਾ</string>
+    <string name="otp_greeting">ਨਮਸਕਾਰ!</string>
+    <string name="otp_massage">ਸਕਸ਼ਮ ਐਪਲੀਕੇਸ਼ਨ ਲਈ ਵਨ ਟਾਈਮ ਪਾਸਵਰਡ (ਓਟੀਪੀ) ਹੈ. ਇਸਨੂੰ ਕਿਸੇ ਨਾਲ ਸਾਂਝਾ ਨਾ ਕਰੋ</string>
+    <string name="pending_evaluation">ਬਕਾਇਆ ਮੁੱਲਾਂਕਣ ਵੇਰਵੇ:</string>
+    <string name="pending_evaluation1">ਬਕਾਇਆ ਮੁੱਲਾਂਕਣ ਵੇਰਵੇ:</string>
+    <string name="pending_shgs">ਮੁਲਾਂਕਣ ਲਈ ਬਕਾਇਆ ਐਸ.ਐਚ.ਜੀਜ਼</string>
+    <string name="photo_gps">ਫੋਟੋ ਅਤੇ ਜੀ.ਪੀ.ਐਸ </string>
+    <string name="please_enter_other_participant">ਕਿਰਪਾ ਕਰਕੇ ਹੋਰ ਭਾਗੀਦਾਰ ਨੂੰ ਦਾਖਲ ਕਰੋ !!!!</string>
+    <string name="please_enter_valid_pin_details">"ਕਿਰਪਾ ਕਰਕੇ ਯੋਗ ਵੇਰਵੇ ਦਾਖਲ ਕਰੋ"</string>
+    <string name="please_enter_your_id">"Please enter your Id"</string>
+    <string name="please_enter_your_password">"ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਪਾਸਵਰਡ ਦਰਜ ਕਰੋ। "</string>
+    <string name="please_fill_proper_details">ਕਿਰਪਾ ਕਰਕੇ ਸਹੀ ਵੇਰਵੇ ਭਰੋ</string>
+    <string name="please_select_atleast_half_member">"ਘੱਟੋ ਘੱਟ 50% ਮੈਂਬਰਾਂ ਦੀ ਲੋੜ ਹੈ.."</string>
+    <string name="please_select_atleast_one_member">"ਕਿਰਪਾ ਕਰਕੇ ਘੱਟੋ ਘੱਟ ਇੱਕ ਮੈਂਬਰ ਦੀ ਚੋਣ ਕਰੋ."</string>
+    <string name="please_select_atleast_one_module">"Please select atleast one module."</string>
+    <string name="please_select_atleast_one_shg">"ਕਿਰਪਾ ਕਰਕੇ ਘੱਟੋ ਘੱਟ ਇੱਕ ਐਸ.ਐਚ.ਜੀ. ਦੀ ਚੋਣ ਕਰੋ."</string>
+    <string name="please_select_atlest_one_mod">"ਕਿਰਪਾ ਕਰਕੇ ਘੱਟੋ ਘੱਟ ਇਕ ਭਾਗ ਦੀ ਚੋਣ ਕਰੋ"</string>
+    <string name="reset_pass_TV">ਪਾਸਵਰਡ ਦੁਬਾਰਾ ਸੈੱਟ ਕਰੋ</string>
+    <string name="save">ਸੁਰੱਖਿਅਤ ਕਰੋ</string>
+    <string msgid="730395136688082741" name="search_menu_title">"ਖੋਜ"</string>
+    <string name="selectMonth">ਮਹੀਨਾ ਚੁਣੋ</string>
+    <string name="selectShg">ਐਸ.ਐਚ.ਜੀਜ਼ ਦੀ ਚੋਣ ਕਰੋ</string>
+    <string name="select_block">ਬਲਾਕ ਚੁਣੋ</string>
+    <string name="select_content">Select Content</string>
+    <string name="select_date">ਮਿਤੀ ਦੀ ਚੋਣ ਕਰੋ</string>
+    <string name="select_gp">ਗ੍ਰਾਮ ਪੰਚਾਇਤ ਚੁਣੋ</string>
+    <string name="select_language">ਭਾਸ਼ਾ ਚੁਣੋ</string>
+    <string name="select_location">"ਚੁਣੀ ਜਗ੍ਹਾ"</string>
+    <string name="select_location_de">ਐਸ.ਐਚ.ਜੀਜ਼ ਦੇ ਵੇਰਵੇ</string>
+    <string name="select_module">ਭਾਗ ਚੁਣੋ</string>
+    <string name="select_month">ਕਿਰਪਾ ਕਰਕੇ ਮਹੀਨਾ ਚੁਣੋ.</string>
+    <string name="select_village">ਪਿੰਡ ਚੁਣੋ </string>
+    <string name="send_otp">OTP ਭੇਜੋ</string>
+    <string name="server_error_device_info">ਜੰਤਰ ਜਾਣਕਾਰੀ!!!</string>
+    <string name="server_error_device_info_massege">ਕਿਰਪਾ ਕਰਕੇ ਰਜਿਸਟਰਡ ਆਈ ਡੀ ਤੋਂ ਲੌਗਇਨ ਕਰੋ </string>
+    <string name="server_error_dialog">ਸਰਵਰ ਗਲਤੀ!</string>
+    <string name="server_error_invalid_date">ਗਲਤ ਤਾਰੀਖ !!!</string>
+    <string name="server_error_invalid_date_massege">ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਮੋਬਾਈਲ ਫੋਨ ਦੀ ਮਿਤੀ ਠੀਕ ਕਰੋ.</string>
+    <string name="server_error_invalid_password">Invalid Password !!!</string>
+    <string name="server_error_invalid_password_massege">ਦਰਜ ਕੀਤਾ ਪਾਸਵਰਡ ਗਲਤ ਹੈ</string>
+    <string name="server_error_invalid_userId">ਗਲਤ ਯੂਜ਼ਰਆਈਡੀ!!!</string>
+    <string name="server_error_invalid_userId_massege">Invalid Login Id or Password.</string>
+    <string name="server_error_invalid_version">ਗਲਤ ਐਪ ਵਰਸ਼ਨ!!!</string>
+    <string name="server_error_invalid_version_massege">ਐਪਲੀਕੇਸ਼ਨ ਦਾ ਵਰਜਨ ਪੁਰਾਣਾ ਹੈ, ਕਿਰਪਾ ਕਰਕੇ ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਅਪਡੇਟ ਕਰੋ.</string>
+    <string name="shgMemberParticipated">ਭਾਗ ਲੈਣ ਵਾਲੇ ਐਸ.ਐਚ.ਜੀ ਮੈਂਬਰਾਂ ਦੀ ਗਿਣਤੀ</string>
+    <string name="shgParticipated">ਭਾਗ ਲੈਣ ਵਾਲੇ ਐਸ.ਐਚ.ਜੀ ਦੀ ਗਿਣਤੀ</string>
+    <string name="shg_for_baseline">ਬੇਸਲਾਈਨ ਲਈ ਐਸ.ਐਚ.ਜੀ</string>
+    <string name="shg_list_baseline">ਬੇਸਲਾਈਨ ਲਈ ਐਸ.ਐਚ.ਜੀ ਦੀ ਸੂਚੀ</string>
+    <string name="shg_not_found">"ਇਸ ਸਥਾਨ 'ਤੇ ਐਸ.ਐਚ.ਜੀ ਨਹੀਂ ਮਿਲੇ ਹਨ!!"</string>
+    <string name="status">ਸਥਿਤੀ</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="str_no">ਨਹੀਂ</string>
+    <string name="str_yes">ਹਾਂ</string>
+    <string name="sub_total_shg_member">ਕੁਲ</string>
+    <string name="submit">ਜਮ੍ਹਾਂ ਕਰੋ</string>
+    <string name="suggestion">Suggestion: Select 2 language. E.g. English and Local</string>
+    <string name="sync_data">ਸਿੰਕ ਡਾਟਾ</string>
+    <string name="take_photo">ਫੋਟੋ ਲਓ</string>
+    <string name="title_activity_home">ਘਰੇਲੂ ਗਤੀਵਿਧੀ</string>
+    <string name="title_activity_village_modified">ਪਿੰਡ ਬਦਲਿਆ ਗਤੀਵਿਧੀ </string>
+    <string name="title_addtraining">ਸਿਖਲਾਈ</string>
+    <string name="title_baseline">ਬੇਸਲਾਈਨ</string>
+    <string name="title_dashbord">ਡੈਸ਼ਬੋਰਡ</string>
+    <string name="title_viewreport">ਰਿਪੋਰਟ ਵੇਖੋ</string>
+    <string name="toast_FAIL">ਫੇਲ</string>
+    <string name="toast_basline_entervalid_number">ਕਿਰਪਾ ਕਰਕੇ ਯੋਗ ਮੈਂਬਰ ਦਾਖਲ ਕਰੋ</string>
+    <string name="toast_basline_shg_not_found">ਇਸ ਜਗ੍ਹਾ ਤੇ ਐਸ.ਐਚ.ਜੀ ਨਹੀਂ ਮਿਲ ਰਿਹਾ। </string>
+    <string name="toast_data_saved"> ਡਾਟਾ ਸੁਰੱਖਿਅਤ (ਸੇਵ) ਕੀਤਾ ਗਿਆ</string>
+    <string name="toast_enter_member_msg"> ਐਂਟਰ ਕੀਤਾ ਨੰਬਰ ਕੁੱਲ ਮੈਂਬਰਾਂ ਤੋਂ ਵੱਧ ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ। </string>
+    <string name="toast_enter_question"> ਬੇਸ ਲਾਈਨ ਪ੍ਰਸ਼ਨ ਦਾਖਲ ਕਰੋ</string>
+    <string name="toast_error">ਮੈਂਬਰ, ਕੁੱਲ ਮੈਂਬਰਾਂ ਤੋਂ ਵੱਧ ਨਹੀਂ ਹੋਣੇ ਚਾਹੀਦੇ। </string>
+    <string name="toast_erros_shg_not_found">ਇਸ ਸਥਾਨ ਤੇ ਐਸ.ਐਚ.ਜੀਜ਼ ਨਹੀਂ ਮਿਲੇ ਹਨ!!</string>
+    <string name="toast_evaluation_form_fill_msg">ਕ੍ਰਿਪਾ ਕਰਕੇ ਮੁਲਾਂਕਣ ਫਾਰਮ ਭਰੋ !</string>
+    <string name="toast_evaluation_morethen_zero">ਐਂਟਰ ਕੀਤਾ ਨੰਬਰ ਜ਼ੀਰੋ ਤੋਂ ਵੱਧ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ.</string>
+    <string name="toast_evaluation_shgMember">ਐਂਟਰ ਕੀਤਾ ਨੰਬਰ, ਕੁੱਲ ਐਸ.ਐਚ.ਜੀ ਮੈਂਬਰਾਂ ਤੋਂ ਵੱਧ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ। </string>
+    <string name="toast_fill_details">ਕਿਰਪਾ ਕਰਕੇ ਉਚਿਤ ਵੇਰਵੇ ਭਰੋ</string>
+    <string name="toast_language_chang">ਤੁਹਾਡੀ ਭਾਸ਼ਾ ਨੂੰ ਸਫਲਤਾਪੂਰਵਕ ਬਦਲਿਆ ਗਿਆ ਹੈ</string>
+    <string name="toast_language_max_selection">ਤੁਸੀਂ ਸਿਰਫ 2 ਭਾਸ਼ਾ ਚੁਣ ਸਕਦੇ ਹੋ.</string>
+    <string name="toast_language_min_selection">Please select atleast 1 language</string>
+    <string name="toast_location_msg">ਤੁਹਾਡਾ ਪਹਿਲਾਂ ਚੁਣਿਆ ਹੋਇਆ ਸਥਾਨ</string>
+    <string name="toast_nodata_found">ਕੋਈ ਡਾਟਾ ਨਹੀਂ ਮਿਲਿਆ.</string>
+    <string name="toast_nologinid">you have to login first.</string>
+    <string name="toast_nonot_matched_fromlocal">ਦਰਜ ਕੀਤਾ ਨੰਬਰ ਸਹੀ ਨਹੀਂ ਜਾਂ ਪਹਿਲਾਂ ਲੌਗਇਨ  ਹੈ.</string>
+    <string name="toast_not_elegible">ਮੁਲਾਂਕਣ ਲਈ ਯੋਗ ਨਹੀਂ</string>
+    <string name="toast_otp_wrong">ਦਰਜ ਕੀਤਾ OTP ਗਲਤ ਹੈ.</string>
+    <string name="toast_registered_mobile">ਕਿਰਪਾ ਕਰਕੇ ਰਜਿਸਟਰਡ ਮੋਬਾਈਲ ਨੰਬਰ ਦਾਖਲ ਕਰੋ</string>
+    <string name="toast_select_village_msg"> ਕਿਰਪਾ ਕਰਕੇ ਪਹਿਲਾਂ ਪਿੰਡ ਦੀ ਚੋਣ ਕਰੋ!!!</string>
+    <string name="toast_shg_not_found_evaluation"> ਮੁਲਾਂਕਣ ਲਈ ਐਸ.ਐਚ.ਜੀ  ਨਹੀਂ ਲੱਭਿਆ!!</string>
+    <string name="toast_take_picture">ਕਿਰਪਾ ਕਰਕੇ ਤਸਵੀਰ ਲਓ</string>
+    <string name="total">ਕੁੱਲ</string>
+    <string name="total_number_shg">"ਸਵੈ-ਸਹਾਇਤਾ ਸਮੂਹਾਂ ਦੀ ਕੁੱਲ ਸੰਖਿਆ"</string>
+    <string name="total_participants">ਕੁੱਲ ਭਾਗੀਦਾਰ</string>
+    <string name="unlock_first">ਕਿਰਪਾ ਕਰਕੇ ਪਹਿਲਾਂ ਅਨਲੌਕ ਕਰੋ</string>
+    <string name="unsync_baseline">ਬੇਸਲਾਈਨ ਡਾਟਾ</string>
+    <string name="unsync_details">ਬਿਨਾ ਸਮਕਰਮਿਕ ਵੇਰਵਾ:</string>
+    <string name="unsync_evaluation">ਮੁਲਾਂਕਣ ਡੇਟਾ</string>
+    <string name="unsync_training">ਸਿਖਲਾਈ ਡੇਟਾ</string>
+    <string name="unsynced_Bshgs">ਬਿਨਾਂ ਸਮਕਰਮਿਕ ਐਸ.ਐਚ.ਜੀਜ਼</string>
+    <string name="unsynced_Eshgs">Unsynced SHGs</string>
+    <string name="unsynced_training"> ਬਿਨਾਂ ਸਮਕਰਮਿਕ ਸਿਖਲਾਈਆਂ </string>
+    <string name="upload_data">ਡਾਟਾ ਅਪਲੋਡ ਕਰੋ</string>
+    <string name="user_id">ਆਪਣਾ ਯੂਜ਼ਰ ਆਈਡੀ ਦਰਜ ਕਰੋ</string>
+    <string name="user_password">ਆਪਣਾ ਪਾਸਵਰਡ ਦਰਜ ਕਰੋ</string>
+    <string name="value_from_backend">XXXXXX</string>
+    <string name="viewReportLabel">ਰਿਪੋਰਟ ਵੇਖੋ</string>
+    <string name="village">ਪਿੰਡ</string>
+</resources>

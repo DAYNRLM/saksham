@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.captain_miao.optroundcardview.OptRoundCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    app:optRoundCardBackgroundColor="@color/colorTextBlack"
+    android:layout_marginTop="@dimen/dimen_5"
+    android:layout_marginLeft="@dimen/dimen_5"
+    android:layout_marginRight="@dimen/dimen_5"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/parentRL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_2"
+        android:background="#ffffff"
+        android:padding="@dimen/dimen_5">
+
+        <LinearLayout
+            android:id="@+id/dateLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/date" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/date"
+                android:id="@+id/date_viewTV" />
+
+        </LinearLayout>
+        <View
+            android:id="@+id/view_seperator1"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/dateLinearLayout"
+            android:background="@color/colorViewLine" />
+
+        <LinearLayout
+            android:layout_below="@+id/view_seperator1"
+            android:id="@+id/locationLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/locationOfTraining" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/locationOfTraining"
+                android:id="@+id/loc_of_training_viewTV" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_seperator2"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/locationLinearLayout"
+            android:background="@color/colorViewLine" />
+
+        <LinearLayout
+            android:layout_below="@+id/view_seperator2"
+            android:id="@+id/shgLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/shgParticipated" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/shgParticipated"
+                android:id="@+id/shgParticipated_viewTV" />
+
+
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_seperator3"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/shgLinearLayout"
+            android:background="@color/colorViewLine" />
+
+        <LinearLayout
+            android:layout_below="@+id/view_seperator3"
+            android:id="@+id/memberLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="@string/shgMemberParticipated" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/shgMemberParticipated"
+                android:id="@+id/no_of_shg_member_participated_viewTV" />
+
+
+        </LinearLayout>
+        <View
+            android:id="@+id/view_seperator4"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/memberLinearLayout"
+            android:background="@color/colorViewLine" />
+
+        <LinearLayout
+            android:layout_below="@+id/view_seperator4"
+            android:id="@+id/otherLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="@string/other_member_participating" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/other_member_participating"
+                android:id="@+id/other_member_participated_viewTV" />
+
+        </LinearLayout>
+        <View
+            android:id="@+id/view_seperator5"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/otherLinearLayout"
+            android:background="@color/colorViewLine" />
+
+
+
+        <LinearLayout
+            android:layout_below="@+id/view_seperator5"
+            android:id="@+id/moduleLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/modules" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/modules"
+                android:id="@+id/modules_viewTV" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</com.github.captain_miao.optroundcardview.OptRoundCardView>

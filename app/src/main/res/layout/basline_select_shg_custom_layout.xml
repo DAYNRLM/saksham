@@ -1,0 +1,102 @@
+<com.github.captain_miao.optroundcardview.OptRoundCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/dimen_1"
+
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorWhite"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/layoutRv"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/riple"
+                android:layout_height="@dimen/dimen_100">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_margin="10dp"
+                    android:id="@+id/topRelativeLayout"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/basline_customShgNameTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/textSize18"
+                        android:padding="@dimen/space3dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/dimen_5"
+                        android:layout_marginBottom="@dimen/dimen_5"
+                        android:layout_marginLeft="@dimen/dimen_20"
+                        android:text="SHG name"/>
+
+                    <View
+                        android:id="@+id/view_seperator"
+                        android:layout_width="250dp"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="@dimen/dimen_20"
+                        android:layout_below="@+id/basline_customShgNameTv"
+                        android:background="@color/colorViewLine" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/basline_customShgNameTv"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_below="@+id/basline_customShgNameTv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dimen_5"
+                            android:layout_marginBottom="@dimen/dimen_5"
+                            android:layout_marginLeft="@dimen/dimen_20"
+                            android:text="Total Member:"/>
+                        <TextView
+                            android:id="@+id/basline_customShgMemberTv"
+                            android:layout_below="@+id/basline_customShgNameTv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dimen_5"
+                            android:layout_marginBottom="@dimen/dimen_5"
+                            android:layout_marginLeft="@dimen/dimen_20"
+                            android:text="88"/>
+
+                    </LinearLayout>
+
+
+
+
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_alignRight="@+id/topRelativeLayout">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+
+                        android:layout_alignRight="@+id/view_seperator"
+                        android:src="@drawable/forward_arrow" />
+                </LinearLayout>
+            </RelativeLayout>
+
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/childRv"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutRv"/>
+
+    </RelativeLayout>
+
+
+</com.github.captain_miao.optroundcardview.OptRoundCardView>

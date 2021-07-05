@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/evaluation_member_backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_2"
+            android:layout_weight="1"
+            android:background="@drawable/round_shape_dashboard"
+            android:text="@string/back"
+            android:layout_marginLeft="@dimen/dimen_5"
+            android:textColor="@color/colorTextButton"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/evaluation_member_nextBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_2"
+            android:layout_weight="1"
+            android:background="@drawable/round_shape_dashboard"
+            android:elevation="@dimen/dimen_10"
+            android:translationZ="@dimen/dimen_10"
+            android:layout_marginRight="@dimen/dimen_5"
+            android:text="@string/next"
+            android:textColor="@color/colorTextButton"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen_2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorLightHighlight"
+        android:orientation="horizontal"
+
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/text_selected_shg_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dimen_10"
+            android:layout_weight="1.3"
+            android:text="xxxxxxxxxx"
+            android:textSize="@dimen/dimen_15" />
+
+        <TextView
+            android:id="@+id/edit_no_of_shg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:gravity="center"
+            android:inputType="number"
+            android:paddingLeft="@dimen/dimen_5"
+            android:textSize="@dimen/dimen_15" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

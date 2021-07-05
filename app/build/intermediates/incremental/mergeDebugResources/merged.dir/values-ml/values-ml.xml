@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="GPSAlertDialogMessage"> ദയവായി ജി പി യെസ് തുറക്കുക</string>
+    <string name="GPSAlertDialogTitle">ജി പി യെസ് അലേർട്</string>
+    <string name="INTERNET_BAD">സലോ ഇന്റർനെറ്റ് കണക്ഷൻ</string>
+    <string name="INTERNET_MESSAGE">ദയവായി നിങ്ങളുടെ ഇന്റർനെറ്റ് കണക്ഷൻ തുറക്കുക</string>
+    <string name="NOT_AVAILABLE">എൻ എ</string>
+    <string name="NO_INTERNET_TITLE">ഇന്റർനെറ്റ് ലഭ്യം അല്ല</string>
+    <string name="Proceed">തുടരുക</string>
+    <string name="SERVER_ERROR_MESSAGE">ഇന്റെർണൽ സെർവർ എറർ</string>
+    <string name="SERVER_ERROR_TITLE">സെർവർ എറർ</string>
+    <string name="Toast_toast_take_gps">ജി പി യെസ് ശൂന്യമാകരുത്</string>
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"ഹോമിലേക്ക് പോവുക"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"മുകളിലേക്ക് പോവുക"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"കൂടുതൽ ഓപ്ഷനുകൾ"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"പൂർത്തിയായി"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"എല്ലാം കാണുക"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"ആപ്പ് തിരഞ്ഞെടുക്കുക"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"ഓഫ്"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"ഓൺ"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"ഇല്ലാതാക്കുക"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"ഫംഗ്ഷന്‍+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"മെറ്റ+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"സ്‌പെയ്‌സ്"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"മെനു+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"തിരയുക…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"ചോദ്യം മായ്‌ക്കുക"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"ചോദ്യം തിരയുക"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"തിരയുക"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"ചോദ്യം സമർപ്പിക്കുക"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"സംസാരത്തിലൂടെ തിരയുക"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"ഇനിപ്പറയുന്നതുമായി പങ്കിടുക"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> എന്നതുമായി പങ്കിടുക"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"ചുരുക്കുക"</string>
+    <string name="action_settings">സെറ്റിങ്‌സ്</string>
+    <string name="add_location">ലൊക്കേഷൻ ചേർക്കുക</string>
+    <string name="add_participants">പാർട്ടിസിപ്പന്റ്സ് ആഡ് ചെയ്യുക</string>
+    <string name="add_shg"> അയൽക്കൂട്ടം ചേർക്കുക</string>
+    <string name="app_exit_dialog">നിങ്ങൾക്കു എക്സിറ് ചെയ്യണോ</string>
+    <string name="app_name">സാക്ഷം</string>
+    <string name="app_version">ആപ്പ് വേർഷൻ </string>
+    <string name="are_sure_exit"> സെൻട്</string>
+    <string name="atlest_one_shg_should_selected">ഒരു അയൽകൂട്ടാമെങ്കിലും തിരഞ്ഞെടുക്കുക</string>
+    <string name="auto_time_not_enabled"> ഓട്ടോ ടൈം സോൺ ഇനേബിൾ ചെയിതിട്ടില്ല. സെറ്റിംഗ്സ് മെനുവിൽ പോകണമോ</string>
+    <string name="back"> ബാക്ക്</string>
+    <string name="baseline">1. ബേസ് ലൈൻ</string>
+    <string name="baseline_completed">ബേസ് ലൈൻ പൂർത്തീകരിച്ചു</string>
+    <string name="baseline_done">ബേസ് ലൈൻ നടത്തി</string>
+    <string name="baseline_form_title">അയൽക്കൂട്ടങ്ങളുടെ  ബേസ് ലൈൻ ഫോം</string>
+    <string name="baseline_pending"> ബേസ് ലൈൻ പെൻഡിങ്    </string>
+    <string name="baslineDate"> ബേസ് ലൈൻ നടത്തുന്ന തീയതി</string>
+    <string name="baslineDate_completed"> ബേസ് ലൈൻ പൂർത്തീകരിച്ചു</string>
+    <string name="baslineDate_pending">Baseline Panding </string>
+    <string name="baslineDate_selected_location_msg">തിരഞ്ഞെടുത്ത ലൊക്കേഷൻ</string>
+    <string name="baslineDate_total_shg">ആകെ അയൽക്കൂട്ടങ്ങളുടെ എണ്ണം</string>
+    <string name="basline_entred_member">എത്ര മെമ്പർമാർക്കു ഒപ്പിടാൻ സാധിക്കും</string>
+    <string name="basline_shg_name">അയൽകൂട്ടത്തിന്റെ പേര്</string>
+    <string name="basline_totalMember">ആകെ മെമ്പർമാർ</string>
+    <string name="block">ബ്ലോക്ക്</string>
+    <string name="block_grampanchayt_village">ബ്ലോക്ക് - ഗ്രാമപ്പഞ്ചായത് -വില്ലേജ്</string>
+    <string name="bottom_text">Design, hosted and maintained by NIC,Content provided by MORD.</string>
+    <string name="cancel">ക്യാൻസൽ</string>
+    <string name="cant_select_more_than3"> 3 മൊഡ്യൂളുകളിൽ കൂടുതൽ സെലക്ട് ചെയ്യാൻ പറ്റില്ല</string>
+    <string name="capture_gps">ജി പി യെ  സ്ക്യാപ്ചർച്ചെയുക</string>
+    <string name="closeDrawer">ഡ്രവർ    ക്ലോസ് ചെയ്യുക</string>
+    <string name="confirm_details">വിവരങ്ങൾ കൺഫേം ചെയുക</string>
+    <string name="confirm_mpin">നിങ്ങളുടെ എം പിൻ കൺഫേം ചെയ്യുക</string>
+    <string name="confirm_pass">പുതിയ പാസ്സ് വേർഡ് കൺഫേം ചെയ്യുക</string>
+    <string name="content_module">മൊഡ്യൂൾ</string>
+    <string name="dashboard_shg_left">വിലയിരുത്തൽ നടത്താൻ ബാക്കിയുള്ള അയൽക്കൂട്ടങ്ങളുടെ എണ്ണം</string>
+    <string name="dashboard_shg_msg">ആദ്യം അയൽക്കൂട്ടങ്ങളുടെ വിലയിരുത്തൽ നടത്തുക</string>
+    <string name="dashboard_show_detail">വിവരങ്ങൾ കാണിക്കുക</string>
+    <string name="data_info"> ഇതുവരെയുള്ള പുരോഗതി</string>
+    <string name="data_infoB">ബേസ് ലൈൻ പൂർത്തീകരിച്ചു</string>
+    <string name="data_infoE">വിലയിരുത്തൽ</string>
+    <string name="data_infoT">പരിശീലനം പൂർത്തീകരിച്ചു</string>
+    <string name="data_not_found_tost">ഡാറ്റ കാണുന്നില്ല </string>
+    <string name="data_save_succesfully">ഡാറ്റ വിജയകരമായി സേവ് ചെയ്തു</string>
+    <string name="date">തീയതി</string>
+    <string name="date_of_evaluation">വിലയിരുത്തൽ നടത്തുന്ന തീയതി</string>
+    <string name="date_of_training">പരിശീലനം നടക്കുന്ന തീയതി</string>
+    <string name="device">ഡിവൈസ്  അല്ലെങ്കിൽ വെബ് അപ്ലിക്കേഷൻ റീസെറ്റ് ചെയുക .</string>
+    <string name="dialog_evaluation_chang_answer">നിങ്ങളുടെ ഉത്തരങ്ങൾ ചേഞ്ച് ചെയ്യുക</string>
+    <string name="dialog_save_data">നിങ്ങൾക്കു ഡാറ്റ സേവ് ചെയ്യണോ</string>
+    <string name="dialog_save_data_for_evaluation">ഡാറ്റ സേവ് ചെയ്യണമോ \n\n. നിങ്ങളുടെ ലൊക്കേഷൻ</string>
+    <string name="dialog_web_request_failes">ഡാറ്റ സിങ്ക് നടന്നില്ല വീണ്ടും ശ്രെമികുക</string>
+    <string name="do_you_want_to_save_detail"> നിങ്ങൾക്കു വിവരങ്ങൾ സേവ് ചെയ്യണോ</string>
+    <string name="enter_id">നിങ്ങളുടെ ഐ ഡി  എന്റർ ചെയ്യുക</string>
+    <string name="enter_mobile">മൊബൈൽ നമ്പർ  അയക്കുക</string>
+    <string name="enter_mpin">നിങ്ങളുടെ എം പിൻ എന്റർ ചെയ്യുക</string>
+    <string name="enter_number_of_participants">6 അയക്കൂട്ടങ്ങളെക്കാളും കൂടുതൽ ഒറ്റ പരിശീലനത്തിൽ പങ്കെടുപ്പിക്കരുത്</string>
+    <string name="enter_number_of_participants_baseline">പാർട്ടിസിപ്പന്റ്സ് എണ്ണം എന്റർ ചെയ്യുക</string>
+    <string name="enter_otp">ഓ ടി പി എന്റർ ചെയ്യുക</string>
+    <string name="enter_participant">പങ്കെടുക്കുന്നവരെ ചേർക്കുക</string>
+    <string name="enter_pass">പുതിയ പാസ്സ് വേർഡ്</string>
+    <string name="enter_your_password">പാസ്സ്‌വേർഡ് എന്റർ ചെയ്യുക</string>
+    <string name="error_confirm_password">കൺഫേം ചെയ്യുന്ന പാസ്സ്‌വേർഡിന്റെ നീളം 6  ഇത് കുറയാൻ പാടില്ല</string>
+    <string name="error_confirm_password_not_matched">കൺഫേം ചെയ്ത പാസ്സ്‌വേർഡ് മാച്ച് ആവുന്നില്ല</string>
+    <string name="error_invalid_password">ഇൻവാലിദ് പാസ്സ്‌വേർഡ്</string>
+    <string name="error_mobileno"> വാലിഡ്‌ മൊബൈൽ നമ്പർ എന്റർ ചെയ്യുക</string>
+    <string name="error_mobileno_notmatched">എന്റർ ചെയ്ത നമ്പർ മാച്ച് ചെയ്യുന്നില്ല. വീണ്ടും ലോഗിൻ ചെയ്യുക</string>
+    <string name="error_mobileno_notregistered">മൊബൈൽ നമ്പർ രജിസ്റ്റർ ചെയ്തിട്ടില്ല</string>
+    <string name="error_otp">എന്റർ ചെയ്ത ഓ ടി പി തെറ്റാണ്</string>
+    <string name="error_password">പാസ്സ്‌വേർഡ് നീളം കുറവാണ്</string>
+    <string name="error_userId">ഇൻവാലിദ് യൂസർ ഐഡി</string>
+    <string name="evaluation_Question1">1. No. of SHG members done transaction in individual bank account in last 2 months</string>
+    <string name="evaluation_Question10">10.  No. of SHG members availed MUDRA loan for</string>
+    <string name="evaluation_Question2">2. No. of members who have not taken any loan from SHG</string>
+    <string name="evaluation_Question3">3. No. of SHG members have life insurance (PMJJBY)</string>
+    <string name="evaluation_Question4">4. No. of SHG members have accidental insurance(PMSBY)</string>
+    <string name="evaluation_Question5">5. No. of SHG members enrolled under health insurance Scheme (PM-JAY/State specific schemes)</string>
+    <string name="evaluation_Question6">6. No. of SHG members enrolled under pension scheme (Atal Pension Yojana/ PM Shram Yogi Maandhan)</string>
+    <string name="evaluation_Question7">7. No. of SHGs done transaction through BC In last 2 months</string>
+    <string name="evaluation_Question8">8. No. of SHG members done transaction through BC In last 2 month</string>
+    <string name="evaluation_Question9">9.   No. of SHG members having individual OD facility</string>
+    <string name="evaluation_Question_Title1">സഞ്ചിത ധനം  &amp; കടങ്ങൾ</string>
+    <string name="evaluation_Question_Title2">Insurance &amp; Pension</string>
+    <string name="evaluation_Question_Title3">Digital finance</string>
+    <string name="evaluation_Question_Title4">Individual financing</string>
+    <string name="evaluation_date_msg">വിലയിരുത്തൽ  നടത്തിയ തീയതി</string>
+    <string name="evaluation_day_msg"> ദിവസം</string>
+    <string name="evaluation_days_left">ബാക്കിയുള്ള ദിവസങ്ങൾ</string>
+    <string name="evaluation_days_msg">ദിവസങ്ങൾ</string>
+    <string name="evaluation_done_msg"> വിലയിരുത്തൽ നടത്തി</string>
+    <string name="evaluation_no_days_left">ബാക്കിയുള്ള ദിവസങ്ങൾ</string>
+    <string name="evaluation_number_of_training">എത്ര പരിശീലനത്തിൽ പങ്കെടുത്തു</string>
+    <string name="evaluation_ro_evaluation_msg">നിങ്ങളുടെ വിലയിരുത്തൽ നടത്തു</string>
+    <string name="evaluation_ro_evaluation_msg_first"> നിങ്ങളുടെ വിലയിരുത്തൽ ആദ്യം  നടത്തു</string>
+    <string name="evaluation_shg_list">വിലയിരുത്തുന്നതിനുള്ള അയൽക്കൂട്ടങ്ങളുടെ ലിസ്റ്റ്</string>
+    <string name="evaluation_shg_not_found_msg">തിരഞ്ഞെടുത്ത ലൊക്കേഷനിൽ വിലയിരുത്തൽ നടത്താൻ ഉള്ള അയൽക്കൂട്ടങ്ങളുടെ എണ്ണം</string>
+    <string name="evaluation_start_msg">വിലയിരുത്തൽ തുടങ്ങി</string>
+    <string name="evaluation_training_date_msg">പരിശീലന  തീയതി</string>
+    <string name="faild_code">കോഡ് തെറ്റാണ് വീണ്ടും ശ്രെമികുക</string>
+    <string name="forgot_mpin">എംപിൻ മറന്നോ</string>
+    <string name="forgot_password"> പാസ്‍വേർഡ് മറന്നോ</string>
+    <string name="forgotpin">എം പിൻ മറന്നോ</string>
+    <string name="gotoHome">ഹോം പേജിൽ പോവുക</string>
+    <string name="gp">ഗ്രാമ പഞ്ചായത്ത്</string>
+    <string name="gps_not_enabled">ജി പി എസ് ഇനേബിൾ ചെയ്തിട്ടില്ല .നിങ്ങൾക്കു സെറ്റിംഗ്സ് മെനുവിൽ പോകണമോ</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="info">ലോഗിൻ ഇൻഫോ </string>
+    <string name="info_confirmation">ഇൻഫോ കൺഫൈര്മഷൻ</string>
+    <string name="languge_change">ഭാഷ മാറ്റുക</string>
+    <string name="list_of_shg">അയൽക്കൂട്ടങ്ങളുടെ ലിസ്റ്റ്</string>
+    <string name="list_of_shg_for_evaluation">വിലയിരുത്തലിനുള്ള അയൽക്കൂട്ടങ്ങളുടെ ലിസ്റ്റ്</string>
+    <string name="list_of_shg_modules">മൊഡ്യൂൾ</string>
+    <string name="list_of_shg_name">അയൽക്കൂട്ടങ്ങളുടെ  പേര്</string>
+    <string name="list_of_shg_selection_evaluation">വിലയിരുത്തുന്നതിനായി സെലക്ട് ചെയ്യുക</string>
+    <string name="list_of_shg_training_date">പരിശീലന തീയതി</string>
+    <string name="location">ലൊക്കേഷൻ</string>
+    <string name="locationOfTraining"> ലൊക്കേഷൻ</string>
+    <string name="login">ലോഗിൻ</string>
+    <string name="login_attempt_failed">കുറെ പരാജയപ്പെട്ട ലോഗിൻ അറ്റംപ്റ്സ് കാരണം യൂസർ അക്കൗണ്ട് ലോക്ക് ആയി പോയി. 15 മിനിറ്റ് കഴിഞ്ഞു വീണ്ടും ലോഗിൻ ചെയ്യുക . ലോക്ക് ഔട്ട് ടൈം തീർന്നു</string>
+    <string name="login_attempts_msgE">ലോഗിൻ ശ്രമങ്ങൾ ശേഷിക്കുന്നു.</string>
+    <string name="login_attempts_msgS">നിങ്ങൾക്ക് മാത്രമേയുള്ളൂ</string>
+    <string name="login_massege">യൂസർ ഐഡി ഉപയോഗിച്ചു ലോഗിൻ ചെയ്യുക</string>
+    <string name="menu_change_Language">ഭാഷ മാറ്റുക</string>
+    <string name="menu_gallery">ഗ്യാലറി</string>
+    <string name="menu_home">ഹോം</string>
+    <string name="menu_logout">ലോഗ് ഔട്ട്</string>
+    <string name="menu_send"> സെൻട്</string>
+    <string name="menu_share"> ഷെയർ</string>
+    <string name="menu_slideshow"> സ്ലൈഡ് ഷോ</string>
+    <string name="menu_tools">ടൂൾസ്‌</string>
+    <string name="minimum_half_members_required_for_baseline"> മിനിമം 50 % മെമ്പർമാർ ആവശ്യമാണ്.  എന്റർ ചെയ്ത നമ്പർ ആകെ ഉള്ള അയൽക്കൂട്ട മെമ്പർ മാരെകാളും  കൂടാൻ പാടില്ല</string>
+    <string name="module_Evaluation">വിലയിരുത്തൽ</string>
+    <string name="module_Evaluation3">3.വിലയിരുത്തൽ</string>
+    <string name="module_Report">4. റിപ്പോർട്ട്</string>
+    <string name="module_add_Training">2.പരിശീലനം</string>
+    <string name="modules">Modules</string>
+    <string name="msg_logout">നിങ്ങൾക്കു ലോഗ് ഔട്ട് ചെയ്യണോ</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"മുകളിലേക്ക് നാവിഗേറ്റ് ചെയ്യുക"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"നാവിഗേഷൻ ഡ്രോയർ തുറക്കുക"</string>
+    <string name="nav_header_desc">നാവിഗേഷൻ ഹെഡ്‍ർ</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">ആൻഡ്രോയ്‌ഡ് സ്റ്റുഡിയോ</string>
+    <string name="navigation_drawer_close">നാവിഗേഷൻ ഡ്രവർ  ക്ലോസ് ചെയ്യുക</string>
+    <string name="navigation_drawer_open">നാവിഗേഷൻ ഡ്രവർ തുറക്കുക</string>
+    <string name="next"> അടുത്തത്</string>
+    <string name="no_internet_dialog">ഇന്റർനെറ്റ് ലഭ്യമല്ല</string>
+    <string name="no_pending_shgB">ബേസ് ലൈൻ നടത്താൻ  അയൽക്കൂട്ടങ്ങൾ പെൻഡിങ് ഇല്ല</string>
+    <string name="nodataFound">ഈ വില്ലേജിലെ അയൽക്കൂട്ട ബേസ് ലൈൻ പൂർത്തീകരിച്ചു</string>
+    <string name="noofDays">ഈ  മാസം എത്ര  ദിവസം പരിശീലനം നൽകി</string>
+    <string name="noofShgs">എത്ര അയൽക്കൂട്ടങ്ങൾക്കു ഈ മാസം പരിശീലനം നൽകി</string>
+    <string name="noofshgsassesmentdone">എത്ര അയൽക്കൂട്ടങ്ങളുടെ വിലയിരുത്തൽ പൂർത്തീകരിച്ചു</string>
+    <string name="noofshgsbaselinedone">എത്ര അയൽക്കൂട്ടങ്ങളുടെ ബേസ് ലൈൻ പൂർത്തീകരിച്ചു</string>
+    <string name="not_eligible_for_evolution">വിലയിരുത്തുന്നതിന്ന്  യോഗ്യതാ ഇല്ല</string>
+    <string name="nubmber_of_shg_member_participating">SHG member Participating</string>
+    <string name="number_of_selected_shg_for_evaluation">വിലയിരുത്തലിനുള്ള അയൽക്കൂട്ടങ്ങളെ  സെലക്ട് ചെയ്യുക</string>
+    <string name="number_of_shg_member">വിലയിരുത്തുനതിനുള്ള അംഗങ്ങളുടെ എണ്ണം</string>
+    <string name="number_of_shg_participating">പങ്കെടുക്കുന്ന അയൽക്കൂട്ടം</string>
+    <string name="number_of_shg_present_in_meeting"> മീറ്റിംഗിൽ പങ്കെടുക്കുന്ന അംഗങ്ങളുടെ എണ്ണം</string>
+    <string name="openDrawer">ഡ്രവർ  ഓപ്പൺ ചെയ്യുക</string>
+    <string name="otherMemberParticipated">പങ്കെടുത്ത   മറ്റു അംഗങ്ങളുടെ  എണ്ണം</string>
+    <string name="other_member_participating">പങ്കെടുക്കുന്ന മറ്റു അംഗങ്ങൾ</string>
+    <string name="other_particepant">പങ്കെടുക്കുന്ന മറ്റുള്ളവർ</string>
+    <string name="otp_creation">ഓ ടി പി സൃഷ്‌ടികൽ</string>
+    <string name="otp_greeting">നമസ്കാർ</string>
+    <string name="otp_massage"> ഇതു സാക്ഷം അപ്ലിക്കേഷൻ ൻറെ ഒന്നു ടൈം പാസ്സ്‌വേർഡ് ആണ് . മറ്റുള്ളവരും ആയി ഷെയർ ചെയ്യരുത്</string>
+    <string name="pending_evaluation">പെൻഡിങ് ഉള്ള വിലയിരുത്തൽ വിവരങ്ങൾ</string>
+    <string name="pending_evaluation1">പെൻഡിങ് ഉള്ള വിലയിരുത്തൽ വിവരങ്ങൾ</string>
+    <string name="pending_shgs">വിലയിരുത്തൽ നടക്കാത്ത അയൽക്കൂട്ടങ്ങൾ</string>
+    <string name="photo_gps">ഫോട്ടോയും ജി പി എസും</string>
+    <string name="please_enter_other_participant">മറ്റു പാർട്ടിസിപ്പന്റ്സ് എന്റർ ചെയ്യുക</string>
+    <string name="please_enter_valid_pin_details">വാലിഡായ വിവരങ്ങൾ എന്റർ ചെയ്യുക</string>
+    <string name="please_enter_your_id">"നിങ്ങളുടെ ഐ ഡി എന്റെർ ചെയുക"</string>
+    <string name="please_enter_your_password"> ദയവായി പാസ്സ്‌വേർഡ് എന്റർ ചെയ്യുക</string>
+    <string name="please_fill_proper_details">ശേരിയായ വിവരങ്ങൾ പൂരിപ്പിക്കുക</string>
+    <string name="please_select_atleast_half_member"> മിനിമം 50 % മെമ്പർമാർ ആവശ്യമാണ്</string>
+    <string name="please_select_atleast_one_member">ദയവായി ഒരു മെമ്പറെ എങ്കിലും സെലക്ട് ചെയ്യുക</string>
+    <string name="please_select_atleast_one_module">ദയവായി ഒരു മൊഡ്യൂൾ എങ്കിലും തിരഞ്ഞെടുക്കുക</string>
+    <string name="please_select_atleast_one_shg">ദയവായി ഒരു  അയൽക്കൂട്ടത്തെ  സെലക്ട് ചെയ്യുക</string>
+    <string name="please_select_atlest_one_mod">ഒരു മൊഡ്യൂൾ എങ്കിലും സെലക്ട് ചെയ്യുക</string>
+    <string name="reset_pass_TV">പാസ്സ് വേർഡ് റീസെറ്റ്  ചെയ്യുക</string>
+    <string name="save"> സേവ് ചെയ്യുക</string>
+    <string msgid="730395136688082741" name="search_menu_title">"തിരയുക"</string>
+    <string name="selectMonth">മാസം  തിരഞ്ഞെടുക്കുക</string>
+    <string name="selectShg">അയൽക്കൂട്ടങ്ങളെ തിരഞ്ഞെടുക്കുക</string>
+    <string name="select_block">ബ്ലോക്ക് തിരഞ്ഞെടുക്കുക</string>
+    <string name="select_content">Select Content</string>
+    <string name="select_date"> തീയതി തിരഞ്ഞെടുക്കുക</string>
+    <string name="select_gp">ഗ്രാമ പഞ്ചായത്ത് തിരഞ്ഞെടുക്കുക</string>
+    <string name="select_language">ഭാഷ തിരഞ്ഞെടുക്കുക</string>
+    <string name="select_location">തിരഞ്ഞെടുത്ത ലൊക്കേഷൻ</string>
+    <string name="select_location_de">അയൽക്കൂട്ട വിവരങ്ങൾ</string>
+    <string name="select_module">മൊഡ്യൂൾ തിരഞ്ഞെടുക്കുക</string>
+    <string name="select_month">ദയവായി മാസം സെലക്ട് ചെയ്യുക</string>
+    <string name="select_village"> വില്ലേജ് തിരഞ്ഞെടുക്കുക</string>
+    <string name="send_otp">ഓ ടി പി അയക്കുക</string>
+    <string name="server_error_device_info">ഡിവൈസ് ഇൻഫോ</string>
+    <string name="server_error_device_info_massege">രേജിസ്റെർഡ് ഐഡി യിൽ നിന്ന് ലോഗിൻ ചെയ്യുക</string>
+    <string name="server_error_dialog"> സെർവർ എറർ</string>
+    <string name="server_error_invalid_date">ഇൻവാലിദ് തീയതി</string>
+    <string name="server_error_invalid_date_massege">നിങളുടെ മൊബൈൽ ഫോണിൽ തിയതി സെറ്റ് ചെയ്യുക</string>
+    <string name="server_error_invalid_password">ഇൻവാലിദ് പാസ്സ്‌വേർഡ്</string>
+    <string name="server_error_invalid_password_massege">എന്റർ ചെയ്തപാസ്സ്‌വേർഡ്  ഇൻവാലിദ് ആണ്</string>
+    <string name="server_error_invalid_userId">ഇൻവാലിദ് യൂസർ ഐഡി</string>
+    <string name="server_error_invalid_userId_massege">അസാധുവായ ലോഗിൻ ഐഡി അല്ലെങ്കിൽ പാസ്‌വേഡ്..</string>
+    <string name="server_error_invalid_version">ഇൻവാലിദ്  എ പി പി വേർഷൻ</string>
+    <string name="server_error_invalid_version_massege">അപ്ലിക്കേഷൻ വേർഷൻ പഴയതാണ് . ദയവായി അപ്ഡേറ്റ് ചെയ്യുക.</string>
+    <string name="shgMemberParticipated">പങ്കെടുത്ത   അയൽക്കൂട്ട അംഗങ്ങളുടെ  എണ്ണം</string>
+    <string name="shgParticipated">പങ്കെടുത്ത അയൽക്കൂട്ടങ്ങളുടെ   എണ്ണം</string>
+    <string name="shg_for_baseline">വിലയിരുത്തൽ നടത്താനുള്ള അയൽക്കൂട്ടങ്ങൾ</string>
+    <string name="shg_list_baseline">ബേസ് ലൈൻ നടത്തുന്നതിനുള്ള അയൽക്കൂട്ടങ്ങളുടെ ലിസ്റ്റ്</string>
+    <string name="shg_not_found">ഇ ലൊക്കേഷനിൽ അയൽക്കൂട്ടങ്ങൾ ഇല്ല</string>
+    <string name="status"> സ്റ്റാറ്റസ്</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="str_no">തെറ്റാണ്</string>
+    <string name="str_yes">ശെരിയാണ്</string>
+    <string name="sub_total_shg_member">ഉപവിഭാഗത്തിന്റെ ആകെത്തുക</string>
+    <string name="submit">സബ്മിറ്</string>
+    <string name="suggestion">Suggestion: Select 2 language. E.g. English and Local</string>
+    <string name="sync_data"> ഡാറ്റ സിങ്ക് ചെയ്യുക</string>
+    <string name="take_photo">ഫോട്ടോ എടുക്കുക</string>
+    <string name="title_activity_home">ഹോം ആക്റ്റിവിറ്റി</string>
+    <string name="title_activity_village_modified">വില്ലജ് മോഡിഫൈഡ് ആക്ടിവിറ്റി</string>
+    <string name="title_addtraining">പരിശീലനം</string>
+    <string name="title_baseline"> ബേസ് ലൈൻ</string>
+    <string name="title_dashbord">ഡാഷ് ബോർഡ്</string>
+    <string name="title_viewreport">റിപ്പോർട്ട് കാണുക</string>
+    <string name="toast_FAIL">തോൽവി</string>
+    <string name="toast_basline_entervalid_number">ദയവായി വാലിഡ്‌ മെമ്പറെ എന്റർ ചെയ്യുക</string>
+    <string name="toast_basline_shg_not_found">ഈ ലൊക്കേഷനിൽ അയൽക്കൂട്ടങ്ങൾ കാണുന്നില്ല</string>
+    <string name="toast_data_saved">ബേസ് ലൈൻ ചോദ്യങ്ങൾ എന്റർ ചെയ്യുക</string>
+    <string name="toast_enter_member_msg">ആകെ മെമ്പർമാരുടെ എണ്ണത്തേക്കാളും കൂടുതൽ അല്ല എന്റർ ചെയ്‌ത നമ്പർ</string>
+    <string name="toast_enter_question">ബേസ് ലൈൻ ചോദ്യങ്ങൾ എന്റർ ചെയ്യുക</string>
+    <string name="toast_error">മെമ്പർ ആകെ മെമ്പർ മാരേക്കാൾ കൂടുതൽ അകാൻ പാടില്ല</string>
+    <string name="toast_erros_shg_not_found">ഇ ലൊക്കേഷനിൽ അയൽക്കൂട്ടങ്ങളെ കാണാൻ ഇല്ല</string>
+    <string name="toast_evaluation_form_fill_msg">വിലയിരുത്തൽ ഫോം പൂർത്തീകരിക്കുക</string>
+    <string name="toast_evaluation_morethen_zero">പൂജ്യത്തിൽ കൂടുതൽ ഉള്ള നമ്പർ എന്റർ ചെയ്യുക</string>
+    <string name="toast_evaluation_shgMember">എന്റർ ചെയ്ത നമ്പർ ആകെയുള്ള അയൽക്കൂട്ടങ്ങളെക്കാൾ കൂടുതൽ ആണ്</string>
+    <string name="toast_fill_details">ദയവായി ഉചിതമായ വിവരങ്ങൾ പൂരിപ്പിക്കുക</string>
+    <string name="toast_language_chang">നിങ്ങളുടെ ഭാഷ വിജയകരമായി മാറ്റിയിരിക്കുന്നു</string>
+    <string name="toast_language_max_selection">നിങ്ങൾക്കു 2 ഭാഷകൾ തിരഞ്ഞെടുക്കാം</string>
+    <string name="toast_language_min_selection">ദയവായി ഒരു ഭാഷയെങ്കിലും തിരഞ്ഞെടുക്കുക </string>
+    <string name="toast_location_msg">നിങ്ങൾ നേരത്തെ തിരഞ്ഞെടുത്ത ലൊക്കേഷൻ</string>
+    <string name="toast_nodata_found">ഡാറ്റ കാണുന്നില്ല</string>
+    <string name="toast_nologinid">you have to login first.</string>
+    <string name="toast_nonot_matched_fromlocal">എന്റർ ചെയ്ത നമ്പർ മാച്ച് ചെയ്യുന്നില്ല. വീണ്ടും ലോഗിൻ ചെയ്യുക</string>
+    <string name="toast_not_elegible">വിലയിരുത്തൽ നടത്താൻ യോഗ്യതയില്ല</string>
+    <string name="toast_otp_wrong">എന്റർ ചെയ്ത ഓ ടി പി തെറ്റാണ്</string>
+    <string name="toast_registered_mobile">രജിസ്റ്റർ ചെയ്ത മൊബൈൽ നമ്പർ എന്റർ ചെയ്യുക</string>
+    <string name="toast_select_village_msg">ആദ്യം വില്ലജ് തിരഞ്ഞെടുക്കുക</string>
+    <string name="toast_shg_not_found_evaluation">വിലയിരുത്തൽ നടത്തുന്നതിന് അയൽക്കൂട്ടങ്ങളെ കാണുന്നില്ല</string>
+    <string name="toast_take_picture"> ദയവായി ചിത്രം എടുക്കുക</string>
+    <string name="total">മൊത്തം</string>
+    <string name="total_number_shg">അയൽക്കൂട്ടങ്ങളുടെ ആകെ എണ്ണം</string>
+    <string name="total_participants">ആകെ പങ്കെടുക്കുന്നവർ</string>
+    <string name="unlock_first">ആദ്യം അൺലോക്ക് ചെയ്യുക</string>
+    <string name="unsync_baseline">ബേസ് ലൈൻ ഡാറ്റ</string>
+    <string name="unsync_details">സിങ്കചെയാത്ത വിവരങ്ങൾ</string>
+    <string name="unsync_evaluation">വിലയിരുത്തൽ  ഡാറ്റ</string>
+    <string name="unsync_training">ട്രെയിനിങ് ഡാറ്റ</string>
+    <string name="unsynced_Bshgs">സിങ്ക് ചെയ്യാത്ത അയൽക്കൂട്ടങ്ങൾ</string>
+    <string name="unsynced_Eshgs">സിങ്ക് ചെയ്യാത്ത അയൽക്കൂട്ടങ്ങൾ </string>
+    <string name="unsynced_training">സിങ്ക് ചെയ്യാത്ത പരിശീലനങ്ങൾ</string>
+    <string name="upload_data">ഡാറ്റ അപ്‌ലോഡ് ചെയ്യുക</string>
+    <string name="user_id">നിങ്ങളുടെ യൂസർ ഐഡി എന്റർ ചെയ്യുക</string>
+    <string name="user_password">നിങ്ങളുടെ പാസ്‍വേർഡ്  എന്റർ ചെയ്യുക</string>
+    <string name="value_from_backend">XXXXXX</string>
+    <string name="viewReportLabel"> റിപ്പോർട്ട് കാണുക</string>
+    <string name="village">വില്ലേജ്</string>
+</resources>

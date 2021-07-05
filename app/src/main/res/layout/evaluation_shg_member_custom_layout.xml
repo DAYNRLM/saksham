@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.captain_miao.optroundcardview.OptRoundCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/dimen_1"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:layout_marginRight="@dimen/space20dp"
+        android:layout_marginLeft="@dimen/space20dp"
+        android:weightSum="2">
+        <TextView
+            android:id="@+id/select_shgNameMemberTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:layout_weight="1"
+            android:text="@string/number_of_selected_shg_for_evaluation"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/select_enterShgMemberEt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:inputType="number"
+                android:maxLength="3"
+                android:textSize="@dimen/textSize16" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+</com.github.captain_miao.optroundcardview.OptRoundCardView>

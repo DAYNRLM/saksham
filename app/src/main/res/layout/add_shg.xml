@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorScreenBackGround">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/titalLL"
+        android:background="@color/colorScreenBackGround">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_shg"
+        android:visibility="gone"
+        android:textSize="30dp"
+        android:layout_marginTop="@dimen/dimen_15"
+        android:gravity="center_horizontal"
+        android:background="@color/colorTitleBackground"
+        android:textColor="@color/colorTitleText"
+        android:textStyle="bold"
+        />
+
+        <!--android:textColor="@color/colorScreenBackGroundDark"-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:text="@string/selectShg"
+        android:textSize="@dimen/textSize22"
+        android:gravity="center_horizontal"
+        android:background="@color/colorBlackdark"
+        android:textColor="@color/colorTextwhite"
+        android:textStyle="bold"
+        android:layout_marginRight="@dimen/space20dp"
+        android:layout_marginLeft="@dimen/space20dp"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_marginTop="@dimen/dimen_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titalLL"
+        android:layout_marginBottom="@dimen/dimen_10"
+        android:layout_above="@+id/navigationLL"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/add_Shg_rcv"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:visibility="gone"
+        android:text="No Shg found!!!"
+        android:gravity="center"
+        android:textSize="@dimen/dimen_50"
+        android:textColor="@color/color_red"
+        android:id="@+id/noshgTV"/>
+    </LinearLayout>
+    </ScrollView>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:id="@+id/navigationLL"
+     android:weightSum="2"
+     android:layout_marginBottom="@dimen/dimen_10"
+     android:layout_alignParentBottom="true">
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:id="@+id/add_shg_back"
+        android:layout_weight="1"
+        android:padding="@dimen/dimen_5"
+        android:textColor="@color/colorTextButton"
+        android:elevation="@dimen/dimen_10"
+        android:translationZ="@dimen/dimen_10"
+        android:layout_marginLeft="@dimen/dimen_5"
+        android:background="@drawable/round_shape_dashboard" />
+  <Button
+      android:layout_height="wrap_content"
+      android:text="@string/next"
+      android:layout_marginLeft="@dimen/dimen_10"
+      android:layout_width="150dp"
+      android:id="@+id/add_shg_next"
+      android:layout_weight="1"
+      android:textColor="@color/colorTextButton"
+      android:layout_marginRight="@dimen/dimen_5"
+      android:elevation="@dimen/dimen_10"
+      android:translationZ="@dimen/dimen_10"
+      android:background="@drawable/round_shape_dashboard" />
+
+</LinearLayout>
+
+</RelativeLayout>

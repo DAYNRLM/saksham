@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="3dp"
+    android:background="@color/colorLightHighlight">
+
+   <!-- <TextView
+        android:id="@+id/dialof_pendingLocationTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BlockName>>Gpname>>VillageName"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dimen_5"
+        android:textStyle="bold"/>-->
+
+   <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/dimen_5"
+        android:background="@color/colorTitle" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_margin="@dimen/dimen_5"
+        android:background="@drawable/border_of_button"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/notificationShgName_tv"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/textSize18"
+            android:textStyle="bold"
+            android:padding="@dimen/space2dp"
+            android:textColor="@color/color_red"
+            android:text="No of SHGs "/>
+       <!-- <TextView
+            android:id="@+id/dialog_pendingSHGsTv"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/textSize18"
+            android:text="20"/>-->
+
+    </LinearLayout>
+
+</LinearLayout>

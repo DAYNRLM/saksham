@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="GPSAlertDialogMessage">உங்கள் ஜிபிஎஸ் ஐ திறக்கவும். </string>
+    <string name="GPSAlertDialogTitle">ஜிபிஎஸ் அலர்ட்!</string>
+    <string name="INTERNET_BAD">மெதுவான இன்டர்நெட் கனெக்‌ஷன்!!!</string>
+    <string name="INTERNET_MESSAGE">இன்டர்நெட் கனெக்‌ஷனை திற</string>
+    <string name="NOT_AVAILABLE">NA</string>
+    <string name="NO_INTERNET_TITLE">இன்டர்நெட் இல்லை</string>
+    <string name="Proceed">புரசீட்</string>
+    <string name="SERVER_ERROR_MESSAGE">உள் சர்வர் பிழை.</string>
+    <string name="SERVER_ERROR_TITLE">சர்வர் பிழை</string>
+    <string name="Toast_toast_take_gps">ஜிபிஎஸ் காலியாக இருக்ககூடாது</string>
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"முகப்பிற்குச் செல்லும்"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"மேலே செல்லும்"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"மேலும் விருப்பங்கள்"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"முடிந்தது"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"அனைத்தையும் காட்டு"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"ஆப்ஸைத் தேர்வுசெய்க"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"ஆஃப்"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"ஆன்"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt மற்றும்"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl மற்றும்"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function மற்றும்"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta மற்றும்"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift மற்றும்"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym மற்றும்"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu மற்றும்"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"தேடுக…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"வினவலை அழிக்கும்"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"தேடல் வினவல்"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"தேடும்"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"வினவலைச் சமர்ப்பிக்கும்"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"குரல் தேடல்"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"இதில் பகிர்"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> மூலம் பகிர்"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"சுருக்கும்"</string>
+    <string name="action_settings">செட்டிங்ஸ்</string>
+    <string name="add_location">இடம் சேர்க்க</string>
+    <string name="add_participants">பங்கேற்பாளர்களை சேர்</string>
+    <string name="add_shg">சுயஉதவிகுழுவை சேர்</string>
+    <string name="app_exit_dialog">வெளியேற விருப்பமா</string>
+    <string name="app_name">சக்சம்</string>
+    <string name="app_version">App Version:</string>
+    <string name="are_sure_exit">அனுப்பு</string>
+    <string name="atlest_one_shg_should_selected">குறைந்தது ஒரு சுயஉதவிகுழு தெரிவு செய்யவேண்டும்</string>
+    <string name="auto_time_not_enabled">தானியங்கு நேர மண்டலம் இயங்கவில்லை . செட்டிங்ஸ் மெனுவுக்கு போ.</string>
+    <string name="back">பேக்</string>
+    <string name="baseline">1.பேஸ்லைன்</string>
+    <string name="baseline_completed">பேஸ்லைன் நிறைவு</string>
+    <string name="baseline_done">முடிந்த பேஸ்லைன் சுயஉதவிகுழுக்கள்</string>
+    <string name="baseline_form_title">சுயஉதவிகுழு பேஸ்லைன் படிவம்</string>
+    <string name="baseline_pending">பேஸ்லைன் நிலுவை</string>
+    <string name="baslineDate">பேஸ்லைன் தேதி</string>
+    <string name="baslineDate_completed">பேஸ்லைன் முடிந்தவை</string>
+    <string name="baslineDate_pending">Baseline Panding </string>
+    <string name="baslineDate_selected_location_msg">தேர்வு செய்த இடம்</string>
+    <string name="baslineDate_total_shg">மொத்த சுயஉதவிகுழுக்கள்</string>
+    <string name="basline_entred_member">கையொப்பமிட தெரிந்த உறுப்பினர் எண்ணிக்கை</string>
+    <string name="basline_shg_name">சுயஉதவிகுழு பெயர்</string>
+    <string name="basline_totalMember">மொத்த உறுப்பினர்கள்</string>
+    <string name="block">வட்டாரம்</string>
+    <string name="block_grampanchayt_village">வட்டாரம்,பஞ்சாயத்து,கிராமம்.</string>
+    <string name="bottom_text">Design, hosted and maintained by NIC,Content provided by MORD.</string>
+    <string name="cancel">ரத்து செய்</string>
+    <string name="cant_select_more_than3">மூன்று மாடுயூலுக்கு மேல் செலக்ட் செய்யமுடியாது</string>
+    <string name="capture_gps">கேப்ச்சர்  ஜிபிஎஸ்</string>
+    <string name="closeDrawer">டிராயரை மூடு</string>
+    <string name="confirm_details">தகவல்களை உறுதிபடுத்து</string>
+    <string name="confirm_mpin">எம் பின் கன்பர்ம்</string>
+    <string name="confirm_pass">புது பாஸ்வேர்டு உறுதிபடுத்து</string>
+    <string name="content_module">மாடுயூல்ஸ்</string>
+    <string name="dashboard_shg_left">மதிப்பீடு நிலுவை உள்ள சுயஉதவிகுழுக்கள் எண்ணிக்கை</string>
+    <string name="dashboard_shg_msg"> முதலில் இந்த சுயஉதவிகுழு மதிப்பீட்டை முடி</string>
+    <string name="dashboard_show_detail">தகவல்களை காட்டு</string>
+    <string name="data_info">இதுவரை வளர்ச்சி:</string>
+    <string name="data_infoB">பேஸ்லைன் முடிந்தது</string>
+    <string name="data_infoE">மதிப்பீடு</string>
+    <string name="data_infoT">பயிற்சி முடிந்தது</string>
+    <string name="data_not_found_tost">தரவு கிடைக்கவில்லை!.</string>
+    <string name="data_save_succesfully">டேட்டா வெற்றிகரமாக சேமிக்கபட்டது</string>
+    <string name="date">தேதி</string>
+    <string name="date_of_evaluation">மதிப்பீடு தேதி</string>
+    <string name="date_of_training">பயிற்சி தேதி</string>
+    <string name="device">device Or reset account from web application.</string>
+    <string name="dialog_evaluation_chang_answer">உங்கள் விடையை மாற்றவும்.</string>
+    <string name="dialog_save_data">தகவல்களை சேமிக்க வேண்டுமா?</string>
+    <string name="dialog_save_data_for_evaluation">Do you want to save the data?\n\nYour location is</string>
+    <string name="dialog_web_request_failes">டேட்டா சிங் பெயில், மறுபடி முயற்சி செய்!</string>
+    <string name="do_you_want_to_save_detail">தகவல்களை சேமிக்க வேண்டுமா?</string>
+    <string name="enter_id">ஐடி பதிவிடு</string>
+    <string name="enter_mobile">மொபைல்  எண் பதிவிடு</string>
+    <string name="enter_mpin">எம் பின் பதிவிடு</string>
+    <string name="enter_number_of_participants">ஒரு முறையில் 6 சுயஉதவிகுழுக்களுக்கு மேல் பயிற்சிக்கு தேர்வு செய்யகூடாது.</string>
+    <string name="enter_number_of_participants_baseline">பங்கேற்பாளர்கள் எண்ணிக்கை பதிவிடு</string>
+    <string name="enter_otp">ஓடிபி பதிவிடு</string>
+    <string name="enter_participant">பங்கேற்பாளரை பதிவிடு</string>
+    <string name="enter_pass"> புது பாஸ்வேர்டு</string>
+    <string name="enter_your_password">பாஸ்வேர்டு பதிவிடு</string>
+    <string name="error_confirm_password">கன்பர்ம் பாஸ்வேர்டு நீளம் 6க்கு மேல் இருக்க வேண்டும்</string>
+    <string name="error_confirm_password_not_matched">கன்பர்ம் பாஸ்வேர்டு பொருந்தவில்லை</string>
+    <string name="error_invalid_password">தவறான பாஸ்வேர்டு</string>
+    <string name="error_mobileno">சரியான மொபைல் எண்ணை பதிவிடு</string>
+    <string name="error_mobileno_notmatched">பதிவிட்ட எண் பொருந்தவில்லை</string>
+    <string name="error_mobileno_notregistered">மொபைல் எண் ரிஜிஸ்டர் செய்யபடவில்லை</string>
+    <string name="error_otp">பதிவிட்ட ஓடிபி தவறு</string>
+    <string name="error_password">பாஸ்வேர்டு நீளம் குறைவு</string>
+    <string name="error_userId">தவறான யூசர் ஐடி</string>
+    <string name="evaluation_Question1">1. No. of SHG members done transaction in individual bank account in last 2 months</string>
+    <string name="evaluation_Question10">10.  No. of SHG members availed MUDRA loan for</string>
+    <string name="evaluation_Question2">2. No. of members who have not taken any loan from SHG</string>
+    <string name="evaluation_Question3">3. No. of SHG members have life insurance (PMJJBY)</string>
+    <string name="evaluation_Question4">4. No. of SHG members have accidental insurance(PMSBY)</string>
+    <string name="evaluation_Question5">5. No. of SHG members enrolled under health insurance Scheme (PM-JAY/State specific schemes)</string>
+    <string name="evaluation_Question6">6. No. of SHG members enrolled under pension scheme (Atal Pension Yojana/ PM Shram Yogi Maandhan)</string>
+    <string name="evaluation_Question7">7. No. of SHGs done transaction through BC In last 2 months</string>
+    <string name="evaluation_Question8">8. No. of SHG members done transaction through BC In last 2 month</string>
+    <string name="evaluation_Question9">9.   No. of SHG members having individual OD facility</string>
+    <string name="evaluation_Question_Title1">சேமிப்பு கடன்</string>
+    <string name="evaluation_Question_Title2">Insurance &amp; Pension</string>
+    <string name="evaluation_Question_Title3">Digital finance</string>
+    <string name="evaluation_Question_Title4">Individual financing</string>
+    <string name="evaluation_date_msg">மதிப்பீடு தேதி</string>
+    <string name="evaluation_day_msg"> நாள்</string>
+    <string name="evaluation_days_left">மீதமுள்ள நாட்கள்</string>
+    <string name="evaluation_days_msg">நாட்கள்</string>
+    <string name="evaluation_done_msg">மதிப்பீடு முடிவு</string>
+    <string name="evaluation_no_days_left">மீதமுள்ள நாட்கள்</string>
+    <string name="evaluation_number_of_training">எத்தனை பயிற்சிகளில் பங்கேற்பு</string>
+    <string name="evaluation_ro_evaluation_msg">மதிப்பீடு செய்</string>
+    <string name="evaluation_ro_evaluation_msg_first">முதலில் மதிப்பீடு செய்</string>
+    <string name="evaluation_shg_list">மதிப்பிடவேண்டிய  சுயஉதவிகுழுக்கள்  பட்டியல்</string>
+    <string name="evaluation_shg_not_found_msg">தெரிவு செய்த இடத்தில் எத்தனை சுயஉதவிகுழு மதிப்பீட்டிற்கு உள்ளது!!!</string>
+    <string name="evaluation_start_msg">மதிப்பீடு துவங்கு</string>
+    <string name="evaluation_training_date_msg">பயிற்சி தேதிe</string>
+    <string name="faild_code">பெயில்டு குறியீடு, மறுமுயற்சி செய்</string>
+    <string name="forgot_mpin">எம் பின் மறப்பு ?</string>
+    <string name="forgot_password">பாஸ்வேர்டு மறதியா ?</string>
+    <string name="forgotpin">எம் பின்  மறப்பு</string>
+    <string name="gotoHome">ஹோம்க்கு செல்</string>
+    <string name="gp">பஞ்சாயத்து</string>
+    <string name="gps_not_enabled">ஜிபிஎஸ் இயங்கவில்லை. செட்டிங்ஸ் மெனுவுக்கு போகனுமா?</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="info">உள்நுழைவு தகவல்</string>
+    <string name="info_confirmation">தகவல் கன்பர்மேஷன்</string>
+    <string name="languge_change">பாஷை மாற்று</string>
+    <string name="list_of_shg">சுயஉதவிகுழு  பட்டியல்</string>
+    <string name="list_of_shg_for_evaluation">மதிப்பீட்டிற்குண்டான சுயஉதவிகுழு பட்டியல்</string>
+    <string name="list_of_shg_modules">மாடுயூல்ஸ்</string>
+    <string name="list_of_shg_name">சுயஉதவிகுழு பெயர்</string>
+    <string name="list_of_shg_selection_evaluation">மதிப்பீட்டிற்கு தேர்ந்தெடு</string>
+    <string name="list_of_shg_training_date">பயிற்சி தேதி</string>
+    <string name="location">இடம்</string>
+    <string name="locationOfTraining">இடம்</string>
+    <string name="login">உள் நுழை</string>
+    <string name="login_attempt_failed">பிழை: பல முயற்சிகள் தோல்வியடைந்ததால் இந்த பயனர் கணக்கு பூட்டப்பட்டுள்ளது. கதவடைப்பு நேரம் முடிந்த 15 நிமிடங்களுக்குப் பிறகு நீங்கள் மீண்டும் உள்நுழையலாம்</string>
+    <string name="login_attempts_msgE">உள்நுழைவு முயற்சிகள் மீதமுள்ளன.</string>
+    <string name="login_attempts_msgS">உங்களிடம் மட்டுமே உள்ளது</string>
+    <string name="login_massege">யூசர் ஐடிமூலம் மட்டும் உள்புகு</string>
+    <string name="menu_change_Language">பாஷை மாற்று</string>
+    <string name="menu_gallery">காலரி</string>
+    <string name="menu_home">ஹோம்</string>
+    <string name="menu_logout">லாக்அவுட்</string>
+    <string name="menu_send">அனுப்பு</string>
+    <string name="menu_share">பகிர்</string>
+    <string name="menu_slideshow">ஸ்லைடு ஷோ</string>
+    <string name="menu_tools">டூல்ஸ்</string>
+    <string name="minimum_half_members_required_for_baseline">குறைந்தது 50% உறுப்பினர் தேவை, பதிவிட்ட எண்ணிக்கை மொத்த சுயஉதவிகுழு உறுப்பினர் எண்ணிக்கையைவிட அதிகம் இருக்ககூடாது.</string>
+    <string name="module_Evaluation">மதிப்பீடு</string>
+    <string name="module_Evaluation3">3. மதிப்பீடு</string>
+    <string name="module_Report">4. அறிக்கைகள்</string>
+    <string name="module_add_Training">2. பயிற்சி</string>
+    <string name="modules">Modules</string>
+    <string name="msg_logout">வெளியேறனுமா?</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"மேலே செல்லும்"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"வழிசெலுத்தல் டிராயரைத் திறக்கும்"</string>
+    <string name="nav_header_desc">நேவிகேசன் ஹெட்டர்</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">ஆன்ராய்டு ஸ்டுடியோ</string>
+    <string name="navigation_drawer_close">நேவிகேசன் டிராயரை மூடு</string>
+    <string name="navigation_drawer_open">நேவிகேசன் டிராயரை திற</string>
+    <string name="next">அடுத்து</string>
+    <string name="no_internet_dialog">வளைதளம் இல்லை</string>
+    <string name="no_pending_shgB">பேஸ்லைனுக்கு உண்டான சுயஉதவிகுழு நிலுவையில் இல்லை.</string>
+    <string name="nodataFound">சுயஉதவிகுழு பேஸ்லைன் இந்த கிராமத்தில் செய்யபடவில்லை!!!</string>
+    <string name="noofDays">மாதத்தில் பயிற்சி கொடுத்த நாட்கள் எண்ணிக்கை</string>
+    <string name="noofShgs">மாதத்தில் தனிபயிற்சி பெற்ற சுயஉதவிகுழு எண்ணிக்கை</string>
+    <string name="noofshgsassesmentdone">மதிப்பீடு முடித்த சுயஉதவிகுழு எண்ணிக்கை</string>
+    <string name="noofshgsbaselinedone">பேஸ்லைன் முடித்த சுயஉதவிகுழு எண்ணிக்கை</string>
+    <string name="not_eligible_for_evolution">மதிப்பீட்டுக்கு தகுதி இல்லை</string>
+    <string name="nubmber_of_shg_member_participating">SHG member Participating</string>
+    <string name="number_of_selected_shg_for_evaluation">மதிப்பீட்டுக்கு தேர்ந்தெடுக்கபட்ட சுயஉதவிகுழுக்கள்</string>
+    <string name="number_of_shg_member">மதிப்பீட்டில் உள்ள உறுப்பிணர் எண்ணிக்கை</string>
+    <string name="number_of_shg_participating">பங்கேற்கும் சுயஉதவிகுழுக்கள்</string>
+    <string name="number_of_shg_present_in_meeting">கூட்டத்துக்கு வந்தவர் எண்ணிக்கை</string>
+    <string name="openDrawer">டிராயரை திற</string>
+    <string name="otherMemberParticipated">பங்கேற்ற பிற உறுப்பினர்கள் எண்ணிக்கை</string>
+    <string name="other_member_participating">பங்கேற்கும் பிற உறுப்பினர்கள்</string>
+    <string name="other_particepant">வேறு பங்கேற்பாளர்கள்</string>
+    <string name="otp_creation">ஓடிபி உருவாக்கு</string>
+    <string name="otp_greeting">வணக்கம்</string>
+    <string name="otp_massage">இந்த OTP சக்சம் ஆப்புக்கு உண்டானது. பிறரிடம் பகிர வேண்டாம்</string>
+    <string name="pending_evaluation">மதிப்பீடு நிலுவை தகவல்கள்</string>
+    <string name="pending_evaluation1">மதிப்பீடு நிலுவை தகவல்கள்</string>
+    <string name="pending_shgs">மதிப்பீடு நிலுவையில் உள்ள சுயஉதவிகுழுக்கள்</string>
+    <string name="photo_gps">புகைபடம் , ஜிபிஎஸ் </string>
+    <string name="please_enter_other_participant">வேறு பங்கேற்பாளரை பதிவிடு !!</string>
+    <string name="please_enter_valid_pin_details">தகவல்களை சரியாக பதிவிடவும் </string>
+    <string name="please_enter_your_id">"Please enter your Id"</string>
+    <string name="please_enter_your_password">பாஸ்வேர்டு பதிவிடு</string>
+    <string name="please_fill_proper_details">தகவல்களை சரியாக பதிவிடவும்</string>
+    <string name="please_select_atleast_half_member"> குறைந்தது 50% உறுப்பினர் தேவை</string>
+    <string name="please_select_atleast_one_member">ஒரு உறுப்பினராவது செலக்ட் செய்</string>
+    <string name="please_select_atleast_one_module">ஒரு மாடுயூலாவது செலக்ட் செய்</string>
+    <string name="please_select_atleast_one_shg">ஒரு சுயஉதவிகுழுவாவது செலக்ட் செய்</string>
+    <string name="please_select_atlest_one_mod">ஒரு மாடுயூலாவது செலக்ட் செய்</string>
+    <string name="reset_pass_TV">ரீசெட் பாஸ்வேர்டு</string>
+    <string name="save">சேவ்</string>
+    <string msgid="730395136688082741" name="search_menu_title">"தேடல்"</string>
+    <string name="selectMonth">மாதம் தேர்ந்தெடு</string>
+    <string name="selectShg">சுயஉதவிகுழு தேர்ந்தெடு</string>
+    <string name="select_block">வட்டாரம் தேர்ந்தெடு</string>
+    <string name="select_content">Select Content</string>
+    <string name="select_date">தேதி தேர்ந்தெடு</string>
+    <string name="select_gp">பஞ்சாயத்து தேர்ந்தெடு</string>
+    <string name="select_language">பாஷை தேர்ந்தெடு</string>
+    <string name="select_location">தெரிவு செய்த இடம்</string>
+    <string name="select_location_de">சுயஉதவிகுழு தகவல்கள்</string>
+    <string name="select_module">மாடுயூல்  தேர்ந்தெடு</string>
+    <string name="select_month">மாதம் தேர்வு செய்</string>
+    <string name="select_village">கிராமம் தேர்ந்தெடு</string>
+    <string name="send_otp">ஓடிபி அனுப்பு</string>
+    <string name="server_error_device_info">சாதனத்தின் தகவல்!!!</string>
+    <string name="server_error_device_info_massege">ரிஜிஸ்டர் ஜடியில் உள்நுழை</string>
+    <string name="server_error_dialog">சர்வர் தவறு!</string>
+    <string name="server_error_invalid_date">தவறான தேதி!!!</string>
+    <string name="server_error_invalid_date_massege">மொபைலில் தேதி செட் செய்க.</string>
+    <string name="server_error_invalid_password">தவறான பாஸ்வேர்டு!!!</string>
+    <string name="server_error_invalid_password_massege">பதிவிட்டது  தவறான பாஸ்வேர்டு</string>
+    <string name="server_error_invalid_userId">தவறான யூசர் ஐடி !!!</string>
+    <string name="server_error_invalid_userId_massege">தவறான உள்நுழைவு ஐடி அல்லது கடவுச்சொல்.</string>
+    <string name="server_error_invalid_version">தவறான ஆப்பு வெர்சன் !!!</string>
+    <string name="server_error_invalid_version_massege">பழைய வெர்சன். அப்டேட் பண்ணுங்கள்</string>
+    <string name="shgMemberParticipated">பங்கேற்ற சுயஉதவிகுழு உறுப்பினர்கள் எண்ணிக்கை</string>
+    <string name="shgParticipated">பங்கேற்ற  சுயஉதவிகுழு எண்ணிக்கை</string>
+    <string name="shg_for_baseline">பேஸ்லைனுக்கு உண்டான சுயஉதவிகுழு</string>
+    <string name="shg_list_baseline">பேஸ்லைனுக்கு உண்டான சுயஉதவிகுழு பட்டியல்</string>
+    <string name="shg_not_found">சுயஉதவிகுழு இந்த இடத்தில் இல்லை!!</string>
+    <string name="status">இருப்புநிலை</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="str_no">இல்லை</string>
+    <string name="str_yes">ஆம்</string>
+    <string name="sub_total_shg_member">கூட்டுதொகை</string>
+    <string name="submit"> சமர்ப்பிக்கவும்</string>
+    <string name="suggestion">Suggestion: Select 2 language. E.g. English and Local</string>
+    <string name="sync_data"> ஸிங் டேட்டா</string>
+    <string name="take_photo">புகைபடம் எடு</string>
+    <string name="title_activity_home">ஹோம் ஆக்டிவிட்டி</string>
+    <string name="title_activity_village_modified">கிராமத்தால் மாற்றபட்ட செயல்பாடு</string>
+    <string name="title_addtraining">பயிற்சி</string>
+    <string name="title_baseline">பேஸ்லைன்</string>
+    <string name="title_dashbord">டாஸ்போர்டு</string>
+    <string name="title_viewreport">ரிப்போர்டை பார்</string>
+    <string name="toast_FAIL">தோல்வி</string>
+    <string name="toast_basline_entervalid_number">சரியான உறுப்பினரை பதிவிடவும்</string>
+    <string name="toast_basline_shg_not_found">இந்த இடத்தில்  சுயஉதவிகுழு இல்லை</string>
+    <string name="toast_data_saved"> டேட்டா வெற்றிகரமாக சேமிக்கபட்டது</string>
+    <string name="toast_enter_member_msg"> பதிவிட்ட எண்ணிக்கை ,மொத்த எண்ணிக்கையைவிட அதிகம் இருக்க முடியாது</string>
+    <string name="toast_enter_question">பேஸ்லைன் கேள்வியை பதிவிடு</string>
+    <string name="toast_error">மொத்த உறுப்பினர் எண்ணிக்கையைவிட அதிகம் இருக்க முடியாது</string>
+    <string name="toast_erros_shg_not_found">சுயஉதவிகுழு இந்த இடத்தில் இல்லை!!</string>
+    <string name="toast_evaluation_form_fill_msg">சரியான மதிப்பீடு படிவத்தை பதிவிடவும்</string>
+    <string name="toast_evaluation_morethen_zero">பதிவிட்ட எண் 0க்கு மேல் இருக்கவேண்டும்</string>
+    <string name="toast_evaluation_shgMember">பதிவிட்ட எண் மொத்த சுயஉதவிகுழு  உறுப்பினர் எண்ணிக்கை விட அதிகம்</string>
+    <string name="toast_fill_details">சரியான தகவல்களை இடவும்</string>
+    <string name="toast_language_chang">உங்கள் பாஷை வெற்றிகரமாக மாற்றபட்டது</string>
+    <string name="toast_language_max_selection">இரண்டு பாஷைகள் மட்டுமே தெரிவு செய்ய முடியும்</string>
+    <string name="toast_language_min_selection">Please select atleast 1 language</string>
+    <string name="toast_location_msg">முன் தெரிவு செய்த இடம்</string>
+    <string name="toast_nodata_found"> எந்த தகவலும் இல்லை</string>
+    <string name="toast_nologinid">you have to login first.</string>
+    <string name="toast_nonot_matched_fromlocal">பதிவிட்ட எண் பொருந்தவில்லை</string>
+    <string name="toast_not_elegible">மதிப்பீட்டிற்கு தகுதியில்லை</string>
+    <string name="toast_otp_wrong">ஓடிபி பதிவு தவறு</string>
+    <string name="toast_registered_mobile">பதிவுபெற்ற மொபைல் எண் பதிவிடு</string>
+    <string name="toast_select_village_msg">  முதலில் கிராமத்தை தெரிவு செய்!!</string>
+    <string name="toast_shg_not_found_evaluation">மதிப்பிட சுயஉதவிகுழு கானவில்லை!!</string>
+    <string name="toast_take_picture">புகைபடம் எடு</string>
+    <string name="total">மொத்தம்</string>
+    <string name="total_number_shg">சுயஉதவிகுழு மொத்த எண்ணிக்கை</string>
+    <string name="total_participants">மொத்த பங்கேற்பாளர்கள்</string>
+    <string name="unlock_first">முதலில் திற</string>
+    <string name="unsync_baseline">பேஸ்லைன் தகவல்.</string>
+    <string name="unsync_details">அன்சிங்டு தகவல்கள்:</string>
+    <string name="unsync_evaluation">மதிப்பீடு தகவல்</string>
+    <string name="unsync_training">பயிற்சி தகவல்</string>
+    <string name="unsynced_Bshgs">அன்சிங்டு சுயஉதவிகுழுக்கள்</string>
+    <string name="unsynced_Eshgs">ஒத்திசைக்கப்படாத சுய உதவிக்குழு</string>
+    <string name="unsynced_training">அன்சிங்டு பயிற்சிகள்</string>
+    <string name="upload_data">அப்லோடு டாட்டா</string>
+    <string name="user_id">யூசர் ஐடி பதிவிடு</string>
+    <string name="user_password">பாஸ்வேர்டு  பதிவிடு</string>
+    <string name="value_from_backend">XXXXXX</string>
+    <string name="viewReportLabel">அறிக்கையை பார்</string>
+    <string name="village">கிராமம்</string>
+</resources>

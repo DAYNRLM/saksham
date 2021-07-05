@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorScreenBackGround"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dimen_10"
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            android:textColor="@color/colorAppName"
+            android:textSize="@dimen/space20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space20dp"
+            android:layout_marginRight="@dimen/space20dp"
+            android:background="@color/colorTitleBackground"
+            android:gravity="center_horizontal"
+            android:text="@string/number_of_shg_member"
+            android:textColor="@color/colorTitleText"
+            android:textSize="@dimen/textSize18"
+            android:textStyle="bold" />
+       <!-- android:textColor="@color/colorScreenBackGroundDark"-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space20dp"
+            android:layout_marginTop="@dimen/space10dp"
+            android:layout_marginRight="@dimen/space20dp"
+            android:background="@color/colorBlackdark"
+            android:gravity="center_horizontal"
+            android:text="@string/list_of_shg"
+            android:textColor="@color/colorTextwhite"
+            android:textSize="@dimen/textSize22"
+            android:textStyle="bold" />
+
+      <!--  <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space20dp"
+            android:layout_marginTop="@dimen/dimen_10"
+            android:layout_marginRight="@dimen/space20dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/number_of_selected_shg_for_evaluation"
+                android:textColor="@color/colorTitle" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/number_of_shg_present_in_meeting"
+                android:textColor="@color/colorTitle" />
+        </LinearLayout>-->
+
+        <TextView
+            android:id="@+id/evaluationDoneMessg_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/color_red"
+            android:layout_margin="@dimen/dimen_10"
+            android:padding="@dimen/dimen_5"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/textSize18"
+            android:visibility="gone"
+            android:text="All Shgs had done evaluation on this location !!!"/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="@dimen/dimen_10"
+            android:id="@+id/evealuation_enterdMemberRv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space10dp"
+            android:layout_marginRight="@dimen/space10dp" />
+
+
+      <!--  <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_20"
+            android:layout_marginTop="@dimen/dimen_20"
+            android:layout_marginRight="@dimen/dimen_20"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_40"
+                android:layout_marginLeft="@dimen/dimen_20"
+                android:layout_marginTop="@dimen/dimen_10"
+                android:layout_marginRight="@dimen/dimen_20"
+                android:layout_marginBottom="@dimen/dimen_5"
+                android:layout_weight="1"
+                android:background="@drawable/border_of_button">
+
+                <Button
+                    android:id="@+id/evaluation_member_backBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dimen_2"
+                    android:layout_weight="1"
+                    android:background="@color/colorBoxLight"
+                    android:text="@string/back"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_40"
+                android:layout_marginLeft="@dimen/dimen_20"
+                android:layout_marginTop="@dimen/dimen_10"
+                android:layout_marginRight="@dimen/dimen_20"
+                android:layout_marginBottom="@dimen/dimen_5"
+                android:layout_weight="1"
+                android:background="@drawable/border_of_button">
+
+                <Button
+                    android:id="@+id/evaluation_member_nextBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dimen_2"
+                    android:layout_weight="1"
+                    android:background="@color/colorBoxLight"
+                    android:text="@string/next"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>-->
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

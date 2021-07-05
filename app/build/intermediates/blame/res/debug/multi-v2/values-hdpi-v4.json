@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/user/.gradle/caches/transforms-2/files-2.1/a722d83f9ab4d9a17a1eab48f0d8070c/appcompat-1.1.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

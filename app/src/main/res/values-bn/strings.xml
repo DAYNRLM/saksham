@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">সক্ষম
+</string>
+    <string name="back">পিছনে
+</string>
+    <string name="next">পরবর্তী</string>
+    <string name="select_date">তারিখ বাছুন</string>
+    <string name="select_content">বিষয়বস্তু বাছুন </string>
+    <string name="select_module">বিষয়বস্তু বাছুন</string>
+    <string name="status">স্থিতি*</string>
+    <string name="sub_total_shg_member">উপ-সমষ্টি</string>
+    <string name="other_particepant">অন্যান্য যোগদানকারী</string>
+    <string name="total_participants">সর্বমোট যোগদানকারী</string>
+    <string name="value_from_backend">XXXXXX</string>
+    <string name="select_block">ব্লক বাছুন</string>
+    <string name="select_gp">গ্রাম পঞ্চায়েত বাছুন</string>
+    <string name="select_village">গ্রাম বাছুন</string>
+    <string name="date_of_training">প্রশিক্ষণের তারিখ</string>
+    <string name="date_of_evaluation">মুল্যায়নের তারিখ</string>
+    <string name="block">ব্লক</string>
+    <string name="gp">গ্রাম পঞ্চায়েত</string>
+    <string name="village">গ্রাম</string>
+    <string name="unsync_details">অদর্শিত বিবরন:</string>
+    <string name="unsync_baseline">সমীক্ষার প্রাথমিক তথ্যাবলি</string>
+    <string name="unsync_training">প্রশিক্ষণের তথ্য</string>
+    <string name="unsync_evaluation">মুল্যায়নের তথ্য</string>
+    <string name="data_info">এখন পর্যন্ত প্রগতি:</string>
+    //changed
+    <string name="data_infoB">সমীক্ষা সম্পূর্ণ হয়েছে</string>
+    <string name="data_infoT">প্রশিক্ষণ সম্পূর্ণ হয়েছে</string>
+    <string name="data_infoE">মুল্যায়ন</string>
+    <string name="nodataFound">স্বনির্ভর দলের প্রাথমিক সমীক্ষা এই গ্রামে করা হয়নি!!!</string>
+    //changed
+    <string name="location">স্থান</string>
+    <string name="GPSAlertDialogTitle">গ্লোবাল পজিসিনিং সিস্টেমের সঙ্কেত!</string>
+    <string name="GPSAlertDialogMessage">আপনার গ্লোবাল পজিসিনিং সিস্টেম খুলুন. </string>
+    <string name="number_of_shg_participating">যোগদানকারী স্বনির্ভর দল</string>
+    <string name="nubmber_of_shg_member_participating">SHG member Participating</string>
+    <string name="other_member_participating">অন্যান্য যোগদানকারী সদস্য</string>
+    <string name="content_module">মডিউল / প্রশিক্ষণের বিষয়বস্তু</string>
+    <string name="Toast_toast_take_gps">ফাঁক খালি থাকতে পারেনা.</string>
+    <string name="save">সেভ করুন</string>
+    <string name="photo_gps">ফটো এবং গ্লোবাল পজিশনিং সিস্টেম</string>
+    <string name="take_photo">ফটো নিন</string>
+    <string name="capture_gps">গ্লোবাল পজিসিনিং সিস্টেমকে ধরুন</string>
+    <string name="upload_data">তথ্যাবলি আপলোড করুন</string>
+    <string name="title_activity_home">নিজ গৃহের কার্যাবলী</string>
+    <string name="navigation_drawer_open">নেভিগেশন ড্রয়ার খুলুন</string>
+    <string name="navigation_drawer_close">নেভিগেশন ড্রয়ার বন্ধ করুন</string>
+    <string name="nav_header_title">এন্দ্রয়েড স্টুডিও</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">নেভিগেশন হেডার
+</string>
+    <string name="action_settings">সেটিং</string>
+    <string name="add_participants">অংশগ্রহণকারী কে যুক্ত করুন</string>
+
+    <string name="forgot_mpin">MPIN ভূলে গেছেন</string>
+
+
+    <string name="menu_home">গৃহ / প্রথম পাতা</string>
+    <string name="menu_gallery">গ্যালারী</string>
+    <string name="menu_slideshow">স্লাইড শো</string>
+    <string name="menu_tools">যন্ত্র</string>
+    <string name="menu_share">জানান</string>
+    <string name="menu_send">পাঠান</string>
+    <string name="are_sure_exit">পাঠান</string>
+    <string name="str_yes">হ্যাঁ</string>
+    <string name="str_no">না</string>
+    <string name="Proceed">এগিয়ে যান</string>
+    <!--<string name="str_ok">Ok</string>-->
+    <string name="menu_logout">বেরিয়ে যান</string>
+    <string name="menu_change_Language">ভাষা পরিবর্তন করুন</string>
+    <string name="login">লগ ইন</string>
+    <string name="no_internet_dialog">ইন্টারনেট সংযোগ নেই!</string>
+    <string name="server_error_dialog">সার্ভারের ভুল!</string>
+
+
+    <string name="module_add_Training">২ প্রশিক্ষণ</string>
+    <string name="module_Report">৪ রিপোর্ট</string>
+    <string name="module_Evaluation">মূল্যায়ন</string>
+    <string name="module_Evaluation3">৩ মূল্যায়ন</string>
+    <string name="list_of_shg">স্বনির্ভর দলের লিস্ট</string>
+    <string name="list_of_shg_for_evaluation">মূল্যায়নের জন্য স্বনির্ভর দলের লিস্ট</string>
+    <string name="list_of_shg_name">স্বনির্ভর দলের নাম</string>
+    <string name="list_of_shg_modules">বিষয়বস্তু</string>
+    <string name="list_of_shg_training_date">প্রশিক্ষণের তারিখ</string>
+    <string name="list_of_shg_selection_evaluation">মূল্যায়নের জন্য বাছুন</string>
+    <string name="number_of_shg_member">মূল্যায়নের জন্য সদস্য সংখ্যা</string>
+    <string name="languge_change">আপনার ভাষা পরিবর্তন করুন</string>
+    <string name="number_of_selected_shg_for_evaluation">মূল্যায়নের জন্য স্বনিরভর দলগুলি</string>
+    <string name="number_of_shg_present_in_meeting">সভাতে উপস্থিত সদস্য সংখ্যা</string>
+
+
+    <string name="selectShg">স্বনির্ভর দলকে বাছুন
+</string>
+
+
+    <string name="openDrawer">ড্রয়ার খুলুন</string>
+    <string name="closeDrawer">ড্রয়ার বন্ধ করুন</string>
+    <string name="select_language">ভাষা নির্ধারণ করুন</string>
+
+    <string name="suggestion">Suggestion: Select 2 language. E.g. English and Local</string>
+    <string name="viewReportLabel">রিপোর্ট দেখুন</string>
+    <string name="selectMonth">মাস বেছে নিন</string>
+    <string name="date">তারিখ</string>
+    <string name="locationOfTraining">স্থান</string>
+    <string name="shgParticipated">অংশ গ্রহণকারী স্বনির্ভর দলের সংখ্যা</string>
+    <string name="shgMemberParticipated">Nঅংশ গ্রহণকারী স্বনির্ভর দলের সদস্য সংখ্যা</string>
+    <string name="otherMemberParticipated">অংশ গ্রহণকারী অন্যান্য সদস্য সংখ্যা</string>
+    <string name="modules">Modules</string>
+    <string name="enter_otp">ও টি পি দিন</string>
+    <string name="submit">জমা করুন</string>
+    <string name="cancel">বাতিল করুন</string>
+    <string name="confirm_pass">নতুন পাসওয়ার্ড নিশ্চিত করুন</string>
+    <string name="enter_pass">নতুন পাসওয়ার্ড</string>
+    <string name="reset_pass_TV">পাসওয়ার্ড আবার ঠিক করুন</string>
+    <string name="send_otp">ও টি পি পাঠান</string>
+    <string name="enter_mobile">আপনার মোবাইল নাম্বার লিখুন</string>
+    <string name="otp_creation">ও টি পি তৈরি করা</string>
+    <string name="total">সর্বমোট</string>
+    <string name="gotoHome">প্রথম পাতাতে চলে যান</string>
+    <string name="noofDays">মাসে কত দিন প্রশিক্ষণ দেওয়া হয়েছে:</string>
+    <string name="noofShgs">মাসে কতগুলো স্বনির্ভর দলকে বিশেষ ভাবে প্রশিক্ষিত করা হয়েছে:</string>
+    <string name="noofshgsbaselinedone">কতগুলো স্বনির্ভর দলের প্রাথমিক সমীক্ষা হয়েছে:</string>
+    <string name="noofshgsassesmentdone">কতগুলো স্বনির্ভর দলের প্রশিক্ষণ পরবর্তী মুল্যায়ন করা হয়েছে: </string>
+    <string name="app_exit_dialog">আপনি কি বেরিয়ে যেতে চান?</string>
+    <string name="user_id">আপনার ইউজার আই ডি দিন</string>
+    <string name="user_password">আপনার পাস ওয়ার্ড দিন</string>
+    <string name="forgot_password">পাসওয়ার্ড ভুলে গেছি</string>
+    <string name="login_massege">কেবলমাত্র ব্যবহারকারীর পরিচিতি দিয়ে লগ ইন করুন.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pending_shgs">মূল্যায়নের জন্য বাকি থাকা স্বনির্ভর দল</string>
+
+    <string name="evaluation_Question_Title1">সঞ্চয় এবং ঋণ</string>
+    <string name="evaluation_Question1">1. কতজন স্বনির্ভর দলের সদস্য নিজ নিজ ব্যাঙ্ক সেভিংস একাউন্টে গত দুই মাসে লেনদেন করেছেন</string>
+    <string name="evaluation_Question2">2. কতজন স্বনির্ভর দলের সদস্য দল থেকে কোন ঋণ গ্রহন করেন নি</string>
+
+    <string name="evaluation_Question_Title2">বীমা এবং পেনশন</string>
+    <string name="evaluation_Question3">3. কতজন স্বনির্ভর দলের সদস্য জীবন বীমা (PMJJBY) করে নিয়েছেন</string>
+    <string name="evaluation_Question4">4. কতজন স্বনির্ভর দলের সদস্য দুর্ঘটনা বীমা (PMSBY) করে নিয়েছেন</string>
+    <string name="evaluation_Question5">5.কতজন স্বনির্ভর দলের সদস্য স্বাস্থ্য সাথী প্রকল্পের অধীনে নথিভুক্ত হয়েছেন</string>
+    <string name="evaluation_Question6">6. কতজন স্বনির্ভর দলের সদস্য পেনশন প্রকল্পের (অটল পেনশন যোজনা) অন্তর্ভুক্ত</string>
+
+    <string name="evaluation_Question_Title3">ডিজিটাল আর্থিক ব্যবস্থা</string>
+    <string name="evaluation_Question7">7.গত দুই মাসে কতগুলো স্বনির্ভর দল বিসি সখীর মাধ্যমে লেনদেন করেছেন</string>
+    <string name="evaluation_Question8">8. গত দুই মাসে কতজন স্বনির্ভর দলের সদস্য বি সি সখীর মাধ্যমে লেনদেন করেছেন</string>
+
+    <string name="evaluation_Question_Title4">ব্যক্তিগত ঋণদান</string>
+    <string name="evaluation_Question9">9.   কতজন স্বনির্ভর দলের সদস্য ব্যক্তিগত ওভার ড্রাফ্‌ট অ্যাকাউন্ট এর সুবিধা পেয়েছেন</string>
+    <string name="evaluation_Question10">10.  স্বনির্ভর দলের কতজন সদস্য মুদ্রাঋণ গ্রহন করেছেন</string>
+
+    <!--   Toast Messages-->
+    <string name="toast_language_max_selection">আপনি শুধু দুটো ভাষা নির্বাচন করতে পারেন</string>
+    <!--   Toast Messages-->
+    <string name="faild_code">"কোড ভুল হয়েছে, আবার চেষ্টা করুন!"</string>
+    <string name="not_eligible_for_evolution">"মূল্যায়নের জন্য উপযুক্ত নয়"</string>
+    <string name="please_select_atlest_one_mod">অনুগ্রহকরে কমপক্ষে একটি মডিউল বাছুন </string>
+    <string name="cant_select_more_than3">"তিনটির বেশী প্রশিক্ষণের বিষয় নির্বাচন করতে পারবেন না"</string>
+    <string name="please_select_atleast_one_member">"কমপক্ষে অন্ততঃ একজন সদস্যকে নির্বাচন করুন"</string>
+    <string name="please_select_atleast_one_shg">"কমপক্ষে অন্ততঃ একটি স্বনির্ভর দলকে নির্বাচন করুন"</string>
+    <string name="please_select_atleast_one_module">অনুগ্রহকরে কমপক্ষে একটি মডিউল বাছুন </string>
+    <string name="toast_language_min_selection">অনুগ্রহকরে কমপক্ষে একটি ভাষা বাছুন </string>
+    <string name="toast_otp_wrong">আপনার ওটিপি টি ভুল.</string>
+    <string name="toast_registered_mobile">নথিভুক্ত মোবাইল নাম্বার দিন</string>
+    <string name="toast_language_chang">আপনার ভাষা সফল ভাবে পরিবরতিত হয়েছে.</string>
+    <string name="toast_evaluation_morethen_zero">প্রদত্ত সংখ্যা শূন্য থেকে বেশী হতে হবে.</string>
+    <string name="toast_evaluation_shgMember">প্রদত্ত সংখ্যা সর্ব মোট স্বনির্ভর দলের সদস্য সংখ্যার চাইতে বেশী</string>
+    <string name="toast_nonot_matched_fromlocal">প্রদত্ত সংখ্যা মিল হচ্ছে না অথবা প্রথম লগ ইন করুন.</string>
+    <string name="toast_basline_shg_not_found">এই স্থানে স্বনির্ভর দলটিকে পাওয়া যাচ্ছে না</string>
+    <string name="toast_basline_entervalid_number">বৈধ সদস্য প্রবিষ্ট করুন</string>
+    <string name="toast_evaluation_form_fill_msg">মুল্যায়ন পত্র পরিপূরণ সম্পূর্ণ করুন!</string>
+    <string name="toast_nodata_found">কোন তথ্য পাওয়া যায়নি</string>
+    <string name="toast_FAIL">ব্যর্থ</string>
+    <string name="otp_greeting">নমস্কার!</string>
+    <string name="otp_massage">এটি সক্ষম কর্মসূচীর এক কালীন পাস ওয়ার্ড । কারো সাথে বিনিময় করবেন না.</string>
+    <string name="toast_fill_details">যথা যুক্ত বিবরণ দিন.</string>
+    <string name="toast_take_picture">ছবি তুলুন.</string>
+    <string name="toast_nologinid">you have to login first.</string>
+    <string name="toast_error">সদস্য সংখ্যা সর্বমোট সদস্য সংখ্যা থেকে বেশী হতে পারে না.</string>
+
+
+    <!--     Error Messages-->
+    <string name="error_mobileno">প্রকৃত কার্যকারী মোবাইল নম্বর দিন.</string>
+    <string name="error_mobileno_notregistered">মোবাইল নম্বর পঞ্জিকৃত হয়নি</string>
+    <string name="error_mobileno_notmatched">প্রদত্ত মোবাইল নম্বর মিল হচ্ছেনা অথবা প্রথমে লগ ইন করুন</string>
+    <string name="error_password">পাস ওয়ার্ড এর দৈর্ঘ্য কম.</string>
+    <string name="error_confirm_password">পাস ওয়ার্ড এর দৈর্ঘ্য কমপক্ষে ৬ টি সংখ্যার হতে হবে.</string>
+    <string name="error_confirm_password_not_matched">প্রদত্ত পাস ওয়ার্ড মিল হচ্ছে না.</string>
+    <string name="error_userId">ব্যবহারকারীর পরিচিতি অসিদ্ধ.</string>
+    <string name="error_invalid_password">অসিদ্ধ পাস ওয়ার্ড.</string>
+    <string name="error_otp">প্রদত্ত ও টি পি ভুল.</string>
+
+    <!--    server error masseges , don't change these strings used in programing conditions-->
+    <string name="data_save_succesfully">প্রদত্ত তথ্য সফল ভাবে সংরক্ষিত করা হয়েছে.</string>
+    <string name="server_error_invalid_userId">ব্যবহারকারীর পরিচিতি অসিদ্ধ!!!</string>
+    <string name="server_error_invalid_userId_massege">ব্যবহারকারীর প্রদত্ত পরিচিতি অসিদ্ধ.</string>
+    <string name="server_error_invalid_password">অসিদ্ধ পাস ওয়ার্ড!!!</string>
+    <string name="server_error_invalid_password_massege">প্রদত্ত পাস ওয়ার্ড অসিদ্ধ.</string>
+    <string name="server_error_invalid_version">অ্যাপ্লিকেশান সংস্করণ সিদ্ধ নয়!!!</string>
+    <string name="server_error_invalid_version_massege">অ্যাপ্লিকেশন সংস্করণ পুরানো, আধুনিক সংস্করণ নিয়ে নিন.</string>
+    <string name="server_error_invalid_date">তারিখ অসিদ্ধ!!!</string>
+    <string name="server_error_invalid_date_massege">আপনার মোবাইল ফোনের তারিখ প্রদান করুন.</string>
+    <string name="server_error_device_info">যন্ত্রের বিবরন!!!</string>
+    <string name="server_error_device_info_massege">পঞ্জিকৃত ব্যবহারকারীর পরিচিতি দিয়ে লগ ইন করুন</string>
+    <string name="device">ওয়েব অ্যাপলিকেশন পুনরায় সেট/চালু করুন । </string>
+
+
+    <!--   Dialog Messages-->
+    <string name="please_fill_proper_details">প্রকৃত তথ্য লিপিবদ্ধ করুন.</string>
+    <string name="do_you_want_to_save_detail">আপনি কি এই তথ্য সংরক্ষণ করতে চান?</string>
+    <string name="info_confirmation">তথ্যের সম্মতি</string>
+    <string name="msg_logout">আপনি কি বেরিয়ে যেতে চান?</string>
+    <string name="NOT_AVAILABLE">অপ্রয়োজনীয়</string>
+    <string name="NO_INTERNET_TITLE">ইন্টারনেট সংযোগ নেই!</string>
+    <string name="SERVER_ERROR_TITLE">সার্ভারের ভুল ভ্রান্তি!</string>
+    <string name="INTERNET_MESSAGE">আপনার ইন্টারনেট সংযোগ খুলুন.</string>
+    <string name="INTERNET_BAD">ইন্টারনেট সংযোগ খুব ধীরে চলছে!!!</string>
+    <string name="SERVER_ERROR_MESSAGE">ইন্টেরনেট সার্ভারের ভুল.</string>
+    <string name="dialog_evaluation_chang_answer">আপনার উত্তর পরিবর্তন করুন.</string>
+    <string name="dialog_save_data">আপনি কি প্রদত্ত তথ্য সংরক্ষণ করতে চাইছেন?</string>
+    <string name="dialog_save_data_for_evaluation">আপনি কি তথ্যগুলি সংরক্ষণ / জমা করতে চান ?\n\n তাহলে স্থানটি হচ্ছে </string>
+
+    <!--    //...............................................................-->
+    <string name="please_enter_valid_pin_details">"প্রকৃত ও সঠিক তথ্যের বিবরণ দিন"</string>
+    <string name="please_enter_your_password">"আপনার পাস ওয়ার্ড দিন"</string>
+    <string name="enter_your_password">"আপনার পাস ওয়ার্ড দিন"</string>
+    <string name="enter_id">"আপনার ব্যবহারকারীর পরিচিতি দিন"</string>
+    <string name="please_enter_your_id">"আপনার ব্যবহারকারীর পরিচিতি দিনd"</string>
+    <string name="baseline_completed">"প্রাথমিক সমীক্ষা সম্পূর্ণ হয়েছে"</string>
+    <string name="baseline_pending">"প্রাথমিক সমীক্ষা অপূর্ণ রয়েছে"</string>
+    <string name="total_number_shg">"স্বনির্ভর দলের মোট সংখ্যা"</string>
+    //changed
+    <string name="shg_not_found">"স্বনির্ভর দলটিকে এই স্থানে পাওয়া যাচ্ছে না!!"</string>
+    <string name="select_location">"নির্ধারিত স্থান"</string>
+    <string name="select_location_de">Sস্বনির্ভর দলের পূর্ণ বিবরণ</string>
+    <string name="block_grampanchayt_village">ব্লক>>গ্রাম পঞ্চায়েত>>গ্রাম</string>
+    <string name="confirm_details">পূর্ণ বিবরণ অনুমোদন করুন</string>
+    <string name="add_shg">স্বনির্ভর দল কে যুক্ত করুন</string>
+    <string name="enter_participant">অংশগ্রহণকারী কে প্রবিষ্ট করান</string>
+    <string name="unlock_first">প্রথমে তালা খুলে দিন</string>
+    <string name="baseline_done">স্বনির্ভর দলের প্রাথমিক সমীক্ষা হয়েছে</string>
+
+    <string name="enter_mpin">আপনার ব্যক্তিগত মোবাইল পরিচিতির সংখ্যা প্রদান করুন</string>
+    <string name="confirm_mpin">আপনার ব্যক্তিগত মোবাইল পরিচিতির সংখ্যা অনুমোদন করুন</string>
+    <string name="add_location">স্থান সংযোগ করুন</string>
+    <string name="sync_data">তথ্য সামিল করুন</string>
+    <string name="baseline"> ১ প্রাথমিক অবস্থান</string>
+    <string name="baseline_form_title">স্বনির্ভর দলের প্রাথমিক অবস্থান নিরূপণের নথি</string>
+    <string name="forgotpin">ব্যাক্তিগত মোবাইল পরিচিতি সংখ্যা ভুলে গেছি</string>
+
+    <string name="unsynced_Bshgs">তথ্যহীন স্বনির্ভর দল</string>
+    <string name="unsynced_training">অসংরক্ষিত প্রশিক্ষণের তথ্য</string>
+    <string name="unsynced_Eshgs">Unsynced SHGs</string>
+    <string name="select_month">মাস নির্বাচন করুন</string>
+
+    <!--  toolbar titles-->
+    <string name="title_viewreport">রিপোর্ট দেখুন</string>
+    <string name="title_addtraining">প্রশিক্ষণ</string>
+    <string name="title_dashbord">ড্যাশ বোর্ড</string>
+    <string name="title_baseline">প্রাথমিক অবস্থান</string>
+    //changed
+
+
+    <!--created by lincon-->
+
+    <string name="baslineDate">প্রাথমিক অবস্থানের তারিখ</string>
+    <string name="baslineDate_selected_location_msg">নির্ধারিত স্থান</string>
+    <string name="baslineDate_total_shg">স্বনির্ভর দলের সর্বমোট সংখ্যা</string>
+    <string name="baslineDate_completed">প্রাথমিক সমীক্ষা সম্পূর্ণ হয়েছে</string>
+    <string name="baslineDate_pending">Baseline Panding </string>
+    <string name="basline_shg_name">স্বনির্ভর দলের নাম</string>
+    <string name="basline_totalMember">সর্বমোট সদস্য সংখ্যা</string>
+    <string name="basline_entred_member">কতজন সদস্য স্বাক্ষর করতে পারেন</string>
+    <string name="evaluation_shg_list">মূল্যায়নের জন্য স্বনির্ভর দলের লিস্ট</string>
+    <string name="evaluation_days_left">বাকি দিন</string>
+    <string name="evaluation_days_msg"> দিনগুলি</string>
+    <string name="evaluation_day_msg"> দিন</string>
+    <string name="evaluation_start_msg">মূল্যায়ন শুরু</string>
+    <string name="evaluation_done_msg">মুল্যায়ন সম্পূর্ণ</string>
+    <string name="evaluation_ro_evaluation_msg">আপনার মুল্যায়ন করুন</string>
+    <string name="evaluation_ro_evaluation_msg_first">আপনার মুল্যায়ন আগে করুন</string>
+    <string name="evaluation_number_of_training">মোট অংশগ্রহণকারী প্রশিক্ষণের সংখ্যা</string>
+    <string name="evaluation_date_msg">মূল্যায়নের তারিখ</string>
+    <string name="evaluation_training_date_msg">প্রশিক্ষণের তারিখ</string>
+    <string name="evaluation_no_days_left">আর কতদিন বাকি আছে</string>
+    <string name="pending_evaluation">বকেয়া মূল্যায়নের বিবরণ:</string>
+    <string name="pending_evaluation1">বকেয়া মূল্যায়নের বিবরণ:</string>
+
+    <string name="dashboard_shg_left">মূল্যায়নের জন্য বকেয়া স্বনির্ভর দলের সংখ্যা</string>
+    <string name="dashboard_show_detail">সম্পূর্ণ বিবরণ দেখান</string>
+    <string name="dashboard_shg_msg">প্রথমে এই স্বনির্ভর দলের মুল্যয়ন সম্পূর্ণ করুন</string>
+    <string name="evaluation_shg_not_found_msg">মূল্যায়নের জন্য নির্ধারিত স্থানে কোন স্বনির্ভর দল পাওয়া যায়নি!!!</string>
+
+    <!--tost-->
+
+    <string name="toast_location_msg">আপনার পূর্বে নির্ধারিত স্থান</string>
+    <string name="toast_select_village_msg">প্রথমে গ্রাম নির্বাচন করুন !!!!</string>
+    <string name="toast_erros_shg_not_found"> নির্ধারিত স্থানে স্বনির্ভর দলটিকে পাওয়া যাচ্ছে না!!</string>
+    <string name="toast_enter_question"> প্রাথমিক সমীক্ষার প্রশ্নগুলো দিন</string>
+    <string name="toast_data_saved"> তথ্য সাফল্যের সঙ্গে সংরক্ষিত হল</string>
+    <string name="toast_shg_not_found_evaluation"> মূল্যায়নের জন্য স্বনির্ভর দলটিকে পাওয়া যাচ্ছে না!!</string>
+    <string name="toast_enter_member_msg"> প্রদত্ত সংখ্যা মোট সংখ্যার চাইতে বেশী নয়</string>
+    <string name="toast_not_elegible">মূল্যায়নের জন্য উপযুক্ত নয়</string>
+    <string name="title_activity_village_modified">গ্রাম কার্যাবলী পরিবর্তন করেছে</string>
+    <string name="dialog_web_request_failes">তথ্য সংরক্ষণ ব্যর্থ হয়েছে, আবার চেষ্টা করুন!</string>
+
+    <string name="gps_not_enabled">গ্লোবাল পজিশনিং সিস্টেম কে সক্রিয় করা হয়নি । আপনি কি সেটিং মেনু তে যেতে চান?</string>
+    <string name="auto_time_not_enabled">স্বয়ংক্রিয় সময় মণ্ডল সক্রিয় করা হয়নি । সেটিং মেনু তে যান?</string>
+    <string name="please_enter_other_participant">অন্যান্য অংশগ্রহণকারীকে লিপিবদ্ধ করুন !!!!</string>
+
+    <string name="please_select_atleast_half_member">"নুন্যতম পক্ষে ৫০% সদস্য প্রয়োজন"</string>
+    <string name="minimum_half_members_required_for_baseline">নুন্যতম পক্ষে ৫০% সদস্য প্রয়োজন এবং প্রদত্ত সংখ্যা স্বনির্ভর দলের মোট সদস্য সংখ্যার চেয়ে বেশী হতে পারে না</string>
+    <string name="enter_number_of_participants">এক সাথে ৬টি স্বনির্ভর দলের বেশী প্রশিক্ষণের জন্য মনোনীত করা উচিত নয়</string>
+    <string name="shg_for_baseline">প্রাথমিক সমীক্ষার জন্য স্বনির্ভর দল</string>
+    <string name="enter_number_of_participants_baseline">অংশগ্রহণকারীর সংখ্যা প্রবিষ্ট করুন</string>
+    <string name="atlest_one_shg_should_selected">নুন্যতম পক্ষে একটি স্বনির্ভর দল কে মনোনীত করতে হব</string>
+    <string name="shg_list_baseline">প্রাথমিক সমীক্ষার জন্য স্বনির্ভর দলের তালিকা</string>
+    <string name="no_pending_shgB">প্রাথমিক সমীক্ষার জন্য কোন স্বনির্ভর দল বকেয়া নেই.</string>
+    <string name="bottom_text">এনআঈসীর দ্বারা মোআরডীর দ্বারা দিয়েছে এমন পরিমাণ , অতিথি সত্কার ও ব্যবস্থা করা হয়েছে এমন ৷</string>
+
+    //new string add
+    <string name="login_attempts_msgS">আপনার একটি মাত্র</string>
+    <string name="login_attempts_msgE">লগইন চেষ্টা বাকি আছে </string>
+    <string name="data_not_found_tost">তথ্য পাওয়া যাছে না </string>
+    <string name="info">লগইন তথ্য </string>
+    <string name="app_version">অ্যাপ সংস্করণ </string>
+    <string name="login_attempt_failed">ভুলঃ অনেকবার অসফল প্রচেষ্টার জন্য গ্রাহকের এই অ্যাকাউন্ট আবদ্ধ করা হয়েছে । বন্ধ থাকার সময় ১৫ মিনিট পার হলে আবার লগইন করতে পারবেন।</string>
+
+</resources>

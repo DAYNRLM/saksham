@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ସକ୍ଷମ</string>
+    <string name="back">ପଛ </string>
+    <string name="next">ପରବର୍ତ୍ତୀ</string>
+    <string name="select_date">ତାରିଖ ଚୟନ </string>
+    <string name="select_content">Select Content</string>
+    <string name="select_module">ମଡୁଲ ଚୟନ </string>
+    <string name="status">ସ୍ଥିତି</string>
+    <string name="sub_total_shg_member">ସମୁଦାୟ</string>
+    <string name="other_particepant">ଅନ୍ୟ ଅଂଶଗ୍ରହଣକାରୀ </string>
+    <string name="total_participants">ସମୁଦାୟ ଅଂଶଗ୍ରହଣକାରୀ </string>
+    <string name="value_from_backend">XXXXXX</string>
+    <string name="select_block">ବ୍ଲକ ଚୟନ କର</string>
+    <string name="select_gp">ଗ୍ରାମ ପଞ୍ଚାୟତ ଚୟନ କର </string>
+    <string name="select_village">ଗ୍ରାମ ଚୟନ କର</string>
+    <string name="date_of_training">ପ୍ରଶିକ୍ଷଣ ତାରିଖ</string>
+    <string name="date_of_evaluation">ମୂଳ୍ୟନିର୍ଦ୍ଧାରଣ ତାରିଖ</string>
+    <string name="block">ବ୍ଲକ </string>
+    <string name="gp">ଗ୍ରାମ ପଂଚାୟତ </string>
+    <string name="village">ଗ୍ରାମ </string>
+    <string name="unsync_details">unsycnd ବିବରଣୀ </string>
+    <string name="unsync_baseline">ମୂଳ ତଥ୍ୟ </string>
+    <string name="unsync_training">ପ୍ରଶିକ୍ଷଣ ତଥ୍ୟ </string>
+    <string name="unsync_evaluation">ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ ତଥ୍ୟ</string>
+    <string name="data_info">ଏବେ ସୁଦ୍ଧା ପ୍ରଗତି ?</string>      //changed
+    <string name="data_infoB">ମୂଳ ଲକ୍ଷ ସମାପ୍ତି </string>
+    <string name="data_infoT">ପ୍ରଶିକ୍ଷଣ ସମାପ୍ତି </string>
+    <string name="data_infoE">ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ</string>
+    <string name="nodataFound">ଏହି ଗ୍ରାମରେ ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀଙ୍କ ମୂଳ ତଥ୍ୟ ନିର୍ଦ୍ଧାରଣ ହୋଇ ନାହିଁ !!!</string> //changed
+    <string name="location">ସ୍ଥାନ </string>
+    <string name="GPSAlertDialogTitle">ପଞ୍ଚାୟତକୁ ସଜାଗ କରିବା !</string>
+    <string name="GPSAlertDialogMessage">ଦୟାକରି ନିଜ ପଞ୍ଚାୟତକୁ ଖୋଲନ୍ତୁ  </string>
+    <string name="number_of_shg_participating">ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ଅଂଶଗ୍ରହଣକାରୀ କରୁଛନ୍ତି </string>
+    <string name="nubmber_of_shg_member_participating">ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ଅଂଶଗ୍ରହଣକାରୀ କରୁଛନ୍ତି </string>
+    <string name="other_member_participating">ଅନ୍ୟାନ୍ୟ ଅଂଶଗ୍ରହଣକାରୀ</string>
+    <string name="content_module">ମଡୁଲ </string>
+    <string name="Toast_toast_take_gps">ପଞ୍ଚାୟତସ୍ଥାନକୁ ଖାଲି ଛାଡ଼ିବେ ନାହିଁ </string>
+    <string name="save">ସଞ୍ଚୟ </string>
+    <string name="photo_gps">ଫଟୋ ଓ ପଞ୍ଚାୟତ ନାମ  </string>
+    <string name="take_photo">ଫଟୋ ନିଅ </string>
+    <string name="capture_gps">ପଞ୍ଚାୟତକୁ ମଧ୍ୟ ସାମିଲ କର </string>
+    <string name="upload_data">ତଥ୍ୟ ଦାଖଲ କର </string>
+    <string name="title_activity_home">ଗୃହ କାର୍ଯ୍ୟକଳାପ </string>
+    <string name="navigation_drawer_open">ଦିଗ ପରିଚାଳକକୁ ଖୋଲନ୍ତୁ </string>
+    <string name="navigation_drawer_close">ଦିଗ ପରିଚାଳକକୁ ବନ୍ଦ ରଖନ୍ତୁ </string>
+    <string name="nav_header_title">ଅଣ୍ଡରାଇଡ ସ୍ଟୁଡ଼ିଓ </string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">ଦିଗ ପରିଚାଳନା ହେଡର</string>
+    <string name="action_settings">ସେଟିଙ୍ଗ </string>
+    <string name="add_participants">ଅଂଶଗ୍ରହଣକାରୀଙ୍କ ନାମ ସାମିଲ କର</string>
+
+    <string name="forgot_mpin">mpin ଭୁଲିଯାଇଛ କି ?</string>
+
+
+    <string name="menu_home">ଗୃହ </string>
+    <string name="menu_gallery">ଗ୍ୟାଲେରୀ </string>
+    <string name="menu_slideshow">ସ୍ଲାଇଡ ସୋ </string>
+    <string name="menu_tools">ଟୂଲସ </string>
+    <string name="menu_share">ସେୟାର</string>
+    <string name="menu_send">ପଠାଓ</string>
+    <string name="are_sure_exit">ପଠାଓ</string>
+    <string name="str_yes">ହଁ </string>
+    <string name="str_no">ନାଁ </string>
+    <string name="Proceed">ପ୍ରଗତି / ଆଗକୁ ଯାଅ </string>
+    <!--<string name="str_ok">Ok</string>-->
+
+
+    <string name="menu_logout">ଲଗ ଆଉଟ </string>
+    <string name="menu_change_Language">ଭାଷା ପରିବର୍ତ୍ତନ </string>
+
+    <string name="login">ଲଗ ଇନ</string>
+    <string name="no_internet_dialog">ଇଣ୍ଟେର୍ନେଟ ନାହିଁ !</string>
+    <string name="server_error_dialog">ସର୍ବେର ତ୍ରୁଟି !</string>
+
+
+    <string name="module_add_Training">2. ପ୍ରଶିକ୍ଷଣ </string>
+    <string name="module_Report">4. ରିପୋର୍ଟ </string>
+    <string name="module_Evaluation">ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ </string>
+    <string name="module_Evaluation3">3. ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ </string>
+    <string name="list_of_shg">ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀଙ୍କ ତାଲିକା </string>
+    <string name="list_of_shg_for_evaluation">ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ ନିମନ୍ତେ ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀଙ୍କ ତାଲିକା</string>
+    <string name="list_of_shg_name">ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ନାମ </string>
+    <string name="list_of_shg_modules">ମଡୁଲ </string>
+    <string name="list_of_shg_training_date">ପ୍ରଶିକ୍ଷଣ ତାରିଖ </string>
+    <string name="list_of_shg_selection_evaluation">ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ ନିମନ୍ତେ ଚୟନ ପ୍ରକ୍ରିୟା </string>
+    <string name="number_of_shg_member">ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣରେ ଥିବା ସଦସ୍ୟ ସଂଖ୍ୟା </string>
+    <string name="languge_change">ଭାଷା ପରିବର୍ତ୍ତନ </string>
+    <string name="number_of_selected_shg_for_evaluation">ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ ନିମନ୍ତେ ଚୟନ ହୋଇଥିବା ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀଙ୍କ ସଂଖ୍ୟା </string>
+    <string name="number_of_shg_present_in_meeting">ସଭାରେ ଉପସ୍ଥିତ ଥିବା ସଦସ୍ୟ ସଂଖ୍ୟା </string>
+
+
+    <string name="selectShg">ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ଚୟନ s</string>
+
+
+    <string name="openDrawer">ଡ୍ରୟାର ଖୋଲିବା </string>
+    <string name="closeDrawer">ଡ୍ରୟାର ବନ୍ଦ କରିବା </string>
+    <string name="select_language">ଭାଷା ଚୟନ </string>
+
+    <string name="suggestion">Suggestion: Select 2 language. E.g. English and Local</string>
+    <string name="viewReportLabel">ରିପୋର୍ଟ ଦେଖନ୍ତୁ </string>
+    <string name="selectMonth">ମାସ ଚୟନ କରନ୍ତୁ </string>
+    <string name="date">ତାରିଖ </string>
+    <string name="locationOfTraining">ସ୍ଥାନ</string>
+    <string name="shgParticipated">ଅଂଶଗ୍ରହଣକରିଥିବା ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀଙ୍କ ସଂଖ୍ୟା </string>
+    <string name="shgMemberParticipated">ଅଂଶଗ୍ରହଣକରିଥିବା ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ସଦସ୍ୟଙ୍କ ସଂଖ୍ୟା </string>
+    <string name="otherMemberParticipated">ଅନ୍ୟ ଅଂଶଗ୍ରହଣକାରୀଙ୍କ ସଂଖ୍ୟା</string>
+    <string name="modules">Modules</string>
+    <string name="enter_otp">OTP ଲେଖନ୍ତୁ </string>
+    <string name="submit">ଦାଖଲ କରନ୍ତୁ </string>
+    <string name="cancel">ରଦ୍ଦ / କେନସିଏଲ  କରନ୍ତୁ </string>
+    <string name="confirm_pass">ନୂତନ ପାସୱର୍ଡ  ନିଶ୍ଚିତ କରନ୍ତୁ </string>
+    <string name="enter_pass">ନୂଆ ପାସୱର୍ଡ </string>
+    <string name="reset_pass_TV">ପୁନଃ ସଂଯୋଗ କରନ୍ତୁ  </string>
+    <string name="send_otp">OTP ପଠାନ୍ତୁ</string>
+    <string name="enter_mobile">ମୋବାଇଲ ନମ୍ବର ଦିଅନ୍ତୁ </string>
+    <string name="otp_creation">OTP ତିଆରି କରନ୍ତୁ </string>
+    <string name="total">ସମୁଦାୟ </string>
+    <string name="gotoHome">ହୋମ ପେଜକୁ ଯାଆନ୍ତୁ </string>
+    <string name="noofDays">ଏହି ମାସରେ ପ୍ରଶିକ୍ଷଣ ଦିଆଯାଇଥିବା ଦିନ ସଂଖ୍ୟା :</string>
+    <string name="noofShgs">ଏହି ମାସରେ କେତେ ଜଣ ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ସଦସ୍ୟ ନିଜସ୍ଵ ଭାବେ ପ୍ରଶିକ୍ଷଣ ଗ୍ରହଣ କରିଛନ୍ତି :</string>
+    <string name="noofshgsbaselinedone">କେତେ ଜଣ ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ସଦସ୍ୟଙ୍କ ମୂଳ ତଥ୍ୟ ହୋଇଛି ?:</string>
+    <string name="noofshgsassesmentdone">କେତେ ଜଣ ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ସଦସ୍ୟଙ୍କ ମୂଳ ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରିତ ହୋଇଛି : </string>
+    <string name="app_exit_dialog">ତୁମେ ବନ୍ଦ କରିବାକୁ ଚାହୁଁଛ କି ?</string>
+    <string name="user_id">ୟୁଜର ଆଇଡି ଲେଖନ୍ତୁ </string>
+    <string name="user_password">ପାସୱର୍ଡ ଲେଖନ୍ତୁ </string>
+    <string name="forgot_password">ପାସୱର୍ଡ ଭୁଲିଗଲେ କି </string>
+    <string name="login_massege">ଦୟାକରି, କେବଳ ୟୁଜର ଆଇଡି ଦ୍ୱାରା  ଲଗ ଇନ୍ନ କରନ୍ତୁ </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pending_shgs">ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ ପାଇଁ ଅପେକ୍ଷାରତ ଥିବା ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ସଂଖ୍ୟା </string>
+
+    <string name="evaluation_Question_Title1">Savings &amp; Credit</string>
+    <string name="evaluation_Question1">1. No. of SHG members done transaction in individual bank account in last 2 months</string>
+    <string name="evaluation_Question2">2. No. of members who have not taken any loan from SHG</string>
+
+    <string name="evaluation_Question_Title2">Insurance &amp; Pension</string>
+    <string name="evaluation_Question3">3. No. of SHG members have life insurance (PMJJBY)</string>
+    <string name="evaluation_Question4">4. No. of SHG members have accidental insurance(PMSBY)</string>
+    <string name="evaluation_Question5">5. No. of SHG members enrolled under health insurance Scheme (PM-JAY/State specific schemes)</string>
+    <string name="evaluation_Question6">6. No. of SHG members enrolled under pension scheme (Atal Pension Yojana/ PM Shram Yogi Maandhan)</string>
+
+    <string name="evaluation_Question_Title3">Digital finance</string>
+    <string name="evaluation_Question7">7. No. of SHGs done transaction through BC In last 2 months</string>
+    <string name="evaluation_Question8">8. No. of SHG members done transaction through BC In last 2 month</string>
+
+    <string name="evaluation_Question_Title4">Individual financing</string>
+    <string name="evaluation_Question9">9.   No. of SHG members having individual OD facility</string>
+    <string name="evaluation_Question10">10.  No. of SHG members availed MUDRA loan for</string>
+
+    <!--   Toast Messages-->
+    <string name="toast_language_max_selection">ଆପଣ କେବଳ 2ଟି ଭାଷା ଚୟନ କରିପାରିବେ.</string>
+    <!--   Toast Messages-->
+    <string name="faild_code">କୋଡେରେ ତ୍ରୁଟି, ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ</string>
+    <string name="not_eligible_for_evolution">ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ ନିମନ୍ତେ ଯୋଗ୍ୟ ନୁହନ୍ତି </string>
+    <string name="please_select_atlest_one_mod">ଦୟାକରି ଅତିକମ୍ ରେ ଗୋଟିଏ ମଡୁଲ ଚୟନ କରନ୍ତୁ </string>
+    <string name="cant_select_more_than3">3ଟିରୁ ଅଧିକ ମଡୁଲ ଚୟନ କରିପାରିବେ ନାହିଁ </string>
+    <string name="please_select_atleast_one_member">ଦୟାକରି ଅତିକମ୍ ରେ ଗୋଟିଏ ସଦସ୍ୟ ଚୟନ କରନ୍ତୁ </string>
+    <string name="please_select_atleast_one_shg">ଦୟାକରି ଅତିକମ୍ ରେ ଗୋଟିଏ ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ଚୟନ କରନ୍ତୁ </string>
+    <string name="please_select_atleast_one_module">ଦୟାକରି ଅତିକମ୍ ରେ ଗୋଟିଏ ମଡୁଲ ଚୟନ କରନ୍ତୁ </string>
+    <string name="toast_language_min_selection">Please select atleast 1 language</string>
+    <string name="toast_otp_wrong">ଟାଇପ କରିଥିବା OTP ଭୁଲ ଅଛି </string>
+    <string name="toast_registered_mobile">ପଂଜିକୃତ ହୋଇଥିବା ମୋବଇଲ ନମ୍ବର ଲେଖନ୍ତୁ </string>
+    <string name="toast_language_chang">ଆପଣ ଚୟନ କରିଥିବା ଭାଷା ସଫଳ ଭାବେ ପରିବର୍ତ୍ତିତ  ହୋଇଯାଇଛି.</string>
+    <string name="toast_evaluation_morethen_zero">ଦାଖଲ କରିଥିବା ନମ୍ବର ଶୂନରୁ ଅଧିକ ହେବ .</string>
+    <string name="toast_evaluation_shgMember">ଦାଖଲ କରିଥିବା ନମ୍ବର ସମୁଦାୟ ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ସଦସ୍ୟଙ୍କ ନମ୍ବରଠୁ ଅଧିକ ରହିବ </string>
+    <string name="toast_nonot_matched_fromlocal">ଦାଖଲ କରିଥିବା ନମ୍ବରଟି ମ୍ୟାଚ କରୁନାହିଁ ଅଥବା ପ୍ରଥମେ ଲଗଇନ କରନ୍ତୁ </string>
+    <string name="toast_basline_shg_not_found">ଏହି ସ୍ଥାନରେ ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ  ଦେଖାଯାଉ ନାହିଁ </string>
+    <string name="toast_basline_entervalid_number">ଦୟାକରି ଉପଯୁକ୍ତ ସଦସ୍ୟଙ୍କ ନାମ ଲେଖ</string>
+    <string name="toast_evaluation_form_fill_msg">ଦୟାକରି ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ ଫର୍ମକୁ ପୁରା କରନ୍ତୁ !</string>
+    <string name="toast_nodata_found">ତଥ୍ୟ ମିଳୁ ନାହିଁ .</string>
+    <string name="toast_FAIL">ତ୍ରୁଟି </string>
+    <string name="otp_greeting">ନମସ୍କାର!</string>
+    <string name="otp_massage">ଏହା ହେଉଛି ସକ୍ଷମ ଆପ୍ଲିକେସନର ଗୋଟିଏ ଥର ବ୍ୟବହାର ପାଇଁ ପାସୱର୍ଡ (OTP) </string>
+    <string name="toast_fill_details">ଦୟାକରି ଉପଯୁକ୍ତ ବିବରଣୀ ପୁରଣ କରନ୍ତୁ |</string>
+    <string name="toast_take_picture">ଦୟାକରି ଫଟୋ ନିଅ.</string>
+    <string name="toast_nologinid">you have to login first.</string>
+    <string name="toast_error">ମୋଟ ସଂକ୍ଷାଠୁ ସଦସ୍ୟଙ୍କ ସଂଖ୍ୟା ଯେମିତି ବଢିବ ନାହିଁ </string>
+
+
+    <!--     Error Messages-->
+    <string name="error_mobileno">ମୋବଇଲ ନମ୍ବର ରେଜିଷ୍ଟ୍ରର ହୋଇନାହିଁ </string>
+    <string name="error_mobileno_notregistered">ମୋବାଇଲ୍ ନମ୍ବର ପଞ୍ଜିକୃତ ହୋଇନାହିଁ |</string>
+    <string name="error_mobileno_notmatched">ଦାଖଲ କରିଥିବା ନମ୍ବରଟି ମ୍ୟାଚ କରୁନାହିଁ ଅଥବା ପ୍ରଥମେ ଲଗଇନ କରନ୍ତୁ </string>
+    <string name="error_password">ଛୋଟ ପାସୱର୍ଡ .</string>
+    <string name="error_confirm_password">ପାସୱର୍ଡ ଯେମିତି 6ଟି ଡିଜିଟରୁ ଅଧିକ ହେବ ନାହିଁ ସ୍ଥିର କରନ୍ତୁ .</string>
+    <string name="error_confirm_password_not_matched">ପାସୱର୍ଡ ସଠିକ ମ୍ୟାଚ କରୁନାହିଁ .</string>
+    <string name="error_userId">ଅକାମି ୟୁଜର ଆଇଡି.</string>
+    <string name="error_invalid_password">ଅକାମି ପାସୱର୍ଡ .</string>
+    <string name="error_otp">ଦାଖଲ କରିଥିବା  OTP ଭୁଲ ଅଛି .</string>
+
+    <!--    server error masseges , don't change these strings used in programing conditions-->
+    <string name="data_save_succesfully">ତଥ୍ୟ ସଫଳତାର ସହ ସଂରକ୍ଷଣ ହୋଇଯାଇଛି .</string>
+    <string name="server_error_invalid_userId">ଅକାମି ୟୁଜର ଆଇଡି  !!!</string>
+    <string name="server_error_invalid_userId_massege">ଦାଖଲ କରିଥିବା ୟୁଜର ଆଇଡି ଭୁଲ ଅଛି .</string>
+    <string name="server_error_invalid_password">ଅକାମି ପାସୱର୍ଡ !!!</string>
+    <string name="server_error_invalid_password_massege">ଦାଖଲ କରିଥିବା ପାସୱର୍ଡ ଟି ଅକାମି ଅଟେ .</string>
+    <string name="server_error_invalid_version">ଅକାମି ଆପ ଭସନ !!!</string>
+    <string name="server_error_invalid_version_massege">ଆପ୍ଳିକେସନ ଭସନ ପୁରୁଣା ଅଟେ, ଦୟାକରି ନୂଆ ଭସନ ଅପଡେଟ କରନ୍ତୁ .</string>
+    <string name="server_error_invalid_date">ଭୁଲ ତାରିଖ !!!</string>
+    <string name="server_error_invalid_date_massege">ଦୟାକରି ନିଜ ମୋବଇଲ ତାରିଖ ସଠିକ କରନ୍ତୁ .</string>
+    <string name="server_error_device_info">DEVICE ସୂଚନା !!!</string>
+    <string name="server_error_device_info_massege">ଦୟାକରି ପଂଜିକୃତ ଆଇଡି ରୁ ଲଗଇନ କରନ୍ତୁ  </string>
+    <string name="device">ଡିଭାଇସ୍ କିମ୍ବା ୱେବ୍ ଆପ୍ଲିକେସନ୍ ରୁ ଖାତା ପୁନ res ସେଟ୍ କରନ୍ତୁ |.</string>
+
+
+    <!--   Dialog Messages-->
+    <string name="please_fill_proper_details">ଦୟାକରି ସମସ୍ତ ବିବରଣୀ ପୁରଣ କରନ୍ତୁ .</string>
+    <string name="do_you_want_to_save_detail">ଆପଣ ସମସ୍ତ ବିବରଣୀ ସଂରକ୍ଷିତ କରି ରଖିବାକୁ ଚାହୁଁଛନ୍ତିକି??</string>
+    <string name="info_confirmation"> ସୂଚନା ପ୍ରଦାନ </string>
+    <string name="msg_logout">ଆପଣ ଲଗଅଟ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି ?</string>
+    <string name="NOT_AVAILABLE">ମିଳୁ ନାହିଁ </string>
+    <string name="NO_INTERNET_TITLE">ଇଣ୍ଟରନେଟ ସେବା !</string>
+    <string name="SERVER_ERROR_TITLE">ସଭାରରେ ତ୍ରୁଟି !</string>
+    <string name="INTERNET_MESSAGE">ଦୟାକରି ଇଣ୍ଟରନେଟ ସେବା ଚାଲୁ କରନ୍ତୁ .</string>
+    <string name="INTERNET_BAD">ଧୀର ଇଣ୍ଟେର୍ନେଟ ସେବା !!!</string>
+    <string name="SERVER_ERROR_MESSAGE">ଆଭ୍ୟନ୍ତରୀଣ SERVER ରେ ତ୍ରୁଟି  .</string>
+    <string name="dialog_evaluation_chang_answer">ଦୟାକରି ନିଜ ଉତ୍ତର ବଦଳାନ୍ତୁ .</string>
+    <string name="dialog_save_data">ଆପଣ ତଥ୍ୟ ସଂରକ୍ଷଣ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି ? </string>
+    <string name="dialog_save_data_for_evaluation">ଆପଣ ତଥ୍ୟ ସଞ୍ଚୟ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି? ଆପଣଙ୍କର ଅବସ୍ଥାନ ହେଉଛି |</string>
+
+    <!--    //...............................................................-->
+    <string name="please_enter_valid_pin_details">ଦୟାକରି ଉପଯୁକ୍ତ ତଥ୍ୟ ପ୍ରଦାନ କର </string>
+    <string name="please_enter_your_password">ଦୟାକରି ପାସୱର୍ଡ ଦିଅନ୍ତୁ </string>
+    <string name="enter_your_password">ନିଜ ପାସୱର୍ଡ ଦାଖଲ କରନ୍ତୁ </string>
+    <string name="enter_id">ନିଜ ଆଇଡି ଦାଖଲ କରନ୍ତୁ </string>
+    <string name="please_enter_your_id">ଦୟାକରି ଆପଣଙ୍କର Id ପ୍ରବେଶ କରନ୍ତୁ |</string>
+    <string name="baseline_completed">ମୂଳ ତଥ୍ୟ ନିର୍ଦ୍ଧାରଣ ସମାପ୍ତ </string>
+    <string name="baseline_pending">ମୂଳ ତଥ୍ୟ ନିର୍ଦ୍ଧାରଣ ବାକି ଅଛି </string>
+    <string name="total_number_shg">ସମୁଦାୟ ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ସଂଖ୍ୟା </string>   //changed
+    <string name="shg_not_found">ଏହି ସ୍ଥାନରେ ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ସଂଖ୍ୟା ମିଳୁ ନାହାନ୍ତି</string>
+    <string name="select_location">ଚୟନ କରାଯାଇଥିବା ସ୍ଥାନ </string>
+    <string name="select_location_de">ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ସମ୍ପୂର୍ଣ ବିବରଣୀ </string>
+    <string name="block_grampanchayt_village">ବ୍ଲକ >> ଗ୍ରାମ ପଂଚାୟତ >> ଗ୍ରାମ </string>
+    <string name="confirm_details">ତଥ୍ୟ ସମସ୍ତ ସଠିକ ବୋଲି ସ୍ଥିର କରନ୍ତୁ</string>
+    <string name="add_shg">ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ସଂଖ୍ୟା ଯୋଗ କରନ୍ତୁ </string>
+    <string name="enter_participant">ଅଂଶଗ୍ରହଣକାରୀଙ୍କ ସଂଖ୍ୟା ଦାଖଲ କରନ୍ତୁ </string>
+    <string name="unlock_first">ଦୟାକରି ପ୍ରଥମେ ଅନଲକ କରନ୍ତୁ</string>
+    <string name="baseline_done">ମୂଳ (BASELINE) ସର୍ଭେ ହୋଇଥିବା ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ସଂଖ୍ୟା </string>
+
+    <string name="enter_mpin">ନିଜ MPin  ଦାଖଲ କରନ୍ତୁ </string>
+    <string name="confirm_mpin">ନିଜ MPin ସ୍ଥିର କରନ୍ତୁ </string>
+    <string name="add_location">ସ୍ଥାନ ଯୋଡନ୍ତୁ </string>
+    <string name="sync_data">SYCN ତଥ୍ୟ </string>
+    <string name="baseline">1.ମୂଳ ସର୍ଭେ </string>
+    <string name="baseline_form_title">ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀଙ୍କ ମୂଳ (BASELINE)  ସର୍ଭେ  ଫର୍ମ</string>
+    <string name="forgotpin">MPin ଭୁଲିଗଲ</string>
+
+    <string name="unsynced_Bshgs">UNSYCN ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ</string>
+    <string name="unsynced_training">UNSYCN ପ୍ରଶିକ୍ଷଣ </string>
+    <string name="unsynced_Eshgs">ଅଣସଂରକ୍ଷିତ SHGs |</string>
+    <string name="select_month">ଦୟାକରି ମାସ ଚୟନ କରନ୍ତୁ </string>
+
+    <!--  toolbar titles-->
+    <string name="title_viewreport">ରିପୋର୍ଟ ଦେଖନ୍ତୁ </string>
+    <string name="title_addtraining">ପ୍ରଶିକ୍ଷଣ </string>
+    <string name="title_dashbord">ଡ଼ଶବୋର୍ଡ </string>
+    <string name="title_baseline">ମୂଳ (baseline) ନିର୍ଦ୍ଧାରଣ </string> //changed
+
+
+    <!--created by lincon-->
+
+    <string name="baslineDate">baselineର ତାରିଖ </string>  //changed
+    <string name="baslineDate_selected_location_msg">Selected Location</string>
+    <string name="baslineDate_total_shg">ଚୟନ ହୋଇଥିବା ସ୍ଥାନ s</string>
+    <string name="baslineDate_completed">baseline ଶେଷ </string>
+    <string name="baslineDate_pending">Baseline Panding </string>
+    <string name="basline_shg_name">ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ  ନାମ  </string>
+    <string name="basline_totalMember">ମୋଟ ସଦସ୍ୟ ସଂଖ୍ୟା </string>
+    <string name="basline_entred_member">କେତେ ଜଣ ସଦସ୍ୟ ଦସ୍ତଖତ କରିବାକୁ ସମର୍ଥ </string>
+    <string name="evaluation_shg_list">ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ  ଥିବା ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ସଂଖ୍ୟା </string>
+    <string name="evaluation_days_left">କେତେ  ଦିନ ରହିଲା</string>
+    <string name="evaluation_days_msg"> ଦିନ </string>
+    <string name="evaluation_day_msg"> ଦିନ </string>
+    <string name="evaluation_start_msg">ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ ଆରମ୍ଭ </string>
+    <string name="evaluation_done_msg">ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ ଆରମ୍ଭ  </string>
+    <string name="evaluation_ro_evaluation_msg">ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ ଶେଷn</string>
+    <string name="evaluation_ro_evaluation_msg_first">ତୁମେ ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ କର</string>
+    <string name="evaluation_number_of_training">କେତେ ଗୁଡିଏ ପ୍ରଶିକ୍ଷଣରେ ଅଂଶଗ୍ରହଣ କରିଛ .</string>
+    <string name="evaluation_date_msg">ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ ତାରିଖ </string>
+    <string name="evaluation_training_date_msg">ପ୍ରଶିକ୍ଷଣ ତାରିଖ </string>
+    <string name="evaluation_no_days_left">କେତେ ଦିନ ବାକି ରହିଲା </string>
+    <string name="pending_evaluation">ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ ପାଇଁ ବଳି ଯାଇଥିବା ତଥ୍ୟ ବିବରଣୀ </string>
+    <string name="pending_evaluation1">ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ ପାଇଁ ବଳି ଯାଇଥିବା ତଥ୍ୟ ବିବରଣୀ </string>
+    <string name="dashboard_shg_left">କେତୋଟି ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣକୁ ବଳି ଗଲେ </string>
+    <string name="dashboard_show_detail">ସମ୍ପୂର୍ଣ ବିବରଣୀ ଦିଅ </string>
+    <string name="dashboard_shg_msg">ପ୍ରଥମେ ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀଙ୍କ ନିମିତ୍ତ ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ ସମାପ୍ତ କର </string>
+    <string name="evaluation_shg_not_found_msg">ଚୟନ କରାଯାଇଥିବା ସ୍ଥାନରେ ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ ନିମନ୍ତେ ଥିବା ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀଙ୍କ ସଂଖ୍ୟା!!!</string>
+
+    <!--tost-->
+
+    <string name="toast_location_msg">ତୁମେ ପୂର୍ବେ ଚୟନ କରିଥିବା ସ୍ଥାନ </string>
+    <string name="toast_select_village_msg"> ଦୟାକରି ପ୍ରଥମେ ଗ୍ରାମ ଚୟନ କରନ୍ତୁ !!</string>
+    <string name="toast_erros_shg_not_found"> ସେହି ଅଂଚଳରେ ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ନାହିଁ !!</string>
+    <string name="toast_enter_question"> baseline ପ୍ରଶ୍ନ ଦାଖଲ କରନ୍ତୁ </string>
+    <string name="toast_data_saved">ତଥ୍ୟ ସଫଳତାର ସହ ସଂରକ୍ଷିତ ହୋଇରହିଛି</string>
+    <string name="toast_shg_not_found_evaluation">ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ ନିମନ୍ତେ ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ନାହାନ୍ତି !!</string>
+    <string name="toast_enter_member_msg"> ଦାଖଲ ହୋଇଥିବା ସଂଖ୍ୟା ମୋଟ ସଂଖ୍ୟାରୁ ଅଧିକ ହେବ ନାହିଁ </string>
+    <string name="toast_not_elegible">ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ ନିମନ୍ତେ ଯୋଗ୍ୟ ନୁହଁନ୍ତି </string>
+    <string name="title_activity_village_modified">ଗ୍ରାମର ପରିବର୍ତ୍ତନ ନିମନ୍ତେ କାର୍ଯ୍ୟକଳାପ y</string>
+    <string name="dialog_web_request_failes">ତଥ୍ୟ sycn ତ୍ରୁଟି, ଆଉ ଠାରେ ଚେଷ୍ଟା କରନ୍ତୁ !</string>
+
+    <string name="gps_not_enabled">ପଂଚାୟତ ଦେଖାଯାଉନାହିଁ, ଆପଣ ସେଟିଙ୍ଗ ମେନୁକୁ ଯିବାକୁ ଚାହୁଁଛନ୍ତି କି ?</string>
+    <string name="auto_time_not_enabled">ଅଟୋ ଟାଇମ ଜୋନ ଦେଖାଯାଉନାହିଁ, ସେଟିଙ୍ଗ ମେନୁକୁ ଯାଆନ୍ତୁ ?</string>
+    <string name="please_enter_other_participant">ଦୟାକରି ଅନ୍ୟ ଅଂଶଗ୍ରହଣକାରୀଙ୍କ ନାମ ଦାଖଲ କରନ୍ତୁ !!</string>
+
+    <string name="please_select_atleast_half_member">ଅତିକମରେ 50% ସଦସ୍ୟ ଆବଶ୍ୟକ "</string>   //new added
+    <string name="minimum_half_members_required_for_baseline">ଅତିକମରେ 50% ସଦସ୍ୟ ଆବଶ୍ୟକ ଏବଂ ଦାଖଲ ହୋଇଥିବା ସଂଖ୍ୟା ମୋଟ ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ସଂକ୍ଷାଠୁ ଅଧିକ ହେବ ନାହିଁ </string> //new added
+    <string name="enter_number_of_participants">ଗୋଟିଏ ପ୍ରଶିକ୍ଷଣ ଶିବିର ପାଇଁ ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀର 6 ଜଣ ସଦସ୍ୟରୁ ଅଧିକ ଚୟନ ହୋଇପାରିବ ନାହିଁ </string>     //new added
+    <string name="shg_for_baseline">baseline ପାଇଁ ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ </string>            //new added
+    <string name="enter_number_of_participants_baseline">ଅଂଶଗ୍ରହଣକାରୀଙ୍କ ସଂଖ୍ୟା ଦାଖଲ କର </string>     //new added
+    <string name="atlest_one_shg_should_selected">ଅତିକମରେ ଗୋଟିଏ ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ଚୟନ ହେବେ </string>     //new added
+    <string name="shg_list_baseline">ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ ପାଇଁ ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ତାଲିକା e</string>     //new added
+    <string name="no_pending_shgB">ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ ହୋଇ ନଥିବା ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀଙ୍କ ତାଲିକା  </string>     //new added
+    <string name="bottom_text">Content provided by MoRD, hosted and maintained by NIC</string>
+
+    //new string add
+    <string name="login_attempts_msgS">ତୁମର କେବଳ ଅଛି |</string>
+    <string name="login_attempts_msgE">ଲଗଇନ୍ ଚେଷ୍ଟା ବାକି ଅଛି |.</string>
+    <string name="data_not_found_tost">ତଥ୍ୟ ମିଳିଲା ନାହିଁ!.</string>
+    <string name="info">ଲଗଇନ୍ ସୂଚନା</string>
+    <string name="app_version">App Version:</string>
+    <string name="login_attempt_failed">ତ୍ରୁଟି: ଅତ୍ୟଧିକ ବିଫଳ ପ୍ରୟାସ ହେତୁ ଏହି ଉପଭୋକ୍ତା ଆକାଉଣ୍ଟକୁ ଲକ୍ କରାଯାଇଛି | 15 ମିନିଟର ଲକଆଉଟ୍ ସମୟ ସମାପ୍ତ ହେବା ପରେ ଆପଣ ପୁନର୍ବାର ଲଗଇନ୍ କରିପାରିବେ |</string>
+</resources>

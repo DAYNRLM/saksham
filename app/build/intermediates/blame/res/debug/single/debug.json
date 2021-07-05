@@ -1,0 +1,510 @@
+[
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_select_module_custom_layout.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/select_module_custom_layout.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable-v21_ic_menu_send.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable-v21/ic_menu_send.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_activity_splash.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_evaluation_shg_list_fragment.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/evaluation_shg_list_fragment.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_activity_otpverification.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/activity_otpverification.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_step_bg.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/step_bg.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_evaluation_member.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/evaluation_member.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_evaluation_nev_icon.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/evaluation_nev_icon.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/menu_menu_navigation_view.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/menu/menu_navigation_view.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_child.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/child.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_login_edittext_img.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/login_edittext_img.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_borderbutton_colour_title.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/borderbutton_colour_title.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_view_report_icon.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/view_report_icon.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_shape_rounded_for_mpin.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/shape_rounded_for_mpin.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable-mdpi_navigation_gradiant.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/generated/res/pngs/debug/drawable-mdpi/navigation_gradiant.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_selected_shg_custom_layout.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/selected_shg_custom_layout.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_arow_right.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/arow_right.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_border.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/border.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_footer_layout.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/footer_layout.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_dashboard_fragment_layout.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/dashboard_fragment_layout.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_ok.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/ok.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_shape_dialog.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/shape_dialog.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_report_img.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/report_img.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_saksham_new_splash.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/saksham_new_splash.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_baseline_done_shg_custom_layout.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/baseline_done_shg_custom_layout.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_round_shape_dashboard.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/round_shape_dashboard.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_side_nav_bar.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_shape_single_rounded.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/shape_single_rounded.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_saksham_splash.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/saksham_splash.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_password_edittext_img.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/password_edittext_img.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_nrlm.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/nrlm.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_fragment_view_report.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/fragment_view_report.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_add_shg.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/add_shg.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_btn_round_colour.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/btn_round_colour.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_activity_verify_mpin.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/activity_verify_mpin.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_ic_chevron_right_black_24dp.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/ic_chevron_right_black_24dp.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_activity_home.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_no_internet_dialog.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/no_internet_dialog.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_forward_arrow.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/forward_arrow.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_evaluation_child_custom_layout.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/evaluation_child_custom_layout.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_dashboard_nev_icon.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/dashboard_nev_icon.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_evaluation_shg_detail_layout.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/evaluation_shg_detail_layout.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_rounded_shape_white_background.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/rounded_shape_white_background.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable-ldpi_navigation_gradiant.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/generated/res/pngs/debug/drawable-ldpi/navigation_gradiant.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_activity_change_mpin.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/activity_change_mpin.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_layout_navigation_header.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/layout_navigation_header.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_forgot_passdialog.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/forgot_passdialog.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_evaluation_form.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/evaluation_form.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_training_nev_icon.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/training_nev_icon.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable-hdpi_navigation_gradiant.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/generated/res/pngs/debug/drawable-hdpi/navigation_gradiant.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_monthlist_spinnerview.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/monthlist_spinnerview.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable-v21_ic_menu_slideshow.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable-v21/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_select_language_dialog.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/select_language_dialog.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_shaksham_splash_blue.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/shaksham_splash_blue.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable-v21_riple.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable-v21/riple.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_logout_nev_icon.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/logout_nev_icon.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_badge_background.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/badge_background.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_navigation_gradiant.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/generated/res/pngs/debug/drawable-xxxhdpi/navigation_gradiant.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_basline_select_shg_custom_layout.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/basline_select_shg_custom_layout.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_baseline_nev_icon.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/baseline_nev_icon.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_evaluation_select_training_custom_lauout.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/evaluation_select_training_custom_lauout.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_language_selection_fragment.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/language_selection_fragment.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable-v21_ic_menu_share.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable-v21/ic_menu_share.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable-xxhdpi_navigation_gradiant.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/generated/res/pngs/debug/drawable-xxhdpi/navigation_gradiant.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_my_reportlist_view.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/my_reportlist_view.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_ic_arrow_left_white_24dp.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/ic_arrow_left_white_24dp.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_add_shg_custom_layout.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/add_shg_custom_layout.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_baseline_img.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/baseline_img.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_server_error_dialog.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/server_error_dialog.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_demo.jpg.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/demo.jpg"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_select_language_view_item.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/select_language_view_item.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_large.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/large.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_border_of_button.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/border_of_button.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_activity_mpin.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/activity_mpin.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_round_shape.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/round_shape.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_evaluation_shg_member_custom_layout.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/evaluation_shg_member_custom_layout.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_basline_select_shg_fragment.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/basline_select_shg_fragment.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable-xhdpi_navigation_gradiant.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/generated/res/pngs/debug/drawable-xhdpi/navigation_gradiant.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_navigation_gradiant.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/generated/res/pngs/debug/drawable-anydpi-v24/navigation_gradiant.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_evalution_img.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/evalution_img.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_training_img.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/training_img.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_bg_pin_round.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/bg_pin_round.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_language_selection_custom_layout.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/language_selection_custom_layout.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_dashboard_evaluation_detail_dialog.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/dashboard_evaluation_detail_dialog.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/anim_slide_in.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/anim/slide_in.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_saksham_gradient.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/saksham_gradient.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_evaluation_select_shg_custom_layout.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/evaluation_select_shg_custom_layout.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_evaluation_question_custom_layout.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/evaluation_question_custom_layout.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_drawer_background_layout.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/drawer_background_layout.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_aajeevika_ic.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/aajeevika_ic.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_light_border.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/light_border.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_add_content_and_status.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/add_content_and_status.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable-v21_ic_menu_manage.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable-v21/ic_menu_manage.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable-v21_nic.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable-v21/nic.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_base_line_done_layout.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/base_line_done_layout.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_addlocation.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/addlocation.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_add_number_participants.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/add_number_participants.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_shape_rounded.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/shape_rounded.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable-v21_nic1.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable-v21/nic1.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_bg_pin.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/bg_pin.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_drawer_hadder_logo.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/drawer_hadder_logo.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_photo_gps.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/photo_gps.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_change_language_nev_icon.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/change_language_nev_icon.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_layout_bottom_button.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/layout_bottom_button.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_select_module_layout.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/select_module_layout.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_dashboard_evaluation_custom_layout.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/dashboard_evaluation_custom_layout.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable-v21_ic_menu_camera.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable-v21/ic_menu_camera.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_toolbar.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/toolbar.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable-v21_ic_menu_gallery.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable-v21/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_spinner_textview.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/spinner_textview.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_demo_round.jpg.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/demo_round.jpg"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_shape_dialog.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/shape_dialog.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_evaluation_child_shg_detail_layout.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/evaluation_child_shg_detail_layout.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_enter_shg_member_custom_dialog.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/enter_shg_member_custom_dialog.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_common_layout_for_shg_description.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/common_layout_for_shg_description.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_activity_village_modified.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/activity_village_modified.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/layout_confirm_details.xml.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/layout/confirm_details.xml"
+    },
+    {
+        "merged": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/res/merged/debug/drawable_nic_updated.png.flat",
+        "source": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/res/drawable/nic_updated.png"
+    }
+]

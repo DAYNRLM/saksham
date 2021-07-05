@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">Saksham </string>
+        <string name="back">Letna</string>
+        <string name="next">A dawt</string>
+        <string name="select_date">Ni thlanna</string>
+        <string name="select_content">Select Content</string>//not done
+        <string name="select_module">Module thlanna</string>
+        <string name="status">Dinhmun</string>
+        <string name="sub_total_shg_member">Belhkhawm</string>
+        <string name="other_particepant">Midang telho</string>
+
+        <string name="total_participants">Tel zawng zawng belhkhawm</string>
+        <string name="value_from_backend">XXXXXX</string>
+        <string name="select_block">Block thlanna</string>
+        <string name="select_gp">Khua thlanna</string>
+        <string name="select_village">Village Council thlanna</string>
+        <string name="date_of_training">Training neih ni</string>
+        <string name="date_of_evaluation">Evaluation neih ni</string>
+        <string name="block">Block</string>
+        <string name="gp">Khua</string>
+        <string name="village">Village Council</string>
+        <string name="unsync_details">Hna la inthlunzawm lo te:</string>
+        <string name="unsync_baseline">Baseline Data</string>// not done
+        <string name="unsync_training">Training Data</string>// not done
+        <string name="unsync_evaluation">Evaluation Data</string>// not done
+        <string name="data_info">Thlen tawh chin</string>      //changed
+        <string name="data_infoB">Baseline i zo tawh e</string>
+        <string name="data_infoT"> Training i zo tawh e</string>
+        <string name="data_infoE">Evaluation</string>
+        <string name="nodataFound">SHGs baseline hi he khuaah hian neih a la ni lo!!!</string>
+        <string name="location">Awmna hmun</string>
+        <string name="GPSAlertDialogTitle">Gps Alert!</string>
+        <string name="GPSAlertDialogMessage">GPS hawng rawh.</string>
+        <string name="number_of_shg_participating">SHG telho</string>
+        <string name="nubmber_of_shg_member_participating">SHG member Participating</string>//not done
+        <string name="other_member_participating">Member dang telho</string>
+        <string name="content_module">Modules</string>
+        <string name="Toast_toast_take_gps">Gps hi a ruak tur a ni lo.</string>
+        <string name="save">Dah tha</string>
+        <string name="photo_gps">Thlalak leh GPS </string>
+        <string name="take_photo">Thla la rawh</string>
+        <string name="capture_gps">GPS la rawh</string>
+        <string name="upload_data">Data dahluhna</string>
+        <string name="title_activity_home">HomeActivity</string>
+        <string name="navigation_drawer_open">Luh kualna hawn</string>
+        <string name="navigation_drawer_close">Luh kualna khar</string>
+        <string name="nav_header_title">Android Studio</string>//not done
+        <string name="nav_header_subtitle">android.studio@android.com</string>
+        <string name="nav_header_desc">Luh kualna hrang hrang</string>
+        <string name="action_settings">Set-na</string>
+        <string name="add_participants">Member dah belhna</string>
+
+        <string name="forgot_mpin">Mpin i theihnghilh em?</string>
+
+
+        <string name="menu_home">Home</string>//not done
+        <string name="menu_gallery">Thalak enna</string>
+        <string name="menu_slideshow">Thlalak indawta enna</string>
+        <string name="menu_tools">Hmanraw bawm</string>
+        <string name="menu_share">Thawn darhna</string>
+        <string name="menu_send">Thawnna</string>
+        <string name="are_sure_exit">Send</string>
+        <string name="str_yes">Aw</string>
+        <string name="str_no">Aih</string>
+        <string name="Proceed">Kal zelna</string>
+        <!--<string name="str_ok">Ok</string>-->
+
+
+        <string name="menu_logout">Chhuahna</string>
+        <string name="menu_change_Language">Tawng thlakna</string>
+
+        <string name="login">Luhna</string>
+        <string name="no_internet_dialog">Internet awmlo!</string>
+        <string name="server_error_dialog">Server chhia!</string>
+
+
+        <string name="module_add_Training">2.Training</string>
+        <string name="module_Report">4.Reports</string>
+        <string name="module_Evaluation">Evaluation</string>
+        <string name="module_Evaluation3">3. Evaluation</string>
+        <string name="list_of_shg">SHGs awmho lanna</string>
+        <string name="list_of_shg_for_evaluation">SHGs evaluation tur ho</string>
+        <string name="list_of_shg_name">SHGs hming</string>
+        <string name="list_of_shg_modules">Modules</string>
+        <string name="list_of_shg_training_date">Training neih ni</string>
+        <string name="list_of_shg_selection_evaluation">Evaluation tura thlanna</string>
+        <string name="number_of_shg_member">Evaluation tura member awm zat</string>
+        <string name="languge_change">Tawng thlakna</string>
+        <string name="number_of_selected_shg_for_evaluation">SHGs Evaluation tura thlan te</string>
+        <string name="number_of_shg_present_in_meeting">Meeting-a member tel zat</string>
+
+
+        <string name="selectShg">SHGs thlanna</string>
+
+
+        <string name="openDrawer"> Hawnna</string>
+        <string name="closeDrawer">Kharna</string>
+        <string name="select_language">Tawng thlanna</string>
+
+        <string name="suggestion">Suggestion: Select 2 language. E.g. English and Local</string>
+        <string name="viewReportLabel">Report enna</string>
+        <string name="selectMonth">Thla thlanna</string>
+        <string name="date">Ni</string>
+        <string name="locationOfTraining">Hmun thlanna</string>
+        <string name="shgParticipated">SHG tel zat</string>
+        <string name="shgMemberParticipated">SHG member tel zat</string>
+        <string name="otherMemberParticipated">Member dang tel zat</string>
+        <string name="modules">Modules</string>// not done
+        <string name="enter_otp">OTP chhu rawh</string>
+        <string name="submit">Thehluhna</string>
+        <string name="cancel">Sutna</string>
+        <string name="confirm_pass">I Password thar nemnghet rawh</string>
+        <string name="enter_pass">Password thar chhu rawh</string>
+        <string name="reset_pass_TV">Password siamthatna</string>
+        <string name="send_otp">OTP thawnna</string>
+        <string name="enter_mobile">Mobile number chhu rawh</string>
+        <string name="otp_creation">OTP siamna</string>
+        <string name="total">Belhkhawm</string>
+        <string name="gotoHome">Home-a kalna</string>
+        <string name="noofDays">Thlakhat chhunga training pek tawh ni zat</string>
+        <string name="noofShgs">Thlakhata a hran bika SHG trained zat</string>
+        <string name="noofshgsbaselinedone">SHG baseline lakkhawm tawh zat</string>
+        <string name="noofshgsassesmentdone">SHG evaluation neih tawh zat</string>
+        <string name="app_exit_dialog">I chhuak duh em?</string>
+        <string name="user_id">I User Id chhu rawh</string>
+        <string name="user_password">Password thumal paruk chhu rawh</string>
+        <string name="forgot_password">Password i theihnghilh em</string>
+        <string name="login_massege">Khawngaihin, i User ID hmang chauhin lut rawh</string>
+        <string name="hello_blank_fragment">Hello blank fragment</string>//not done
+        <string name="pending_shgs">SHG Evalutation la hmabak e</string>
+
+        <string name="evaluation_Question_Title1">Savings &amp; Credit</string>
+        <string name="evaluation_Question1">1. No. of SHG members done transaction in individual bank account in last 2 months</string>
+        <string name="evaluation_Question2">2. No. of members who have not taken any loan from SHG</string>
+
+        <string name="evaluation_Question_Title2">Insurance &amp; Pension</string>
+        <string name="evaluation_Question3">3. No. of SHG members have life insurance (PMJJBY)</string>
+        <string name="evaluation_Question4">4. No. of SHG members have accidental insurance(PMSBY)</string>
+        <string name="evaluation_Question5">5. No. of SHG members enrolled under health insurance Scheme (PM-JAY/State specific schemes)</string>
+        <string name="evaluation_Question6">6. No. of SHG members enrolled under pension scheme (Atal Pension Yojana/ PM Shram Yogi Maandhan)</string>
+
+        <string name="evaluation_Question_Title3">Digital finance</string>
+        <string name="evaluation_Question7">7. No. of SHGs done transaction through BC In last 2 months</string>
+        <string name="evaluation_Question8">8. No. of SHG members done transaction through BC In last 2 month</string>
+
+        <string name="evaluation_Question_Title4">Individual financing</string>
+        <string name="evaluation_Question9">9.   No. of SHG members having individual OD facility</string>
+        <string name="evaluation_Question10">10.  No. of SHG members availed MUDRA loan for</string>
+
+
+        <!-- ================================ Questions =======================================-->
+        <!--
+
+          How many members are able to sign
+          No. of SHG members done transaction in individual bank account in last 3 months
+          No. of SHG members done saving in Bank /Insurance company/other avenue in last 3 months (other than SHG)
+          No. of members who have taken any loan from SHG in last 12 months
+          No. of SHG members/households who have loan outstanding from MFI/other informal sources
+          No. of SHG members have life insurance (PMJJBY/other scheme)
+          No. of SHG members have accidental insurance (PMSBY/other scheme)
+          No. of SHG members/household have health insurance Scheme (PM-JAY/other scheme)
+          No. of SHG members enrolled under pension scheme (Atal Pension Yojana/other scheme)
+          How many times SHG has done transaction with BC in last 2 month?
+          How many SHG member have transacted through BC in last one month
+          No. of SHG members having individual OD facility
+          No. of SHG members have MUDRA loan ?
+          No. of SHG members with Aadhar seeded Bank account
+          How many SHG members have their own mobile
+
+        -->
+
+        <!--   Toast Messages-->
+        <string name="toast_language_max_selection">Tawng pahnih chauh i thlang thei ang.</string>
+        <!--   Toast Messages-->
+        <string name="faild_code">Code dik lo, ti nawn rawh</string>
+        <string name="not_eligible_for_evolution">Evaluation atan a kim lo</string>
+        <string name="please_select_atlest_one_mod">Khawngaihin modules zinga pakhat tal thlang rawh</string>
+        <string name="cant_select_more_than3"> Modules pathum aia tam a thlan theih</string>
+        <string name="please_select_atleast_one_member">Member pakhat tal thlang rawh</string>
+        <string name="please_select_atleast_one_shg">SHG pakhat tal thlang rawh</string>
+        <string name="please_select_atleast_one_module">Khawingaihin Module Pakhat Thlang Rawh.</string>//not done
+        <string name="toast_language_min_selection">Khawngaihin Tawng Pakhat Thlang Rawh.</string>//not done
+        <string name="toast_otp_wrong">I OTP chhut luh a dik lo</string>
+        <string name="toast_registered_mobile">Khawngaihin, mobile number thehluh bik chhu lut rawh</string>
+        <string name="toast_language_chang">Tawng a inthlak e</string>
+        <string name="toast_evaluation_morethen_zero">I number chhut luh kha zero aiin a tam tur a ni</string>
+        <string name="toast_evaluation_shgMember">I number dah luh hi SHG member dah luh zat aiin a tam</string>
+        <string name="toast_nonot_matched_fromlocal">I number chhut luh a inmil lo a nih chuan login hmasa rawh</string>
+        <string name="toast_basline_shg_not_found">I hmun thlanah hian SHG hmuh a ni lo</string>
+        <string name="toast_basline_entervalid_number">Member awmlai chauh chhu lut rawh</string>
+        <string name="toast_evaluation_form_fill_msg">Evaluation form zo fel rawh </string>
+        <string name="toast_nodata_found">Data hmu lo</string>
+        <string name="toast_FAIL">FAIL</string>
+        <string name="otp_greeting">Ka lawm e!</string>
+        <string name="otp_massage">He number hi Saksham application atana i OTP a ni a. Tumah hrilh suh</string>
+        <string name="toast_fill_details">Khawngaihin dik leh kimchang takin chhu lut rawh</string>
+        <string name="toast_take_picture">Thla la rawh</string>
+        <string name="toast_nologinid">you have to login first.</string>//not done
+        <string name="toast_error">SHG member awmsa aiin a tam theih loh</string>
+
+
+        <!--     Error Messages-->
+        <string name="error_mobileno">Mobile Number dik tak chhu lut rawh</string>
+        <string name="error_mobileno_notregistered">I Mobile Number hi a awm lo</string>
+        <string name="error_mobileno_notmatched">I number chhut luh a inmil lo a nih chuan login hmasa rawh</string>
+        <string name="error_password">I password thumal a tawi</string>
+        <string name="error_confirm_password">I password hi thumal paruk aia tlem tur a ni lo</string>
+        <string name="error_confirm_password_not_matched">I password hi a dik lo</string>
+        <string name="error_userId">User Id dik lo</string>
+        <string name="error_invalid_password">Password dik lo</string>
+        <string name="error_otp">I OTP chhut luh a dik lo</string>
+
+        <!--    server error masseges , don't change these strings used in programing conditions-->
+        <string name="data_save_succesfully"> Data a indah tha fel e</string>
+        <string name="server_error_invalid_userId">UserID  dik lo!!!</string>
+
+        <string name="server_error_invalid_userId_massege">Invalid Login Id or Password.</string>
+        <string name="server_error_invalid_password">Password dik lo  !!!</string>
+        <string name="server_error_invalid_password_massege">Password i chhut luh a dik lo.</string>
+        <string name="server_error_invalid_version">APP Version a dik lo!!!</string>
+        <string name="server_error_invalid_version_massege">APP version update rawh</string>
+        <string name="server_error_invalid_date">Ni dik lo !!!</string>
+        <string name="server_error_invalid_date_massege">Mobile Phone ah a ni siamtha rawh.</string>
+        <string name="server_error_device_info">Khawl chungchang!!!</string>
+        <string name="server_error_device_info_massege">I ID registered hmang in lut rawh</string>
+        <string name="device">Khawl anih loh chuan account siam that angai. </string>// notdone
+
+
+        <!--   Dialog Messages-->
+        <string name="please_fill_proper_details">Please fill proper details.</string>
+        <string name="do_you_want_to_save_detail">I chhut luh ho hi dah that i duh em?</string>
+        <string name="info_confirmation">I thil chhut luh pawmna</string>
+        <string name="msg_logout">I chhuak duh em?</string>
+        <string name="NOT_AVAILABLE">NA</string>
+        <string name="NO_INTERNET_TITLE">Internet awm lo!</string>
+        <string name="SERVER_ERROR_TITLE">Server chhia!</string>
+        <string name="INTERNET_MESSAGE">Khawngaihin, internet-ah lut rawh.</string>
+        <string name="INTERNET_BAD">Internet a muang!!!</string>
+        <string name="SERVER_ERROR_MESSAGE">Server chhia.</string>
+        <string name="dialog_evaluation_chang_answer">I chhanna ho thlak rawh.</string>
+        <string name="dialog_save_data">Data i dah tha duh em?</string>
+        <string name="dialog_save_data_for_evaluation">Do you want to save the data?\n\nYour location is</string>
+
+        <!--    //...............................................................-->
+        <string name="please_enter_valid_pin_details">Nihna kimchang chhu lut rawh</string>
+        <string name="please_enter_your_password">I password chhu lut rawh</string>
+        <string name="enter_your_password">I password chhu lut rawh</string>
+        <string name="enter_id">I Id chhu lut rawh</string>
+        <string name="please_enter_your_id">Khawngaihin I ID Chhu Lut Rawh</string>//not done
+        <string name="baseline_completed">Baseline i zo tawh e</string>
+        <string name="baseline_pending">    Baseline a la zo lo </string>
+        <string name="total_number_shg">SHGs awm zat</string>   //changed
+        <string name="shg_not_found">Hemi hmunah hian SHGS hmuh a ni lo</string>
+        <string name="select_location">Awmna hmun thlan</string>
+        <string name="select_location_de">SHGs chanchin</string>
+        <string name="block_grampanchayt_village">Block>>Khua>>Village Council</string>
+        <string name="confirm_details">Chanchin nemnghehna</string>
+        <string name="add_shg">SHG dah belhna</string>
+        <string name="enter_participant">Member telho chhu lut rawh</string>
+        <string name="unlock_first">Hawng hmasa rawh</string>
+        <string name="baseline_done">Baseline tih tawh SHG te</string>
+
+        <string name="enter_mpin">Mpin chhu lut rawh</string>
+        <string name="confirm_mpin">Mpin nemnghet rawh</string>
+        <string name="add_location">Awmna hmun dah lut rawh</string>
+        <string name="sync_data">Data thlunzawmna</string>
+        <string name="baseline">1. Baseline</string>
+        <string name="baseline_form_title">SHGs Basline Form</string>
+        <string name="forgotpin">Mpin i theihnghilh</string>
+
+        <string name="unsynced_Bshgs">SHGs la inthlunzawm lo</string>
+        <string name="unsynced_training">Trainings neih la inthlunzawm lo</string>
+        <string name="unsynced_Eshgs">Unsynced SHGs</string>//not done
+        <string name="select_month">Khawngaihin, a thla thlang rawh.</string>
+
+        <!--  toolbar titles-->
+        <string name="title_viewreport"> Report enna</string>
+        <string name="title_addtraining">Training</string>
+        <string name="title_dashbord">Dashboard</string>
+        <string name="title_baseline">Baseline</string> //changed
+
+
+        <!--created by lincon-->
+
+        <string name="baslineDate"> Baseline tih ni</string>  //changed
+        <string name="baslineDate_selected_location_msg">Awmna hmun thlan tawh</string>
+        <string name="baslineDate_total_shg">SHGs awm zat</string>
+        <string name="baslineDate_completed">Baseline zawh tawh</string>
+        <string name="baslineDate_pending">Baseline Panding </string>
+        <string name="basline_shg_name">SHG hming  </string>
+        <string name="basline_totalMember">Member zat</string>
+        <string name="basline_entred_member">Member hming sign thei zat</string>
+        <string name="evaluation_shg_list">Evaluation atana SHGs awm te</string>
+        <string name="evaluation_days_left">Ni la awm zat</string>
+        <string name="evaluation_days_msg">Ni</string>
+        <string name="evaluation_day_msg">Ni</string>
+        <string name="evaluation_start_msg">Evaluation tanna</string>
+        <string name="evaluation_done_msg">Evaluation zawhna</string>
+        <string name="evaluation_ro_evaluation_msg">Evaluation ti rawh</string>
+        <string name="evaluation_ro_evaluation_msg_first">Evaluation ti rawh</string>
+        <string name="evaluation_number_of_training">Training tel tawhna zat</string>
+        <string name="evaluation_date_msg">Evaluation tih nie</string>
+        <string name="evaluation_training_date_msg">Training  neih ni</string>
+        <string name="evaluation_no_days_left">Ni la awm zat</string>
+        <string name="pending_evaluation">Evaluation kimchang la zawh loh:</string>
+        <string name="pending_evaluation1">Evaluation kimchang la zawh loh:</string>
+        <string name="dashboard_shg_left">Evaluation atana SHGs la bang te</string>
+        <string name="dashboard_show_detail">Kimchang tih lanna</string>
+        <string name="dashboard_shg_msg">Hemi SHGs atan hian Evaluation zo hmasa rawh</string>
+        <string name="evaluation_shg_not_found_msg">Evaluation tihna tura i hmun thlanah hian SHG hmuh a ni lo!!!</string>
+
+        <!--tost-->
+
+        <string name="toast_location_msg">I hmun thlan hmasa zawk</string>
+        <string name="toast_select_village_msg">Khua thlang hmasa rawh!!</string>
+        <string name="toast_erros_shg_not_found">I hmun thlanah hian SHGs hmuh a ni lo!!</string>
+        <string name="toast_enter_question">Baseline zawhna chhu lut rawh</string>
+        <string name="toast_data_saved">Data chu dah that fel a ni</string>
+        <string name="toast_shg_not_found_evaluation">Evaluation atana SHGs hmuh a ni lo!!!!</string>
+        <string name="toast_enter_member_msg">I number chhut luh hi member awmzat aiin a tlem</string>
+        <string name="toast_not_elegible">Evaluation turin a tling lo</string>
+        <string name="title_activity_village_modified">VillageModifiedActivityy</string>
+        <string name="dialog_web_request_failes">Data thlunzawm theih loh, Ti tha leh rawh!</string>
+
+        <string name="gps_not_enabled">GPS on a ni lo. Set-na ah i kal duh em?</string>
+        <string name="auto_time_not_enabled"> Ni leh hun amaha inthlakna on a ni lo.Set-na ah i kal duh em?</string>
+        <string name="please_enter_other_participant">Member telh tur dang chhu lut rawh!!</string>
+
+        <string name="please_select_atleast_half_member">Member za ah sawm nga tal tel angai</string>   //new added
+        <string name="minimum_half_members_required_for_baseline">Member za ah sawm nga tal tel angai ah, SHG member awmzat ai atam thei lo</string> //new added
+        <string name="enter_number_of_participants">Vawikhat a SHG 6 ai a tam training tur in thlan thei lo</string>     //new added
+        <string name="shg_for_baseline">Baseline ti tur SHGs</string>            //new added
+        <string name="enter_number_of_participants_baseline">Tel zat chhu lut roh</string>     //new added
+        <string name="atlest_one_shg_should_selected">SHG pakhat tal thlang rawh</string>     //new added
+        <string name="shg_list_baseline">Baseline tur a SHGs tel ho</string>     //new added
+        <string name="no_pending_shgB">Baseline ti hmabak SHG awm tawh lo.</string>     //new added
+        <string name="bottom_text">Design, hosted and maintained by NIC,Content provided by MORD.</string>     //new added
+
+        //new string add
+        <string name="login_attempts_msgS">I neih Zat Chu</string>
+        <string name="login_attempts_msgE">Luhtheihna I neih Zat</string>
+        <string name="data_not_found_tost">Data Hmuh A Nilo!</string>
+        <string name="info">Luhna Chungchang</string>
+        <string name="app_version">App Version:</string>
+        <string name="login_attempt_failed">Dik Lo: Hemi user account hi I luh dan vawi tam tak a diklo avangin a in khar rih e. 15 minutes hnuha luh tum leh rawh. </string>
+
+
+
+
+</resources>

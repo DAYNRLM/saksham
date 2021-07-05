@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string name="app_name">Saksham</string>
+    <string name="back">Shadien</string>
+    <string name="next">Sakhmat</string>
+    <string name="select_date">Tarik</string>
+    <string name="select_content">Jied ia ka jingdonkam</string>//not given
+    <string name="select_module">Jied ia ka Module</string>
+    <string name="status">Jinglong/Jingman</string>
+    <string name="sub_total_shg_member">Jingkhein Kyllum</string>
+    <string name="other_particepant">Kiwei ki nong ia shim bynta</string>
+    <string name="total_participants">Baroh ki nongia shim bynta</string>
+    <string name="value_from_backend">XXXXXX</string>
+    <string name="select_block">Block</string>
+    <string name="select_gp">Gram Panchayat</string>
+    <string name="select_village">Shnong</string>
+    <string name="date_of_training">Tarik ba long training</string>
+    <string name="date_of_evaluation">Tarik ba buddien</string>
+    <string name="block">Block</string>
+    <string name="gp">Gram Panchayat</string>
+    <string name="village">Shnong</string>
+    <string name="unsync_details">Ki jingtip bym pat ia mynjur lang</string>
+    <string name="unsync_baseline">Ki data baseline</string>
+    <string name="unsync_training">Ki data ban ai training/jinghikai</string>
+    <string name="unsync_evaluation">Ki data ban khein jingkhein</string>
+    <string name="data_info">Ki kam ba la lah ban pyndep</string>
+    //changed
+    <string name="data_infoB">Ki baseline ba la lah ban pyndep</string>
+    <string name="data_infoT">Ki training ba la lah ban pyndep</string>
+    <string name="data_infoE">Ka jingkhein</string>
+    <string name="nodataFound">Ki baseline SHG bym lah ban pyndep ha ki shnong</string>
+    //changed
+    <string name="location">Jaka</string>
+    <string name="GPSAlertDialogTitle">GPS alert</string>
+    <string name="GPSAlertDialogMessage">Plie ia ka GPS</string>
+    <string name="number_of_shg_participating">Ka SHG ba ia shim bynta</string>
+    <string name="nubmber_of_shg_member_participating">SHG member Participating</string>
+    //no t change
+    <string name="other_member_participating">Kiwei ki nong ia shim bynta</string>
+    <string name="content_module">Ki Module</string>
+    <string name="Toast_toast_take_gps">Ka GPS kam dei ban thylli</string>
+    <string name="save">Save</string>
+    <string name="photo_gps">Dur bad GPS</string>
+    <string name="take_photo">Shon Dur</string>
+    <string name="capture_gps">Shon dur ia ka GPS</string>
+    <string name="upload_data">Pynrung ia ki data</string>
+    <string name="title_activity_home">Ki jingtrei kam na iing</string>
+    <string name="navigation_drawer_open">Plie ia ka Navigation</string>
+    <string name="navigation_drawer_close">Khang ia ka Navigation </string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation Header</string>
+    <string name="action_settings">Setting</string>
+    <string name="add_participants">Pynrung ia ki nong shim bynta</string>
+
+    <string name="forgot_mpin">Klet Mpin?</string>
+
+
+    <string name="menu_home">Iing</string>
+    <string name="menu_gallery">Jaka buh dur</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Ki tiar</string>
+    <string name="menu_share">Ia bynta</string>
+    <string name="menu_send">Phah</string>
+    <string name="are_sure_exit">Phah</string>
+    <string name="str_yes">Hooid</string>
+    <string name="str_no">Em</string>
+    <string name="Proceed">Iaid sha Khmat</string>
+    <!--<string name="str_ok">Ok</string>-->
+
+
+    <string name="menu_logout">Mih noh</string>
+    <string name="menu_change_Language">Jied ia ka Ktien</string>
+
+    <string name="login">Ban rung</string>
+    <string name="no_internet_dialog">Ym don Internet</string>
+    <string name="server_error_dialog">Jingthut ka Server</string>
+
+
+    <string name="module_add_Training">2. ka Jing ai jinghikai</string>
+    <string name="module_Report">4. Ki Report</string>
+    <string name="module_Evaluation">Ka jingkhein ia ki kam ba la dep</string>
+    <string name="module_Evaluation3">3. Ka jingkhein ia ki kam ba la dep</string>
+    <string name="list_of_shg">Ki Kyrteng jong ki SHG</string>
+    <string name="list_of_shg_for_evaluation">Ki Kyrteng jong ki SHG ban buddien</string>
+    <string name="list_of_shg_name">Kyrteng jong ka SHG</string>
+    <string name="list_of_shg_modules">Ki Module</string>
+    <string name="list_of_shg_training_date">KaTarik ba pynlong training</string>
+    <string name="list_of_shg_selection_evaluation">Jied na ka bynta ban buh jingkhein</string>
+    <string name="number_of_shg_member">ka jingdon jong ki member ha ka por ba leh jingkhein</string>
+    <string name="languge_change">Jied ia ka Ktien</string>
+    <string name="number_of_selected_shg_for_evaluation">Ki SHG ba la jied na bynta ban buh jingkhein</string>
+    <string name="number_of_shg_present_in_meeting">Katno ngut ki briew ba wan shong meeting</string>
+
+
+    <string name="selectShg">Jied ia ka SHGs</string>
+
+
+    <string name="openDrawer">Plie Drawer</string>
+    <string name="closeDrawer">Khang Drawer</string>
+    <string name="select_language">Jied ia ka Ktien</string>
+
+    <string name="suggestion">Suggestion: Select 2 language. E.g. English and Local</string>
+    <string name="viewReportLabel">Peit ia  ka report</string>
+    <string name="selectMonth">Jied ia u Bnai</string>
+    <string name="date">Tarik</string>
+    <string name="locationOfTraining">Jaka</string>
+    <string name="shgParticipated">Katno tylli ki SHG ba ia shim bynta</string>
+    <string name="shgMemberParticipated">Katno ngut ki member SHG ba wan shong meeting</string>
+    <string name="otherMemberParticipated">Kiwei pat ki nong iashim bynta</string>
+    <string name="modules">Modules</string>
+    <string name="enter_otp">Pyndap OTP</string>
+    <string name="submit">Phah</string>
+    <string name="cancel">Nai phah</string>
+    <string name="confirm_pass">Pyntikna ia u password ba thymmai</string>
+    <string name="enter_pass">U Password thymmai</string>
+    <string name="reset_pass_TV">Pynkylla ia u Password</string>
+    <string name="send_otp">Phah OTP</string>
+    <string name="enter_mobile">Thep ia u phone number</string>
+    <string name="otp_creation">Shna OTP</string>
+    <string name="total">Ka jingkhein Kyllum</string>
+    <string name="gotoHome">Leit sha ka Home page</string>
+    <string name="noofDays">Katno sngi la pynlong training ha ka shi bnai.</string>
+    <string name="noofShgs">Katno tylli ki SHG ba lah ioh training ba kyrpang ha ka shi bnai</string>
+    <string name="noofshgsbaselinedone">Katno tylli ki SHG ba  la lah ban pyndep ia ka baseline</string>
+    <string name="noofshgsassesmentdone">Katno tylli ki SHG ba lap pyndep iaka jingkhein </string>
+    <string name="app_exit_dialog">Hato phi Kwah ban mih noh</string>
+    <string name="user_id">Pynrung ia ka user ID</string>
+    <string name="user_password">Pynrung ia u Password</string>
+    <string name="forgot_password">Klet Password</string>
+    <string name="login_massege">Sngewbha log in tang da u user ID la jong.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pending_shgs">Ka SHG ba hap ban pyndep ia ka Jingkhein</string>
+
+    <string name="evaluation_Question_Title1">Ki jingkynshew</string>
+    <string name="evaluation_Question1">1. Ki dkhot SHG ba la pyndonkam bha ia ki account jong ki ha kine ki ar bnai ba la leit.</string>
+    <string name="evaluation_Question2">2. Ki dkhot SHG bym pat shim ram na ka SHG</string>
+
+    <string name="evaluation_Question_Title2">Ka Insurance bad Pension</string>
+    <string name="evaluation_Question3">3. Ki dkhot SHG ba don ka life insurance (PMJJBY)</string>
+    <string name="evaluation_Question4">4. Ki dkhot SHG ba don ka insurance aksiden (PMSBY)</string>
+    <string name="evaluation_Question5">5. Ki dkhot SHG ba la pynrung ia lade ha ka health insurance scheme (PM-JAY)</string>
+    <string name="evaluation_Question6">6. Ki dkhot SHG ba la pynrung ia lade ha ka  pension scheme (Atal Pension Yojana/ PM Shram Yogi Maandhan)</string>
+
+    <string name="evaluation_Question_Title3">Digital finance</string>
+    <string name="evaluation_Question7">7. katno tylli ki SHG ba la thep ne sei pisa lyngba ka BC ha ki ar bnai ba lah dep</string>
+    <string name="evaluation_Question8">8. katno tylli ki SHG ba la thep ne sei pisa lyngba ka BC ha ki ar bnai ba lah dep</string>
+
+    <string name="evaluation_Question_Title4">Kyrshan pisa na lade hi</string>
+    <string name="evaluation_Question9">9.   katno ngut ki dkhot SHG ba don ia ka OD facility</string>
+    <string name="evaluation_Question10">10. katno ngut ki dkhot SHG ba la shim ram na ka MUDRA</string>
+
+    <!--   Toast Messages-->
+    <string name="toast_language_max_selection">Jied artylli ki ktien.</string>
+    <!--   Toast Messages-->
+    <string name="faild_code">"Ym long u code, pyrshang biang!"</string>
+    <string name="not_eligible_for_evolution">"Ym long ban pynkhein"</string>
+    <string name="please_select_atlest_one_mod">"Sngew bha jied kawei ka module"</string>
+    <string name="cant_select_more_than3">"ym lah ban jied palat  3 tylli ki  module"</string>
+    <string name="please_select_atleast_one_member">"Jied iwei i member."</string>
+    <string name="please_select_atleast_one_shg">"Jied kawei ka SHG."</string>
+    <string name="please_select_atleast_one_module">"Please select atleast one module."</string>
+    //not changed
+
+    <string name="toast_language_min_selection">Please select atleast 1 language</string>
+    //not changed
+    <string name="toast_otp_wrong">Bakla OTP.</string>
+    <string name="toast_registered_mobile">Pynrung ia u mobile number ba la dep register</string>
+    <string name="toast_language_chang">lah dep pynkylla ia ka ktien ba phi kwah.</string>
+    <string name="toast_evaluation_morethen_zero">Ki number kim dei ban duna  ia u zero, haba pynrung.</string>
+    <string name="toast_evaluation_shgMember">U number ba la pynrung um iahap bad ki dkhot SHG member</string>
+    <string name="toast_nonot_matched_fromlocal">Number ba lah pyndap ka heh ia ka number jong baroh ki SHG members.</string>
+    <string name="toast_basline_shg_not_found">Ha kane ka jaka ym don SHG</string>
+    <string name="toast_basline_entervalid_number">Sngewbha pynrung ia ka jingdon ki dkhot kum ba dei</string>
+    <string name="toast_evaluation_form_fill_msg">Pyndep iaka form ba la dep peit bniah</string>
+    <string name="toast_nodata_found">Ym lap data.</string>
+    <string name="toast_FAIL">FAIL</string>
+    <string name="otp_greeting">Khublei shibun!</string>
+    <string name="otp_massage">OTP na bynta ka Saksham Application. Ym dei ban ai iano iano..</string>
+    <string name="toast_fill_details">Sngewbha pyndap bha ia ki jingdonkam.</string>
+    <string name="toast_take_picture">Shon dur.</string>
+    <string name="toast_nologinid">you have to login first.</string>//not changed
+    <string name="toast_error">ki dkhot kim dei ban tam ia ka jingdon ki dkhot baroh.</string>
+
+
+    <!--     Error Messages-->
+    <string name="error_mobileno">Pyndap ia u phone number ba dei.</string>
+    <string name="error_mobileno_notregistered">Khlem pat register ia u Mobile Number</string>
+    <string name="error_mobileno_notmatched">Number ba la pynrung kam iahap</string>
+    <string name="error_password">U password u lyngkot eh</string>
+    <string name="error_confirm_password">Ka jing jrong jong u password kam dei ban duna iaka hynriew dak.</string>
+    <string name="error_confirm_password_not_matched">U password ym  iahap.</string>
+    <string name="error_userId">User ID u bakla.</string>
+    <string name="error_invalid_password">U Password u bakla.</string>
+    <string name="error_otp">U OTP u bakla.</string>
+
+    <!--    server error masseges , don't change these strings used in programing conditions-->
+    <string name="data_save_succesfully">Data lah thep.</string>
+    <string name="server_error_invalid_userId">User ID u bakla !!!</string>
+    <string name="server_error_invalid_userId_massege">User ID ba lah pynrung u bakla.</string>
+    <string name="server_error_invalid_password">U Password u bakla!!!</string>
+    <string name="server_error_invalid_password_massege">U password u bakla.</string>
+    <string name="server_error_invalid_version">ka version jong ka APP ka bakla !!!</string>
+    <string name="server_error_invalid_version_massege">Application version ka dei ka ba rim , sngewbha update ia ka application.</string>
+    <string name="server_error_invalid_date">Bakla ka Tarik!!!</string>
+    <string name="server_error_invalid_date_massege">Sngewbha pynkylla ia ka tarik jong ka mobile phone jong phi.</string>
+    <string name="server_error_device_info">Jingtip bniah ia ka Tiar electronic ba byndonkam!!!</string>
+    <string name="server_error_device_info_massege">Sngewbha login na u register ID</string>
+    <string name="device">Ka tiar electronic</string>
+
+
+    <!--   Dialog Messages-->
+    <string name="please_fill_proper_details">Sngewbha pyndap ia ki jingtip ba tikna.</string>
+    <string name="do_you_want_to_save_detail">Hato phi kwah ban buh ia kine ki jingtip.?</string>
+    <string name="info_confirmation">Ban pyntikna ia ki jingtip baroh</string>
+    <string name="msg_logout">Phi kwah ban logout?</string>
+    <string name="NOT_AVAILABLE">NA</string>
+    <string name="NO_INTERNET_TITLE">ym don internet!</string>
+    <string name="SERVER_ERROR_TITLE">Server ka don jingthud!</string>
+    <string name="INTERNET_MESSAGE">Sngewbha , plie ia u internet jng phi.</string>
+    <string name="INTERNET_BAD">suki ka internet!!!</string>
+    <string name="SERVER_ERROR_MESSAGE">jingthud hapoh ka  server.</string>
+    <string name="dialog_evaluation_chang_answer">Pynkylla ia ka jubab.</string>
+    <string name="dialog_save_data">Do you want to save the data?</string>
+    <string name="dialog_save_data_for_evaluation">Hato phi kwah ban buh ia kane ka data??\n\nYour location is</string>
+    //partially changed
+
+    <!--    //...............................................................-->
+    <string name="please_enter_valid_pin_details">"Pynrung ia ki jingtip ba pura"</string>
+    <string name="please_enter_your_password">"Sngewbha thep ia  u password"</string>
+    <string name="enter_your_password">"Ai ia u password"</string>
+    <string name="enter_id">"Ai u ID jng phi"</string>
+    <string name="please_enter_your_id">"Ai u ID jng phi"</string>
+    <string name="baseline_completed">"La pyndep ia ka Baseline"</string>
+    <string name="baseline_pending">"Dang sah kut ka Baseline"</string>
+    <string name="total_number_shg">"Ka jing don ki SHGs baroh"</string>
+    //changed
+    <string name="shg_not_found">"Ym lap ia ka SHG ha kane ka jaka!!"</string>
+    <string name="select_location">"Jied ia ka jaka"</string>
+    <string name="select_location_de">Jingtip ba pura ka SHG</string>
+    <string name="block_grampanchayt_village">Block>> GramPanchyt>>Shnong</string>
+    <string name="confirm_details">Jingpynshisha ia ki jingtip ba pura</string>
+    <string name="add_shg">Pynrung shuh shuh ki SHG</string>
+    <string name="enter_participant">Pynrung ia ki nongshimbynta</string>
+    <string name="unlock_first">Sngewbha Plie shwa</string>
+    <string name="baseline_done">Ka Baseline la leh hi da ka SHG</string>
+
+    <string name="enter_mpin">AI ia u MPIN</string>
+    <string name="confirm_mpin">Pyntikna ia u MPIN</string>
+    <string name="add_location">Pynrung shuh shuh ki jaka</string>
+    <string name="sync_data">Pynia kajuh ia ki data</string>
+    <string name="baseline">1. Baseline</string>
+    <string name="baseline_form_title">Baseline Form na bynta ka SHG</string>
+    <string name="forgotpin">Klet ia u Mpin</string>
+
+    <string name="unsynced_Bshgs">Unsynced SHGs</string>
+    <string name="unsynced_training">Jinghikai ia ka unsynced</string>
+    <string name="unsynced_Eshgs">Unsynced SHGs</string>
+    <string name="select_month">Sngewbha ,jied ia u bnai.</string>
+
+    <!--  toolbar titles-->
+    <string name="title_viewreport">Peit ia ki reports</string>
+    <string name="title_addtraining">Jinghikai</string>
+    <string name="title_dashbord">Dashboard</string>
+    <string name="title_baseline">Baseline</string>
+    //changed
+
+
+    <!--created by lincon-->
+
+    <string name="baslineDate">Tarik jong ki baseline</string>
+    //changed
+    <string name="baslineDate_selected_location_msg">Jied ia ka  jaka</string>
+    <string name="baslineDate_total_shg">Jingkhein kyllum ia ki SHGs</string>
+    <string name="baslineDate_completed">Baseline kiba la dep</string>
+    <string name="baslineDate_pending">Baseline Panding </string>
+    <string name="basline_shg_name">Kyrteng SHG </string>
+    <string name="basline_totalMember">Jingkhein kyllum ia ki dkhot</string>
+    <string name="basline_entred_member">katno ki dkhot kiba lah ban sign</string>
+    <string name="evaluation_shg_list">SHGs list na ka bnta jngkhein</string>
+    <string name="evaluation_days_left">ki sngi ba dang sah</string>
+    <string name="evaluation_days_msg"> ki sngi</string>
+    <string name="evaluation_day_msg">sngi</string>
+    <string name="evaluation_start_msg">Jingkhein ba sdang</string>
+    <string name="evaluation_done_msg">Jingkhein ba la dep</string>
+    <string name="evaluation_ro_evaluation_msg">leh ia ka jngkhein jng phi</string>
+    <string name="evaluation_ro_evaluation_msg_first">leh shwa ia ka jngkhein jng phi</string>
+    <string name="evaluation_number_of_training">Ki no. Jng ki nongshimbynta ha ki jnghikai.</string>
+    <string name="evaluation_date_msg">Tarik jngkhein</string>
+    <string name="evaluation_training_date_msg">Tarik jnghikai</string>
+    <string name="evaluation_no_days_left">No jng ka sngi ba dang sah</string>
+    <string name="pending_evaluation">Jingkhein ba bniah kiba dang sah kut:</string>
+    <string name="pending_evaluation1">Jingkhein ba bniah kiba dang sah kut:</string>
+    <string name="dashboard_shg_left">No . Jng ki SHGs ki ba dang sah na ka bynta ki jngkhein</string>
+    <string name="dashboard_show_detail">Pyni bniah</string>
+    <string name="dashboard_shg_msg">Nyngkong pyndep ia ki jngkhein jng kine ki SHGs</string>
+    <string name="evaluation_shg_not_found_msg">Katno tylli ki SHG kiba lap ia ki jaka ba la shah jied na ka bynta ki jingkhein!!!</string>
+
+    <!--tost-->
+
+    <string name="toast_location_msg">Ki jaka ba la  jied mynshwa</string>
+    <string name="toast_select_village_msg"> Sngewbha jied shwa ia ki shnong!!</string>
+    <string name="toast_erros_shg_not_found"> SHG ki bym lah ban shem ha kane ka jaka!!</string>
+    <string name="toast_enter_question"> Pynrung ia ki baseline jingkylli</string>
+    <string name="toast_data_saved"> Ki data ba buh ba la seisohbha</string>
+    <string name="toast_shg_not_found_evaluation"> SHG ki bym lah shem na ka bynta ki jngkhein!!</string>
+    <string name="toast_enter_member_msg">Pynrung no. Ki bym palat ia ki jngkheinkyllum jng ki dkhot
+</string>
+    <string name="toast_not_elegible">Ki bym ibit na ka bynta ki jingkhein</string>
+    <string name="title_activity_village_modified">Ki kam ban pynbha ia ka shnong</string>
+    <string name="dialog_web_request_failes">Data sync ki bym lah , pyrshang biang!</string>
+
+    <string name="gps_not_enabled">GPS ki bym lah . Phi kwah ban leit sha ka setting menu?</string>
+    <string name="auto_time_not_enabled">Auto time zone ki bym lah . Leit sha ka setting menu?</string>
+    <string name="please_enter_other_participant">Sngewbha pynrung ia kiwei pat ki nongshim bynta!!</string>
+
+    <string name="please_select_atleast_half_member">"Kiba duna ia ka 50% ki dkhot kiba donkam."</string>
+    <string name="minimum_half_members_required_for_baseline">Kiba duna ia ka 50% ki dkhot kiba donkam bad pynrung ia ki  no. Ki bym lah ban long palat ia ka jingkhein kyllum jong ki dkhot</string>
+    <string name="enter_number_of_participants">Ym dei ban palat ia ki 6 ngut ki SHG kiba hap ban jied na ka bynta ki jnghikai haki ba dang leit</string>
+    <string name="shg_for_baseline">Ki SHG na ka bynta ka baseline</string>
+    <string name="enter_number_of_participants_baseline">Pynrung ki no. Jng ki nongshimbynta</string>
+    <string name="atlest_one_shg_should_selected">La kumno kumno uwei SHGs u hap ban shah jied</string>
+    <string name="shg_list_baseline">Ki list jong SHG  na ka bynta ka baseline</string>
+    <string name="no_pending_shgB">Ym don ki SHG ba sah kut na ka bynta ka baseline.</string>
+    <string name="bottom_text">Content provided by MoRD, hosted and maintained by NIC</string>
+
+    //new string add
+    <string name="login_attempts_msgS">Fi dong tang</string>
+    <string name="login_attempts_msgE">Jingpyrshang ban login ba sah</string>
+    <string name="data_not_found_tost">Data khlem lap</string>
+    <string name="info">Jingtip shaphang ban login</string>
+    <string name="app_version">Rukom/Jinglong jong ka App</string>
+    <string name="login_attempt_failed">Jingthud: Ka user account jong phi ka lah locked naka daw ba pyrshang shi pyrshang. Fi lah ban login biang hadien ka 15 minit</string>
+
+
+</resources>
