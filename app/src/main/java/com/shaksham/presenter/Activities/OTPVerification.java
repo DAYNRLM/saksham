@@ -77,7 +77,7 @@ public class OTPVerification extends AppCompatActivity {
                     String userId = enter_UserIdEt.getText().toString().trim().toUpperCase();
 
                     if(userId == null || userId.equalsIgnoreCase("") || userId.length() < 4){
-                        enter_UserIdEt.setError("Please enter valid user id. ");
+                        enter_UserIdEt.setError(getResources().getString(R.string.et_error_msg));
                     } else if (enteredPassword.length() < 6) {
                         enterPasswordTIET.setError(getString(R.string.error_password));
                     } else if (confirmPassword.length() < 6) {
@@ -112,7 +112,7 @@ public class OTPVerification extends AppCompatActivity {
                         new_passwordBtn.setVisibility(View.VISIBLE);
                     }else
                     {
-                        Toast.makeText(OTPVerification.this,"Entered OTP is wrong",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(OTPVerification.this,getResources().getString(R.string.toast_otp_msg),Toast.LENGTH_SHORT).show();
                         return;
                     }
                 }
@@ -182,7 +182,7 @@ public class OTPVerification extends AppCompatActivity {
                     try {
                         status = response.getString("status");
                         if(!status.equalsIgnoreCase("Updated Successfully!!!")){
-                            status =  response.getString("status") + "Please try again with another userId and mobile number";
+                            status =  response.getString("status") + getResources().getString(R.string.dialog_msg);
                         }
                         AlertDialog.Builder builder = new AlertDialog.Builder(OTPVerification.this);
                         builder.setTitle(R.string.reset_pass_TV);

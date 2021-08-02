@@ -59,6 +59,7 @@
     <string name="date_of_training">প্রশিক্ষণৰ তাৰিখ</string>
     <string name="device">ডিভাইচ Or reset account from web application.</string>
     <string name="dialog_evaluation_chang_answer">অনুগ্ৰহ কৰি আপোনাৰ উত্তৰটো সলনি কৰক.</string>
+    <string name="dialog_msg">Please try again with another userId and mobile number</string>
     <string name="dialog_save_data">আপুনি তথ্য সমূহ সংৰক্ষণ কৰিব বিচাৰিছে নেকি?</string>
     <string name="dialog_save_data_for_evaluation">আপুনি তথ্য সমূহ সংৰক্ষণ কৰিব বিচাৰিছে নেকি?\n\nYour location is</string>
     <string name="dialog_web_request_failes">তথ্য সংযোজন বিফল, পূণৰ চেষ্টা কৰক!</string>
@@ -81,6 +82,7 @@
     <string name="error_otp">অন্তৰ্ভুক্ত কৰা অটিপি ভুল.</string>
     <string name="error_password">পাছৱৰ্ডৰ দৈৰ্ঘ্য কম.</string>
     <string name="error_userId">অচল ইউজাৰ আইডি.</string>
+    <string name="et_error_msg">Please enter valid user id.</string>
     <string name="evaluation_Question1">1.যোৱা দুমাহত ব্যক্তিগত একাউন্টত লেনদেন কৰা গোটৰ সদস্য সংখ্যা</string>
     <string name="evaluation_Question10">10.  মুদ্ৰা ঋণ পোৱা সদস্য সংখ্যা</string>
     <string name="evaluation_Question2">2.  গোটৰ পৰা এতিয়ালৈকে এবাৰো ঋণ নোলোৱা সদস্য সংখ্যা</string>
@@ -253,6 +255,7 @@
     <string name="toast_nologinid">you have to login first.</string>
     <string name="toast_nonot_matched_fromlocal">অন্তৰ্ভুক্ত কৰা নম্বৰটো মিলা নাই নাই বা আগত লগ-ইন কৰা.</string>
     <string name="toast_not_elegible">মূল্যায়ন ৰ বাবে অযোগ্য</string>
+    <string name="toast_otp_msg">Entered OTP is wrong</string>
     <string name="toast_otp_wrong">অন্তৰ্ভুক্ত কৰা অটিপি ভুল.</string>
     <string name="toast_registered_mobile">অনুগ্ৰহ কৰি পঞ্জীকৃত মোবাইল নুম্বৰ অন্তৰ্ভুক্ত কৰক</string>
     <string name="toast_select_village_msg"> অনুগ্ৰহ কৰি প্ৰথমে গাওঁ বাচনি কৰক!!</string>

@@ -59,6 +59,7 @@
     <string name="date_of_training">प्रशिक्षण की तिथि</string>
     <string name="device">डिवाइस।</string>
     <string name="dialog_evaluation_chang_answer">कृपया अपने उत्तर बदलें।</string>
+    <string name="dialog_msg">कृपया किसी अन्य उपयोगकर्ता आईडी और मोबाइल नंबर के साथ पुन: प्रयास करें</string>
     <string name="dialog_save_data">क्या आप डेटा सहेजना चाहते हैं?</string>
     <string name="dialog_save_data_for_evaluation">क्या आप डेटा सहेजना चाहते हैं? \ n \ n आपका स्थान है</string>
     <string name="dialog_web_request_failes">डेटा सिंक विफल रहा, पुनः प्रयास करें!</string>
@@ -81,6 +82,7 @@
     <string name="error_otp">दर्ज ओटीपी गलत है।</string>
     <string name="error_password">पासवर्ड की लंबाई कम है।</string>
     <string name="error_userId">अमान्य उपयोगकर्ता आइ डी।</string>
+    <string name="et_error_msg">कृपया कोई मान्य उपयोगकर्ता आईडी दें।</string>
     <string name="evaluation_Question1">1. पिछले 2 महीनों में व्यक्तिगत बैंक खाते में लेन-देन किए गए SHG सदस्यों की संख्या</string>
     <string name="evaluation_Question10">10. SHG सदस्यों की संख्या ने MUDRA ऋण का लाभ उठाया</string>
     <string name="evaluation_Question2">2. उन सदस्यों की संख्या जिन्होंने एसएचजी से कोई ऋण नहीं लिया है</string>
@@ -252,6 +254,7 @@
     <string name="toast_nologinid">आप पहले तो लॉग इन करें।</string>
     <string name="toast_nonot_matched_fromlocal">दर्ज संख्या का मिलान या लॉगिन पहले नहीं किया गया है।</string>
     <string name="toast_not_elegible">मूल्यांकन के योग्य नहीं</string>
+    <string name="toast_otp_msg">दर्ज किया गया ओटीपी गलत है</string>
     <string name="toast_otp_wrong">दर्ज ओटीपी गलत है।</string>
     <string name="toast_registered_mobile">कृपया, पंजीकृत मोबाइल नंबर दर्ज करें</string>
     <string name="toast_select_village_msg">कृपया पहले गाँव का चयन करें !!</string>

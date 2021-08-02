@@ -59,6 +59,7 @@
     <string name="date_of_training">Tarik ba long training</string>
     <string name="device">Ka tiar electronic</string>
     <string name="dialog_evaluation_chang_answer">Pynkylla ia ka jubab.</string>
+    <string name="dialog_msg">Please try again with another userId and mobile number</string>
     <string name="dialog_save_data">Do you want to save the data?</string>
     <string name="dialog_save_data_for_evaluation">Hato phi kwah ban buh ia kane ka data??\n\nYour location is</string>
     <string name="dialog_web_request_failes">Data sync ki bym lah , pyrshang biang!</string>
@@ -81,6 +82,7 @@
     <string name="error_otp">U OTP u bakla.</string>
     <string name="error_password">U password u lyngkot eh</string>
     <string name="error_userId">User ID u bakla.</string>
+    <string name="et_error_msg">Please enter valid user id.</string>
     <string name="evaluation_Question1">1. Ki dkhot SHG ba la pyndonkam bha ia ki account jong ki ha kine ki ar bnai ba la leit.</string>
     <string name="evaluation_Question10">10. katno ngut ki dkhot SHG ba la shim ram na ka MUDRA</string>
     <string name="evaluation_Question2">2. Ki dkhot SHG bym pat shim ram na ka SHG</string>
@@ -253,6 +255,7 @@
     <string name="toast_nologinid">you have to login first.</string>
     <string name="toast_nonot_matched_fromlocal">Number ba lah pyndap ka heh ia ka number jong baroh ki SHG members.</string>
     <string name="toast_not_elegible">Ki bym ibit na ka bynta ki jingkhein</string>
+    <string name="toast_otp_msg">Entered OTP is wrong</string>
     <string name="toast_otp_wrong">Bakla OTP.</string>
     <string name="toast_registered_mobile">Pynrung ia u mobile number ba la dep register</string>
     <string name="toast_select_village_msg"> Sngewbha jied shwa ia ki shnong!!</string>

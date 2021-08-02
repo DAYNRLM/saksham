@@ -323,7 +323,9 @@
     <string name="login_attempt_failed">त्रुटी: बर्‍याच अयशस्वी प्रयत्नांमुळे हे वापरकर्ता खाते लॉक केले गेले आहे. लॉकआउटचा वेळ संपल्यानंतर 15 मिनिटांनंतर आपण पुन्हा लॉग इन करू शकता</string>
 
 
-
+    <string name="et_error_msg">कृपया वैध वापरकर्ता आयडी प्रविष्ट करा.</string>
+    <string name="toast_otp_msg">ओटीपी प्रविष्ट करणे चुकीचे आहे</string>
+    <string name="dialog_msg">कृपया दुसऱ्या userId आणि मोबाईल क्रमांकासह पुन्हा प्रयत्न करा</string>
 
 
 </resources>

@@ -59,6 +59,7 @@
     <string name="date_of_training">ପ୍ରଶିକ୍ଷଣ ତାରିଖ</string>
     <string name="device">ଡିଭାଇସ୍ କିମ୍ବା ୱେବ୍ ଆପ୍ଲିକେସନ୍ ରୁ ଖାତା ପୁନ res ସେଟ୍ କରନ୍ତୁ |.</string>
     <string name="dialog_evaluation_chang_answer">ଦୟାକରି ନିଜ ଉତ୍ତର ବଦଳାନ୍ତୁ .</string>
+    <string name="dialog_msg">ଦୟାକରି ଅନ୍ୟ ଏକ ୟୁଜର୍ ଆଇଡି ଏବଂ ମୋବାଇଲ୍ ନମ୍ବର ସହିତ ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ |</string>
     <string name="dialog_save_data">ଆପଣ ତଥ୍ୟ ସଂରକ୍ଷଣ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି ? </string>
     <string name="dialog_save_data_for_evaluation">ଆପଣ ତଥ୍ୟ ସଞ୍ଚୟ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି? ଆପଣଙ୍କର ଅବସ୍ଥାନ ହେଉଛି |</string>
     <string name="dialog_web_request_failes">ତଥ୍ୟ sycn ତ୍ରୁଟି, ଆଉ ଠାରେ ଚେଷ୍ଟା କରନ୍ତୁ !</string>
@@ -81,6 +82,7 @@
     <string name="error_otp">ଦାଖଲ କରିଥିବା  OTP ଭୁଲ ଅଛି .</string>
     <string name="error_password">ଛୋଟ ପାସୱର୍ଡ .</string>
     <string name="error_userId">ଅକାମି ୟୁଜର ଆଇଡି.</string>
+    <string name="et_error_msg">ଦୟାକରି ବ valid ଧ ବ୍ୟବହାରକାରୀ id ପ୍ରବେଶ କରନ୍ତୁ |</string>
     <string name="evaluation_Question1">1. No. of SHG members done transaction in individual bank account in last 2 months</string>
     <string name="evaluation_Question10">10.  No. of SHG members availed MUDRA loan for</string>
     <string name="evaluation_Question2">2. No. of members who have not taken any loan from SHG</string>
@@ -252,6 +254,7 @@
     <string name="toast_nologinid">you have to login first.</string>
     <string name="toast_nonot_matched_fromlocal">ଦାଖଲ କରିଥିବା ନମ୍ବରଟି ମ୍ୟାଚ କରୁନାହିଁ ଅଥବା ପ୍ରଥମେ ଲଗଇନ କରନ୍ତୁ </string>
     <string name="toast_not_elegible">ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ ନିମନ୍ତେ ଯୋଗ୍ୟ ନୁହଁନ୍ତି </string>
+    <string name="toast_otp_msg">ପ୍ରବିଷ୍ଟ OTP ଭୁଲ ଅଟେ |</string>
     <string name="toast_otp_wrong">ଟାଇପ କରିଥିବା OTP ଭୁଲ ଅଛି </string>
     <string name="toast_registered_mobile">ପଂଜିକୃତ ହୋଇଥିବା ମୋବଇଲ ନମ୍ବର ଲେଖନ୍ତୁ </string>
     <string name="toast_select_village_msg"> ଦୟାକରି ପ୍ରଥମେ ଗ୍ରାମ ଚୟନ କରନ୍ତୁ !!</string>

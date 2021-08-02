@@ -345,7 +345,9 @@
         <string name="app_version">App Version:</string>
         <string name="login_attempt_failed">Dik Lo: Hemi user account hi I luh dan vawi tam tak a diklo avangin a in khar rih e. 15 minutes hnuha luh tum leh rawh. </string>
 
-
+        <string name="et_error_msg">Please enter valid user id.</string>
+        <string name="toast_otp_msg">Entered OTP is wrong</string>
+        <string name="dialog_msg">Please try again with another userId and mobile number</string>
 
 
 </resources>

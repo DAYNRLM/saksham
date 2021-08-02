@@ -306,4 +306,9 @@
     <string name="app_version">એપ્લીકેશન વર્ઝનઃ </string>
     <string name="login_attempt_failed">એરરઃ આ વપરાશકર્તાનું એકાઉન્ટ વધુ વખત નિષ્ફળ પ્રયાસ ને કારણે લોક કરવામાં આવેલ છે. તમે ૧પ મીનીટ નાં લોકઆઉટ સમય પૂર્ણ થયા બાદ ફરી પ્રયાસ કરી શકો છો</string>
 
+
+    <string name="et_error_msg">કૃપા કરીને માન્ય વપરાશકર્તા ID દાખલ કરો.</string>
+    <string name="toast_otp_msg">દાખલ કરેલ OTP ખોટું છે</string>
+    <string name="dialog_msg">કૃપા કરીને બીજા userId અને મોબાઇલ નંબર સાથે ફરી પ્રયાસ કરો</string>
+
 </resources>

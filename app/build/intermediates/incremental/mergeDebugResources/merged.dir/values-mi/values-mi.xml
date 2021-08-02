@@ -59,6 +59,7 @@
     <string name="date_of_training">Training neih ni</string>
     <string name="device">Khawl anih loh chuan account siam that angai. </string>
     <string name="dialog_evaluation_chang_answer">I chhanna ho thlak rawh.</string>
+    <string name="dialog_msg">Please try again with another userId and mobile number</string>
     <string name="dialog_save_data">Data i dah tha duh em?</string>
     <string name="dialog_save_data_for_evaluation">Do you want to save the data?\n\nYour location is</string>
     <string name="dialog_web_request_failes">Data thlunzawm theih loh, Ti tha leh rawh!</string>
@@ -81,6 +82,7 @@
     <string name="error_otp">I OTP chhut luh a dik lo</string>
     <string name="error_password">I password thumal a tawi</string>
     <string name="error_userId">User Id dik lo</string>
+    <string name="et_error_msg">Please enter valid user id.</string>
     <string name="evaluation_Question1">1. No. of SHG members done transaction in individual bank account in last 2 months</string>
     <string name="evaluation_Question10">10.  No. of SHG members availed MUDRA loan for</string>
     <string name="evaluation_Question2">2. No. of members who have not taken any loan from SHG</string>
@@ -252,6 +254,7 @@
     <string name="toast_nologinid">you have to login first.</string>
     <string name="toast_nonot_matched_fromlocal">I number chhut luh a inmil lo a nih chuan login hmasa rawh</string>
     <string name="toast_not_elegible">Evaluation turin a tling lo</string>
+    <string name="toast_otp_msg">Entered OTP is wrong</string>
     <string name="toast_otp_wrong">I OTP chhut luh a dik lo</string>
     <string name="toast_registered_mobile">Khawngaihin, mobile number thehluh bik chhu lut rawh</string>
     <string name="toast_select_village_msg">Khua thlang hmasa rawh!!</string>

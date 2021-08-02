@@ -86,6 +86,7 @@
     <string name="date_of_training">பயிற்சி தேதி</string>
     <string name="device">device Or reset account from web application.</string>
     <string name="dialog_evaluation_chang_answer">உங்கள் விடையை மாற்றவும்.</string>
+    <string name="dialog_msg">ਕదయచేసి మరొక యూజర్ ఐడి మరియు మొబైల్ నంబర్‌తో మళ్లీ ప్రయత్నించండి</string>
     <string name="dialog_save_data">தகவல்களை சேமிக்க வேண்டுமா?</string>
     <string name="dialog_save_data_for_evaluation">Do you want to save the data?\n\nYour location is</string>
     <string name="dialog_web_request_failes">டேட்டா சிங் பெயில், மறுபடி முயற்சி செய்!</string>
@@ -108,6 +109,7 @@
     <string name="error_otp">பதிவிட்ட ஓடிபி தவறு</string>
     <string name="error_password">பாஸ்வேர்டு நீளம் குறைவு</string>
     <string name="error_userId">தவறான யூசர் ஐடி</string>
+    <string name="et_error_msg">దయచేసి చెల్లుబాటు అయ్యే వినియోగదారు ఐడిని నమోదు చేయండి.</string>
     <string name="evaluation_Question1">1. No. of SHG members done transaction in individual bank account in last 2 months</string>
     <string name="evaluation_Question10">10.  No. of SHG members availed MUDRA loan for</string>
     <string name="evaluation_Question2">2. No. of members who have not taken any loan from SHG</string>
@@ -283,6 +285,7 @@
     <string name="toast_nologinid">you have to login first.</string>
     <string name="toast_nonot_matched_fromlocal">பதிவிட்ட எண் பொருந்தவில்லை</string>
     <string name="toast_not_elegible">மதிப்பீட்டிற்கு தகுதியில்லை</string>
+    <string name="toast_otp_msg">నమోదు చేసిన OTP తప్పుੈ</string>
     <string name="toast_otp_wrong">ஓடிபி பதிவு தவறு</string>
     <string name="toast_registered_mobile">பதிவுபெற்ற மொபைல் எண் பதிவிடு</string>
     <string name="toast_select_village_msg">  முதலில் கிராமத்தை தெரிவு செய்!!</string>

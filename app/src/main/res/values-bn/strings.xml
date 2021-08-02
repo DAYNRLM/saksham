@@ -328,4 +328,8 @@
     <string name="app_version">অ্যাপ সংস্করণ </string>
     <string name="login_attempt_failed">ভুলঃ অনেকবার অসফল প্রচেষ্টার জন্য গ্রাহকের এই অ্যাকাউন্ট আবদ্ধ করা হয়েছে । বন্ধ থাকার সময় ১৫ মিনিট পার হলে আবার লগইন করতে পারবেন।</string>
 
+
+    <string name="et_error_msg">বৈধ আইডি প্রবেশ করুন.</string>
+    <string name="toast_otp_msg">প্রবেশ করা OTP ভুল</string>
+    <string name="dialog_msg">કঅন্য ইউজারআইডি এবং মোবাইল নম্বর দিয়ে আবার চেষ্টা করুন</string>
 </resources>

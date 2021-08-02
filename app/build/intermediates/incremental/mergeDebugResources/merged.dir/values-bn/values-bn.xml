@@ -88,6 +88,7 @@
     <string name="date_of_training">প্রশিক্ষণের তারিখ</string>
     <string name="device">ওয়েব অ্যাপলিকেশন পুনরায় সেট/চালু করুন । </string>
     <string name="dialog_evaluation_chang_answer">আপনার উত্তর পরিবর্তন করুন.</string>
+    <string name="dialog_msg">કঅন্য ইউজারআইডি এবং মোবাইল নম্বর দিয়ে আবার চেষ্টা করুন</string>
     <string name="dialog_save_data">আপনি কি প্রদত্ত তথ্য সংরক্ষণ করতে চাইছেন?</string>
     <string name="dialog_save_data_for_evaluation">আপনি কি তথ্যগুলি সংরক্ষণ / জমা করতে চান ?\n\n তাহলে স্থানটি হচ্ছে </string>
     <string name="dialog_web_request_failes">তথ্য সংরক্ষণ ব্যর্থ হয়েছে, আবার চেষ্টা করুন!</string>
@@ -110,6 +111,7 @@
     <string name="error_otp">প্রদত্ত ও টি পি ভুল.</string>
     <string name="error_password">পাস ওয়ার্ড এর দৈর্ঘ্য কম.</string>
     <string name="error_userId">ব্যবহারকারীর পরিচিতি অসিদ্ধ.</string>
+    <string name="et_error_msg">বৈধ আইডি প্রবেশ করুন.</string>
     <string name="evaluation_Question1">1. কতজন স্বনির্ভর দলের সদস্য নিজ নিজ ব্যাঙ্ক সেভিংস একাউন্টে গত দুই মাসে লেনদেন করেছেন</string>
     <string name="evaluation_Question10">10.  স্বনির্ভর দলের কতজন সদস্য মুদ্রাঋণ গ্রহন করেছেন</string>
     <string name="evaluation_Question2">2. কতজন স্বনির্ভর দলের সদস্য দল থেকে কোন ঋণ গ্রহন করেন নি</string>
@@ -287,6 +289,7 @@
     <string name="toast_nologinid">you have to login first.</string>
     <string name="toast_nonot_matched_fromlocal">প্রদত্ত সংখ্যা মিল হচ্ছে না অথবা প্রথম লগ ইন করুন.</string>
     <string name="toast_not_elegible">মূল্যায়নের জন্য উপযুক্ত নয়</string>
+    <string name="toast_otp_msg">প্রবেশ করা OTP ভুল</string>
     <string name="toast_otp_wrong">আপনার ওটিপি টি ভুল.</string>
     <string name="toast_registered_mobile">নথিভুক্ত মোবাইল নাম্বার দিন</string>
     <string name="toast_select_village_msg">প্রথমে গ্রাম নির্বাচন করুন !!!!</string>

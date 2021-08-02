@@ -2683,6 +2683,7 @@ string date_of_evaluation
 string date_of_training
 string device
 string dialog_evaluation_chang_answer
+string dialog_msg
 string dialog_save_data
 string dialog_save_data_for_evaluation
 string dialog_web_request_failes
@@ -2706,6 +2707,7 @@ string error_mobileno_notregistered
 string error_otp
 string error_password
 string error_userId
+string et_error_msg
 string evaluation_Question1
 string evaluation_Question10
 string evaluation_Question2
@@ -2930,6 +2932,7 @@ string toast_nodata_found
 string toast_nologinid
 string toast_nonot_matched_fromlocal
 string toast_not_elegible
+string toast_otp_msg
 string toast_otp_wrong
 string toast_registered_mobile
 string toast_select_village_msg

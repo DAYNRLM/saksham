@@ -336,4 +336,8 @@
     <string name="login_attempt_failed">Jingthud: Ka user account jong phi ka lah locked naka daw ba pyrshang shi pyrshang. Fi lah ban login biang hadien ka 15 minit</string>
 
 
+    <string name="et_error_msg">Please enter valid user id.</string>
+    <string name="toast_otp_msg">Entered OTP is wrong</string>
+    <string name="dialog_msg">Please try again with another userId and mobile number</string>
+
 </resources>

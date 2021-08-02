@@ -345,5 +345,10 @@
 <string name="login_attempt_failed">Error: This user account has been locked due to too many failed attempts. You can login again after the 15 minutes Lockout Time has expired</string>
 
 
+    <string name="et_error_msg">Please enter valid user id.</string>
+    <string name="toast_otp_msg">Entered OTP is wrong</string>
+    <string name="dialog_msg">Please try again with another userId and mobile number</string>
+
+
 
 </resources>

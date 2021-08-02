@@ -59,6 +59,7 @@
     <string name="date_of_training">प्रशिक्षणाची तारीख</string>
     <string name="device">डिव्हाइस किंवा वेब अनुप्रयोगावरून खाते रीसेट करा.</string>
     <string name="dialog_evaluation_chang_answer">कृपया, तुमचे उत्तर बदला.</string>
+    <string name="dialog_msg">कृपया दुसऱ्या userId आणि मोबाईल क्रमांकासह पुन्हा प्रयत्न करा</string>
     <string name="dialog_save_data">तुम्ही माहिती जमा करू इच्छिता का?</string>
     <string name="dialog_save_data_for_evaluation">तुम्ही माहिती जमा करू इच्छिता का?</string>
     <string name="dialog_web_request_failes">माहिती संक्रमण अयशस्वी, पुन्हा प्रयत्न करा!</string>
@@ -81,6 +82,7 @@
     <string name="error_otp">समाविष्ट केलेला OTP चुकीचा आहे</string>
     <string name="error_password">पासवर्डची संख्या कमी आहे</string>
     <string name="error_userId">अवैध युजर आय डी</string>
+    <string name="et_error_msg">कृपया वैध वापरकर्ता आयडी प्रविष्ट करा.</string>
     <string name="evaluation_Question1">1.मागील २ महिन्यात स्वयंसहायता समूहातील सदस्यांनी वैयक्तिक बँक खात्यामध्ये केलेल्या व्यवहारांची संख्या </string>
     <string name="evaluation_Question10">10.मुद्रा अंतर्गत कर्ज घेतलेल्या स्वयंसहायता समूहातील सदस्यांची संख्या</string>
     <string name="evaluation_Question2">2.स्वयंसहायता समूहाकडून कोणतेही कर्ज न घेतलेल्या सदस्यांची संख्या</string>
@@ -252,6 +254,7 @@
     <string name="toast_nologinid">you have to login first.</string>
     <string name="toast_nonot_matched_fromlocal">प्रविष्ट केलेला नंबर जुळला नाही किंवा प्रथम लॉगिन करा</string>
     <string name="toast_not_elegible">मुल्यांकनाकरिता पात्र नाही</string>
+    <string name="toast_otp_msg">ओटीपी प्रविष्ट करणे चुकीचे आहे</string>
     <string name="toast_otp_wrong">टाकलेला OTP हा चुकीचा आहे</string>
     <string name="toast_registered_mobile">कृपया नोंदणीकृत संपर्क क्रमांक टाका</string>
     <string name="toast_select_village_msg"> कृपया प्रथम गाव निवडा!!</string>

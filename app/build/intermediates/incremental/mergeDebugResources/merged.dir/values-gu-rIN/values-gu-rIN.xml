@@ -59,6 +59,7 @@
     <string name="date_of_training">તાલીમની તારીખ</string>
     <string name="device">ઉપકરણ અથવા વેબ એપ્લિકેશનથી એકાઉન્ટને ફરીથી સેટ કરો.</string>
     <string name="dialog_evaluation_chang_answer">મહેરબાની કરીને તમારો જવાબ બદલો.</string>
+    <string name="dialog_msg">કૃપા કરીને બીજા userId અને મોબાઇલ નંબર સાથે ફરી પ્રયાસ કરો</string>
     <string name="dialog_save_data">શું તમારે ડેટા સેવ કરવો છે?</string>
     <string name="dialog_save_data_for_evaluation">શું તમે માહિતીને સેવ કરવા માંગો છો? n\n  તમારુ લોકેશન છે.</string>
     <string name="dialog_web_request_failes">ડેટા સીન્ક્રોનાઇઝ થયેલ નથી, ફરી પ્રયાસ કરો!</string>
@@ -81,6 +82,7 @@
     <string name="error_otp">દાખલ કરેલ OTP ખોટો છે</string>
     <string name="error_password">પાસવર્ડ ખુબ નાનો છે</string>
     <string name="error_userId">યૂસર આઇ-ડી યોગ્ય  નથી</string>
+    <string name="et_error_msg">કૃપા કરીને માન્ય વપરાશકર્તા ID દાખલ કરો.</string>
     <string name="evaluation_Question1">1. No. of SHG members done transaction in individual bank account in last 2 months</string>
     <string name="evaluation_Question10">10.  No. of SHG members availed MUDRA loan for</string>
     <string name="evaluation_Question2">2. No. of members who have not taken any loan from SHG</string>
@@ -252,6 +254,7 @@
     <string name="toast_nologinid">તમારે પહેલા પ્રવેશ કરવો પડશે.</string>
     <string name="toast_nonot_matched_fromlocal">નાખેલ આંકડો મેચ થતો નથી અથવા પહેલા લોગ ઇન કરો</string>
     <string name="toast_not_elegible">મૂલ્યાંકન માટે લાયક નથી</string>
+    <string name="toast_otp_msg">દાખલ કરેલ OTP ખોટું છે</string>
     <string name="toast_otp_wrong">નાખેલ OTP ખોટો છે</string>
     <string name="toast_registered_mobile">જે મોબાઈલ નંબર રજીસ્ટર હોય તે નાખો</string>
     <string name="toast_select_village_msg">મહેરબાની કરી પહેલા ગામ પસંદ કરો!!</string>

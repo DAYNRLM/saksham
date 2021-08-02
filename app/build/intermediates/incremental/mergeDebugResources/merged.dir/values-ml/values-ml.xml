@@ -86,6 +86,7 @@
     <string name="date_of_training">പരിശീലനം നടക്കുന്ന തീയതി</string>
     <string name="device">ഡിവൈസ്  അല്ലെങ്കിൽ വെബ് അപ്ലിക്കേഷൻ റീസെറ്റ് ചെയുക .</string>
     <string name="dialog_evaluation_chang_answer">നിങ്ങളുടെ ഉത്തരങ്ങൾ ചേഞ്ച് ചെയ്യുക</string>
+    <string name="dialog_msg">മറ്റൊരു യൂസർ ഐഡിയും മൊബൈൽ നമ്പറും ഉപയോഗിച്ച് വീണ്ടും ശ്രമിക്കുക</string>
     <string name="dialog_save_data">നിങ്ങൾക്കു ഡാറ്റ സേവ് ചെയ്യണോ</string>
     <string name="dialog_save_data_for_evaluation">ഡാറ്റ സേവ് ചെയ്യണമോ \n\n. നിങ്ങളുടെ ലൊക്കേഷൻ</string>
     <string name="dialog_web_request_failes">ഡാറ്റ സിങ്ക് നടന്നില്ല വീണ്ടും ശ്രെമികുക</string>
@@ -108,6 +109,7 @@
     <string name="error_otp">എന്റർ ചെയ്ത ഓ ടി പി തെറ്റാണ്</string>
     <string name="error_password">പാസ്സ്‌വേർഡ് നീളം കുറവാണ്</string>
     <string name="error_userId">ഇൻവാലിദ് യൂസർ ഐഡി</string>
+    <string name="et_error_msg">സാധുവായ ഉപയോക്തൃ ഐഡി നൽകുക.</string>
     <string name="evaluation_Question1">1. No. of SHG members done transaction in individual bank account in last 2 months</string>
     <string name="evaluation_Question10">10.  No. of SHG members availed MUDRA loan for</string>
     <string name="evaluation_Question2">2. No. of members who have not taken any loan from SHG</string>
@@ -283,6 +285,7 @@
     <string name="toast_nologinid">you have to login first.</string>
     <string name="toast_nonot_matched_fromlocal">എന്റർ ചെയ്ത നമ്പർ മാച്ച് ചെയ്യുന്നില്ല. വീണ്ടും ലോഗിൻ ചെയ്യുക</string>
     <string name="toast_not_elegible">വിലയിരുത്തൽ നടത്താൻ യോഗ്യതയില്ല</string>
+    <string name="toast_otp_msg">OTP നൽകിയത് തെറ്റാണ്</string>
     <string name="toast_otp_wrong">എന്റർ ചെയ്ത ഓ ടി പി തെറ്റാണ്</string>
     <string name="toast_registered_mobile">രജിസ്റ്റർ ചെയ്ത മൊബൈൽ നമ്പർ എന്റർ ചെയ്യുക</string>
     <string name="toast_select_village_msg">ആദ്യം വില്ലജ് തിരഞ്ഞെടുക്കുക</string>

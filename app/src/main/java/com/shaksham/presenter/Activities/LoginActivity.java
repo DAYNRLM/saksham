@@ -782,7 +782,7 @@ public class LoginActivity extends AppCompatActivity {
                                             null, null, true,
                                             false);
                                 }else {
-                                    DialogFactory.getInstance().showServerCridentialDialog(LoginActivity.this, getString(R.string.server_error_device_info), getString(R.string.server_error_device_info_massege) + " (" + status + ") " + getString(R.string.device), "OK", null, null, false, false);
+                                    DialogFactory.getInstance().showServerCridentialDialog(LoginActivity.this,  getString(R.string.server_error_device_info), getString(R.string.server_error_device_info_massege) + " (" + status + ") " + getString(R.string.device), "OK", null, null, false, false);
                                 }
                             } else {
                                 parseServerData(jsonObject);
@@ -910,13 +910,12 @@ public class LoginActivity extends AppCompatActivity {
     private void updateApplication() {
         final String appPackageName = context.getPackageName();
         try {
-            //((Activity) context).startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appPackageName)));
-           // context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appPackageName)));
-           // context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://nrlm.gov.in/outerReportAction.do?methodName=showIndex")));
-            context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/11ai-E0CY-RshvTO3aHAISREQi74kEhb6/view?usp=sharing")));
+            //context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/11ai-E0CY-RshvTO3aHAISREQi74kEhb6/view?usp=sharing")));
+            context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.shaksham")));
         } catch (android.content.ActivityNotFoundException anfe) {
-            //((Activity) context).startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + appPackageName)));
-            context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://nrlm.gov.in/outerReportAction.do?methodName=showIndex")));
+            //context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://nrlm.gov.in/outerReportAction.do?methodName=showIndex")));
+            context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.shaksham")));
+
         }
         //((Activity) context).finish();
         ((Activity) context).finish();

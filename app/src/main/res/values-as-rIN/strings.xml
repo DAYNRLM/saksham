@@ -322,4 +322,8 @@
         <string name="login_attempt_failed">বিষংগতি: এইটো একাউণ্ট কেইবাটাও বিফল প্ৰয়াসৰ বাবে সাময়িক ভাৱে বন্ধ কৰি দিয়া হৈছে . আপুনি ১৫ মিনিটৰ বন্ধ সময় পাৰ হোৱাৰ পাছত পূণৰ  লগ ইন কৰিব পাৰিব
 </string>
 
+
+        <string name="et_error_msg">Please enter valid user id.</string>
+        <string name="toast_otp_msg">Entered OTP is wrong</string>
+        <string name="dialog_msg">Please try again with another userId and mobile number</string>
 </resources>

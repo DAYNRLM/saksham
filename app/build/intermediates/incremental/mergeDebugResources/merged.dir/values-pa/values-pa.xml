@@ -86,6 +86,7 @@
     <string name="date_of_training">ਟ੍ਰੇਨਿੰਗ ਦੀ ਮਿਤੀ </string>
     <string name="device">device Or reset account from web application.</string>
     <string name="dialog_evaluation_chang_answer">ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਜਵਾਬ ਬਦਲੋ.</string>
+    <string name="dialog_msg">ਕਿਰਪਾ ਕਰਕੇ ਕਿਸੇ ਹੋਰ ਯੂਜ਼ਰ ਆਈਡੀ ਅਤੇ ਮੋਬਾਈਲ ਨੰਬਰ ਨਾਲ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
     <string name="dialog_save_data">ਕੀ ਤੁਸੀਂ ਡੇਟਾ ਬਚਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
     <string name="dialog_save_data_for_evaluation">Do you want to save the data?\n\nYour location is</string>
     <string name="dialog_web_request_failes">ਡਾਟਾ ਸਿੰਕ ਅਸਫਲ, ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ!</string>
@@ -108,6 +109,7 @@
     <string name="error_otp">ਦਰਜ ਕੀਤਾ ਯੂਜ਼ਰ ਆਈ. ਡੀ  ਗਲਤ ਹੈ</string>
     <string name="error_password">ਪਾਸਵਰਡ ਦੀ ਲੰਬਾਈ ਛੋਟੀ ਹੈ</string>
     <string name="error_userId">ਗਲਤ ਯੂਜ਼ਰ ਆਈ. ਡੀ </string>
+    <string name="et_error_msg">ਕਿਰਪਾ ਕਰਕੇ ਵੈਧ ਉਪਭੋਗਤਾ ਆਈਡੀ ਦਾਖਲ ਕਰੋ.।</string>
     <string name="evaluation_Question1">1.ਪਿਛਲੇ 2 ਮਹੀਨਿਆਂ ਵਿੱਚ ਕਿੰਨੇ ਐਸ.ਐਚ.ਜੀ ਦੇ ਮੈਂਬਰਾਂ ਨੇ ਵਿਅਕਤੀਗਤ ਬੈਂਕ ਖਾਤੇ ਵਿੱਚ ਲੈਣ-ਦੇਣ ਕੀਤਾ</string>
     <string name="evaluation_Question10">10. ਪਿਛਲੇ 2 ਮਹੀਨਿਆਂ ਵਿੱਚ ਬੀ ਸੀ ਦੁਆਰਾ ਲੈਣ ਦੇਣ ਕਰਨ ਵਾਲੇ ਐਸ.ਐਚ.ਜੀ ਦੇ ਮੈਂਬਰਾਂ ਦੀ ਗਿਣਤੀ </string>
     <string name="evaluation_Question2">2. ਮੈਂਬਰਾਂ ਦੀ ਸੰਖਿਆ ਜਿਨ੍ਹਾਂ ਨੇ ਐਸ.ਐਚ.ਜੀ ਤੋਂ ਕੋਈ ਕਰਜ਼ਾ ਨਹੀਂ ਲਿਆ ਹੈ</string>
@@ -283,6 +285,7 @@
     <string name="toast_nologinid">you have to login first.</string>
     <string name="toast_nonot_matched_fromlocal">ਦਰਜ ਕੀਤਾ ਨੰਬਰ ਸਹੀ ਨਹੀਂ ਜਾਂ ਪਹਿਲਾਂ ਲੌਗਇਨ  ਹੈ.</string>
     <string name="toast_not_elegible">ਮੁਲਾਂਕਣ ਲਈ ਯੋਗ ਨਹੀਂ</string>
+    <string name="toast_otp_msg">ਦਾਖਲ ਕੀਤਾ ਗਿਆ OTP ਗਲਤ ਹੈ</string>
     <string name="toast_otp_wrong">ਦਰਜ ਕੀਤਾ OTP ਗਲਤ ਹੈ.</string>
     <string name="toast_registered_mobile">ਕਿਰਪਾ ਕਰਕੇ ਰਜਿਸਟਰਡ ਮੋਬਾਈਲ ਨੰਬਰ ਦਾਖਲ ਕਰੋ</string>
     <string name="toast_select_village_msg"> ਕਿਰਪਾ ਕਰਕੇ ਪਹਿਲਾਂ ਪਿੰਡ ਦੀ ਚੋਣ ਕਰੋ!!!</string>
