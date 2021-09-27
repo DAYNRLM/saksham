@@ -671,6 +671,9 @@ public class LoginActivity extends AppCompatActivity {
 
             /***********************************this request for post************************************************************/
             String loginURL =AppConstant.HTTP_TYPE+"://"+AppConstant.IP_ADDRESS+"/"+AppConstant.API_TYPE+"/services/saksham/data";
+
+            AppUtility.getInstance().showLog("LOGIN URL:::=" + loginURL, LoginActivity.class);
+
             JSONObject masterUrlObject =new JSONObject();
             try {
                 masterUrlObject.accumulate("user_id",userId);
@@ -686,6 +689,8 @@ public class LoginActivity extends AppCompatActivity {
             } catch (JSONException e) {
                 e.printStackTrace();
             }
+
+            AppUtility.getInstance().showLog("NORMAL JSON OBJECT:::=" + masterUrlObject.toString(), LoginActivity.class);
 
             /*******make json object is encrypted and *********/
             JSONObject encryptedObject =new JSONObject();
@@ -969,6 +974,8 @@ public class LoginActivity extends AppCompatActivity {
             EvaluationMasterTrainingData evaluationMasterTrainingData = new EvaluationMasterTrainingData();
 
             try {
+                String Flag_language = jsonResponse.getString("Flag_language");
+                PrefrenceFactory.getInstance().saveSharedPrefrecesData(PrefrenceManager.getFlagStatusKey(), Flag_language, LoginActivity.this);
                 String loginId = jsonResponse.getString("login_id");
                 String password = jsonResponse.getString("password");
                 String mobileNo = jsonResponse.getString("mobile_number");

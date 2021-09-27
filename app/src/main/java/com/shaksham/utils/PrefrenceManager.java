@@ -48,11 +48,15 @@ public class PrefrenceManager {
     private static final String PREF_KEY_DEVICE_INFO = "deviceINFO";
     private static final String LOGIN_FAILD_COUNT="loginFaildCount";
     private static final String LAST_ATTEMT_TIME="lastattempttime";
+    private static final String FLAG_STATUS_KEY="Flag_language";
 
     public static String getPrefKeySelectedShgEnterMemberForEvalution() {
         return PREF_KEY_SELECTED_SHG_ENTER_MEMBER_FOR_EVALUTION;
     }
 
+    public static String getFlagStatusKey() {
+        return FLAG_STATUS_KEY;
+    }
 
     public static String getLoginFaildCount() {
         return LOGIN_FAILD_COUNT;

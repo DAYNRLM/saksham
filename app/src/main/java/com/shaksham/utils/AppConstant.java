@@ -27,10 +27,10 @@ public class AppConstant {
 
     // Local on Aanand System
 
-  /*   public static final String DEMO="Local";
+     public static final String DEMO="Local";
     public static final String API_TYPE="nrlmwebservice";
     public static final String HTTP_TYPE="http";
-    public static final String IP_ADDRESS="10.197.183.105:8080";*/
+    public static final String IP_ADDRESS="10.197.183.105:8080";
 
      //  Demo live server
 
@@ -41,9 +41,9 @@ public class AppConstant {
 
     //  Live Server
 
-    public static final String DEMO="Live";
+    /*public static final String DEMO="Live";
     public static final String HTTP_TYPE="https";
     public static final String IP_ADDRESS="nrlm.gov.in";
-    public static final String API_TYPE="nrlmwebservice";
+    public static final String API_TYPE="nrlmwebservice";*/
 
 }

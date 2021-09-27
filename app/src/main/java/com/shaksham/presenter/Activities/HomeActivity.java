@@ -16,6 +16,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.provider.Settings;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -115,6 +116,12 @@ public class HomeActivity extends AppCompatActivity implements FragmentManager.O
         mDrawerLayout.setScrimColor(Color.parseColor("#99000000"));
         assert navigationView != null;
         navigationView.setNavigationItemSelectedListener(this::onNavigationItemSelected);
+
+        Menu menu =navigationView.getMenu();
+        MenuItem target = menu.findItem(R.id.menu_changLanguage);
+        target.setVisible(false);
+
+
         View headerView = navigationView.getHeaderView(0);
         tvUserName = (TextView) headerView.findViewById(R.id.tvUserName);
         tvUserMobile = (TextView) headerView.findViewById(R.id.tvUserMobileNumber);

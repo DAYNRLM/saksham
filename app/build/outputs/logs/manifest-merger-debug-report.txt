@@ -4,11 +4,11 @@ ADDED from /home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_
 INJECTED from /home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:2:1-67:12
 INJECTED from /home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:2:1-67:12
 INJECTED from /home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:2:1-67:12
-MERGED from [com.andrognito.pinlockview:pinlockview:1.0.1] /home/user/.gradle/caches/transforms-2/files-2.1/e428a34d1dc5486a7f0c01b3934e39ac/jetified-pinlockview-1.0.1/AndroidManifest.xml:2:1-13:12
-MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/c2c56f4c1f324a6a0173ad531b00849b/jetified-library-material-1.1.0/AndroidManifest.xml:2:1-16:12
+MERGED from [com.andrognito.pinlockview:pinlockview:1.0.1] /home/user/.gradle/caches/transforms-2/files-2.1/96089b6b7170ce114cccf6cde53d094b/jetified-pinlockview-1.0.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/ad988fe431a5b01a80af9b6bcbe346aa/jetified-library-material-1.1.0/AndroidManifest.xml:2:1-16:12
 MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/91fd374fd2e4e6f018c7f9d14969d3d9/navigation-ui-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.2.1] /home/user/.gradle/caches/transforms-2/files-2.1/ebca2a453b6474111489b3acacc267dc/material-1.2.1/AndroidManifest.xml:17:1-24:12
-MERGED from [com.rengwuxian.materialedittext:library:2.0.3] /home/user/.gradle/caches/transforms-2/files-2.1/104475048e960114051e41f3f76f5933/jetified-library-2.0.3/AndroidManifest.xml:2:1-10:12
+MERGED from [com.rengwuxian.materialedittext:library:2.0.3] /home/user/.gradle/caches/transforms-2/files-2.1/dfdc574f372ede541e0c8651007e9f9a/jetified-library-2.0.3/AndroidManifest.xml:2:1-10:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/a722d83f9ab4d9a17a1eab48f0d8070c/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/user/.gradle/caches/transforms-2/files-2.1/d9076707ec9e57b94bdfeefdd6075760/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/user/.gradle/caches/transforms-2/files-2.1/dd540f00cbdfb5998c927c0d3c747ddc/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -141,10 +141,10 @@ ADDED from /home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_
 		ADDED from /home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:20:17-65
 application
 ADDED from /home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:23:5-65:19
-MERGED from [com.andrognito.pinlockview:pinlockview:1.0.1] /home/user/.gradle/caches/transforms-2/files-2.1/e428a34d1dc5486a7f0c01b3934e39ac/jetified-pinlockview-1.0.1/AndroidManifest.xml:11:5-53
-MERGED from [com.andrognito.pinlockview:pinlockview:1.0.1] /home/user/.gradle/caches/transforms-2/files-2.1/e428a34d1dc5486a7f0c01b3934e39ac/jetified-pinlockview-1.0.1/AndroidManifest.xml:11:5-53
-MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/c2c56f4c1f324a6a0173ad531b00849b/jetified-library-material-1.1.0/AndroidManifest.xml:11:5-14:19
-MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/c2c56f4c1f324a6a0173ad531b00849b/jetified-library-material-1.1.0/AndroidManifest.xml:11:5-14:19
+MERGED from [com.andrognito.pinlockview:pinlockview:1.0.1] /home/user/.gradle/caches/transforms-2/files-2.1/96089b6b7170ce114cccf6cde53d094b/jetified-pinlockview-1.0.1/AndroidManifest.xml:11:5-53
+MERGED from [com.andrognito.pinlockview:pinlockview:1.0.1] /home/user/.gradle/caches/transforms-2/files-2.1/96089b6b7170ce114cccf6cde53d094b/jetified-pinlockview-1.0.1/AndroidManifest.xml:11:5-53
+MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/ad988fe431a5b01a80af9b6bcbe346aa/jetified-library-material-1.1.0/AndroidManifest.xml:11:5-14:19
+MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/ad988fe431a5b01a80af9b6bcbe346aa/jetified-library-material-1.1.0/AndroidManifest.xml:11:5-14:19
 MERGED from [com.google.android.material:material:1.2.1] /home/user/.gradle/caches/transforms-2/files-2.1/ebca2a453b6474111489b3acacc267dc/material-1.2.1/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] /home/user/.gradle/caches/transforms-2/files-2.1/ebca2a453b6474111489b3acacc267dc/material-1.2.1/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/user/.gradle/caches/transforms-2/files-2.1/d9076707ec9e57b94bdfeefdd6075760/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
@@ -177,7 +177,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/user/
 		ADDED from /home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:27:9-43
 	android:allowBackup
 		ADDED from /home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:25:9-36
-		REJECTED from [com.weiwangcn.betterspinner:library-material:1.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/c2c56f4c1f324a6a0173ad531b00849b/jetified-library-material-1.1.0/AndroidManifest.xml:12:9-35
+		REJECTED from [com.weiwangcn.betterspinner:library-material:1.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/ad988fe431a5b01a80af9b6bcbe346aa/jetified-library-material-1.1.0/AndroidManifest.xml:12:9-35
 	android:theme
 		ADDED from /home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:31:9-40
 	android:networkSecurityConfig
@@ -264,16 +264,16 @@ uses-sdk
 INJECTED from /home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml
 INJECTED from /home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml
-MERGED from [com.andrognito.pinlockview:pinlockview:1.0.1] /home/user/.gradle/caches/transforms-2/files-2.1/e428a34d1dc5486a7f0c01b3934e39ac/jetified-pinlockview-1.0.1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.andrognito.pinlockview:pinlockview:1.0.1] /home/user/.gradle/caches/transforms-2/files-2.1/e428a34d1dc5486a7f0c01b3934e39ac/jetified-pinlockview-1.0.1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/c2c56f4c1f324a6a0173ad531b00849b/jetified-library-material-1.1.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/c2c56f4c1f324a6a0173ad531b00849b/jetified-library-material-1.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.andrognito.pinlockview:pinlockview:1.0.1] /home/user/.gradle/caches/transforms-2/files-2.1/96089b6b7170ce114cccf6cde53d094b/jetified-pinlockview-1.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.andrognito.pinlockview:pinlockview:1.0.1] /home/user/.gradle/caches/transforms-2/files-2.1/96089b6b7170ce114cccf6cde53d094b/jetified-pinlockview-1.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/ad988fe431a5b01a80af9b6bcbe346aa/jetified-library-material-1.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/ad988fe431a5b01a80af9b6bcbe346aa/jetified-library-material-1.1.0/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/91fd374fd2e4e6f018c7f9d14969d3d9/navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/91fd374fd2e4e6f018c7f9d14969d3d9/navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.2.1] /home/user/.gradle/caches/transforms-2/files-2.1/ebca2a453b6474111489b3acacc267dc/material-1.2.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.2.1] /home/user/.gradle/caches/transforms-2/files-2.1/ebca2a453b6474111489b3acacc267dc/material-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [com.rengwuxian.materialedittext:library:2.0.3] /home/user/.gradle/caches/transforms-2/files-2.1/104475048e960114051e41f3f76f5933/jetified-library-2.0.3/AndroidManifest.xml:6:5-8:41
-MERGED from [com.rengwuxian.materialedittext:library:2.0.3] /home/user/.gradle/caches/transforms-2/files-2.1/104475048e960114051e41f3f76f5933/jetified-library-2.0.3/AndroidManifest.xml:6:5-8:41
+MERGED from [com.rengwuxian.materialedittext:library:2.0.3] /home/user/.gradle/caches/transforms-2/files-2.1/dfdc574f372ede541e0c8651007e9f9a/jetified-library-2.0.3/AndroidManifest.xml:6:5-8:41
+MERGED from [com.rengwuxian.materialedittext:library:2.0.3] /home/user/.gradle/caches/transforms-2/files-2.1/dfdc574f372ede541e0c8651007e9f9a/jetified-library-2.0.3/AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/a722d83f9ab4d9a17a1eab48f0d8070c/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/a722d83f9ab4d9a17a1eab48f0d8070c/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/user/.gradle/caches/transforms-2/files-2.1/d9076707ec9e57b94bdfeefdd6075760/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41

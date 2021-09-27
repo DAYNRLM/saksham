@@ -1,7 +1,7 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.shaksham"
-4    android:versionCode="3"
+4    android:versionCode="7"
 5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
@@ -81,96 +81,97 @@
 38-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:26:9-52
 39        android:supportsRtl="true"
 39-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:30:9-35
-40        android:theme="@style/AppTheme"
-40-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:31:9-40
-41        android:usesCleartextTraffic="true" >
-41-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:32:9-44
-42        <activity
-42-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:35:9-37:61
-43            android:name="com.shaksham.presenter.Activities.VillageModifiedActivity"
-43-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:35:19-79
-44            android:exported="false"
-44-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:36:13-37
-45            android:screenOrientation="portrait" />
-45-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:37:13-49
-46        <activity
-46-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:38:9-40:52
-47            android:name="com.shaksham.presenter.Activities.ChangeMpinActivity"
-47-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:38:19-74
-48            android:exported="false"
-48-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:39:13-37
-49            android:screenOrientation="portrait" />
-49-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:40:13-49
-50        <activity
-50-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:41:9-43:52
-51            android:name="com.shaksham.presenter.Activities.VerifyMpinActivity"
-51-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:41:19-74
-52            android:exported="false"
-52-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:42:13-37
-53            android:screenOrientation="portrait" />
-53-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:43:13-49
-54        <activity
-54-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:44:9-46:52
-55            android:name="com.shaksham.presenter.Activities.MpinActivity"
-55-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:44:19-68
-56            android:exported="false"
-56-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:45:13-37
-57            android:screenOrientation="portrait" />
-57-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:46:13-49
-58        <activity
-58-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:47:9-49:52
-59            android:name="com.shaksham.presenter.Activities.OTPVerification"
-59-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:47:19-71
-60            android:exported="false"
-60-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:48:13-37
-61            android:screenOrientation="portrait" />
-61-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:49:13-49
-62        <activity
-62-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:50:9-54:46
-63            android:name="com.shaksham.presenter.Activities.HomeActivity"
-63-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:51:13-62
-64            android:exported="false"
-64-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:52:13-37
-65            android:launchMode="singleTop"
-65-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:54:13-43
-66            android:screenOrientation="portrait" />
-66-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:53:13-49
-67        <activity
-67-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:55:9-57:52
-68            android:name="com.shaksham.presenter.Activities.LoginActivity"
-68-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:55:19-69
-69            android:exported="false"
-69-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:56:13-37
-70            android:screenOrientation="portrait" />
-70-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:57:13-49
-71        <activity
-71-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:58:9-64:20
-72            android:name="com.shaksham.presenter.Activities.SplashActivity"
-72-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:58:19-70
-73            android:screenOrientation="portrait" >
-73-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:59:13-49
-74            <intent-filter>
-74-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:60:13-63:29
-75                <action android:name="android.intent.action.MAIN" />
-75-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:61:17-69
-75-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:61:25-66
-76
-77                <category android:name="android.intent.category.LAUNCHER" />
-77-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:62:17-77
-77-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:62:27-74
-78            </intent-filter>
-79        </activity>
-80
-81        <provider
-81-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/2c4e938371d15dfd421f6bb0468791b8/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
-82            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-82-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/2c4e938371d15dfd421f6bb0468791b8/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
-83            android:authorities="com.shaksham.lifecycle-process"
-83-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/2c4e938371d15dfd421f6bb0468791b8/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
-84            android:exported="false"
-84-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/2c4e938371d15dfd421f6bb0468791b8/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
-85            android:multiprocess="true" />
-85-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/2c4e938371d15dfd421f6bb0468791b8/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
-86    </application>
-87
-88</manifest>
+40        android:testOnly="true"
+41        android:theme="@style/AppTheme"
+41-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:31:9-40
+42        android:usesCleartextTraffic="true" >
+42-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:32:9-44
+43        <activity
+43-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:35:9-37:61
+44            android:name="com.shaksham.presenter.Activities.VillageModifiedActivity"
+44-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:35:19-79
+45            android:exported="false"
+45-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:36:13-37
+46            android:screenOrientation="portrait" />
+46-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:37:13-49
+47        <activity
+47-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:38:9-40:52
+48            android:name="com.shaksham.presenter.Activities.ChangeMpinActivity"
+48-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:38:19-74
+49            android:exported="false"
+49-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:39:13-37
+50            android:screenOrientation="portrait" />
+50-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:40:13-49
+51        <activity
+51-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:41:9-43:52
+52            android:name="com.shaksham.presenter.Activities.VerifyMpinActivity"
+52-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:41:19-74
+53            android:exported="false"
+53-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:42:13-37
+54            android:screenOrientation="portrait" />
+54-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:43:13-49
+55        <activity
+55-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:44:9-46:52
+56            android:name="com.shaksham.presenter.Activities.MpinActivity"
+56-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:44:19-68
+57            android:exported="false"
+57-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:45:13-37
+58            android:screenOrientation="portrait" />
+58-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:46:13-49
+59        <activity
+59-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:47:9-49:52
+60            android:name="com.shaksham.presenter.Activities.OTPVerification"
+60-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:47:19-71
+61            android:exported="false"
+61-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:48:13-37
+62            android:screenOrientation="portrait" />
+62-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:49:13-49
+63        <activity
+63-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:50:9-54:46
+64            android:name="com.shaksham.presenter.Activities.HomeActivity"
+64-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:51:13-62
+65            android:exported="false"
+65-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:52:13-37
+66            android:launchMode="singleTop"
+66-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:54:13-43
+67            android:screenOrientation="portrait" />
+67-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:53:13-49
+68        <activity
+68-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:55:9-57:52
+69            android:name="com.shaksham.presenter.Activities.LoginActivity"
+69-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:55:19-69
+70            android:exported="false"
+70-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:56:13-37
+71            android:screenOrientation="portrait" />
+71-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:57:13-49
+72        <activity
+72-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:58:9-64:20
+73            android:name="com.shaksham.presenter.Activities.SplashActivity"
+73-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:58:19-70
+74            android:screenOrientation="portrait" >
+74-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:59:13-49
+75            <intent-filter>
+75-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:60:13-63:29
+76                <action android:name="android.intent.action.MAIN" />
+76-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:61:17-69
+76-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:61:25-66
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:62:17-77
+78-->/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/src/main/AndroidManifest.xml:62:27-74
+79            </intent-filter>
+80        </activity>
+81
+82        <provider
+82-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/2c4e938371d15dfd421f6bb0468791b8/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+83            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+83-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/2c4e938371d15dfd421f6bb0468791b8/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+84            android:authorities="com.shaksham.lifecycle-process"
+84-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/2c4e938371d15dfd421f6bb0468791b8/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+85            android:exported="false"
+85-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/2c4e938371d15dfd421f6bb0468791b8/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+86            android:multiprocess="true" />
+86-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/2c4e938371d15dfd421f6bb0468791b8/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+87    </application>
+88
+89</manifest>
