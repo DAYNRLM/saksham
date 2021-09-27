@@ -221,62 +221,6 @@ public class OTPVerification extends AppCompatActivity {
             RequestQueue requestQueue1 = Volley.newRequestQueue(this);
             requestQueue1.add(restRequest);
 
-
-            /********************************************************************************************************************/
-
-
-            /***********************************************string request for reset password**********************************************************/
-
-          /*  String REGISTER_USER_PASS = AppConstant.HTTP_TYPE+"://"+AppConstant.IP_ADDRESS+"/"+AppConstant.API_TYPE+"/services/forgotpassword/resetPassword?mobileno="+mobileNo+"&password="+AppUtility.getInstance().getSha256(registerePassword)+"&userid="+userId;
-            StringRequest stringRequest = new StringRequest(Request.Method.GET, REGISTER_USER_PASS, new Response.Listener<String>() {
-                @Override
-                public void onResponse(String s) {
-                    progressDialog.dismiss();
-                    try {
-                        JSONArray mobileStatusJSONArray = new JSONArray(s);
-                        for (int i = 0; i < mobileStatusJSONArray.length(); i++) {
-                            JSONObject mobileStatusJSONObject = mobileStatusJSONArray.getJSONObject(i);
-                             status = mobileStatusJSONObject.getString("status");
-                            if(!status.equalsIgnoreCase("Updated Successfully!!!")){
-                                status =  mobileStatusJSONObject.getString("status") + "Please try again with another userId and mobile number";
-                            }
-
-                            AlertDialog.Builder builder = new AlertDialog.Builder(OTPVerification.this);
-                            builder.setTitle(R.string.reset_pass_TV);
-                            builder.setCancelable(false);
-                            builder.setMessage(status);
-                            builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                                @Override
-                                public void onClick(DialogInterface dialogInterface, int i) {
-
-                                    if (status.equalsIgnoreCase("Updated Successfully!!!")) {
-                                        PrefrenceFactory.getInstance().removeSharedPrefrencesData(PrefrenceManager.getPrfKeyOtp(), OTPVerification.this);
-                                        PrefrenceFactory.getInstance().removeSharedPrefrencesData(PrefrenceManager.getPrfKeyMobileNumber(), OTPVerification.this);
-                                        AppUtility.getInstance().makeIntent(OTPVerification.this, LoginActivity.class, true);
-                                    }else {
-                                        PrefrenceFactory.getInstance().removeSharedPrefrencesData(PrefrenceManager.getPrfKeyOtp(), OTPVerification.this);
-                                        PrefrenceFactory.getInstance().removeSharedPrefrencesData(PrefrenceManager.getPrfKeyMobileNumber(), OTPVerification.this);
-                                        AppUtility.getInstance().makeIntent(OTPVerification.this, LoginActivity.class, true);
-                                    }
-                                    dialogInterface.dismiss();
-                                }
-                            }).show();
-                        }
-                    } catch (JSONException e) {
-                        e.printStackTrace();
-                    }
-
-                }
-            }, new Response.ErrorListener() {
-                @Override
-                public void onErrorResponse(VolleyError volleyError) {
-                    progressDialog.dismiss();
-                    DialogFactory.getInstance().showErrorAlertDialog(OTPVerification.this, getString(R.string.SERVER_ERROR_TITLE), getString(R.string.SERVER_ERROR_MESSAGE), "ok");
-                    AppUtility.getInstance().showLog("volleyError.getMessage()" + volleyError.getMessage(), OTPVerification.class);
-                }
-            });
-            RequestQueue requestQueue = Volley.newRequestQueue(this);
-            requestQueue.add(stringRequest);*/
         }
     }
 

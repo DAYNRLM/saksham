@@ -8,71 +8,71 @@ import org.greenrobot.greendao.database.Database;
 import org.greenrobot.greendao.identityscope.IdentityScopeType;
 import org.greenrobot.greendao.internal.DaoConfig;
 
-import com.shaksham.model.database.BaselineSyncData;
-import com.shaksham.model.database.ModuleData;
-import com.shaksham.model.database.ViewReportModuleData;
-import com.shaksham.model.database.TrainingInfoData;
-import com.shaksham.model.database.ShgData;
-import com.shaksham.model.database.LoginInfo;
-import com.shaksham.model.database.EvaluationMasterTrainingData;
-import com.shaksham.model.database.QuestionInfoDetail;
-import com.shaksham.model.database.VillageData;
-import com.shaksham.model.database.ShgMemberData;
 import com.shaksham.model.database.AddedTrainingsData;
-import com.shaksham.model.database.BlockData;
-import com.shaksham.model.database.ViewReportMonthData;
-import com.shaksham.model.database.WebRequestData;
-import com.shaksham.model.database.EvaluationMasterLocationData;
-import com.shaksham.model.database.BlockLevelData;
-import com.shaksham.model.database.BaslineQuestionSyncData;
-import com.shaksham.model.database.TrainingLocationInfo;
-import com.shaksham.model.database.TrainingShgAndMemberData;
-import com.shaksham.model.database.AddedTrainingShgMemberData;
-import com.shaksham.model.database.EvaluationSyncQuestionData;
-import com.shaksham.model.database.EvaluationMasterShgData;
-import com.shaksham.model.database.EvaluationSyncShgData;
-import com.shaksham.model.database.TitleInfoDetail;
-import com.shaksham.model.database.TrainingModuleInfo;
-import com.shaksham.model.database.ViewReportTrainingData;
 import com.shaksham.model.database.AddedTrainingShgData;
-import com.shaksham.model.database.GpData;
-import com.shaksham.model.database.ShgModuleData;
-import com.shaksham.model.database.EvaluationSyncData;
-import com.shaksham.model.database.ViewReportData;
+import com.shaksham.model.database.AddedTrainingShgMemberData;
 import com.shaksham.model.database.AddedTrainingShgModuleData;
+import com.shaksham.model.database.BaselineSyncData;
+import com.shaksham.model.database.BaslineQuestionSyncData;
+import com.shaksham.model.database.BlockData;
+import com.shaksham.model.database.BlockLevelData;
+import com.shaksham.model.database.EvaluationMasterLocationData;
+import com.shaksham.model.database.EvaluationMasterShgData;
+import com.shaksham.model.database.EvaluationMasterTrainingData;
+import com.shaksham.model.database.EvaluationSyncData;
+import com.shaksham.model.database.EvaluationSyncQuestionData;
+import com.shaksham.model.database.EvaluationSyncShgData;
+import com.shaksham.model.database.GpData;
+import com.shaksham.model.database.LoginInfo;
+import com.shaksham.model.database.ModuleData;
+import com.shaksham.model.database.QuestionInfoDetail;
+import com.shaksham.model.database.ShgData;
+import com.shaksham.model.database.ShgMemberData;
+import com.shaksham.model.database.ShgModuleData;
+import com.shaksham.model.database.TitleInfoDetail;
+import com.shaksham.model.database.TrainingInfoData;
+import com.shaksham.model.database.TrainingLocationInfo;
+import com.shaksham.model.database.TrainingModuleInfo;
+import com.shaksham.model.database.TrainingShgAndMemberData;
+import com.shaksham.model.database.ViewReportData;
+import com.shaksham.model.database.ViewReportModuleData;
+import com.shaksham.model.database.ViewReportMonthData;
+import com.shaksham.model.database.ViewReportTrainingData;
+import com.shaksham.model.database.VillageData;
+import com.shaksham.model.database.WebRequestData;
 
-import com.shaksham.model.database.BaselineSyncDataDao;
-import com.shaksham.model.database.ModuleDataDao;
-import com.shaksham.model.database.ViewReportModuleDataDao;
-import com.shaksham.model.database.TrainingInfoDataDao;
-import com.shaksham.model.database.ShgDataDao;
-import com.shaksham.model.database.LoginInfoDao;
-import com.shaksham.model.database.EvaluationMasterTrainingDataDao;
-import com.shaksham.model.database.QuestionInfoDetailDao;
-import com.shaksham.model.database.VillageDataDao;
-import com.shaksham.model.database.ShgMemberDataDao;
 import com.shaksham.model.database.AddedTrainingsDataDao;
-import com.shaksham.model.database.BlockDataDao;
-import com.shaksham.model.database.ViewReportMonthDataDao;
-import com.shaksham.model.database.WebRequestDataDao;
-import com.shaksham.model.database.EvaluationMasterLocationDataDao;
-import com.shaksham.model.database.BlockLevelDataDao;
-import com.shaksham.model.database.BaslineQuestionSyncDataDao;
-import com.shaksham.model.database.TrainingLocationInfoDao;
-import com.shaksham.model.database.TrainingShgAndMemberDataDao;
-import com.shaksham.model.database.AddedTrainingShgMemberDataDao;
-import com.shaksham.model.database.EvaluationSyncQuestionDataDao;
-import com.shaksham.model.database.EvaluationMasterShgDataDao;
-import com.shaksham.model.database.EvaluationSyncShgDataDao;
-import com.shaksham.model.database.TitleInfoDetailDao;
-import com.shaksham.model.database.TrainingModuleInfoDao;
-import com.shaksham.model.database.ViewReportTrainingDataDao;
 import com.shaksham.model.database.AddedTrainingShgDataDao;
-import com.shaksham.model.database.GpDataDao;
-import com.shaksham.model.database.ShgModuleDataDao;
-import com.shaksham.model.database.EvaluationSyncDataDao;
-import com.shaksham.model.database.ViewReportDataDao;
+import com.shaksham.model.database.AddedTrainingShgMemberDataDao;
 import com.shaksham.model.database.AddedTrainingShgModuleDataDao;
+import com.shaksham.model.database.BaselineSyncDataDao;
+import com.shaksham.model.database.BaslineQuestionSyncDataDao;
+import com.shaksham.model.database.BlockDataDao;
+import com.shaksham.model.database.BlockLevelDataDao;
+import com.shaksham.model.database.EvaluationMasterLocationDataDao;
+import com.shaksham.model.database.EvaluationMasterShgDataDao;
+import com.shaksham.model.database.EvaluationMasterTrainingDataDao;
+import com.shaksham.model.database.EvaluationSyncDataDao;
+import com.shaksham.model.database.EvaluationSyncQuestionDataDao;
+import com.shaksham.model.database.EvaluationSyncShgDataDao;
+import com.shaksham.model.database.GpDataDao;
+import com.shaksham.model.database.LoginInfoDao;
+import com.shaksham.model.database.ModuleDataDao;
+import com.shaksham.model.database.QuestionInfoDetailDao;
+import com.shaksham.model.database.ShgDataDao;
+import com.shaksham.model.database.ShgMemberDataDao;
+import com.shaksham.model.database.ShgModuleDataDao;
+import com.shaksham.model.database.TitleInfoDetailDao;
+import com.shaksham.model.database.TrainingInfoDataDao;
+import com.shaksham.model.database.TrainingLocationInfoDao;
+import com.shaksham.model.database.TrainingModuleInfoDao;
+import com.shaksham.model.database.TrainingShgAndMemberDataDao;
+import com.shaksham.model.database.ViewReportDataDao;
+import com.shaksham.model.database.ViewReportModuleDataDao;
+import com.shaksham.model.database.ViewReportMonthDataDao;
+import com.shaksham.model.database.ViewReportTrainingDataDao;
+import com.shaksham.model.database.VillageDataDao;
+import com.shaksham.model.database.WebRequestDataDao;
 
 // THIS CODE IS GENERATED BY greenDAO, DO NOT EDIT.
 
@@ -83,400 +83,400 @@ import com.shaksham.model.database.AddedTrainingShgModuleDataDao;
  */
 public class DaoSession extends AbstractDaoSession {
 
-    private final DaoConfig baselineSyncDataDaoConfig;
-    private final DaoConfig moduleDataDaoConfig;
-    private final DaoConfig viewReportModuleDataDaoConfig;
-    private final DaoConfig trainingInfoDataDaoConfig;
-    private final DaoConfig shgDataDaoConfig;
-    private final DaoConfig loginInfoDaoConfig;
-    private final DaoConfig evaluationMasterTrainingDataDaoConfig;
-    private final DaoConfig questionInfoDetailDaoConfig;
-    private final DaoConfig villageDataDaoConfig;
-    private final DaoConfig shgMemberDataDaoConfig;
     private final DaoConfig addedTrainingsDataDaoConfig;
-    private final DaoConfig blockDataDaoConfig;
-    private final DaoConfig viewReportMonthDataDaoConfig;
-    private final DaoConfig webRequestDataDaoConfig;
-    private final DaoConfig evaluationMasterLocationDataDaoConfig;
-    private final DaoConfig blockLevelDataDaoConfig;
-    private final DaoConfig baslineQuestionSyncDataDaoConfig;
-    private final DaoConfig trainingLocationInfoDaoConfig;
-    private final DaoConfig trainingShgAndMemberDataDaoConfig;
-    private final DaoConfig addedTrainingShgMemberDataDaoConfig;
-    private final DaoConfig evaluationSyncQuestionDataDaoConfig;
-    private final DaoConfig evaluationMasterShgDataDaoConfig;
-    private final DaoConfig evaluationSyncShgDataDaoConfig;
-    private final DaoConfig titleInfoDetailDaoConfig;
-    private final DaoConfig trainingModuleInfoDaoConfig;
-    private final DaoConfig viewReportTrainingDataDaoConfig;
     private final DaoConfig addedTrainingShgDataDaoConfig;
-    private final DaoConfig gpDataDaoConfig;
-    private final DaoConfig shgModuleDataDaoConfig;
-    private final DaoConfig evaluationSyncDataDaoConfig;
-    private final DaoConfig viewReportDataDaoConfig;
+    private final DaoConfig addedTrainingShgMemberDataDaoConfig;
     private final DaoConfig addedTrainingShgModuleDataDaoConfig;
+    private final DaoConfig baselineSyncDataDaoConfig;
+    private final DaoConfig baslineQuestionSyncDataDaoConfig;
+    private final DaoConfig blockDataDaoConfig;
+    private final DaoConfig blockLevelDataDaoConfig;
+    private final DaoConfig evaluationMasterLocationDataDaoConfig;
+    private final DaoConfig evaluationMasterShgDataDaoConfig;
+    private final DaoConfig evaluationMasterTrainingDataDaoConfig;
+    private final DaoConfig evaluationSyncDataDaoConfig;
+    private final DaoConfig evaluationSyncQuestionDataDaoConfig;
+    private final DaoConfig evaluationSyncShgDataDaoConfig;
+    private final DaoConfig gpDataDaoConfig;
+    private final DaoConfig loginInfoDaoConfig;
+    private final DaoConfig moduleDataDaoConfig;
+    private final DaoConfig questionInfoDetailDaoConfig;
+    private final DaoConfig shgDataDaoConfig;
+    private final DaoConfig shgMemberDataDaoConfig;
+    private final DaoConfig shgModuleDataDaoConfig;
+    private final DaoConfig titleInfoDetailDaoConfig;
+    private final DaoConfig trainingInfoDataDaoConfig;
+    private final DaoConfig trainingLocationInfoDaoConfig;
+    private final DaoConfig trainingModuleInfoDaoConfig;
+    private final DaoConfig trainingShgAndMemberDataDaoConfig;
+    private final DaoConfig viewReportDataDaoConfig;
+    private final DaoConfig viewReportModuleDataDaoConfig;
+    private final DaoConfig viewReportMonthDataDaoConfig;
+    private final DaoConfig viewReportTrainingDataDaoConfig;
+    private final DaoConfig villageDataDaoConfig;
+    private final DaoConfig webRequestDataDaoConfig;
 
-    private final BaselineSyncDataDao baselineSyncDataDao;
-    private final ModuleDataDao moduleDataDao;
-    private final ViewReportModuleDataDao viewReportModuleDataDao;
-    private final TrainingInfoDataDao trainingInfoDataDao;
-    private final ShgDataDao shgDataDao;
-    private final LoginInfoDao loginInfoDao;
-    private final EvaluationMasterTrainingDataDao evaluationMasterTrainingDataDao;
-    private final QuestionInfoDetailDao questionInfoDetailDao;
-    private final VillageDataDao villageDataDao;
-    private final ShgMemberDataDao shgMemberDataDao;
     private final AddedTrainingsDataDao addedTrainingsDataDao;
-    private final BlockDataDao blockDataDao;
-    private final ViewReportMonthDataDao viewReportMonthDataDao;
-    private final WebRequestDataDao webRequestDataDao;
-    private final EvaluationMasterLocationDataDao evaluationMasterLocationDataDao;
-    private final BlockLevelDataDao blockLevelDataDao;
-    private final BaslineQuestionSyncDataDao baslineQuestionSyncDataDao;
-    private final TrainingLocationInfoDao trainingLocationInfoDao;
-    private final TrainingShgAndMemberDataDao trainingShgAndMemberDataDao;
-    private final AddedTrainingShgMemberDataDao addedTrainingShgMemberDataDao;
-    private final EvaluationSyncQuestionDataDao evaluationSyncQuestionDataDao;
-    private final EvaluationMasterShgDataDao evaluationMasterShgDataDao;
-    private final EvaluationSyncShgDataDao evaluationSyncShgDataDao;
-    private final TitleInfoDetailDao titleInfoDetailDao;
-    private final TrainingModuleInfoDao trainingModuleInfoDao;
-    private final ViewReportTrainingDataDao viewReportTrainingDataDao;
     private final AddedTrainingShgDataDao addedTrainingShgDataDao;
-    private final GpDataDao gpDataDao;
-    private final ShgModuleDataDao shgModuleDataDao;
-    private final EvaluationSyncDataDao evaluationSyncDataDao;
-    private final ViewReportDataDao viewReportDataDao;
+    private final AddedTrainingShgMemberDataDao addedTrainingShgMemberDataDao;
     private final AddedTrainingShgModuleDataDao addedTrainingShgModuleDataDao;
+    private final BaselineSyncDataDao baselineSyncDataDao;
+    private final BaslineQuestionSyncDataDao baslineQuestionSyncDataDao;
+    private final BlockDataDao blockDataDao;
+    private final BlockLevelDataDao blockLevelDataDao;
+    private final EvaluationMasterLocationDataDao evaluationMasterLocationDataDao;
+    private final EvaluationMasterShgDataDao evaluationMasterShgDataDao;
+    private final EvaluationMasterTrainingDataDao evaluationMasterTrainingDataDao;
+    private final EvaluationSyncDataDao evaluationSyncDataDao;
+    private final EvaluationSyncQuestionDataDao evaluationSyncQuestionDataDao;
+    private final EvaluationSyncShgDataDao evaluationSyncShgDataDao;
+    private final GpDataDao gpDataDao;
+    private final LoginInfoDao loginInfoDao;
+    private final ModuleDataDao moduleDataDao;
+    private final QuestionInfoDetailDao questionInfoDetailDao;
+    private final ShgDataDao shgDataDao;
+    private final ShgMemberDataDao shgMemberDataDao;
+    private final ShgModuleDataDao shgModuleDataDao;
+    private final TitleInfoDetailDao titleInfoDetailDao;
+    private final TrainingInfoDataDao trainingInfoDataDao;
+    private final TrainingLocationInfoDao trainingLocationInfoDao;
+    private final TrainingModuleInfoDao trainingModuleInfoDao;
+    private final TrainingShgAndMemberDataDao trainingShgAndMemberDataDao;
+    private final ViewReportDataDao viewReportDataDao;
+    private final ViewReportModuleDataDao viewReportModuleDataDao;
+    private final ViewReportMonthDataDao viewReportMonthDataDao;
+    private final ViewReportTrainingDataDao viewReportTrainingDataDao;
+    private final VillageDataDao villageDataDao;
+    private final WebRequestDataDao webRequestDataDao;
 
     public DaoSession(Database db, IdentityScopeType type, Map<Class<? extends AbstractDao<?, ?>>, DaoConfig>
             daoConfigMap) {
         super(db);
 
-        baselineSyncDataDaoConfig = daoConfigMap.get(BaselineSyncDataDao.class).clone();
-        baselineSyncDataDaoConfig.initIdentityScope(type);
-
-        moduleDataDaoConfig = daoConfigMap.get(ModuleDataDao.class).clone();
-        moduleDataDaoConfig.initIdentityScope(type);
-
-        viewReportModuleDataDaoConfig = daoConfigMap.get(ViewReportModuleDataDao.class).clone();
-        viewReportModuleDataDaoConfig.initIdentityScope(type);
-
-        trainingInfoDataDaoConfig = daoConfigMap.get(TrainingInfoDataDao.class).clone();
-        trainingInfoDataDaoConfig.initIdentityScope(type);
-
-        shgDataDaoConfig = daoConfigMap.get(ShgDataDao.class).clone();
-        shgDataDaoConfig.initIdentityScope(type);
-
-        loginInfoDaoConfig = daoConfigMap.get(LoginInfoDao.class).clone();
-        loginInfoDaoConfig.initIdentityScope(type);
-
-        evaluationMasterTrainingDataDaoConfig = daoConfigMap.get(EvaluationMasterTrainingDataDao.class).clone();
-        evaluationMasterTrainingDataDaoConfig.initIdentityScope(type);
-
-        questionInfoDetailDaoConfig = daoConfigMap.get(QuestionInfoDetailDao.class).clone();
-        questionInfoDetailDaoConfig.initIdentityScope(type);
-
-        villageDataDaoConfig = daoConfigMap.get(VillageDataDao.class).clone();
-        villageDataDaoConfig.initIdentityScope(type);
-
-        shgMemberDataDaoConfig = daoConfigMap.get(ShgMemberDataDao.class).clone();
-        shgMemberDataDaoConfig.initIdentityScope(type);
-
         addedTrainingsDataDaoConfig = daoConfigMap.get(AddedTrainingsDataDao.class).clone();
         addedTrainingsDataDaoConfig.initIdentityScope(type);
-
-        blockDataDaoConfig = daoConfigMap.get(BlockDataDao.class).clone();
-        blockDataDaoConfig.initIdentityScope(type);
-
-        viewReportMonthDataDaoConfig = daoConfigMap.get(ViewReportMonthDataDao.class).clone();
-        viewReportMonthDataDaoConfig.initIdentityScope(type);
-
-        webRequestDataDaoConfig = daoConfigMap.get(WebRequestDataDao.class).clone();
-        webRequestDataDaoConfig.initIdentityScope(type);
-
-        evaluationMasterLocationDataDaoConfig = daoConfigMap.get(EvaluationMasterLocationDataDao.class).clone();
-        evaluationMasterLocationDataDaoConfig.initIdentityScope(type);
-
-        blockLevelDataDaoConfig = daoConfigMap.get(BlockLevelDataDao.class).clone();
-        blockLevelDataDaoConfig.initIdentityScope(type);
-
-        baslineQuestionSyncDataDaoConfig = daoConfigMap.get(BaslineQuestionSyncDataDao.class).clone();
-        baslineQuestionSyncDataDaoConfig.initIdentityScope(type);
-
-        trainingLocationInfoDaoConfig = daoConfigMap.get(TrainingLocationInfoDao.class).clone();
-        trainingLocationInfoDaoConfig.initIdentityScope(type);
-
-        trainingShgAndMemberDataDaoConfig = daoConfigMap.get(TrainingShgAndMemberDataDao.class).clone();
-        trainingShgAndMemberDataDaoConfig.initIdentityScope(type);
-
-        addedTrainingShgMemberDataDaoConfig = daoConfigMap.get(AddedTrainingShgMemberDataDao.class).clone();
-        addedTrainingShgMemberDataDaoConfig.initIdentityScope(type);
-
-        evaluationSyncQuestionDataDaoConfig = daoConfigMap.get(EvaluationSyncQuestionDataDao.class).clone();
-        evaluationSyncQuestionDataDaoConfig.initIdentityScope(type);
-
-        evaluationMasterShgDataDaoConfig = daoConfigMap.get(EvaluationMasterShgDataDao.class).clone();
-        evaluationMasterShgDataDaoConfig.initIdentityScope(type);
-
-        evaluationSyncShgDataDaoConfig = daoConfigMap.get(EvaluationSyncShgDataDao.class).clone();
-        evaluationSyncShgDataDaoConfig.initIdentityScope(type);
-
-        titleInfoDetailDaoConfig = daoConfigMap.get(TitleInfoDetailDao.class).clone();
-        titleInfoDetailDaoConfig.initIdentityScope(type);
-
-        trainingModuleInfoDaoConfig = daoConfigMap.get(TrainingModuleInfoDao.class).clone();
-        trainingModuleInfoDaoConfig.initIdentityScope(type);
-
-        viewReportTrainingDataDaoConfig = daoConfigMap.get(ViewReportTrainingDataDao.class).clone();
-        viewReportTrainingDataDaoConfig.initIdentityScope(type);
 
         addedTrainingShgDataDaoConfig = daoConfigMap.get(AddedTrainingShgDataDao.class).clone();
         addedTrainingShgDataDaoConfig.initIdentityScope(type);
 
-        gpDataDaoConfig = daoConfigMap.get(GpDataDao.class).clone();
-        gpDataDaoConfig.initIdentityScope(type);
-
-        shgModuleDataDaoConfig = daoConfigMap.get(ShgModuleDataDao.class).clone();
-        shgModuleDataDaoConfig.initIdentityScope(type);
-
-        evaluationSyncDataDaoConfig = daoConfigMap.get(EvaluationSyncDataDao.class).clone();
-        evaluationSyncDataDaoConfig.initIdentityScope(type);
-
-        viewReportDataDaoConfig = daoConfigMap.get(ViewReportDataDao.class).clone();
-        viewReportDataDaoConfig.initIdentityScope(type);
+        addedTrainingShgMemberDataDaoConfig = daoConfigMap.get(AddedTrainingShgMemberDataDao.class).clone();
+        addedTrainingShgMemberDataDaoConfig.initIdentityScope(type);
 
         addedTrainingShgModuleDataDaoConfig = daoConfigMap.get(AddedTrainingShgModuleDataDao.class).clone();
         addedTrainingShgModuleDataDaoConfig.initIdentityScope(type);
 
-        baselineSyncDataDao = new BaselineSyncDataDao(baselineSyncDataDaoConfig, this);
-        moduleDataDao = new ModuleDataDao(moduleDataDaoConfig, this);
-        viewReportModuleDataDao = new ViewReportModuleDataDao(viewReportModuleDataDaoConfig, this);
-        trainingInfoDataDao = new TrainingInfoDataDao(trainingInfoDataDaoConfig, this);
-        shgDataDao = new ShgDataDao(shgDataDaoConfig, this);
-        loginInfoDao = new LoginInfoDao(loginInfoDaoConfig, this);
-        evaluationMasterTrainingDataDao = new EvaluationMasterTrainingDataDao(evaluationMasterTrainingDataDaoConfig, this);
-        questionInfoDetailDao = new QuestionInfoDetailDao(questionInfoDetailDaoConfig, this);
-        villageDataDao = new VillageDataDao(villageDataDaoConfig, this);
-        shgMemberDataDao = new ShgMemberDataDao(shgMemberDataDaoConfig, this);
-        addedTrainingsDataDao = new AddedTrainingsDataDao(addedTrainingsDataDaoConfig, this);
-        blockDataDao = new BlockDataDao(blockDataDaoConfig, this);
-        viewReportMonthDataDao = new ViewReportMonthDataDao(viewReportMonthDataDaoConfig, this);
-        webRequestDataDao = new WebRequestDataDao(webRequestDataDaoConfig, this);
-        evaluationMasterLocationDataDao = new EvaluationMasterLocationDataDao(evaluationMasterLocationDataDaoConfig, this);
-        blockLevelDataDao = new BlockLevelDataDao(blockLevelDataDaoConfig, this);
-        baslineQuestionSyncDataDao = new BaslineQuestionSyncDataDao(baslineQuestionSyncDataDaoConfig, this);
-        trainingLocationInfoDao = new TrainingLocationInfoDao(trainingLocationInfoDaoConfig, this);
-        trainingShgAndMemberDataDao = new TrainingShgAndMemberDataDao(trainingShgAndMemberDataDaoConfig, this);
-        addedTrainingShgMemberDataDao = new AddedTrainingShgMemberDataDao(addedTrainingShgMemberDataDaoConfig, this);
-        evaluationSyncQuestionDataDao = new EvaluationSyncQuestionDataDao(evaluationSyncQuestionDataDaoConfig, this);
-        evaluationMasterShgDataDao = new EvaluationMasterShgDataDao(evaluationMasterShgDataDaoConfig, this);
-        evaluationSyncShgDataDao = new EvaluationSyncShgDataDao(evaluationSyncShgDataDaoConfig, this);
-        titleInfoDetailDao = new TitleInfoDetailDao(titleInfoDetailDaoConfig, this);
-        trainingModuleInfoDao = new TrainingModuleInfoDao(trainingModuleInfoDaoConfig, this);
-        viewReportTrainingDataDao = new ViewReportTrainingDataDao(viewReportTrainingDataDaoConfig, this);
-        addedTrainingShgDataDao = new AddedTrainingShgDataDao(addedTrainingShgDataDaoConfig, this);
-        gpDataDao = new GpDataDao(gpDataDaoConfig, this);
-        shgModuleDataDao = new ShgModuleDataDao(shgModuleDataDaoConfig, this);
-        evaluationSyncDataDao = new EvaluationSyncDataDao(evaluationSyncDataDaoConfig, this);
-        viewReportDataDao = new ViewReportDataDao(viewReportDataDaoConfig, this);
-        addedTrainingShgModuleDataDao = new AddedTrainingShgModuleDataDao(addedTrainingShgModuleDataDaoConfig, this);
+        baselineSyncDataDaoConfig = daoConfigMap.get(BaselineSyncDataDao.class).clone();
+        baselineSyncDataDaoConfig.initIdentityScope(type);
 
-        registerDao(BaselineSyncData.class, baselineSyncDataDao);
-        registerDao(ModuleData.class, moduleDataDao);
-        registerDao(ViewReportModuleData.class, viewReportModuleDataDao);
-        registerDao(TrainingInfoData.class, trainingInfoDataDao);
-        registerDao(ShgData.class, shgDataDao);
-        registerDao(LoginInfo.class, loginInfoDao);
-        registerDao(EvaluationMasterTrainingData.class, evaluationMasterTrainingDataDao);
-        registerDao(QuestionInfoDetail.class, questionInfoDetailDao);
-        registerDao(VillageData.class, villageDataDao);
-        registerDao(ShgMemberData.class, shgMemberDataDao);
+        baslineQuestionSyncDataDaoConfig = daoConfigMap.get(BaslineQuestionSyncDataDao.class).clone();
+        baslineQuestionSyncDataDaoConfig.initIdentityScope(type);
+
+        blockDataDaoConfig = daoConfigMap.get(BlockDataDao.class).clone();
+        blockDataDaoConfig.initIdentityScope(type);
+
+        blockLevelDataDaoConfig = daoConfigMap.get(BlockLevelDataDao.class).clone();
+        blockLevelDataDaoConfig.initIdentityScope(type);
+
+        evaluationMasterLocationDataDaoConfig = daoConfigMap.get(EvaluationMasterLocationDataDao.class).clone();
+        evaluationMasterLocationDataDaoConfig.initIdentityScope(type);
+
+        evaluationMasterShgDataDaoConfig = daoConfigMap.get(EvaluationMasterShgDataDao.class).clone();
+        evaluationMasterShgDataDaoConfig.initIdentityScope(type);
+
+        evaluationMasterTrainingDataDaoConfig = daoConfigMap.get(EvaluationMasterTrainingDataDao.class).clone();
+        evaluationMasterTrainingDataDaoConfig.initIdentityScope(type);
+
+        evaluationSyncDataDaoConfig = daoConfigMap.get(EvaluationSyncDataDao.class).clone();
+        evaluationSyncDataDaoConfig.initIdentityScope(type);
+
+        evaluationSyncQuestionDataDaoConfig = daoConfigMap.get(EvaluationSyncQuestionDataDao.class).clone();
+        evaluationSyncQuestionDataDaoConfig.initIdentityScope(type);
+
+        evaluationSyncShgDataDaoConfig = daoConfigMap.get(EvaluationSyncShgDataDao.class).clone();
+        evaluationSyncShgDataDaoConfig.initIdentityScope(type);
+
+        gpDataDaoConfig = daoConfigMap.get(GpDataDao.class).clone();
+        gpDataDaoConfig.initIdentityScope(type);
+
+        loginInfoDaoConfig = daoConfigMap.get(LoginInfoDao.class).clone();
+        loginInfoDaoConfig.initIdentityScope(type);
+
+        moduleDataDaoConfig = daoConfigMap.get(ModuleDataDao.class).clone();
+        moduleDataDaoConfig.initIdentityScope(type);
+
+        questionInfoDetailDaoConfig = daoConfigMap.get(QuestionInfoDetailDao.class).clone();
+        questionInfoDetailDaoConfig.initIdentityScope(type);
+
+        shgDataDaoConfig = daoConfigMap.get(ShgDataDao.class).clone();
+        shgDataDaoConfig.initIdentityScope(type);
+
+        shgMemberDataDaoConfig = daoConfigMap.get(ShgMemberDataDao.class).clone();
+        shgMemberDataDaoConfig.initIdentityScope(type);
+
+        shgModuleDataDaoConfig = daoConfigMap.get(ShgModuleDataDao.class).clone();
+        shgModuleDataDaoConfig.initIdentityScope(type);
+
+        titleInfoDetailDaoConfig = daoConfigMap.get(TitleInfoDetailDao.class).clone();
+        titleInfoDetailDaoConfig.initIdentityScope(type);
+
+        trainingInfoDataDaoConfig = daoConfigMap.get(TrainingInfoDataDao.class).clone();
+        trainingInfoDataDaoConfig.initIdentityScope(type);
+
+        trainingLocationInfoDaoConfig = daoConfigMap.get(TrainingLocationInfoDao.class).clone();
+        trainingLocationInfoDaoConfig.initIdentityScope(type);
+
+        trainingModuleInfoDaoConfig = daoConfigMap.get(TrainingModuleInfoDao.class).clone();
+        trainingModuleInfoDaoConfig.initIdentityScope(type);
+
+        trainingShgAndMemberDataDaoConfig = daoConfigMap.get(TrainingShgAndMemberDataDao.class).clone();
+        trainingShgAndMemberDataDaoConfig.initIdentityScope(type);
+
+        viewReportDataDaoConfig = daoConfigMap.get(ViewReportDataDao.class).clone();
+        viewReportDataDaoConfig.initIdentityScope(type);
+
+        viewReportModuleDataDaoConfig = daoConfigMap.get(ViewReportModuleDataDao.class).clone();
+        viewReportModuleDataDaoConfig.initIdentityScope(type);
+
+        viewReportMonthDataDaoConfig = daoConfigMap.get(ViewReportMonthDataDao.class).clone();
+        viewReportMonthDataDaoConfig.initIdentityScope(type);
+
+        viewReportTrainingDataDaoConfig = daoConfigMap.get(ViewReportTrainingDataDao.class).clone();
+        viewReportTrainingDataDaoConfig.initIdentityScope(type);
+
+        villageDataDaoConfig = daoConfigMap.get(VillageDataDao.class).clone();
+        villageDataDaoConfig.initIdentityScope(type);
+
+        webRequestDataDaoConfig = daoConfigMap.get(WebRequestDataDao.class).clone();
+        webRequestDataDaoConfig.initIdentityScope(type);
+
+        addedTrainingsDataDao = new AddedTrainingsDataDao(addedTrainingsDataDaoConfig, this);
+        addedTrainingShgDataDao = new AddedTrainingShgDataDao(addedTrainingShgDataDaoConfig, this);
+        addedTrainingShgMemberDataDao = new AddedTrainingShgMemberDataDao(addedTrainingShgMemberDataDaoConfig, this);
+        addedTrainingShgModuleDataDao = new AddedTrainingShgModuleDataDao(addedTrainingShgModuleDataDaoConfig, this);
+        baselineSyncDataDao = new BaselineSyncDataDao(baselineSyncDataDaoConfig, this);
+        baslineQuestionSyncDataDao = new BaslineQuestionSyncDataDao(baslineQuestionSyncDataDaoConfig, this);
+        blockDataDao = new BlockDataDao(blockDataDaoConfig, this);
+        blockLevelDataDao = new BlockLevelDataDao(blockLevelDataDaoConfig, this);
+        evaluationMasterLocationDataDao = new EvaluationMasterLocationDataDao(evaluationMasterLocationDataDaoConfig, this);
+        evaluationMasterShgDataDao = new EvaluationMasterShgDataDao(evaluationMasterShgDataDaoConfig, this);
+        evaluationMasterTrainingDataDao = new EvaluationMasterTrainingDataDao(evaluationMasterTrainingDataDaoConfig, this);
+        evaluationSyncDataDao = new EvaluationSyncDataDao(evaluationSyncDataDaoConfig, this);
+        evaluationSyncQuestionDataDao = new EvaluationSyncQuestionDataDao(evaluationSyncQuestionDataDaoConfig, this);
+        evaluationSyncShgDataDao = new EvaluationSyncShgDataDao(evaluationSyncShgDataDaoConfig, this);
+        gpDataDao = new GpDataDao(gpDataDaoConfig, this);
+        loginInfoDao = new LoginInfoDao(loginInfoDaoConfig, this);
+        moduleDataDao = new ModuleDataDao(moduleDataDaoConfig, this);
+        questionInfoDetailDao = new QuestionInfoDetailDao(questionInfoDetailDaoConfig, this);
+        shgDataDao = new ShgDataDao(shgDataDaoConfig, this);
+        shgMemberDataDao = new ShgMemberDataDao(shgMemberDataDaoConfig, this);
+        shgModuleDataDao = new ShgModuleDataDao(shgModuleDataDaoConfig, this);
+        titleInfoDetailDao = new TitleInfoDetailDao(titleInfoDetailDaoConfig, this);
+        trainingInfoDataDao = new TrainingInfoDataDao(trainingInfoDataDaoConfig, this);
+        trainingLocationInfoDao = new TrainingLocationInfoDao(trainingLocationInfoDaoConfig, this);
+        trainingModuleInfoDao = new TrainingModuleInfoDao(trainingModuleInfoDaoConfig, this);
+        trainingShgAndMemberDataDao = new TrainingShgAndMemberDataDao(trainingShgAndMemberDataDaoConfig, this);
+        viewReportDataDao = new ViewReportDataDao(viewReportDataDaoConfig, this);
+        viewReportModuleDataDao = new ViewReportModuleDataDao(viewReportModuleDataDaoConfig, this);
+        viewReportMonthDataDao = new ViewReportMonthDataDao(viewReportMonthDataDaoConfig, this);
+        viewReportTrainingDataDao = new ViewReportTrainingDataDao(viewReportTrainingDataDaoConfig, this);
+        villageDataDao = new VillageDataDao(villageDataDaoConfig, this);
+        webRequestDataDao = new WebRequestDataDao(webRequestDataDaoConfig, this);
+
         registerDao(AddedTrainingsData.class, addedTrainingsDataDao);
-        registerDao(BlockData.class, blockDataDao);
-        registerDao(ViewReportMonthData.class, viewReportMonthDataDao);
-        registerDao(WebRequestData.class, webRequestDataDao);
-        registerDao(EvaluationMasterLocationData.class, evaluationMasterLocationDataDao);
-        registerDao(BlockLevelData.class, blockLevelDataDao);
-        registerDao(BaslineQuestionSyncData.class, baslineQuestionSyncDataDao);
-        registerDao(TrainingLocationInfo.class, trainingLocationInfoDao);
-        registerDao(TrainingShgAndMemberData.class, trainingShgAndMemberDataDao);
-        registerDao(AddedTrainingShgMemberData.class, addedTrainingShgMemberDataDao);
-        registerDao(EvaluationSyncQuestionData.class, evaluationSyncQuestionDataDao);
-        registerDao(EvaluationMasterShgData.class, evaluationMasterShgDataDao);
-        registerDao(EvaluationSyncShgData.class, evaluationSyncShgDataDao);
-        registerDao(TitleInfoDetail.class, titleInfoDetailDao);
-        registerDao(TrainingModuleInfo.class, trainingModuleInfoDao);
-        registerDao(ViewReportTrainingData.class, viewReportTrainingDataDao);
         registerDao(AddedTrainingShgData.class, addedTrainingShgDataDao);
-        registerDao(GpData.class, gpDataDao);
-        registerDao(ShgModuleData.class, shgModuleDataDao);
-        registerDao(EvaluationSyncData.class, evaluationSyncDataDao);
-        registerDao(ViewReportData.class, viewReportDataDao);
+        registerDao(AddedTrainingShgMemberData.class, addedTrainingShgMemberDataDao);
         registerDao(AddedTrainingShgModuleData.class, addedTrainingShgModuleDataDao);
+        registerDao(BaselineSyncData.class, baselineSyncDataDao);
+        registerDao(BaslineQuestionSyncData.class, baslineQuestionSyncDataDao);
+        registerDao(BlockData.class, blockDataDao);
+        registerDao(BlockLevelData.class, blockLevelDataDao);
+        registerDao(EvaluationMasterLocationData.class, evaluationMasterLocationDataDao);
+        registerDao(EvaluationMasterShgData.class, evaluationMasterShgDataDao);
+        registerDao(EvaluationMasterTrainingData.class, evaluationMasterTrainingDataDao);
+        registerDao(EvaluationSyncData.class, evaluationSyncDataDao);
+        registerDao(EvaluationSyncQuestionData.class, evaluationSyncQuestionDataDao);
+        registerDao(EvaluationSyncShgData.class, evaluationSyncShgDataDao);
+        registerDao(GpData.class, gpDataDao);
+        registerDao(LoginInfo.class, loginInfoDao);
+        registerDao(ModuleData.class, moduleDataDao);
+        registerDao(QuestionInfoDetail.class, questionInfoDetailDao);
+        registerDao(ShgData.class, shgDataDao);
+        registerDao(ShgMemberData.class, shgMemberDataDao);
+        registerDao(ShgModuleData.class, shgModuleDataDao);
+        registerDao(TitleInfoDetail.class, titleInfoDetailDao);
+        registerDao(TrainingInfoData.class, trainingInfoDataDao);
+        registerDao(TrainingLocationInfo.class, trainingLocationInfoDao);
+        registerDao(TrainingModuleInfo.class, trainingModuleInfoDao);
+        registerDao(TrainingShgAndMemberData.class, trainingShgAndMemberDataDao);
+        registerDao(ViewReportData.class, viewReportDataDao);
+        registerDao(ViewReportModuleData.class, viewReportModuleDataDao);
+        registerDao(ViewReportMonthData.class, viewReportMonthDataDao);
+        registerDao(ViewReportTrainingData.class, viewReportTrainingDataDao);
+        registerDao(VillageData.class, villageDataDao);
+        registerDao(WebRequestData.class, webRequestDataDao);
     }
     
     public void clear() {
-        baselineSyncDataDaoConfig.clearIdentityScope();
-        moduleDataDaoConfig.clearIdentityScope();
-        viewReportModuleDataDaoConfig.clearIdentityScope();
-        trainingInfoDataDaoConfig.clearIdentityScope();
-        shgDataDaoConfig.clearIdentityScope();
-        loginInfoDaoConfig.clearIdentityScope();
-        evaluationMasterTrainingDataDaoConfig.clearIdentityScope();
-        questionInfoDetailDaoConfig.clearIdentityScope();
-        villageDataDaoConfig.clearIdentityScope();
-        shgMemberDataDaoConfig.clearIdentityScope();
         addedTrainingsDataDaoConfig.clearIdentityScope();
-        blockDataDaoConfig.clearIdentityScope();
-        viewReportMonthDataDaoConfig.clearIdentityScope();
-        webRequestDataDaoConfig.clearIdentityScope();
-        evaluationMasterLocationDataDaoConfig.clearIdentityScope();
-        blockLevelDataDaoConfig.clearIdentityScope();
-        baslineQuestionSyncDataDaoConfig.clearIdentityScope();
-        trainingLocationInfoDaoConfig.clearIdentityScope();
-        trainingShgAndMemberDataDaoConfig.clearIdentityScope();
-        addedTrainingShgMemberDataDaoConfig.clearIdentityScope();
-        evaluationSyncQuestionDataDaoConfig.clearIdentityScope();
-        evaluationMasterShgDataDaoConfig.clearIdentityScope();
-        evaluationSyncShgDataDaoConfig.clearIdentityScope();
-        titleInfoDetailDaoConfig.clearIdentityScope();
-        trainingModuleInfoDaoConfig.clearIdentityScope();
-        viewReportTrainingDataDaoConfig.clearIdentityScope();
         addedTrainingShgDataDaoConfig.clearIdentityScope();
-        gpDataDaoConfig.clearIdentityScope();
-        shgModuleDataDaoConfig.clearIdentityScope();
-        evaluationSyncDataDaoConfig.clearIdentityScope();
-        viewReportDataDaoConfig.clearIdentityScope();
+        addedTrainingShgMemberDataDaoConfig.clearIdentityScope();
         addedTrainingShgModuleDataDaoConfig.clearIdentityScope();
-    }
-
-    public BaselineSyncDataDao getBaselineSyncDataDao() {
-        return baselineSyncDataDao;
-    }
-
-    public ModuleDataDao getModuleDataDao() {
-        return moduleDataDao;
-    }
-
-    public ViewReportModuleDataDao getViewReportModuleDataDao() {
-        return viewReportModuleDataDao;
-    }
-
-    public TrainingInfoDataDao getTrainingInfoDataDao() {
-        return trainingInfoDataDao;
-    }
-
-    public ShgDataDao getShgDataDao() {
-        return shgDataDao;
-    }
-
-    public LoginInfoDao getLoginInfoDao() {
-        return loginInfoDao;
-    }
-
-    public EvaluationMasterTrainingDataDao getEvaluationMasterTrainingDataDao() {
-        return evaluationMasterTrainingDataDao;
-    }
-
-    public QuestionInfoDetailDao getQuestionInfoDetailDao() {
-        return questionInfoDetailDao;
-    }
-
-    public VillageDataDao getVillageDataDao() {
-        return villageDataDao;
-    }
-
-    public ShgMemberDataDao getShgMemberDataDao() {
-        return shgMemberDataDao;
+        baselineSyncDataDaoConfig.clearIdentityScope();
+        baslineQuestionSyncDataDaoConfig.clearIdentityScope();
+        blockDataDaoConfig.clearIdentityScope();
+        blockLevelDataDaoConfig.clearIdentityScope();
+        evaluationMasterLocationDataDaoConfig.clearIdentityScope();
+        evaluationMasterShgDataDaoConfig.clearIdentityScope();
+        evaluationMasterTrainingDataDaoConfig.clearIdentityScope();
+        evaluationSyncDataDaoConfig.clearIdentityScope();
+        evaluationSyncQuestionDataDaoConfig.clearIdentityScope();
+        evaluationSyncShgDataDaoConfig.clearIdentityScope();
+        gpDataDaoConfig.clearIdentityScope();
+        loginInfoDaoConfig.clearIdentityScope();
+        moduleDataDaoConfig.clearIdentityScope();
+        questionInfoDetailDaoConfig.clearIdentityScope();
+        shgDataDaoConfig.clearIdentityScope();
+        shgMemberDataDaoConfig.clearIdentityScope();
+        shgModuleDataDaoConfig.clearIdentityScope();
+        titleInfoDetailDaoConfig.clearIdentityScope();
+        trainingInfoDataDaoConfig.clearIdentityScope();
+        trainingLocationInfoDaoConfig.clearIdentityScope();
+        trainingModuleInfoDaoConfig.clearIdentityScope();
+        trainingShgAndMemberDataDaoConfig.clearIdentityScope();
+        viewReportDataDaoConfig.clearIdentityScope();
+        viewReportModuleDataDaoConfig.clearIdentityScope();
+        viewReportMonthDataDaoConfig.clearIdentityScope();
+        viewReportTrainingDataDaoConfig.clearIdentityScope();
+        villageDataDaoConfig.clearIdentityScope();
+        webRequestDataDaoConfig.clearIdentityScope();
     }
 
     public AddedTrainingsDataDao getAddedTrainingsDataDao() {
         return addedTrainingsDataDao;
     }
 
-    public BlockDataDao getBlockDataDao() {
-        return blockDataDao;
-    }
-
-    public ViewReportMonthDataDao getViewReportMonthDataDao() {
-        return viewReportMonthDataDao;
-    }
-
-    public WebRequestDataDao getWebRequestDataDao() {
-        return webRequestDataDao;
-    }
-
-    public EvaluationMasterLocationDataDao getEvaluationMasterLocationDataDao() {
-        return evaluationMasterLocationDataDao;
-    }
-
-    public BlockLevelDataDao getBlockLevelDataDao() {
-        return blockLevelDataDao;
-    }
-
-    public BaslineQuestionSyncDataDao getBaslineQuestionSyncDataDao() {
-        return baslineQuestionSyncDataDao;
-    }
-
-    public TrainingLocationInfoDao getTrainingLocationInfoDao() {
-        return trainingLocationInfoDao;
-    }
-
-    public TrainingShgAndMemberDataDao getTrainingShgAndMemberDataDao() {
-        return trainingShgAndMemberDataDao;
+    public AddedTrainingShgDataDao getAddedTrainingShgDataDao() {
+        return addedTrainingShgDataDao;
     }
 
     public AddedTrainingShgMemberDataDao getAddedTrainingShgMemberDataDao() {
         return addedTrainingShgMemberDataDao;
     }
 
-    public EvaluationSyncQuestionDataDao getEvaluationSyncQuestionDataDao() {
-        return evaluationSyncQuestionDataDao;
+    public AddedTrainingShgModuleDataDao getAddedTrainingShgModuleDataDao() {
+        return addedTrainingShgModuleDataDao;
+    }
+
+    public BaselineSyncDataDao getBaselineSyncDataDao() {
+        return baselineSyncDataDao;
+    }
+
+    public BaslineQuestionSyncDataDao getBaslineQuestionSyncDataDao() {
+        return baslineQuestionSyncDataDao;
+    }
+
+    public BlockDataDao getBlockDataDao() {
+        return blockDataDao;
+    }
+
+    public BlockLevelDataDao getBlockLevelDataDao() {
+        return blockLevelDataDao;
+    }
+
+    public EvaluationMasterLocationDataDao getEvaluationMasterLocationDataDao() {
+        return evaluationMasterLocationDataDao;
     }
 
     public EvaluationMasterShgDataDao getEvaluationMasterShgDataDao() {
         return evaluationMasterShgDataDao;
     }
 
-    public EvaluationSyncShgDataDao getEvaluationSyncShgDataDao() {
-        return evaluationSyncShgDataDao;
-    }
-
-    public TitleInfoDetailDao getTitleInfoDetailDao() {
-        return titleInfoDetailDao;
-    }
-
-    public TrainingModuleInfoDao getTrainingModuleInfoDao() {
-        return trainingModuleInfoDao;
-    }
-
-    public ViewReportTrainingDataDao getViewReportTrainingDataDao() {
-        return viewReportTrainingDataDao;
-    }
-
-    public AddedTrainingShgDataDao getAddedTrainingShgDataDao() {
-        return addedTrainingShgDataDao;
-    }
-
-    public GpDataDao getGpDataDao() {
-        return gpDataDao;
-    }
-
-    public ShgModuleDataDao getShgModuleDataDao() {
-        return shgModuleDataDao;
+    public EvaluationMasterTrainingDataDao getEvaluationMasterTrainingDataDao() {
+        return evaluationMasterTrainingDataDao;
     }
 
     public EvaluationSyncDataDao getEvaluationSyncDataDao() {
         return evaluationSyncDataDao;
     }
 
+    public EvaluationSyncQuestionDataDao getEvaluationSyncQuestionDataDao() {
+        return evaluationSyncQuestionDataDao;
+    }
+
+    public EvaluationSyncShgDataDao getEvaluationSyncShgDataDao() {
+        return evaluationSyncShgDataDao;
+    }
+
+    public GpDataDao getGpDataDao() {
+        return gpDataDao;
+    }
+
+    public LoginInfoDao getLoginInfoDao() {
+        return loginInfoDao;
+    }
+
+    public ModuleDataDao getModuleDataDao() {
+        return moduleDataDao;
+    }
+
+    public QuestionInfoDetailDao getQuestionInfoDetailDao() {
+        return questionInfoDetailDao;
+    }
+
+    public ShgDataDao getShgDataDao() {
+        return shgDataDao;
+    }
+
+    public ShgMemberDataDao getShgMemberDataDao() {
+        return shgMemberDataDao;
+    }
+
+    public ShgModuleDataDao getShgModuleDataDao() {
+        return shgModuleDataDao;
+    }
+
+    public TitleInfoDetailDao getTitleInfoDetailDao() {
+        return titleInfoDetailDao;
+    }
+
+    public TrainingInfoDataDao getTrainingInfoDataDao() {
+        return trainingInfoDataDao;
+    }
+
+    public TrainingLocationInfoDao getTrainingLocationInfoDao() {
+        return trainingLocationInfoDao;
+    }
+
+    public TrainingModuleInfoDao getTrainingModuleInfoDao() {
+        return trainingModuleInfoDao;
+    }
+
+    public TrainingShgAndMemberDataDao getTrainingShgAndMemberDataDao() {
+        return trainingShgAndMemberDataDao;
+    }
+
     public ViewReportDataDao getViewReportDataDao() {
         return viewReportDataDao;
     }
 
-    public AddedTrainingShgModuleDataDao getAddedTrainingShgModuleDataDao() {
-        return addedTrainingShgModuleDataDao;
+    public ViewReportModuleDataDao getViewReportModuleDataDao() {
+        return viewReportModuleDataDao;
+    }
+
+    public ViewReportMonthDataDao getViewReportMonthDataDao() {
+        return viewReportMonthDataDao;
+    }
+
+    public ViewReportTrainingDataDao getViewReportTrainingDataDao() {
+        return viewReportTrainingDataDao;
+    }
+
+    public VillageDataDao getVillageDataDao() {
+        return villageDataDao;
+    }
+
+    public WebRequestDataDao getWebRequestDataDao() {
+        return webRequestDataDao;
     }
 
 }

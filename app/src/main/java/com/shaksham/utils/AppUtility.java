@@ -40,7 +40,7 @@ import javax.crypto.spec.SecretKeySpec;
 
 public class AppUtility extends AppCompatActivity {
         public static AppUtility utilsInstance;
-        private static boolean wantToShow = true;
+        private static boolean wantToShow = false;
 
         public synchronized static AppUtility getInstance() {
             if (utilsInstance == null) {

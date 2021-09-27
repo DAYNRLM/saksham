@@ -214,10 +214,13 @@ public class LoginActivity extends AppCompatActivity {
                                // SyncData.getInstance(getApplicationContext()).syncData();
 
 
+
                                 SyncData.getInstance(LoginActivity.this).syncData();
 
                                 getMastersFromServer(userId, AppUtility.getInstance().getSha256(password) ,
-                                        getIMEINo1(), getDeviceInfo(), getAppVersionFromLocal(),
+                                       "e80de5c319468045" ,/*local- e80de5c319468045 /////"Live-  e7caddce4676291f"	"*/
+                                        "Xiaomi-laurel_sprout-Mi A3", /*Xiaomi-laurel_sprout-Mi A3*/
+                                        getAppVersionFromLocal(),
                                         DateFactory.getInstance().changeDateValue(DateFactory.getInstance().getTodayDate()));
 
 
@@ -786,9 +789,16 @@ public class LoginActivity extends AppCompatActivity {
                                             getString(R.string.login_attempt_failed), "OK",
                                             null, null, true,
                                             false);
+                                }else  if (status.equalsIgnoreCase("Invalid Login !!!")) {
+
+                                    DialogFactory.getInstance().showServerCridentialDialog(LoginActivity.this, getString(R.string.info), "Invalid Login!!!", "OK", null, null, true, false);
                                 }else {
                                     DialogFactory.getInstance().showServerCridentialDialog(LoginActivity.this,  getString(R.string.server_error_device_info), getString(R.string.server_error_device_info_massege) + " (" + status + ") " + getString(R.string.device), "OK", null, null, false, false);
                                 }
+                               /* add this condition in next release.
+                                if (status.equalsIgnoreCase("Invalid Login!!!")) {
+                                    DialogFactory.getInstance().showServerCridentialDialog(LoginActivity.this, getString(R.string.info), "Invalid Login!!!", "OK", null, null, true, false);
+                                }*/
                             } else {
                                 parseServerData(jsonObject);
                             }
