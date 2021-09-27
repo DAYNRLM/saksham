@@ -27,7 +27,7 @@ public class AppConstant {
 
     // Local on Aanand System
 
-  /*   public static final String DEMO="Local";
+/*     public static final String DEMO="Local";
     public static final String API_TYPE="nrlmwebservice";
     public static final String HTTP_TYPE="http";
     public static final String IP_ADDRESS="10.197.183.105:8080";*/

@@ -73,6 +73,9 @@ import java.security.interfaces.DSAKey;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
+import java.util.concurrent.Executor;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.logging.LogRecord;
 
 import javax.crypto.BadPaddingException;
@@ -102,6 +105,8 @@ public class PhotoGps extends Fragment implements HomeActivity.OnBackPressedList
     String longitude,latitude;
     private Unbinder unbinder;
     int count=0;
+
+    ExecutorService executorService= Executors.newSingleThreadExecutor();
 
     public static PhotoGps getInstance() {
         PhotoGps photoGps = new PhotoGps();
@@ -181,7 +186,7 @@ public class PhotoGps extends Fragment implements HomeActivity.OnBackPressedList
     void captureLatLong() {
         count=1;
         getLocation();
-        Toast.makeText(getContext(), "latlong" + latitude + "...." + longitude, Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getContext(), "latlong" + latitude + "...." + longitude, Toast.LENGTH_SHORT).show();
 
     }
 
@@ -201,23 +206,21 @@ public class PhotoGps extends Fragment implements HomeActivity.OnBackPressedList
 
             if (requestCode == CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE) {
                 if (resultCode == Activity.RESULT_OK) {
-                    Handler handler = new Handler();
-                    handler.postDelayed(new Runnable() {
-                        @Override
-                        public void run() {
-                            Bitmap bmp = (Bitmap) data.getExtras().get("data");
-                            imgPhoto.setImageBitmap(bmp);
+                   executorService.execute(new Runnable() {
+                       @Override
+                       public void run() {
+                           Bitmap bmp = (Bitmap) data.getExtras().get("data");
+                           imgPhoto.setImageBitmap(bmp);
                            /* storeImage(bmp);
                             Bitmap bitmap= readFilefromInternal(filePath);*/
-                            ByteArrayOutputStream baos = new ByteArrayOutputStream();
-                            bmp.compress(Bitmap.CompressFormat.PNG, 100 , baos);
+                           ByteArrayOutputStream baos = new ByteArrayOutputStream();
+                           bmp.compress(Bitmap.CompressFormat.PNG, 50 , baos);
 
-                            imageByteArray = baos.toByteArray();
-                            AppUtility.getInstance().showLog("byteArray" + imageByteArray, PhotoGps.class);
-                        }
-                    }, 1000);
+                           imageByteArray = baos.toByteArray();
+                           AppUtility.getInstance().showLog("byteArray" + imageByteArray, PhotoGps.class);
+                       }
+                   });
                 }
-
             }
     }
 
@@ -465,21 +468,7 @@ public class PhotoGps extends Fragment implements HomeActivity.OnBackPressedList
 
         } catch (JSONException je) {
             AppUtility.getInstance().showLog("je" + je, PhotoGps.class);
-        } /*catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        } catch (BadPaddingException e) {
-            e.printStackTrace();
-        } catch (NoSuchAlgorithmException e) {
-            e.printStackTrace();
-        } catch (InvalidKeyException e) {
-            e.printStackTrace();
-        } catch (InvalidAlgorithmParameterException e) {
-            e.printStackTrace();
-        } catch (NoSuchPaddingException e) {
-            e.printStackTrace();
-        } catch (IllegalBlockSizeException e) {
-            e.printStackTrace();
-        }*/
+        }
     }
     private void storeImage(Bitmap image) {
         File pictureFile = getOutputMediaFile();
