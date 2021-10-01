@@ -118,37 +118,6 @@ public class OTPVerification extends AppCompatActivity {
                 }
             });
 
-            /*resetPassBTN.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-
-                    String enteredPassword = enterPasswordTIET.getText().toString().trim();
-                    String confirmPassword = confirmPasswordTIET.getText().toString().trim();
-
-                    if (enteredPassword.length() < 6) {
-                        enterPasswordTIET.setError(getString(R.string.error_password));
-                    }
-                    if (confirmPassword.length() < 6) {
-                        confirmPasswordTIET.setError(getString(R.string.error_confirm_password));
-                    } else {
-
-                        if (enteredPassword.equalsIgnoreCase(confirmPassword)) {
-
-                            String generatedOTP = PrefrenceFactory.getInstance().getSharedPrefrencesData(PrefrenceManager.getPrfKeyOtp(), OTPVerification.this);
-                            AppUtility.getInstance().showLog("enteredOTP=" + enteredOTP + "generatedOTP=" + generatedOTP, OTPVerification.class);
-                            if (enteredOTP.equalsIgnoreCase(generatedOTP)) {
-
-                                registerPasswordOnServer(PrefrenceFactory.getInstance().getSharedPrefrencesData(PrefrenceManager.getPrfKeyMobileNumber(), OTPVerification.this), confirmPassword,PrefrenceFactory.getInstance().getSharedPrefrencesData(PrefrenceManager.getPrfKeyLoginIdFromLocal(),OTPVerification.this));
-
-                            } else {
-                                Toast.makeText(OTPVerification.this, getString(R.string.toast_otp_wrong), Toast.LENGTH_SHORT).show();
-                            }
-                        } else {
-                            confirmPasswordTIET.setError(getString(R.string.error_confirm_password_not_matched));
-                        }
-                    }
-                }
-            });*/
         }
     }
 
@@ -219,6 +188,7 @@ public class OTPVerification extends AppCompatActivity {
             });
 
             RequestQueue requestQueue1 = Volley.newRequestQueue(this);
+            requestQueue1.getCache().clear();
             requestQueue1.add(restRequest);
 
         }

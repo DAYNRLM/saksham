@@ -117,9 +117,15 @@ public class HomeActivity extends AppCompatActivity implements FragmentManager.O
         assert navigationView != null;
         navigationView.setNavigationItemSelectedListener(this::onNavigationItemSelected);
 
-        Menu menu =navigationView.getMenu();
+
+       String flag_status= PrefrenceFactory.getInstance().getSharedPrefrencesData(PrefrenceManager.getFlagStatusKey(),HomeActivity.this);
+       if(flag_status.equalsIgnoreCase("0")){
+             Menu menu =navigationView.getMenu();
         MenuItem target = menu.findItem(R.id.menu_changLanguage);
         target.setVisible(false);
+       }
+
+
 
 
         View headerView = navigationView.getHeaderView(0);

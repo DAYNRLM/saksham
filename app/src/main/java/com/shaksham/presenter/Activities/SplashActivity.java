@@ -86,12 +86,15 @@ public class SplashActivity extends AppCompatActivity {
             PrefrenceFactory.getInstance().removeSharedPrefrencesData(PrefrenceManager.getPrfKeyLoginSessionStatus(), SplashActivity.this);
             new HomeActivity().clearDatabaseMasterTables();
         }
+
+
+        loadScreenWithGps();
+
+
+
     }
 
-
-    @Override
-    protected void onResume() {
-        super.onResume();
+    private void loadScreenWithGps() {
         GPSTracker gpsTracker = new GPSTracker(SplashActivity.this);
         if(!AppUtility.isGPSEnabled(SplashActivity.this)){
 
@@ -116,29 +119,14 @@ public class SplashActivity extends AppCompatActivity {
             AppUtility.getInstance().showLog("location" + latitude + "  " + longitude, LoginActivity.class);
             loadNextScreenWithDelay();
 
-          /*
-            //write condition for check android version and application  not run less then lolipop
-            if (android.os.Build.VERSION.SDK_INT <= Build.VERSION_CODES.LOLLIPOP) {
-                DialogFactory.getInstance().showAlertDialog(SplashActivity.this, R.drawable.ic_launcher_background,
-                        "This Application is not used in your android device please Upgrade your mobile",
-                        "", "Ok",
-                        new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        finish();
-                    }
-                },false);
-
-            }else {
-                gpsTracker.getLocation();
-                String  latitude = String.valueOf(gpsTracker.latitude);
-                String longitude = String.valueOf(gpsTracker.longitude);
-
-                AppUtility.getInstance().showLog("location" + latitude + "  " + longitude, LoginActivity.class);
-                loadNextScreenWithDelay();
-            }*/
-
         }
+    }
+
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
 
     }
 

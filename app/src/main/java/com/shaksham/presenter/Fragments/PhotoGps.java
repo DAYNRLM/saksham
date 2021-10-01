@@ -30,7 +30,6 @@ import androidx.fragment.app.Fragment;
 
 import com.google.gson.JsonIOException;
 import com.shaksham.R;
-import com.shaksham.R2;
 import com.shaksham.model.PojoData.AddTrainingPojo;
 import com.shaksham.model.database.TrainingInfoData;
 import com.shaksham.model.database.TrainingLocationInfo;
@@ -206,20 +205,33 @@ public class PhotoGps extends Fragment implements HomeActivity.OnBackPressedList
 
             if (requestCode == CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE) {
                 if (resultCode == Activity.RESULT_OK) {
-                   executorService.execute(new Runnable() {
+                    Bitmap bmp = (Bitmap) data.getExtras().get("data");
+                    imgPhoto.setImageBitmap(bmp);
+
+                           /* storeImage(bmp);
+                            Bitmap bitmap= readFilefromInternal(filePath);*/
+                    ByteArrayOutputStream baos = new ByteArrayOutputStream();
+                    bmp.compress(Bitmap.CompressFormat.PNG, 40 , baos);
+
+
+                    imageByteArray = baos.toByteArray();
+                    AppUtility.getInstance().showLog("byteArray" + imageByteArray, PhotoGps.class);
+                  /* executorService.execute(new Runnable() {
                        @Override
                        public void run() {
                            Bitmap bmp = (Bitmap) data.getExtras().get("data");
                            imgPhoto.setImageBitmap(bmp);
-                           /* storeImage(bmp);
-                            Bitmap bitmap= readFilefromInternal(filePath);*/
+
+                           *//* storeImage(bmp);
+                            Bitmap bitmap= readFilefromInternal(filePath);*//*
                            ByteArrayOutputStream baos = new ByteArrayOutputStream();
-                           bmp.compress(Bitmap.CompressFormat.PNG, 50 , baos);
+                           bmp.compress(Bitmap.CompressFormat.PNG, 40 , baos);
+
 
                            imageByteArray = baos.toByteArray();
                            AppUtility.getInstance().showLog("byteArray" + imageByteArray, PhotoGps.class);
                        }
-                   });
+                   });*/
                 }
             }
     }

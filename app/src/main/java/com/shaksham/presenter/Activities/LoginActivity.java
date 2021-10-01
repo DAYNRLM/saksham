@@ -33,6 +33,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -140,7 +141,7 @@ public class LoginActivity extends AppCompatActivity {
             findViewById(R.id.demo_image).setVisibility(View.VISIBLE);
         context = LoginActivity.this;
 
-        handler =new Handler();
+        //handler =new Handler();
         user_IdTIET = (TextInputEditText) findViewById(R.id.user_IdTIET);
         passwordTIET = (TextInputEditText) findViewById(R.id.passwordTIET);
         selectLanguageTV = (TextView) findViewById(R.id.select_languageTV);
@@ -201,32 +202,21 @@ public class LoginActivity extends AppCompatActivity {
 
                                 populateDbFromLocalFile();
 
-
                                 // getLocation();
                                 AppUtility.getInstance().showLog("encoded password" + AppUtility.getInstance().getSha256(password), LoginActivity.class);
                                 AppUtility.getInstance().showLog("deviceInfo=" + getDeviceInfo() + ",,,,,imei1=" + getIMEINo1(), LoginActivity.class);
-                               // Toast.makeText(LoginActivity.this,"imei"+getIMEINo1()+"Dinfo"+getDeviceInfo(),Toast.LENGTH_SHORT).show();
-                                // Toast.makeText(LoginActivity.this,"Dinfo"+getDeviceInfo(),Toast.LENGTH_SHORT).show();
-                              //  AppUtility.getInstance().showLog("getAppVersionFromLocal=" + getAppVersionFromLocal(), LoginActivity.class);
-                                //  AppUtility.getInstance().showLog("getMobileNoFromLocal" + getMobileNoFromLocal(), LoginActivity.class);
-                              //  AppUtility.getInstance().showLog("todaydate:-" + DateFactory.getInstance().getTodayDate(), LoginActivity.class);
-                              //  AppUtility.getInstance().showLog("changedValue=-" + DateFactory.getInstance().changeDateValue(DateFactory.getInstance().getTodayDate()), LoginActivity.class);
-                               // SyncData.getInstance(getApplicationContext()).syncData();
-
-
 
                                 SyncData.getInstance(LoginActivity.this).syncData();
 
                                 getMastersFromServer(userId, AppUtility.getInstance().getSha256(password) ,
-                                       "e80de5c319468045" ,/*local- e80de5c319468045 /////"Live-  e7caddce4676291f"	"*/
-                                        "Xiaomi-laurel_sprout-Mi A3", /*Xiaomi-laurel_sprout-Mi A3*/
+                                        getIMEINo1() ,
+                                        getDeviceInfo(),
                                         getAppVersionFromLocal(),
                                         DateFactory.getInstance().changeDateValue(DateFactory.getInstance().getTodayDate()));
 
 
                             }catch (Exception e){
-                                //Toast.makeText(LoginActivity.this,"ExceptionMain"+e,Toast.LENGTH_SHORT).show();
-                               // AppUtility.getInstance().showLog("ExceptionMain"+e,LoginActivity.class);
+                                AppUtility.getInstance().showLog("ExceptionMain"+e,LoginActivity.class);
                             }
                         } else {
                             Toast.makeText(LoginActivity.this, "Please allow the permissions.", Toast.LENGTH_SHORT).show();
@@ -253,29 +243,8 @@ public class LoginActivity extends AppCompatActivity {
                         if (mobileNo.length() < 10) {
                             mobileNoTIET.setError(getString(R.string.error_mobileno));
                         } else {
-                            JSONObject mpinFileObject= null;
-                            try {
-                                mpinFileObject = readMpinFile();
-                               // AppUtility.getInstance().showLog("mpinFileObject"+mpinFileObject,OTPVerification.class);
-                                if (mpinFileObject.toString().equalsIgnoreCase("{}")){
-                                    PrefrenceFactory.getInstance().saveSharedPrefrecesData(PrefrenceManager.getPrfKeyMobileNumber(), mobileNo, LoginActivity.this);
-                                    //save userid in preference for reset password
-                                    sendOTP(mobileNo);
-                                    //Toast.makeText(LoginActivity.this,getString(R.string.toast_nologinid),Toast.LENGTH_SHORT).show();
-                                }else {
-                                    String mobileFromFile=  mpinFileObject.getString("mobileNumber");
-                                   // AppUtility.getInstance().showLog("mpinFileObject"+mpinFileObject,LoginActivity.class);
-                                    if(mobileNo.equalsIgnoreCase(mobileFromFile)){
-                                        PrefrenceFactory.getInstance().saveSharedPrefrecesData(PrefrenceManager.getPrfKeyMobileNumber(), mobileNo, LoginActivity.this);
-                                        PrefrenceFactory.getInstance().saveSharedPrefrecesData(PrefrenceManager.getPrfKeyLoginIdFromLocal(),mpinFileObject.getString("loginId"),LoginActivity.this);
-                                        sendOTP(mobileNo);
-                                    }else {
-                                        Toast.makeText(LoginActivity.this,getString(R.string.toast_registered_mobile),Toast.LENGTH_SHORT).show();
-                                    }
-                                }
-                            } catch (JSONException e) {
-                                AppUtility.getInstance().showLog("readMpinFileExc"+e,LoginActivity.class);
-                            }
+                            PrefrenceFactory.getInstance().saveSharedPrefrecesData(PrefrenceManager.getPrfKeyMobileNumber(), mobileNo, LoginActivity.this);
+                            sendOTP(mobileNo);
                         }
                     }
                 });
@@ -298,36 +267,10 @@ public class LoginActivity extends AppCompatActivity {
             gpsTracker.showSettingsAlert();
 
         }
-
-
     }
 
     public String getAppVersionFromLocal() {
-
         String appVersion = BuildConfig.VERSION_NAME;
-       /* List<LoginInfo> loginInfoList = SplashActivity.getInstance()
-                .getDaoSession()
-                .getLoginInfoDao()
-                .queryBuilder()
-                .limit(1).list();
-       // AppUtility.getInstance().showLog("loginInfoList" + loginInfoList, LoginActivity.class);
-        if (loginInfoList.size() == 0) {
-            try {
-                if (FileUtility.getInstance().isFileExist(FileManager.getInstance().getMpin(), AppConstant.mpinFileName)) {
-                    JSONObject mPinFileObject = readMpinFile();
-                   *//* appVersion = mPinFileObject.getString("appVersion");*//*
-                    appVersion="1.0.0";
-                    mobileNoFromFile = mPinFileObject.getString("mobileNumber");
-                   // AppUtility.getInstance().showLog("appVersion" + appVersion + "mobileNoFromFile" + mobileNoFromFile, LoginActivity.class);
-                } else appVersion = "1.0.0";
-
-            } catch (JSONException je) {
-               // AppUtility.getInstance().showLog("jsonExp" + je, LoginActivity.class);
-            }
-        } else {
-            //PrefrenceFactory.getInstance().saveSharedPrefrecesData(PrefrenceManager.getPrfKeyLoginIdFromLocal(),loginInfoList.get(0).getLoginId(),LoginActivity.this);
-            appVersion = loginInfoList.get(0).getAppVersion();
-        }*/
         return appVersion;
     }
 
@@ -413,31 +356,29 @@ public class LoginActivity extends AppCompatActivity {
     public String getRandomOtp() {
         Random random = new Random();
         int otp = 1000 + random.nextInt(8999);
-        Toast.makeText(context, "OTP is: " + otp + "", Toast.LENGTH_LONG).show();
+       // Toast.makeText(context, "OTP is: " + otp + "", Toast.LENGTH_LONG).show();
         PrefrenceFactory.getInstance().saveSharedPrefrecesData(PrefrenceManager.getPrfKeyOtp(), String.valueOf(otp), LoginActivity.this);
         return "" + otp;
     }
 
-    private void sendOTP(String mobileNo) {
+    public String getRandomForLogin() {
+        Random random = new Random();
+        int otp = 1000 + random.nextInt(89999);
+        // Toast.makeText(context, "OTP is: " + otp + "", Toast.LENGTH_LONG).show();
+        return "" + otp;
+    }
 
+    private void sendOTP(String mobileNo) {
         if (!NetworkFactory.isInternetOn(LoginActivity.this)) {
             DialogFactory.getInstance().showErrorAlertDialog(LoginActivity.this, getString(R.string.NO_INTERNET_TITLE), getString(R.string.INTERNET_MESSAGE), "OK");
         } else {
-            String json_NEW_OTP_URL= AppConstant.HTTP_TYPE+"://"+AppConstant.IP_ADDRESS+"/"+AppConstant.API_TYPE+"/nrlmwebservice/services/forgotpassword/message";
-            ProgressDialog progressDialog = DialogFactory.getInstance().showProgressDialog(LoginActivity.this, false);
+            String json_NEW_OTP_URL= AppConstant.HTTP_TYPE+"://"+AppConstant.IP_ADDRESS+"/"+AppConstant.API_TYPE+"/services/forgotpassword/message";
             progressDialog.show();
-            /**************************************json request for otp*********************************************/
+
             JSONObject otpObject =new JSONObject();
             try {
                 otpObject.accumulate("mobileno",mobileNo);
-                otpObject.accumulate("message",getString(R.string.otp_greeting)+ " "+ getRandomOtp()+ " "+getString(R.string.otp_massage));
-              //  otpObject.accumulate("login_id", userId);
-               /* otpObject.accumulate("imei_no", PrefrenceFactory.getInstance()
-                        .getSharedPrefrencesData(PrefrenceManager.getPrefKeyDeviceImei(), LoginActivity.this));
-                otpObject.accumulate("device_name", PrefrenceFactory.getInstance()
-                        .getSharedPrefrencesData(PrefrenceManager.getPrefKeyDeviceInfo(), LoginActivity.this));
-                otpObject.accumulate("location_coordinate", getCordinates());*/
-
+                otpObject.accumulate("message", getRandomOtp());
             } catch (JSONException e) {
                 e.printStackTrace();
             }
@@ -449,13 +390,16 @@ public class LoginActivity extends AppCompatActivity {
                     dialog.dismiss();
                     try {
                         if(response.has("status")){
-                           // AppUtility.getInstance().showLog("mobileresponse"+response.toString(),LoginActivity.class);
-                            AppUtility.getInstance().makeIntent(LoginActivity.this, OTPVerification.class, true);
+                            String status= response.getString("status");
+                            if(status.equalsIgnoreCase("This mobile no. is not exist")){
+                                dialog.dismiss();
+                                Toast.makeText(LoginActivity.this,"This mobile no. is not exist try again with Registered mobile number",Toast.LENGTH_SHORT).show();
+                            }else {
+                                AppUtility.getInstance().makeIntent(LoginActivity.this, OTPVerification.class, true);
+                            }
                         }
-
-
                     } catch (Exception e) {
-                      //  AppUtility.getInstance().showLog("Exception" + e.toString(), LoginActivity.class);
+                        AppUtility.getInstance().showLog("Exception" + e.toString(), LoginActivity.class);
                     }
 
                 }
@@ -463,9 +407,10 @@ public class LoginActivity extends AppCompatActivity {
                 @Override
                 public void onErrorResponse(VolleyError error) {
                     progressDialog.dismiss();
-                    AppUtility.getInstance().makeIntent(LoginActivity.this, OTPVerification.class, true);
+                    dialog.dismiss();
+                   // Toast.makeText(LoginActivity.this,getString(R.string.SERVER_ERROR_TITLE)+,Toast.LENGTH_SHORT).show();
+                    DialogFactory.getInstance().showErrorAlertDialog(LoginActivity.this, getString(R.string.SERVER_ERROR_TITLE), getString(SERVER_ERROR_MESSAGE), "ok");
 
-                  //  DialogFactory.getInstance().showErrorAlertDialog(LoginActivity.this, getString(R.string.SERVER_ERROR_TITLE), getString(SERVER_ERROR_MESSAGE), "ok");
                    // AppUtility.getInstance().showLog("volleyError" + error, LoginActivity.class);
 
                 }
@@ -478,50 +423,13 @@ public class LoginActivity extends AppCompatActivity {
                 e.printStackTrace();
                 AppUtility.getInstance().showLog("Volley Exception:" + e, LoginActivity.class);
             }
-
-
-            /************************************************************************************************************/
-
-            /*********************************string request***********************************************************************/
-
-           /* String NEW_OTP_URL="https://nrlm.gov.in/nrlmwebservice/services/forgotpassword/message?mobileno="+mobileNo +"&message="+getString(R.string.otp_greeting)+ " "+ getRandomOtp()+ " "+getString(R.string.otp_massage);
-            StringRequest stringRequest = new StringRequest(Request.Method.GET, NEW_OTP_URL, new Response.Listener<String>() {
-                @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
-                @Override
-                public void onResponse(String s) {
-                    progressDialog.dismiss();
-                    dialog.dismiss();
-                    try {
-                        AppUtility.getInstance().showLog("mobileresponse"+s,LoginActivity.class);
-                        AppUtility.getInstance().makeIntent(LoginActivity.this, OTPVerification.class, true);
-
-                    } catch (Exception e) {
-                        AppUtility.getInstance().showLog("Exception" + e.toString(), LoginActivity.class);
-                    }
-                }
-            }, new Response.ErrorListener() {
-                @Override
-                public void onErrorResponse(VolleyError volleyError) {
-                    progressDialog.dismiss();
-                    DialogFactory.getInstance().showErrorAlertDialog(LoginActivity.this, getString(R.string.SERVER_ERROR_TITLE), getString(SERVER_ERROR_MESSAGE), "ok");
-                    AppUtility.getInstance().showLog("volleyError" + volleyError, LoginActivity.class);
-                }
-            });
-            try {
-                RequestQueue requestQueue = Volley.newRequestQueue(LoginActivity.this);
-                requestQueue.getCache().clear();
-                requestQueue.add(stringRequest);
-            } catch (Exception e) {
-                e.printStackTrace();
-                AppUtility.getInstance().showLog("Volley Exception:" + e, LoginActivity.class);
-            }*/
         }
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        handler.removeCallbacks(r1);
+       // handler.removeCallbacks(r1);
         if(!AppUtility.isGPSEnabled(LoginActivity.this)){
 
             DialogFactory.getInstance().showAlertDialog(LoginActivity.this, R.drawable.ic_launcher_background, getString(R.string.app_name), getString(R.string.gps_not_enabled), "Go to seeting", new DialogInterface.OnClickListener() {
@@ -546,12 +454,12 @@ public class LoginActivity extends AppCompatActivity {
         }
 
         /**********this is used for kill app in forground after 15 min****************/
-         new Handler().postDelayed(new Runnable() {
+         /*new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
                 System.exit(0);;
             }
-        },(30*60000));
+        },(30*60000));*/
 
     }
 
@@ -570,36 +478,19 @@ public class LoginActivity extends AppCompatActivity {
                 if (ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_PHONE_STATE) != PackageManager.PERMISSION_GRANTED) {
                 }
                 if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+
                     imeiNo1 = Settings.Secure.getString(LoginActivity.this.getContentResolver(), Settings.Secure.ANDROID_ID);
-                    //Toast.makeText(getApplicationContext(),"10serialno"+android.os.Build.getSerial(),Toast.LENGTH_LONG).show();
-                    //imeiNo1 = "0361911b215ca1f6";
-                   // Toast.makeText(LoginActivity.this,"deviceIMEI>10Q="+imeiNo1,Toast.LENGTH_LONG).show();
-                   // AppUtility.getInstance().showLog("imeiNo1"+imeiNo1,LoginActivity.class);
+
                 } else if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                     imeiNo1 = telephonyManager.getDeviceId(0);
 
-                    //imeiNo1 = "356479089355768";//odisa wale ka imei8
-
-                  //  Toast.makeText(LoginActivity.this,"deviceIMEI<10Q="+imeiNo1,Toast.LENGTH_LONG).show();
-                   // AppUtility.getInstance().showLog("imeiNo1=" + imeiNo1, LoginActivity.class);
                 }
 
             } else imeiNo1 = telephonyManager.getDeviceId();
         }catch (Exception e){
-           // AppUtility.getInstance().showLog("IMEIExc"+e,LoginActivity.class);
-          //  Toast.makeText(LoginActivity.this,"IMEIexception"+e,Toast.LENGTH_SHORT).show();
+            AppUtility.getInstance().showLog("IMEIExc"+e,LoginActivity.class);
         }
-        /*if(imeiNo1==null)
-            return imeiNo1="";*/
-       // Toast.makeText(LoginActivity.this,"2deviceIMEI>10Q="+imeiNo1,Toast.LENGTH_SHORT).show();
-      //  return "868985038356245";862144048163516
-      // return "862144048163516";
-      // return "862144048163519";//manipur MNIELUCKYBH
-      // return "8621440481635199";//rohtak HRROMANIKU
-        //return "66147e2640df868b";  //West Bengal HRROWBBENGAL
-       // return "869328021803031";  //Chhattishgarh CHHATTISGARH
         return imeiNo1;
-       // return "865402033738727";
     }
 
     @RequiresApi(api = Build.VERSION_CODES.M)
@@ -620,30 +511,19 @@ public class LoginActivity extends AppCompatActivity {
 
     public String getDeviceInfo() {
         String deviceInfo = "";
-
         try{
             deviceInfo = Build.MANUFACTURER + "-" + Build.DEVICE + "-" + Build.MODEL;
-            //deviceInfo = "motorola-nicklaus_f-Moto E (4) Plus";
-            //{"status":"motorola-nicklaus_f-Moto E (4) Plus"}
+
         }catch (Exception e){
-           // Toast.makeText(LoginActivity.this,"Exception"+e,Toast.LENGTH_SHORT).show();
            // AppUtility.getInstance().showLog("ExceptionMain"+e,LoginActivity.class);
         }
 
-       // AppUtility.getInstance().showLog("deviceInfo=" + deviceInfo, LoginActivity.class);
-
-
         if (deviceInfo.equalsIgnoreCase("")|| deviceInfo==null)
             return "";
-       // return "Xiaomi-riva-Redmi 5A";
-       // return "vivo-1951-vivo 1951";
-       // return "vivo-1951-vivo 1952";// manipur MNIELUCKYBH
-      //  return "vivo-1951-vivo 19500";//rohtak HRROMANIKU
-       // return "Xiaomi-olive-Redmi 8";    // West Bengal HRROWBBENGAL nrlm@123
 
-       // return "GiONEE-GiONEE_BBL7332-M5_lite"; //Chhattishgarh CHHATTISGARH  nrlm@123
+
+        AppUtility.getInstance().showLog("DEVICE INFO"+deviceInfo,LoginActivity.class);
         return deviceInfo;
-       // return "Xiaomi-rolex-Redmi 4A";
     }
 
     private int getSIMSlotCount() {
@@ -680,14 +560,15 @@ public class LoginActivity extends AppCompatActivity {
             JSONObject masterUrlObject =new JSONObject();
             try {
                 masterUrlObject.accumulate("user_id",userId);
-                masterUrlObject.accumulate("user_password",encodedPassword);
-                masterUrlObject.accumulate("IMEI",imeiNo);//"55b27d14c744afb5"
-                masterUrlObject.accumulate("device_name",deviceInfo);
+                masterUrlObject.accumulate("user_password",encodedPassword);//encoded_password
+                masterUrlObject.accumulate("IMEI",imeiNo);//"55b27d14c744afb5"////ffec05992c4b9afd//4f98cefc73717d20//ffec05992c4b9afd//3d3ba8c753253341//e7caddce4676291f
+                masterUrlObject.accumulate("device_name",deviceInfo);////Xiaomi-laurel_sprout-Mi A3//OnePlus-OnePlus7-GM1901
                 masterUrlObject.accumulate("app_version",appVersion);
                 masterUrlObject.accumulate("date",todayDate);
                 masterUrlObject.accumulate("logout_time",getTimeStampFromPreference());
                 masterUrlObject.accumulate("location_coordinate",getCordinateFromPreference());
-                masterUrlObject.accumulate("app_login_time",DateFactory.getInstance().getDateTime());
+               // masterUrlObject.accumulate("app_login_time",DateFactory.getInstance().getDateTime());
+                masterUrlObject.accumulate("app_login_time",getRandomForLogin());
 
             } catch (JSONException e) {
                 e.printStackTrace();
@@ -720,6 +601,7 @@ public class LoginActivity extends AppCompatActivity {
             }
             /***********************************************/
 
+            AppUtility.getInstance().showLog(" Encryptrd response*****error" +encryptedObject, LoginActivity.class);
 
             JsonObjectRequest loginRequest =new JsonObjectRequest(Request.Method.POST, loginURL, encryptedObject, new Response.Listener<JSONObject>() {
                 @Override
@@ -729,12 +611,12 @@ public class LoginActivity extends AppCompatActivity {
                         AppUtility.getInstance().showLog("response" + response, LoginActivity.class);
                         JSONObject jsonObject = null;
                         String objectResponse="";
-                       // jsonObject = new JSONObject(response);
                         if(response.has("data")){
                             objectResponse=response.getString("data");
                         }else {
                             jsonObject=response;
                         }
+
                         if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                             try {
                                 Cryptography cryptography = new Cryptography();
@@ -746,6 +628,7 @@ public class LoginActivity extends AppCompatActivity {
                                 AppUtility.getInstance().showLog("DecryptEx" + e, LoginActivity.class);
                             }
                         }
+
                         if (!(jsonObject == null)) {
                             if (jsonObject.has("status")) {
                                 int logoutCount=jsonObject.getInt("login_attempt");
@@ -762,20 +645,16 @@ public class LoginActivity extends AppCompatActivity {
                                     DialogFactory.getInstance().showServerCridentialDialog(LoginActivity.this, getString(R.string.info), getString(R.string.server_error_invalid_userId_massege), "OK", null, null, true, false);
                                 } else if (status.equalsIgnoreCase(getString(R.string.server_error_invalid_password))){
                                     DialogFactory.getInstance().showServerCridentialDialog(LoginActivity.this, getString(R.string.info), getString(R.string.server_error_invalid_userId_massege), "OK", null, null, true, false);
-                                }else if (status.equalsIgnoreCase(getString(R.string.server_error_invalid_version))) {
+                                } else if (status.equalsIgnoreCase(getString(R.string.server_error_invalid_version))) {
                                    DialogFactory.getInstance().showAlertDialog(context, 1, getString(R.string.server_error_invalid_version), getString(R.string.server_error_invalid_version_massege),
                                            "Update", new DialogInterface.OnClickListener() {
                                                @Override
                                                public void onClick(DialogInterface dialog, int which) {
-                                                   //write code for update application
                                                    updateApplication();
-
-
                                                }
-                                           }, "Cancle", new DialogInterface.OnClickListener() {
+                                           }, "Cancel", new DialogInterface.OnClickListener() {
                                                @Override
                                                public void onClick(DialogInterface dialog, int which) {
-
                                                    dialog.dismiss();
                                                }
                                            },false
@@ -789,16 +668,12 @@ public class LoginActivity extends AppCompatActivity {
                                             getString(R.string.login_attempt_failed), "OK",
                                             null, null, true,
                                             false);
-                                }else  if (status.equalsIgnoreCase("Invalid Login !!!")) {
-
+                                }else if (status.equalsIgnoreCase("Invalid Login !!!")) {
                                     DialogFactory.getInstance().showServerCridentialDialog(LoginActivity.this, getString(R.string.info), "Invalid Login!!!", "OK", null, null, true, false);
                                 }else {
                                     DialogFactory.getInstance().showServerCridentialDialog(LoginActivity.this,  getString(R.string.server_error_device_info), getString(R.string.server_error_device_info_massege) + " (" + status + ") " + getString(R.string.device), "OK", null, null, false, false);
                                 }
-                               /* add this condition in next release.
-                                if (status.equalsIgnoreCase("Invalid Login!!!")) {
-                                    DialogFactory.getInstance().showServerCridentialDialog(LoginActivity.this, getString(R.string.info), "Invalid Login!!!", "OK", null, null, true, false);
-                                }*/
+
                             } else {
                                 parseServerData(jsonObject);
                             }
@@ -812,113 +687,47 @@ public class LoginActivity extends AppCompatActivity {
             }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
-                    AppUtility.getInstance().showLog("error" +error, LoginActivity.class);
+                    progressDialog.dismiss();
+                    if(error.toString().equalsIgnoreCase("com.android.volley.TimeoutError")){
+                        DialogFactory.getInstance().showServerCridentialDialog(LoginActivity.this, getString(R.string.info),"Request Time-Out. Please try again " , "OK",
+                                null, null, true,
+                                false);
+                    }else {
+                        DialogFactory.getInstance().showServerCridentialDialog(LoginActivity.this, getString(R.string.info), getString(R.string.server_error_dialog), "OK",
+                                null, null, true,
+                                false);
+
+                    }
+
+                    AppUtility.getInstance().showLog(" onErrorResponse(VolleyError error) *****error //" +" /  " +error, LoginActivity.class);
                 }
             });
-            loginRequest.setRetryPolicy(new RetryPolicy() {
+            loginRequest.setRetryPolicy(new DefaultRetryPolicy(30000,0,DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
+           /* loginRequest.setRetryPolicy(new RetryPolicy() {
                 @Override
                 public int getCurrentTimeout() {
+                    AppUtility.getInstance().showLog("getCurrentTimeout()" + "***&&&&****^^^^^", LoginActivity.class);
+                    //return 30000;
                     return 30000;
                 }
 
                 @Override
                 public int getCurrentRetryCount() {
-                    return 1;
+                    AppUtility.getInstance().showLog("getCurrentRetryCount()" + "***&&&&****^^^^^", LoginActivity.class);
+                    return 0;
                 }
 
                 @Override
                 public void retry(VolleyError error) throws VolleyError {
-
-
+                   // progressDialog.dismiss();
+                    AppUtility.getInstance().showLog("retry(VolleyError error)::::   /  "  +error.toString(), LoginActivity.class);
+                    error.printStackTrace();
                 }
-            });
+            });*/
+            SingletonVolley.getInstance(getApplicationContext()).getRequestQueue().getCache().clear();
+
             SingletonVolley.getInstance(getApplicationContext()).addToRequestQueue(loginRequest);
-          /**************************************this request for get string request*********************************************************/
 
-           /* StringRequest jsonObjectRequest = new StringRequest(Request.Method.GET, MASTER_URL, new Response.Listener<String>() {
-                @Override
-                public void onResponse(String response) {
-                    try {
-                        AppUtility.getInstance().showLog("response" + response, LoginActivity.class);
-                        JSONObject jsonObject = null;
-                        //jsonObject = new JSONObject(response);
-                        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                            try {
-                                Cryptography cryptography = new Cryptography();
-                                jsonObject = new JSONObject(cryptography.decrypt(response));
-                                AppUtility.getInstance().showLog("responseJSON" + jsonObject.toString(), LoginActivity.class);
-                            } catch (Exception e) {
-                                progressDialog.dismiss();
-                                Toast.makeText(LoginActivity.this, getResources().getString(R.string.data_not_found_tost), Toast.LENGTH_SHORT).show();
-                                AppUtility.getInstance().showLog("DecryptEx" + e, LoginActivity.class);
-                            }
-                        }
-                        if (!(jsonObject == null)) {
-                            if (jsonObject.has("status")) {
-                                progressDialog.dismiss();
-                                String status = jsonObject.getString("status");
-                                if (status.equalsIgnoreCase(getString(R.string.server_error_invalid_userId))) {
-                                    DialogFactory.getInstance().showServerCridentialDialog(LoginActivity.this, getString(R.string.info), getString(R.string.server_error_invalid_userId_massege), "OK", null, null, true, false);
-                                } else if (status.equalsIgnoreCase(getString(R.string.server_error_invalid_password))) {
-                                    DialogFactory.getInstance().showServerCridentialDialog(LoginActivity.this, getString(R.string.info), getString(R.string.server_error_invalid_userId_massege), "OK", null, null, true, false);
-                                } else if (status.equalsIgnoreCase(getString(R.string.server_error_invalid_version))) {
-                                    DialogFactory.getInstance().showServerCridentialDialog(LoginActivity.this, getString(R.string.server_error_invalid_version), getString(R.string.server_error_invalid_version_massege), "OK", "Cancle", new DialogInterface.OnClickListener() {
-                                        @Override
-                                        public void onClick(DialogInterface dialog, int which) {
-                                            //write code for app update
-                                            dialog.dismiss();
-                                        }
-                                    }, false, true);
-                                } else if (status.equalsIgnoreCase("Invalid Date !!!")) {
-                                    DialogFactory.getInstance().showServerCridentialDialog(LoginActivity.this, getString(R.string.server_error_invalid_date), getString(R.string.server_error_invalid_date_massege), "OK", null, null, true, false);
-                                } else if(status.equalsIgnoreCase(" Please wait for 15 minutes you exceed limit more than 5 !!!")){
-                                    DialogFactory.getInstance().showServerCridentialDialog(LoginActivity.this, getString(R.string.info),
-                                            getString(R.string.login_attempt_failed), "OK",
-                                            null, null, true,
-                                            false);
-                                } else{
-                                    DialogFactory.getInstance().showServerCridentialDialog(LoginActivity.this,
-                                            getString(R.string.server_error_device_info), getString(R.string.server_error_device_info_massege) + " (" + status + ") " + getString(R.string.device), "OK", null, null, false, false);
-                                }
-                            } else {
-                                parseServerData(jsonObject);
-                            }
-                        }
-                    } catch (JSONException jsonException) {
-                        progressDialog.dismiss();
-                        Toast.makeText(LoginActivity.this, getResources().getString(R.string.data_not_found_tost), Toast.LENGTH_SHORT).show();
-                        AppUtility.getInstance().showLog("jsonException" + jsonException, LoginActivity.class);
-                    }
-                }
-            }, new Response.ErrorListener() {
-                @Override
-                public void onErrorResponse(VolleyError error) {
-                    AppUtility.getInstance().showLog("jsonException" + error, LoginActivity.class);
-                    progressDialog.dismiss();
-                    DialogFactory.getInstance().showErrorAlertDialog(LoginActivity.this, getString(R.string.SERVER_ERROR_TITLE), getString(SERVER_ERROR_MESSAGE), "OK");
-                }
-            });
-            jsonObjectRequest.setRetryPolicy(new RetryPolicy() {
-                @Override
-                public int getCurrentTimeout() {
-                    return 10000;
-                }
-
-                @Override
-                public int getCurrentRetryCount() {
-                    return 1;
-                }
-
-                @Override
-                public void retry(VolleyError error) throws VolleyError {
-
-                    AppUtility.getInstance().showLog("login error"+error,LoginActivity.class);
-
-                }
-            });
-            SingletonVolley.getInstance(getApplicationContext()).addToRequestQueue(jsonObjectRequest);*/
-
-          /****************************************************************************************************/
         }
     }
 
@@ -984,8 +793,8 @@ public class LoginActivity extends AppCompatActivity {
             EvaluationMasterTrainingData evaluationMasterTrainingData = new EvaluationMasterTrainingData();
 
             try {
-                String Flag_language = jsonResponse.getString("Flag_language");
-                PrefrenceFactory.getInstance().saveSharedPrefrecesData(PrefrenceManager.getFlagStatusKey(), Flag_language, LoginActivity.this);
+               // String Flag_language = jsonResponse.getString("Flag_language");
+                PrefrenceFactory.getInstance().saveSharedPrefrecesData(PrefrenceManager.getFlagStatusKey(), "0", LoginActivity.this);
                 String loginId = jsonResponse.getString("login_id");
                 String password = jsonResponse.getString("password");
                 String mobileNo = jsonResponse.getString("mobile_number");
@@ -1736,7 +1545,7 @@ public class LoginActivity extends AppCompatActivity {
                 }
 
             } catch (JSONException jsonException) {
-                AppUtility.getInstance().showLog("jsonException" + jsonException, LoginActivity.class);
+                AppUtility.getInstance().showLog("jsonException***in main parsing " + jsonException, LoginActivity.class);
             }
         }
     }
@@ -2063,7 +1872,7 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
-    @Override
+    /*@Override
     protected void onUserLeaveHint() {
         super.onUserLeaveHint();
         r1=new Runnable() {
@@ -2073,5 +1882,5 @@ public class LoginActivity extends AppCompatActivity {
             }
         };
         handler.postDelayed(r1,AppConstant.BACKGROUND_TIME);
-    }
+    }*/
 }
