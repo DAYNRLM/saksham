@@ -208,8 +208,6 @@ public class PhotoGps extends Fragment implements HomeActivity.OnBackPressedList
                     Bitmap bmp = (Bitmap) data.getExtras().get("data");
                     imgPhoto.setImageBitmap(bmp);
 
-                           /* storeImage(bmp);
-                            Bitmap bitmap= readFilefromInternal(filePath);*/
                     ByteArrayOutputStream baos = new ByteArrayOutputStream();
                     bmp.compress(Bitmap.CompressFormat.PNG, 40 , baos);
 

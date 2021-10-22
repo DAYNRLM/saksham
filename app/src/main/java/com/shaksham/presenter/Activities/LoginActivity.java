@@ -364,7 +364,6 @@ public class LoginActivity extends AppCompatActivity {
     public String getRandomForLogin() {
         Random random = new Random();
         int otp = 1000 + random.nextInt(89999);
-        // Toast.makeText(context, "OTP is: " + otp + "", Toast.LENGTH_LONG).show();
         return "" + otp;
     }
 
@@ -560,9 +559,9 @@ public class LoginActivity extends AppCompatActivity {
             JSONObject masterUrlObject =new JSONObject();
             try {
                 masterUrlObject.accumulate("user_id",userId);
-                masterUrlObject.accumulate("user_password",encodedPassword);//encoded_password
-                masterUrlObject.accumulate("IMEI",imeiNo);//"55b27d14c744afb5"////ffec05992c4b9afd//4f98cefc73717d20//ffec05992c4b9afd//3d3ba8c753253341//e7caddce4676291f
-                masterUrlObject.accumulate("device_name",deviceInfo);////Xiaomi-laurel_sprout-Mi A3//OnePlus-OnePlus7-GM1901
+                masterUrlObject.accumulate("user_password",encodedPassword);
+                masterUrlObject.accumulate("IMEI",imeiNo);//e7caddce4676291f
+                masterUrlObject.accumulate("device_name",deviceInfo);
                 masterUrlObject.accumulate("app_version",appVersion);
                 masterUrlObject.accumulate("date",todayDate);
                 masterUrlObject.accumulate("logout_time",getTimeStampFromPreference());
@@ -793,8 +792,8 @@ public class LoginActivity extends AppCompatActivity {
             EvaluationMasterTrainingData evaluationMasterTrainingData = new EvaluationMasterTrainingData();
 
             try {
-               // String Flag_language = jsonResponse.getString("Flag_language");
-                PrefrenceFactory.getInstance().saveSharedPrefrecesData(PrefrenceManager.getFlagStatusKey(), "0", LoginActivity.this);
+                String Flag_language = jsonResponse.getString("Flag_language");
+                PrefrenceFactory.getInstance().saveSharedPrefrecesData(PrefrenceManager.getFlagStatusKey(),Flag_language, LoginActivity.this);
                 String loginId = jsonResponse.getString("login_id");
                 String password = jsonResponse.getString("password");
                 String mobileNo = jsonResponse.getString("mobile_number");

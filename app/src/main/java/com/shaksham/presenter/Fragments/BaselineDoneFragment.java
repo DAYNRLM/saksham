@@ -32,7 +32,6 @@ public class BaselineDoneFragment extends Fragment {
     List<BaselineDonePojo.Block> blockInfo = new ArrayList<>();
     List<BaselineDonePojo.Block.Gp> gpInfo = new ArrayList<>();
     List<BaselineDonePojo.Block.Gp.Village> villages = new ArrayList<>();
-    ;
     List<BaselineDonePojo.Block.Gp.Village.Shgs> shgs = new ArrayList<>();
     BaselineDonePojo.Block.Gp gpVillage;
     BaselineDonePojo.Block.Gp.Village villageShg;
@@ -74,18 +73,14 @@ public class BaselineDoneFragment extends Fragment {
             block1.setBlockCode(block.get(i).getBlockCode());
             blockInfo.add(block1);
             BaselineDonePojo.baselineDonePojo.setBlocks(blockInfo);
-
             SplashActivity.getInstance().getDaoSession().getGpDataDao().detachAll();
             List<GpData> gpData = SplashActivity.getInstance().getDaoSession().getGpDataDao().queryBuilder().where(GpDataDao.Properties.BlockCode.eq(block.get(i).getBlockCode())).build().list();
-
             for (int j = 0; j < gpData.size(); j++) {
-
                 gp = new BaselineDonePojo.Block.Gp();
                 gp.setGpName(gpData.get(j).getGpName());
                 gp.setGpCode(gpData.get(j).getGpCode());
                 gpInfo.add(gp);
                 block1.setGps(gpInfo);
-
                 SplashActivity.getInstance().getDaoSession().getVillageDataDao().detachAll();
                 List<VillageData> villageData = SplashActivity.getInstance().getDaoSession().getVillageDataDao().queryBuilder().where(VillageDataDao.Properties.GpCode.eq(gpData.get(j).getGpCode())).build().list();
                 villages.clear();
@@ -95,11 +90,8 @@ public class BaselineDoneFragment extends Fragment {
                     village.setVillageCode(villageData.get(k).getVillageCode());
                     villages.add(village);
                     gp.setVillages(villages);
-
                     if (k == (villageData.size()) - 1)
                         blockss.add(block1);
-
-
                     //villages=new ArrayList<>();
                     SplashActivity.getInstance().getDaoSession().getShgDataDao().detachAll();
                     QueryBuilder<ShgData> shgDataQueryBuilder = SplashActivity.getInstance().getDaoSession().getShgDataDao().queryBuilder();
@@ -109,19 +101,12 @@ public class BaselineDoneFragment extends Fragment {
                         shg.setShgName(baselineDoneshg.get(l).getShgName());
                         shg.setShgName(baselineDoneshg.get(l).getShgCode());
                         shgs.add(shg);
-
                     }
-
                 }
             }
-
         }
         //   villageShg.setShgs(shgs);
         BaselineDonePojo data = BaselineDonePojo.baselineDonePojo;
         AppUtility.getInstance().showLog("" + data, BaselineDoneFragment.class);
-
-
     }
-
-
 }

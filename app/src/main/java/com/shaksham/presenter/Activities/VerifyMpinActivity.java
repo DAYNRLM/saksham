@@ -40,7 +40,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.w3c.dom.Text;
 
-public class VerifyMpinActivity extends AppCompatActivity {
+public class  VerifyMpinActivity extends AppCompatActivity {
     private PinLockView mPinLockView;
     private IndicatorDots mIndicatorDots;
     private final static String TAG = VerifyMpinActivity.class.getSimpleName();
@@ -180,69 +180,6 @@ public class VerifyMpinActivity extends AppCompatActivity {
             startActivity(intent);
             finish();
         }
-
-        /************************************************************************************************************************/
-
-        /***********************************string request****************************************************************************/
-       /* String WEB_REQUEST_URL = AppConstant.HTTP_TYPE + "://" + AppConstant.IP_ADDRESS + "/" + AppConstant.API_TYPE + "/services/sakshamchk/assignuser?user_id=" + userId;
-        if (NetworkFactory.isInternetOn(this)) {
-            progressDialog.show();
-            StringRequest stringRequest = new StringRequest(Request.Method.GET, WEB_REQUEST_URL, new Response.Listener<String>() {
-                @Override
-                public void onResponse(String response) {
-                    // progressDialog.dismiss();
-                    try {
-                        AppUtility.getInstance().showLog("response" + response, VerifyMpinActivity.class);
-                        if (response.equalsIgnoreCase("[]") || new JSONArray(response).getJSONObject(0).getString("status").equalsIgnoreCase("OK !!!")) {
-                            progressDialog.dismiss();
-                            Intent intent = new Intent(VerifyMpinActivity.this, HomeActivity.class);
-                            intent.putExtra("code", mpin);
-                            startActivity(intent);
-                            finish();
-                        } else {
-                            WebRequestData webRequestData = new WebRequestData();
-                            JSONArray jsonArray = new JSONArray(response);
-                            for (int i = 0; i < jsonArray.length(); i++) {
-                                JSONObject jsonObject = jsonArray.getJSONObject(i);
-
-                                if (jsonObject.has("village_code")) {
-                                    webRequestData.setVillageCode(jsonObject.getString("village_code"));
-                                    webRequestData.setStatus(jsonObject.getString("status"));
-                                    SplashActivity.getInstance().getDaoSession().getWebRequestDataDao().insert(webRequestData);
-                                }
-                            }
-                            progressDialog.dismiss();
-                            Intent intent = new Intent(VerifyMpinActivity.this, VillageModifiedActivity.class);
-                            intent.putExtra("code", mpin);
-                            startActivity(intent);
-                            finish();
-                        }
-
-                    } catch (JSONException e) {
-                        progressDialog.dismiss();
-                        AppUtility.getInstance().showLog("webRequestExc" + e, VerifyMpinActivity.class);
-                    }
-
-
-                }
-            }, new Response.ErrorListener() {
-                @Override
-                public void onErrorResponse(VolleyError error) {
-                    progressDialog.dismiss();
-                    AppUtility.getInstance().showLog("webRequestServerError" + error, VerifyMpinActivity.class);
-                    Intent intent = new Intent(VerifyMpinActivity.this, HomeActivity.class);
-                    intent.putExtra("code", mpin);
-                    startActivity(intent);
-                    finish();
-                }
-            });
-            SingletonVolley.getInstance(this.getApplicationContext()).addToRequestQueue(stringRequest);
-        } else {
-            Intent intent = new Intent(VerifyMpinActivity.this, HomeActivity.class);
-            intent.putExtra("code", mpin);
-            startActivity(intent);
-            finish();
-        }*/
     }
 
     public String getCordinates() {

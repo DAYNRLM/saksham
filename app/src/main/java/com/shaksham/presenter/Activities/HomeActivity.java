@@ -51,6 +51,7 @@ import com.shaksham.utils.PrefrenceManager;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
 public class HomeActivity extends AppCompatActivity implements FragmentManager.OnBackStackChangedListener, NavigationView.OnNavigationItemSelectedListener {
     public Toolbar mToolbar;
     private TextView tvToolbarTitle, tvUserName, tvUserMobile, tvAppVersion;
@@ -64,12 +65,13 @@ public class HomeActivity extends AppCompatActivity implements FragmentManager.O
     List<EvaluationMasterShgData> maximumEvaluationDateList;
     Runnable r1;
     Handler handler;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         context = this;
-        handler =new Handler();
+        handler = new Handler();
         AppUtility.getInstance().showLog("loginStatus" + PrefrenceFactory.getInstance().getSharedPrefrencesData(PrefrenceManager.getPrfKeyLoginSessionStatus(), HomeActivity.this), HomeActivity.class);
         setupToolbar();
         setupNavigationView();
@@ -82,6 +84,7 @@ public class HomeActivity extends AppCompatActivity implements FragmentManager.O
         AddTrainingPojo.addTrainingPojo.setGpsLoation("" + latitude + "," + longitude);*/
         BaselineDonePojo.getInstance();
     }
+
     private boolean isTimeZoneAutomatic(Context c) {
       /*  if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
             return Settings.Global.getInt(c.getContentResolver(), Settings.Global.AUTO_TIME_ZONE, 0) == 1;
@@ -90,7 +93,8 @@ public class HomeActivity extends AppCompatActivity implements FragmentManager.O
         }*/
 
         return true;
-      }
+    }
+
     private boolean isAutoDateEnable(Context c) {
        /* if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
             return Settings.Global.getInt(c.getContentResolver(), Settings.Global.AUTO_TIME, 0) == 1;
@@ -99,7 +103,7 @@ public class HomeActivity extends AppCompatActivity implements FragmentManager.O
         }*/
 
         return true;
-       }
+    }
 
     private void setupToolbar() {
 
@@ -118,14 +122,13 @@ public class HomeActivity extends AppCompatActivity implements FragmentManager.O
         navigationView.setNavigationItemSelectedListener(this::onNavigationItemSelected);
 
 
-       String flag_status= PrefrenceFactory.getInstance().getSharedPrefrencesData(PrefrenceManager.getFlagStatusKey(),HomeActivity.this);
-       if(flag_status.equalsIgnoreCase("0")){
-             Menu menu =navigationView.getMenu();
-        MenuItem target = menu.findItem(R.id.menu_changLanguage);
-        target.setVisible(false);
-       }
-
-
+        /****change language visibilitl false in case of english****/
+        String flag_status = PrefrenceFactory.getInstance().getSharedPrefrencesData(PrefrenceManager.getFlagStatusKey(), HomeActivity.this);
+        if (flag_status.equalsIgnoreCase("0")) {
+            Menu menu = navigationView.getMenu();
+            MenuItem target = menu.findItem(R.id.menu_changLanguage);
+            target.setVisible(false);
+        }
 
 
         View headerView = navigationView.getHeaderView(0);
@@ -163,10 +166,10 @@ public class HomeActivity extends AppCompatActivity implements FragmentManager.O
                                 public void onClick(DialogInterface dialog, int which) {
                                     new SplashActivity().storeUnsyncedDataInFile(HomeActivity.this);
                                     /**save time stamp and cordinate for send in login time**/
-                                    String timeStamp =DateFactory.getInstance().getDateTime();
-                                    String cordinates =getCordinates();
-                                    PrefrenceFactory.getInstance().saveSharedPrefrecesData(PrefrenceManager.getPrefKeyLogoutCordinates(),cordinates,HomeActivity.this);
-                                    PrefrenceFactory.getInstance().saveSharedPrefrecesData(PrefrenceManager.getPrefKeyLogoutTimeStamp(),timeStamp,HomeActivity.this);
+                                    String timeStamp = DateFactory.getInstance().getDateTime();
+                                    String cordinates = getCordinates();
+                                    PrefrenceFactory.getInstance().saveSharedPrefrecesData(PrefrenceManager.getPrefKeyLogoutCordinates(), cordinates, HomeActivity.this);
+                                    PrefrenceFactory.getInstance().saveSharedPrefrecesData(PrefrenceManager.getPrefKeyLogoutTimeStamp(), timeStamp, HomeActivity.this);
                                     PrefrenceFactory.getInstance().removeSharedPrefrencesData(PrefrenceManager.getPrfKeyLoginSessionStatus(), HomeActivity.this);
                                     clearDatabaseMasterTables();
                                     logoutApp();
@@ -206,6 +209,7 @@ public class HomeActivity extends AppCompatActivity implements FragmentManager.O
                     }
                 }
             }
+
             @Override
             public void onDrawerOpened(View drawerView) {
                 super.onDrawerOpened(drawerView);
@@ -221,6 +225,7 @@ public class HomeActivity extends AppCompatActivity implements FragmentManager.O
         actionBarDrawerToggle.syncState();
         getSupportFragmentManager().addOnBackStackChangedListener(this::onBackStackChanged);
     }
+
     //***************************for get maximum evaluation data list *********************************
     private void getMaximumEvaluationDataList() {
         Date convertedEvaluationDate, convertedEvaluationMaximunDate, convertedTodayDate;
@@ -260,6 +265,7 @@ public class HomeActivity extends AppCompatActivity implements FragmentManager.O
         }
         AppUtility.getInstance().showLog("EVEALUATION_MAXIMUM_LIST" + maximumEvaluationDateList.size(), HomeActivity.class);
     }
+
     private void logoutApp() {
         finish();
         AppUtility.getInstance().makeIntent(HomeActivity.this, LoginActivity.class, true);
@@ -329,12 +335,13 @@ public class HomeActivity extends AppCompatActivity implements FragmentManager.O
         }
 
     }
+
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-        AppUtility.getInstance().showLog("menuItem"+menuItem, HomeActivity.class);
+        AppUtility.getInstance().showLog("menuItem" + menuItem, HomeActivity.class);
         menuItem.setChecked(!menuItem.isChecked());
         selectedItem = menuItem.getItemId();
-        AppUtility.getInstance().showLog("selectedItem"+selectedItem, HomeActivity.class);
+        AppUtility.getInstance().showLog("selectedItem" + selectedItem, HomeActivity.class);
         mDrawerLayout.closeDrawers();
         mChangeFragment = true;
         return true;
@@ -380,7 +387,7 @@ public class HomeActivity extends AppCompatActivity implements FragmentManager.O
         getSupportActionBar().setDisplayShowTitleEnabled(false); // disables default title
 
         GPSTracker gpsTracker = new GPSTracker(HomeActivity.this);
-        if(!AppUtility.isGPSEnabled(HomeActivity.this)){
+        if (!AppUtility.isGPSEnabled(HomeActivity.this)) {
             DialogFactory.getInstance().showAlertDialog(HomeActivity.this, R.drawable.ic_launcher_background, getString(R.string.app_name), getString(R.string.gps_not_enabled), "Go to seeting", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
@@ -392,8 +399,8 @@ public class HomeActivity extends AppCompatActivity implements FragmentManager.O
                 public void onClick(DialogInterface dialog, int which) {
 
                 }
-            },false);
-        }else {
+            }, false);
+        } else {
             gpsTracker.getLocation();
             String latitude = String.valueOf(gpsTracker.latitude);
             String longitude = String.valueOf(gpsTracker.longitude);
@@ -409,7 +416,7 @@ public class HomeActivity extends AppCompatActivity implements FragmentManager.O
                 System.exit(0);;
             }
         },(30*60000));*/
-        if(!isTimeZoneAutomatic(HomeActivity.this)){
+        if (!isTimeZoneAutomatic(HomeActivity.this)) {
 
             DialogFactory.getInstance().showAlertDialog(HomeActivity.this, R.drawable.ic_launcher_background, getString(R.string.app_name), getString(R.string.auto_time_not_enabled), "Go to seeting", new DialogInterface.OnClickListener() {
                 @Override
@@ -422,8 +429,8 @@ public class HomeActivity extends AppCompatActivity implements FragmentManager.O
                 public void onClick(DialogInterface dialog, int which) {
 
                 }
-            },false);
-        }else if (!isAutoDateEnable(HomeActivity.this)){
+            }, false);
+        } else if (!isAutoDateEnable(HomeActivity.this)) {
             DialogFactory.getInstance().showAlertDialog(HomeActivity.this, R.drawable.ic_launcher_background, getString(R.string.app_name), getString(R.string.auto_time_not_enabled), "Go to seeting", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
@@ -435,14 +442,16 @@ public class HomeActivity extends AppCompatActivity implements FragmentManager.O
                 public void onClick(DialogInterface dialog, int which) {
 
                 }
-            },false);
+            }, false);
         }
     }
+
     private boolean getCurrentFragmentName(String fragmentName) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         String fragmentTag = fragmentManager.getBackStackEntryAt(fragmentManager.getBackStackEntryCount() - 1).getName();
         return fragmentTag.equalsIgnoreCase(fragmentName);
     }
+
     @Override
     public void onBackPressed() {
         DrawerLayout drawerLayout = findViewById(R.id.drawer);
@@ -479,7 +488,7 @@ public class HomeActivity extends AppCompatActivity implements FragmentManager.O
     @Override
     protected void onStop() {
         super.onStop();
-       // AppUtility.getInstance().killAppInBackground(3000);
+        // AppUtility.getInstance().killAppInBackground(3000);
 
         /* Handler handler =new Handler();
         handler.postDelayed(new Runnable() {
@@ -492,27 +501,28 @@ public class HomeActivity extends AppCompatActivity implements FragmentManager.O
     }
 
 
-
     public void QuitApp(View view) {
         HomeActivity.this.finish();
         System.exit(0);
     }
+
     @Override
     protected void onUserLeaveHint() {
         super.onUserLeaveHint();
-        r1=new Runnable() {
+        r1 = new Runnable() {
             @Override
             public void run() {
-                System.exit(0);;
+                System.exit(0);
+                ;
             }
         };
         handler.postDelayed(r1, AppConstant.BACKGROUND_TIME);
     }
 
-    public String getCordinates(){
-        String latLong ="";
+    public String getCordinates() {
+        String latLong = "";
         GPSTracker gpsTracker = new GPSTracker(HomeActivity.this);
-        if(!AppUtility.isGPSEnabled(HomeActivity.this)){
+        if (!AppUtility.isGPSEnabled(HomeActivity.this)) {
             DialogFactory.getInstance().showAlertDialog(HomeActivity.this, R.drawable.ic_launcher_background, getString(R.string.app_name), getString(R.string.gps_not_enabled), "Go to seeting", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
@@ -524,12 +534,12 @@ public class HomeActivity extends AppCompatActivity implements FragmentManager.O
                 public void onClick(DialogInterface dialog, int which) {
 
                 }
-            },false);
-        }else {
+            }, false);
+        } else {
             gpsTracker.getLocation();
-            String  latitude = String.valueOf(gpsTracker.latitude);
+            String latitude = String.valueOf(gpsTracker.latitude);
             String longitude = String.valueOf(gpsTracker.longitude);
-            latLong =latitude+","+longitude;
+            latLong = latitude + "," + longitude;
             AppUtility.getInstance().showLog("location" + latitude + "  " + longitude, SplashActivity.class);
         }
         return latLong;
