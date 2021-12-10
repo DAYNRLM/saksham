@@ -558,8 +558,8 @@ public class LoginActivity extends AppCompatActivity {
 
             JSONObject masterUrlObject =new JSONObject();
             try {
-                masterUrlObject.accumulate("user_id",userId);
-                masterUrlObject.accumulate("user_password",encodedPassword);
+                masterUrlObject.accumulate("user_id",userId);//1fd378d47625246d37c4df1d0d8af26685c86e3c93cd51a86b485a5adbc22b7d
+                masterUrlObject.accumulate("user_password",encodedPassword);//
                 masterUrlObject.accumulate("IMEI",imeiNo);//e7caddce4676291f
                 masterUrlObject.accumulate("device_name",deviceInfo);
                 masterUrlObject.accumulate("app_version",appVersion);
