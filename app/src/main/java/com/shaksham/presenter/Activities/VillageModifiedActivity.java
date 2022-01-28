@@ -111,6 +111,7 @@ public class VillageModifiedActivity extends AppCompatActivity {
     @OnClick(R.id.villageModifiedSync_BTN)
     public void test() {
        // SyncData.getInstance(VillageModifiedActivity.this.getApplicationContext()).syncData();
+        progressDialog.show();
         SyncData.getInstance(VillageModifiedActivity.this).syncData();
         Handler handler=new Handler();
         handler.postDelayed(new Runnable() {
@@ -123,7 +124,7 @@ public class VillageModifiedActivity extends AppCompatActivity {
                         confirmWebRequest(PrefrenceFactory.getInstance().getSharedPrefrencesData(PrefrenceManager.getPrfKeyLoginIdFromLocal(), VillageModifiedActivity.this), AppUtility.getInstance().removeCommaFromLast(v1.trim()));
                 }
             }
-        },3000);
+        },9000);
 
     }
 
@@ -139,7 +140,7 @@ public class VillageModifiedActivity extends AppCompatActivity {
     }
 
     private void confirmWebRequest(String userId,String villages){
-        progressDialog.show();
+
 
 
         /****************************************************request for post json *********************************************/
