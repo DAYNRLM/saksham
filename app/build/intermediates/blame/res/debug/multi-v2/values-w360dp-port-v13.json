@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/user/Downloads/NRLM_Android_Project/saksham_git_upload/saksham_git/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "C:\\Users\\DELL\\AndroidStudioProjects\\saksha\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
             "map": [
                 {
-                    "source": "/home/user/.gradle/caches/transforms-2/files-2.1/ebca2a453b6474111489b3acacc267dc/material-1.2.1/res/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\25cecfcf62c959a648872464262006dd\\material-1.2.1\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

@@ -21,10 +21,10 @@ public class DaoMaster extends AbstractDaoMaster {
 
     /** Creates underlying database table using DAOs. */
     public static void createAllTables(Database db, boolean ifNotExists) {
-        AddedTrainingsDataDao.createTable(db, ifNotExists);
         AddedTrainingShgDataDao.createTable(db, ifNotExists);
         AddedTrainingShgMemberDataDao.createTable(db, ifNotExists);
         AddedTrainingShgModuleDataDao.createTable(db, ifNotExists);
+        AddedTrainingsDataDao.createTable(db, ifNotExists);
         BaselineSyncDataDao.createTable(db, ifNotExists);
         BaslineQuestionSyncDataDao.createTable(db, ifNotExists);
         BlockDataDao.createTable(db, ifNotExists);
@@ -57,10 +57,10 @@ public class DaoMaster extends AbstractDaoMaster {
 
     /** Drops underlying database table using DAOs. */
     public static void dropAllTables(Database db, boolean ifExists) {
-        AddedTrainingsDataDao.dropTable(db, ifExists);
         AddedTrainingShgDataDao.dropTable(db, ifExists);
         AddedTrainingShgMemberDataDao.dropTable(db, ifExists);
         AddedTrainingShgModuleDataDao.dropTable(db, ifExists);
+        AddedTrainingsDataDao.dropTable(db, ifExists);
         BaselineSyncDataDao.dropTable(db, ifExists);
         BaslineQuestionSyncDataDao.dropTable(db, ifExists);
         BlockDataDao.dropTable(db, ifExists);
@@ -107,10 +107,10 @@ public class DaoMaster extends AbstractDaoMaster {
 
     public DaoMaster(Database db) {
         super(db, SCHEMA_VERSION);
-        registerDaoClass(AddedTrainingsDataDao.class);
         registerDaoClass(AddedTrainingShgDataDao.class);
         registerDaoClass(AddedTrainingShgMemberDataDao.class);
         registerDaoClass(AddedTrainingShgModuleDataDao.class);
+        registerDaoClass(AddedTrainingsDataDao.class);
         registerDaoClass(BaselineSyncDataDao.class);
         registerDaoClass(BaslineQuestionSyncDataDao.class);
         registerDaoClass(BlockDataDao.class);

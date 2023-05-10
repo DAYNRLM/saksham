@@ -34,16 +34,16 @@ public class AppConstant {
 
      //  Demo live server
 
-      public static final String DEMO="demo";
+    /*  public static final String DEMO="demo";
       public static final String API_TYPE="nrlmwebservicedemo";
       public static final String HTTP_TYPE="https";
-      public static final String IP_ADDRESS="nrlm.gov.in";
+      public static final String IP_ADDRESS="nrlm.gov.in";*/
 
     //  Live Server
 
-   /* public static final String DEMO="Live";
+    public static final String DEMO="Live";
     public static final String HTTP_TYPE="https";
     public static final String IP_ADDRESS="nrlm.gov.in";
-    public static final String API_TYPE="nrlmwebservice";*/
+    public static final String API_TYPE="nrlmwebservice";
 
 }

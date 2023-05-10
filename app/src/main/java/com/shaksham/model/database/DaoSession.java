@@ -8,10 +8,10 @@ import org.greenrobot.greendao.database.Database;
 import org.greenrobot.greendao.identityscope.IdentityScopeType;
 import org.greenrobot.greendao.internal.DaoConfig;
 
-import com.shaksham.model.database.AddedTrainingsData;
 import com.shaksham.model.database.AddedTrainingShgData;
 import com.shaksham.model.database.AddedTrainingShgMemberData;
 import com.shaksham.model.database.AddedTrainingShgModuleData;
+import com.shaksham.model.database.AddedTrainingsData;
 import com.shaksham.model.database.BaselineSyncData;
 import com.shaksham.model.database.BaslineQuestionSyncData;
 import com.shaksham.model.database.BlockData;
@@ -41,10 +41,10 @@ import com.shaksham.model.database.ViewReportTrainingData;
 import com.shaksham.model.database.VillageData;
 import com.shaksham.model.database.WebRequestData;
 
-import com.shaksham.model.database.AddedTrainingsDataDao;
 import com.shaksham.model.database.AddedTrainingShgDataDao;
 import com.shaksham.model.database.AddedTrainingShgMemberDataDao;
 import com.shaksham.model.database.AddedTrainingShgModuleDataDao;
+import com.shaksham.model.database.AddedTrainingsDataDao;
 import com.shaksham.model.database.BaselineSyncDataDao;
 import com.shaksham.model.database.BaslineQuestionSyncDataDao;
 import com.shaksham.model.database.BlockDataDao;
@@ -83,10 +83,10 @@ import com.shaksham.model.database.WebRequestDataDao;
  */
 public class DaoSession extends AbstractDaoSession {
 
-    private final DaoConfig addedTrainingsDataDaoConfig;
     private final DaoConfig addedTrainingShgDataDaoConfig;
     private final DaoConfig addedTrainingShgMemberDataDaoConfig;
     private final DaoConfig addedTrainingShgModuleDataDaoConfig;
+    private final DaoConfig addedTrainingsDataDaoConfig;
     private final DaoConfig baselineSyncDataDaoConfig;
     private final DaoConfig baslineQuestionSyncDataDaoConfig;
     private final DaoConfig blockDataDaoConfig;
@@ -116,10 +116,10 @@ public class DaoSession extends AbstractDaoSession {
     private final DaoConfig villageDataDaoConfig;
     private final DaoConfig webRequestDataDaoConfig;
 
-    private final AddedTrainingsDataDao addedTrainingsDataDao;
     private final AddedTrainingShgDataDao addedTrainingShgDataDao;
     private final AddedTrainingShgMemberDataDao addedTrainingShgMemberDataDao;
     private final AddedTrainingShgModuleDataDao addedTrainingShgModuleDataDao;
+    private final AddedTrainingsDataDao addedTrainingsDataDao;
     private final BaselineSyncDataDao baselineSyncDataDao;
     private final BaslineQuestionSyncDataDao baslineQuestionSyncDataDao;
     private final BlockDataDao blockDataDao;
@@ -153,9 +153,6 @@ public class DaoSession extends AbstractDaoSession {
             daoConfigMap) {
         super(db);
 
-        addedTrainingsDataDaoConfig = daoConfigMap.get(AddedTrainingsDataDao.class).clone();
-        addedTrainingsDataDaoConfig.initIdentityScope(type);
-
         addedTrainingShgDataDaoConfig = daoConfigMap.get(AddedTrainingShgDataDao.class).clone();
         addedTrainingShgDataDaoConfig.initIdentityScope(type);
 
@@ -164,6 +161,9 @@ public class DaoSession extends AbstractDaoSession {
 
         addedTrainingShgModuleDataDaoConfig = daoConfigMap.get(AddedTrainingShgModuleDataDao.class).clone();
         addedTrainingShgModuleDataDaoConfig.initIdentityScope(type);
+
+        addedTrainingsDataDaoConfig = daoConfigMap.get(AddedTrainingsDataDao.class).clone();
+        addedTrainingsDataDaoConfig.initIdentityScope(type);
 
         baselineSyncDataDaoConfig = daoConfigMap.get(BaselineSyncDataDao.class).clone();
         baselineSyncDataDaoConfig.initIdentityScope(type);
@@ -249,10 +249,10 @@ public class DaoSession extends AbstractDaoSession {
         webRequestDataDaoConfig = daoConfigMap.get(WebRequestDataDao.class).clone();
         webRequestDataDaoConfig.initIdentityScope(type);
 
-        addedTrainingsDataDao = new AddedTrainingsDataDao(addedTrainingsDataDaoConfig, this);
         addedTrainingShgDataDao = new AddedTrainingShgDataDao(addedTrainingShgDataDaoConfig, this);
         addedTrainingShgMemberDataDao = new AddedTrainingShgMemberDataDao(addedTrainingShgMemberDataDaoConfig, this);
         addedTrainingShgModuleDataDao = new AddedTrainingShgModuleDataDao(addedTrainingShgModuleDataDaoConfig, this);
+        addedTrainingsDataDao = new AddedTrainingsDataDao(addedTrainingsDataDaoConfig, this);
         baselineSyncDataDao = new BaselineSyncDataDao(baselineSyncDataDaoConfig, this);
         baslineQuestionSyncDataDao = new BaslineQuestionSyncDataDao(baslineQuestionSyncDataDaoConfig, this);
         blockDataDao = new BlockDataDao(blockDataDaoConfig, this);
@@ -282,10 +282,10 @@ public class DaoSession extends AbstractDaoSession {
         villageDataDao = new VillageDataDao(villageDataDaoConfig, this);
         webRequestDataDao = new WebRequestDataDao(webRequestDataDaoConfig, this);
 
-        registerDao(AddedTrainingsData.class, addedTrainingsDataDao);
         registerDao(AddedTrainingShgData.class, addedTrainingShgDataDao);
         registerDao(AddedTrainingShgMemberData.class, addedTrainingShgMemberDataDao);
         registerDao(AddedTrainingShgModuleData.class, addedTrainingShgModuleDataDao);
+        registerDao(AddedTrainingsData.class, addedTrainingsDataDao);
         registerDao(BaselineSyncData.class, baselineSyncDataDao);
         registerDao(BaslineQuestionSyncData.class, baslineQuestionSyncDataDao);
         registerDao(BlockData.class, blockDataDao);
@@ -317,10 +317,10 @@ public class DaoSession extends AbstractDaoSession {
     }
     
     public void clear() {
-        addedTrainingsDataDaoConfig.clearIdentityScope();
         addedTrainingShgDataDaoConfig.clearIdentityScope();
         addedTrainingShgMemberDataDaoConfig.clearIdentityScope();
         addedTrainingShgModuleDataDaoConfig.clearIdentityScope();
+        addedTrainingsDataDaoConfig.clearIdentityScope();
         baselineSyncDataDaoConfig.clearIdentityScope();
         baslineQuestionSyncDataDaoConfig.clearIdentityScope();
         blockDataDaoConfig.clearIdentityScope();
@@ -351,10 +351,6 @@ public class DaoSession extends AbstractDaoSession {
         webRequestDataDaoConfig.clearIdentityScope();
     }
 
-    public AddedTrainingsDataDao getAddedTrainingsDataDao() {
-        return addedTrainingsDataDao;
-    }
-
     public AddedTrainingShgDataDao getAddedTrainingShgDataDao() {
         return addedTrainingShgDataDao;
     }
@@ -365,6 +361,10 @@ public class DaoSession extends AbstractDaoSession {
 
     public AddedTrainingShgModuleDataDao getAddedTrainingShgModuleDataDao() {
         return addedTrainingShgModuleDataDao;
+    }
+
+    public AddedTrainingsDataDao getAddedTrainingsDataDao() {
+        return addedTrainingsDataDao;
     }
 
     public BaselineSyncDataDao getBaselineSyncDataDao() {
